@@ -1,0 +1,14 @@
+{
+  "titre": "Livre : infrastructure informatique publique",
+  "description": "Révision chapitre par chapitre du livre « Infrastructure informatique d'une grande organisation publique » : contexte et cadre (menace, droit européen, socle national, souveraineté), gouvernance et architecture, réseau, identités, datacenters et cloud, poste de travail, données, achats, IA, supervision, crise, continuité, sauvegarde, compétences et feuille de route 2026-2030. Chaque module propose la lecture du chapitre par Amélie, le chapitre en PDF, une fiche, un QCM, des flashcards, un podcast, une infographie et une chanson slam.",
+  "series": {
+    "20": "Livre : infrastructure informatique publique"
+  },
+  "depots_associes": [],
+  "podcast": {
+    "fil_rouge": "le ministère fictif de 100 000 agents du livre, sa direction du numérique, son RSSI et ses agents"
+  },
+  "chanson": {
+    "style": "slam"
+  }
+}

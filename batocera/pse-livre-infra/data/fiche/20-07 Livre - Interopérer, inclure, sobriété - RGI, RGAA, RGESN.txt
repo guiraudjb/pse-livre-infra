@@ -1,0 +1,267 @@
+SYNTHÈSE DES RÉFÉRENTIELS NATIONAUX D'INTEROPÉRABILITÉ, D'ACCESSIBILITÉ ET DE SOBRIÉTÉ NUMÉRIQUE.
+
+LEXIQUE COMPLET.
+
+      Le RGI deux virgule zéro désigne le Référentiel général d'interopérabilité qui permet aux systèmes d'échanger avec les autres administrations, les entreprises et les usagers.
+
+      Le RGAA 4.1.2 désigne le Référentiel général d'amélioration de l'accessibilité qui garantit qu'une personne handicapée peut utiliser un service numérique.
+
+      Le RGESN désigne le Référentiel général pour une conception responsable des services numériques qui vise à limiter l'empreinte environnementale des services.
+
+      Le PUE désigne le Power Usage Effectiveness qui est un indicateur d'efficience énergétique d'un centre de données calculé par le ratio entre l'énergie totale consommée et l'énergie utilisée par les équipements informatiques.
+
+      Le WUE désigne le Water Usage Effectiveness qui est l'indicateur mesurant l'efficience de l'utilisation de l'eau pour le refroidissement des centres de données.
+
+      Le lazy loading désigne une technique de chargement progressif consistant à ne charger les ressources comme les images que lorsque l'utilisateur les fait apparaître à l'écran.
+
+      Le dark patterns désigne des procédés manipulatoires ou des interfaces trompeuses conçues pour influencer le comportement de l'utilisateur.
+
+      L'obsolescence matérielle ou logicielle désigne le fait qu'un équipement ou un logiciel devienne dépassé ou inutilisable.
+
+      Le score d'avancement désigne un indicateur de maturité vis-à-vis du RGESN calculé en fonction du nombre de critères validés pondérés par leur niveau de priorité.
+
+      La déclaration d'écoconception désigne un document public obligatoire pour se prévaloir du RGESN et garantir la transparence des efforts.
+
+COURS DÉTAILLÉ.
+
+I. INTRODUCTION AUX TROIS PILIERS DE LA CONFORMITÉ.
+
+   A. Présentation du RGI, du RGAA et du RGESN.
+
+      La sécurité numérique s'appuie sur trois référentiels nationaux complémentaires nommés RGI, RGAA et RGESN.
+
+      Le RGI deux virgule zéro permet aux systèmes d'échanger avec ceux des autres administrations, des entreprises et des usagers.
+
+      Le RGAA 4.1.2 garantit que les services numériques sont utilisables par tous, y compris les personnes handicapées.
+
+      Le RGESN vise à limiter l'empreinte environnementale des services en s'assurant qu'ils consomment le moins de ressources possible.
+
+   B. Comparaison des questions posées et des fondements juridiques.
+
+      Le RGI deux virgule zéro repose sur l'Ordonnance du huit décembre deux mille cinq et le décret du deux mars deux mille sept pour répondre à la question de l'échange de données.
+
+      Il est obligatoire pour tous les échanges de type A2A, A2B et A2C.
+
+      Le RGAA 4.1.2 s'appuie sur la Loi de deux mille cinq sur le handicap et la directive européenne de deux mille seize pour vérifier l'accessibilité.
+
+      Sa conformité est obligatoire et nécessite une déclaration publique.
+
+      Le RGESN est fondé sur la Loi du quinze novembre deux mille vingt et un (REEN) pour évaluer la consommation de ressources.
+
+      Bien que non contraignant, il devient obligatoire dès lors qu'une communication environnementale est effectuée.
+
+   C. Enjeux de la conception dès le départ.
+
+      Les trois référentiels doivent être pris en compte dès la phase de conception des services numériques.
+
+      Tenter de rattraper ces exigences après la mise en œuvre coûte très cher.
+
+      Une conception initiale respectant ces normes favorise la réversibilité et la souveraineté des systèmes.
+
+      Un service conçu pour la sobriété fonctionne mieux sur des équipements anciens ou en bas débit, ce qui augmente l'inclusion.
+
+      L'accessibilité simplifie souvent les interfaces, ce qui rend les services plus robustes.
+
+      Enfin, la sécurité est liée à la sobriété car un matériel ancien doit impérativement recevoir des correctifs pour ne pas devenir dangereux.
+
+II. LE RGI ET L'INTEROPÉRABILITÉ DES SYSTÈMES.
+
+   A. Principes des standards ouverts et niveaux d'interopérabilité.
+
+      Le RGI retient des standards ouverts, matures et indépendants d'un constructeur qui sont soutenus par l'industrie.
+
+      Ce référentiel s'aligne sur le cadre européen EIF qui définit cinq niveaux d'interopérabilité.
+
+      Ces niveaux sont les niveaux politique, juridique, organisationnel, sémantique et technique.
+
+      L'objectif est de permettre aux systèmes de faire parler les administrations, les entreprises et les usagers entre eux.
+
+      Le fondement juridique repose sur l'Ordonnance du huit décembre deux mille cinq et le décret du deux mars deux mille sept.
+
+   B. Statuts des standards et profils d'interopérabilité.
+
+      Les standards sont classés selon quatre statuts distincts qui sont recommandé, en observation, en fin de vie ou retiré.
+
+      Le RGI introduit également les profils d'interopérabilité pour limiter la prolifération des choix techniques.
+
+      Un profil d'interopérabilité constitue un petit ensemble de standards sélectionnés pour un cas d'usage précis.
+
+      L'application de ces profils permet de garantir la cohérence des échanges au sein du système d'information.
+
+   C. Exemples de choix techniques pour l'infrastructure.
+
+      Pour le réseau, le standard recommandé est l'IPv6 tandis que l'IPv4 est considéré comme étant en fin de vie.
+
+      En matière de transport sécurisé, le RGI préconise TLS un virgule deux et plus ou le HTTPS, alors que le SSL est retiré.
+
+      Le transfert de fichiers s'appuie sur le SFTP, alors que le FTPS est retiré et que PeSIT ou PRESTO sont en fin de vie.
+
+      Concernant l'identité, le standard recommandé est OpenID Connect sur OAuth deux virgule zéro.
+
+      Pour les services web, le RGI recommande le profil État plateforme de REST et maintient SOAP un virgule deux pour les transactions complexes.
+
+      L'heure doit être gérée via NTP sur un serveur de référence.
+
+III. LE RGAA ET L'ACCESSIBILITÉ NUMÉRIQUE.
+
+   A. Champ d'application et principes fondamentaux.
+
+      Le RGAA 4.1.2 s'applique aux sites, intranets, extranets, progiciels utilisés dans un navigateur ainsi qu'aux applications mobiles des organismes publics.
+
+      Cette réglementation couvre également les outils internes utilisés par les agents et ne se limite pas uniquement aux services destinés aux usagers.
+
+      Le référentiel repose sur la Loi de deux mille cinq sur le handicap et sur la directive européenne de deux mille seize.
+
+      L'accessibilité numérique s'appuie sur quatre principes fondamentaux que sont le perceptible, l'utilisable, le compréhensible et le robuste.
+
+      La conformité est vérifiée par rapport à la norme européenne EN trois cent un mille cinq cent quarante-neuf ou aux critères WCAG deux virgule un des niveaux A et AA.
+
+   B. Méthodologie d'audit et déclaration de conformité.
+
+      L'audit de conformité doit être réalisé sur un échantillon de pages comprenant l'accueil, le contact, l'authentification et des processus complets.
+
+      Une vérification supplémentaire doit être effectuée sur dix pour cent de pages choisies au hasard.
+
+      Le résultat de l'audit doit faire l'objet d'une déclaration d'accessibilité publique.
+
+      Trois niveaux de résultat sont possibles pour cette déclaration : conforme, partiellement conforme ou non conforme.
+
+      Une mention partiellement conforme est acceptée si l'organisme respecte au moins cinquante pour cent des critères.
+
+   C. Gestion des dérogations et impact sur les agents.
+
+      Une dérogation pour charge disproportionnée peut être appliquée de manière temporaire et doit être dûment motivée.
+
+      Il est nécessaire de proposer une alternative si cela est possible lors de l'application d'une dérogation.
+
+      Pour l'infrastructure, l'inaccessibilité d'un portail d'authentification ou d'une solution de MFA exclut directement des agents.
+
+      L'aménagement de poste d'un agent handicapé constitue une priorité qui prime sur toute dérogation.
+
+IV. LE RGESN ET L'ÉCOCONCEPTION DES SERVICES.
+
+   A. Leviers de réduction de l'empreinte carbone.
+
+      Le numérique représente environ deux virgule cinq pour cent de l'empreinte carbone de la France.
+
+      La fabrication des terminaux constitue entre soixante-cinq et quatre-vingt-dix pour cent de cette empreinte.
+
+      Le premier levier pour réduire cet impact consiste à allonger la durée de vie des équipements.
+
+      L'écoconception des services numériques intègre les caractéristiques environnementales dès la conception pour améliorer la performance sur tout le cycle de vie.
+
+   B. Critères techniques pour l'infrastructure et les terminaux.
+
+      Un service web doit pouvoir fonctionner sur un équipement dont le processeur a dix ans ou plus.
+
+      Une application native doit rester utilisable sur un terminal de sept ans ou plus.
+
+      Le service doit être maintenu utilisable même en cas de bas débit.
+
+      L'architecture doit adapter les ressources à la demande réelle pour éviter tout surdimensionnement.
+
+      Les correctifs de sécurité doivent être séparés des évolutions fonctionnelles afin de ne pas forcer le renouvellement du matériel.
+
+      Les protocoles utilisés doivent être pérennes, notamment avec l'usage de l'IPv6 et de TLS récent.
+
+   C. Indicateurs de performance et de maturité.
+
+      Le score d'avancement est un indicateur de maturité calculé selon le nombre de critères validés et leur priorité.
+
+      La déclaration d'écoconception est un document public obligatoire qui garantit la transparence et affiche le score d'avancement.
+
+      Le PUE mesure l'efficience énergétique d'un centre de données via le ratio entre l'énergie totale et l'énergie utilisée par les équipements.
+
+      Le WUE mesure l'efficience de l'utilisation de l'eau pour le refroidissement des centres de données.
+
+V. GLOSSAIRE TECHNIQUE ET NOTIONS CLÉS.
+
+   A. Concepts liés à l'écoconception et à l'infrastructure.
+
+      L'écoconception des services numériques consiste à intégrer des caractéristiques environnementales dès la conception pour améliorer la performance sur tout le cycle de vie. Le RGESN utilise un score d'avancement basé sur soixante-dix-huit critères pondérés pour mesurer cette maturité.
+
+      Le PUE mesure l'efficience énergétique des centres de données par le ratio entre l'énergie totale et celle utilisée par les équipements, tandis que le WUE mesure l'efficience de l'utilisation de l'eau pour le refroidissement. La chaleur fatale produite par les serveurs peut être récupérée pour chauffer des bâtiments.
+
+      L'obsolescence matérielle ou logicielle survient quand un équipement devient inutilisable, souvent à cause d'exigences logicielles qui forcent le renouvellement des terminaux. Pour lutter contre cela, les correctifs de sécurité doivent être séparés des évolutions fonctionnelles.
+
+      Le lazy loading ou chargement progressif permet de ne charger des ressources comme les images que lorsque l'utilisateur les fait apparaître. La mise à jour incrémentielle permet de ne télécharger que les parties modifiées du code plutôt que l'intégralité du programme.
+
+      Le service numérique est l'association d'équipements, d'infrastructures et de logiciels pour une unité fonctionnelle. La déclaration d'écoconception est un document public obligatoire qui garantit la transparence et affiche le score d'avancement.
+
+   B. Concepts liés à l'accessibilité et à l'interface.
+
+      Un composant d'interface est accessible et activable si l'utilisateur peut prendre le focus et déclencher l'action par un pointeur ou par le clavier. Le RGAA s'appuie sur quatre principes que sont le perceptible, l'utilisable, le compréhensible et le robuste.
+
+      Les dark patterns sont des interfaces trompeuses conçues pour manipuler le comportement de l'utilisateur vers une surconsommation. À l'inverse, une image de décoration n'a aucune fonction et ne véhicule aucune information particulière.
+
+      Une image porteuse d'information est nécessaire à la compréhension du contenu, alors qu'une image texte est déconseillée si le CSS peut reproduire l'effet. La transcription textuelle permet d'accéder à la totalité de ce qui est exprimé oralement dans un média temporel.
+
+      Le changement de contexte désigne des modifications majeures dans le contenu d'une page, comme l'ouverture d'une nouvelle fenêtre, qui peuvent désorienter l'utilisateur. Le lien d'évitement permet de sauter une zone pour accéder directement au contenu principal.
+
+   C. Concepts liés à l'interopérabilité et aux données.
+
+      Un système d'information est l'ensemble des moyens destinés à élaborer, traiter, stocker ou transmettre des informations par voie électronique. Le cadre d'interopérabilité spécifie les éléments communs comme le vocabulaire ou les normes pour permettre aux organisations de travailler ensemble.
+
+      Une autorité administrative désigne les administrations de l'État, les collectivités territoriales ou les organismes de protection sociale. Le RGI deux virgule zéro est obligatoire pour les échanges entre administrations, entreprises et usagers, appelés A2A, A2B et A2C.
+
+      La donnée de référence est une donnée critique à la sémantique partagée et stable, utilisée par un grand nombre d'acteurs. L'identité pivot est le format utilisé pour tous les échanges concernant les données d'identité afin d'identifier une personne de manière univoque.
+
+      Un fournisseur d'identité est une entité capable de fournir une identité vérifiée, tandis qu'un fournisseur de données met à disposition des données d'intérêt public via des API. L'interopérabilité repose sur des standards ouverts et matures comme l'OpenID Connect sur OAuth deux virgule zéro.
+
+VI. ENJEUX STRATÉGIQUES ET CONSÉQUENCES OPÉRATIONNELLES.
+
+   A. Synergies entre interopérabilité, accessibilité et sobriété.
+
+      Les trois référentiels nationaux, le RGI, le RGAA et le RGESN, se renforcent mutuellement pour assurer la sécurité et l'efficacité des services.
+
+      L'adoption de standards ouverts via le RGI facilite la réversibilité des systèmes et garantit la souveraineté numérique.
+
+      Un service conçu selon les principes de sobriété du RGESN fonctionne mieux sur des équipements anciens et en bas débit, ce qui favorise l'inclusion de plus d'usagers.
+
+      De même, un service respectant les critères d'accessibilité du RGAA est souvent plus simple et donc plus robuste techniquement.
+
+   B. Lien entre maintien de la durée de vie et sécurité.
+
+      L'objectif du RGESN est d'allonger la durée de vie des terminaux, sachant que la fabrication des équipements représente soixante-cinq à quatre-vingt-dix pour cent de leur empreinte carbone.
+
+      Toutefois, allonger la vie des terminaux impose que ces derniers restent maintenus pour garantir la sécurité des systèmes.
+
+      Un poste de travail de dix ans qui ne reçoit plus de correctifs de sécurité n'est pas seulement un problème de sobriété, il devient un danger pour l'infrastructure.
+
+      Pour éviter cela, le RGESN préconise que les correctifs de sécurité soient séparés des évolutions fonctionnelles afin de ne pas forcer le renouvellement du matériel.
+
+   C. Directives pour l'infrastructure et le cadre ministériel.
+
+      Le cadre de cohérence technique du ministère doit s'aligner sur le RGI en privilégiant l'IPv6, le TLS un virgule deux et plus, le SFTP, l'OpenID Connect et les API REST.
+
+      Il est nécessaire de mettre en place un plan de sortie pour les protocoles identifiés en fin de vie ou retirés, comme l'IPv4 ou le SSL.
+
+      L'infrastructure doit intégrer des composants communs accessibles, en commençant prioritairement par les solutions d'authentification et le poste de travail.
+
+      Le suivi de l'empreinte environnementale doit s'appuyer sur des indicateurs précis comme la durée de vie des postes, le taux d'occupation des serveurs et l'efficacité énergétique des datacenters.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre l'obligation juridique du RGI et du RGAA avec la nature non contraignante du RGESN.
+
+      Le RGESN n'est pas obligatoire en soi mais il devient obligatoire dès lors qu'une communication environnementale est effectuée.
+
+      Une confusion courante est de limiter le RGAA aux services destinés aux usagers alors qu'il couvre aussi les outils internes des agents.
+
+      L'accessibilité d'un poste de travail pour un agent handicapé est une priorité qui prime sur toute possibilité de dérogation.
+
+      La sobriété numérique ne doit pas se faire au détriment de la sécurité car un matériel ancien sans correctif devient dangereux.
+
+      L'interopérabilité ne se limite pas à l'aspect technique mais inclut des niveaux politique, juridique, organisationnel et sémantique.
+
+EXEMPLES CITÉS.
+
+      Le numérique représente environ deux virgule cinq pour cent de l'empreinte carbone de la France et la fabrication des terminaux pèse entre soixante-cinq et quatre-vingt-dix pour cent.
+
+      Pour le RGI, le protocole IPv6 est recommandé tandis que l'IPv4 est considéré comme étant en fin de vie.
+
+      Le RGAA impose une déclaration publique qui peut être conforme, partiellement conforme avec au moins cinquante pour cent des critères, ou non conforme.
+
+      Le RGESN préconise qu'un service web reste fonctionnel sur un équipement dont le processeur a dix ans ou plus.
+
+      Le RGESN recommande également qu'une application native puisse être utilisée sur un terminal de sept ans ou plus.

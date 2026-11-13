@@ -1,0 +1,742 @@
+{
+ "20-00 Livre - Préface et introduction": [
+  {
+   "fichier": "source/20-00.pdf",
+   "titre": "Préface et introduction (pages 4 à 7 du livre)",
+   "pages": 4,
+   "taille": 2122443
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-01 Livre - Le contexte international et la cyber-guerre": [
+  {
+   "fichier": "source/20-01.pdf",
+   "titre": "Le contexte international et la cyber-guerre (pages 9 à 13 du livre)",
+   "pages": 5,
+   "taille": 2887448
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-02 Livre - Les plans nationaux - investir, se doter de capacités, tenir dans la durée": [
+  {
+   "fichier": "source/20-02.pdf",
+   "titre": "Les plans nationaux : investir, se doter de capacités, tenir dans la durée (pages 14 à 19 du livre)",
+   "pages": 6,
+   "taille": 3243067
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-03 Livre - La menace - qui attaque, pourquoi, par où": [
+  {
+   "fichier": "source/20-03.pdf",
+   "titre": "La menace : qui attaque, pourquoi, par où (pages 20 à 28 du livre)",
+   "pages": 9,
+   "taille": 4801120
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-04 Livre - Le droit européen - NIS 2, CRA, RGPD, AI Act et les autres": [
+  {
+   "fichier": "source/20-04.pdf",
+   "titre": "Le droit européen : NIS 2, CRA, RGPD, AI Act et les autres (pages 29 à 37 du livre)",
+   "pages": 9,
+   "taille": 4852232
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-05 Livre - Le socle national - ANSSI, PSSIE, RGS, homologation, OIV": [
+  {
+   "fichier": "source/20-05.pdf",
+   "titre": "Le socle national : ANSSI, PSSIE, RGS, homologation, OIV (pages 38 à 44 du livre)",
+   "pages": 7,
+   "taille": 3778797
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-06 Livre - Le Référentiel Cyber France (ReCyF) - NIS 2 en mesures concrètes": [
+  {
+   "fichier": "source/20-06.pdf",
+   "titre": "Le Référentiel Cyber France (ReCyF) : NIS 2 en mesures concrètes (pages 45 à 48 du livre)",
+   "pages": 4,
+   "taille": 2348073
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-07 Livre - Interopérer, inclure, sobriété - RGI, RGAA, RGESN": [
+  {
+   "fichier": "source/20-07.pdf",
+   "titre": "Interopérer, inclure, sobriété : RGI, RGAA, RGESN (pages 49 à 53 du livre)",
+   "pages": 5,
+   "taille": 2781652
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-08 Livre - Souveraineté et lois extraterritoriales": [
+  {
+   "fichier": "source/20-08.pdf",
+   "titre": "Souveraineté et lois extraterritoriales (pages 54 à 58 du livre)",
+   "pages": 5,
+   "taille": 2648992
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-09 Livre - Gouvernance - qui décide, qui répond": [
+  {
+   "fichier": "source/20-09.pdf",
+   "titre": "Gouvernance : qui décide, qui répond (pages 59 à 66 du livre)",
+   "pages": 8,
+   "taille": 4329143
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-10 Livre - La dette technologique": [
+  {
+   "fichier": "source/20-10.pdf",
+   "titre": "La dette technologique (pages 67 à 70 du livre)",
+   "pages": 4,
+   "taille": 2308741
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-11 Livre - Les principes d'architecture": [
+  {
+   "fichier": "source/20-11.pdf",
+   "titre": "Les principes d'architecture (pages 72 à 76 du livre)",
+   "pages": 5,
+   "taille": 2869451
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-12 Livre - Le réseau - sites, WAN, segmentation, sortie internet": [
+  {
+   "fichier": "source/20-12.pdf",
+   "titre": "Le réseau : sites, WAN, segmentation, sortie internet (pages 77 à 88 du livre)",
+   "pages": 12,
+   "taille": 6488536
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-13 Livre - Interconnexion et exposition des services": [
+  {
+   "fichier": "source/20-13.pdf",
+   "titre": "Interconnexion et exposition des services (pages 89 à 98 du livre)",
+   "pages": 10,
+   "taille": 5446904
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-14 Livre - Télétravail et accès distants": [
+  {
+   "fichier": "source/20-14.pdf",
+   "titre": "Télétravail et accès distants (pages 99 à 103 du livre)",
+   "pages": 5,
+   "taille": 2717271
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-15 Livre - Identités, annuaires et accès privilégiés": [
+  {
+   "fichier": "source/20-15.pdf",
+   "titre": "Identités, annuaires et accès privilégiés (pages 104 à 111 du livre)",
+   "pages": 8,
+   "taille": 4477008
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-16 Livre - Datacenters, virtualisation et stockage": [
+  {
+   "fichier": "source/20-16.pdf",
+   "titre": "Datacenters, virtualisation et stockage (pages 112 à 118 du livre)",
+   "pages": 7,
+   "taille": 4275754
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-17 Livre - Cloud public, privé, hybride et SecNumCloud": [
+  {
+   "fichier": "source/20-17.pdf",
+   "titre": "Cloud public, privé, hybride et SecNumCloud (pages 119 à 124 du livre)",
+   "pages": 6,
+   "taille": 3254835
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-18 Livre - Le poste de travail et les mobiles": [
+  {
+   "fichier": "source/20-18.pdf",
+   "titre": "Le poste de travail et les mobiles (pages 125 à 134 du livre)",
+   "pages": 10,
+   "taille": 5374099
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-19 Livre - La chaîne logicielle - développer et déployer en sécurité": [
+  {
+   "fichier": "source/20-19.pdf",
+   "titre": "La chaîne logicielle : développer et déployer en sécurité (pages 135 à 139 du livre)",
+   "pages": 5,
+   "taille": 2749634
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-20 Livre - La donnée - gouvernance, big data, lac de données": [
+  {
+   "fichier": "source/20-20.pdf",
+   "titre": "La donnée : gouvernance, big data, lac de données (pages 140 à 146 du livre)",
+   "pages": 7,
+   "taille": 3991714
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-21 Livre - Les systèmes particuliers - mainframe, bâtiments, téléphonie, classifié, post-quantique": [
+  {
+   "fichier": "source/20-21.pdf",
+   "titre": "Les systèmes particuliers : mainframe, bâtiments, téléphonie, classifié, post-quantique (pages 147 à 153 du livre)",
+   "pages": 7,
+   "taille": 3913281
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-22 Livre - Acheter - marchés publics et offre souveraine": [
+  {
+   "fichier": "source/20-22.pdf",
+   "titre": "Acheter : marchés publics et offre souveraine (pages 154 à 160 du livre)",
+   "pages": 7,
+   "taille": 3923741
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-23 Livre - Intégrer progressivement l'IA dans les outils des agents": [
+  {
+   "fichier": "source/20-23.pdf",
+   "titre": "Intégrer progressivement l'IA dans les outils des agents (pages 161 à 163 du livre)",
+   "pages": 3,
+   "taille": 1644100
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-24 Livre - Shadow IT et shadow IA": [
+  {
+   "fichier": "source/20-24.pdf",
+   "titre": "Shadow IT et shadow IA (pages 164 à 165 du livre)",
+   "pages": 2,
+   "taille": 1200196
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-25 Livre - L'IA pour la sécurité et comme vecteur d'attaque": [
+  {
+   "fichier": "source/20-25.pdf",
+   "titre": "L'IA pour la sécurité et comme vecteur d'attaque (pages 167 à 170 du livre)",
+   "pages": 4,
+   "taille": 2244145
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-26 Livre - Journalisation, supervision et SOC": [
+  {
+   "fichier": "source/20-26.pdf",
+   "titre": "Journalisation, supervision et SOC (pages 171 à 176 du livre)",
+   "pages": 6,
+   "taille": 3295225
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-27 Livre - Incident, crise cyber et notification": [
+  {
+   "fichier": "source/20-27.pdf",
+   "titre": "Incident, crise cyber et notification (pages 177 à 181 du livre)",
+   "pages": 5,
+   "taille": 2819851
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-28 Livre - Continuité - PCA, PCI et PRA": [
+  {
+   "fichier": "source/20-28.pdf",
+   "titre": "Continuité : PCA, PCI et PRA (pages 182 à 187 du livre)",
+   "pages": 6,
+   "taille": 3294083
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-29 Livre - La sauvegarde - politiques et technologies": [
+  {
+   "fichier": "source/20-29.pdf",
+   "titre": "La sauvegarde : politiques et technologies (pages 188 à 191 du livre)",
+   "pages": 4,
+   "taille": 2329515
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-30 Livre - Maintenir en conditions de sécurité (MCS)": [
+  {
+   "fichier": "source/20-30.pdf",
+   "titre": "Maintenir en conditions de sécurité (MCS) (pages 192 à 194 du livre)",
+   "pages": 3,
+   "taille": 1722847
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-31 Livre - Sensibiliser tous les agents": [
+  {
+   "fichier": "source/20-31.pdf",
+   "titre": "Sensibiliser tous les agents (pages 196 à 198 du livre)",
+   "pages": 3,
+   "taille": 1791527
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-32 Livre - Former et accompagner les agents à l'IA": [
+  {
+   "fichier": "source/20-32.pdf",
+   "titre": "Former et accompagner les agents à l'IA (pages 199 à 201 du livre)",
+   "pages": 3,
+   "taille": 1707199
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-33 Livre - Les filières et les compétences": [
+  {
+   "fichier": "source/20-33.pdf",
+   "titre": "Les filières et les compétences (pages 202 à 204 du livre)",
+   "pages": 3,
+   "taille": 1773217
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-34 Livre - Trois parcours de bout en bout": [
+  {
+   "fichier": "source/20-34.pdf",
+   "titre": "Trois parcours de bout en bout (pages 206 à 207 du livre)",
+   "pages": 2,
+   "taille": 1343728
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-35 Livre - Feuille de route type 2026-2030": [
+  {
+   "fichier": "source/20-35.pdf",
+   "titre": "Feuille de route type 2026-2030 (pages 208 à 209 du livre)",
+   "pages": 2,
+   "taille": 1283317
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ],
+ "20-36 Livre - Annexes, sigles et méthode": [
+  {
+   "fichier": "source/20-36.pdf",
+   "titre": "Annexes, sigles et méthode (pages 210 à 219 du livre)",
+   "pages": 10,
+   "taille": 4651756
+  },
+  {
+   "fichier": "source/livre-complet.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (livre complet)",
+   "pages": 220,
+   "taille": 13127638
+  },
+  {
+   "fichier": "source/livre-complet-version-redigee.pdf",
+   "titre": "Infrastructure informatique d'une grande organisation publique (version rédigée, style administratif)",
+   "pages": 258,
+   "taille": 13180744
+  }
+ ]
+}

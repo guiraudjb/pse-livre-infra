@@ -1,0 +1,229 @@
+SOUVERAINETÉ NUMÉRIQUE ET ENJEUX DE L'HÉBERGEMENT DES DONNÉES DE L'ÉTAT.
+
+LEXIQUE COMPLET.
+
+      Le CLOUD Act de deux mille dix-huit désigne une loi américaine permettant d'exiger d'un fournisseur américain les données qu'il contrôle, quel que soit leur lieu de stockage.
+
+      La souveraineté numérique désigne la maîtrise par un ministère de ses données, de ses choix de fournisseurs et de la continuité de ses services.
+
+      Le SecNumCloud trois virgule deux désigne une qualification de l'ANSSI qui impose des critères de sécurité technique et d'immunité aux lois extraterritoriales.
+
+      La doctrine Cloud au centre désigne le principe selon lequel le recours à l'informatique en nuage devient le mode d'hébergement et de production par défaut des nouveaux projets numériques de l'État.
+
+      La loi SREN, article trente et un, désigne la disposition de mai deux mille vingt-quatre qui impose la protection des données d'une sensibilité particulière contre l'accès d'autorités étrangères.
+
+      La DINUM désigne la direction interministérielle du numérique, service du Premier ministre créé en deux mille dix-neuf qui pilote la stratégie numérique de l'État.
+
+      Le SIIV désigne un système d'information d'importance vitale pour lequel une atteinte à la sécurité risquerait de diminuer le potentiel de guerre ou la capacité de survie de la Nation.
+
+      Le Data Privacy Framework désigne la décision d'adéquation adoptée par la Commission en deux mille vingt-trois pour les entreprises américaines certifiées.
+
+      Le RGI désigne le référentiel général d'interopérabilité qui définit les standards d'échange de données et préconise les formats ouverts ODF et PDF.
+
+      Le cloud de confiance désigne une offre de cloud réunissant un haut niveau de sécurité et une protection contre l'application des législations extraterritoriales via la qualification SecNumCloud.
+
+COURS DÉTAILLÉ.
+
+I. LES ENJEUX DE LA SOUVERAINETÉ NUMÉRIQUE.
+
+   A. Définition de la maîtrise des données, des choix et de la continuité.
+
+      Pour un ministère, la souveraineté numérique repose sur la maîtrise de trois piliers fondamentaux.
+
+      Le premier pilier concerne la maîtrise des données, ce qui implique de décider qui peut y accéder et sous quel régime juridique.
+
+      Le deuxième pilier concerne la maîtrise des choix, permettant de changer de fournisseur sans avoir à reconstruire l'intégralité des systèmes.
+
+      Le troisième pilier concerne la maîtrise de la continuité, afin de ne pas dépendre d'un prestataire qui pourrait interrompre le service sur décision d'un gouvernement étranger.
+
+   B. Risques liés aux lois extraterritoriales américaines et chinoises.
+
+      Les lois américaines présentent des risques majeurs d'accès aux données, comme le CLOUD Act de deux mille dix-huit qui permet d'exiger d'un fournisseur américain les données qu'il contrôle, peu importe leur lieu de stockage.
+
+      La section sept cent deux de la loi FISA permet également la collecte de renseignements visant des non-Américains auprès des fournisseurs de communications.
+
+      Le contrôle des exportations de technologies de défense est assuré par l'ITAR, qui encadre les composants technologiques.
+
+      En Chine, les lois sur le renseignement et la cybersécurité imposent aux entreprises une obligation de coopération avec les services et peuvent imposer des logiciels comme GoldenTax.
+
+      L'ANSSI identifie explicitement ces législations comme des vecteurs possibles d'espionnage pour l'État.
+
+   C. Limites du cadre européen et du Data Privacy Framework.
+
+      Le cadre européen a été fragilisé en deux mille vingt par l'arrêt Schrems II de la Cour de justice de l'Union, qui a invalidé le Privacy Shield car jugé insuffisant face à la surveillance américaine.
+
+      En deux mille vingt-trois, la Commission a adopté le Data Privacy Framework comme nouvelle décision d'adéquation pour les entreprises américaines certifiées.
+
+      Ce nouveau cadre reste toutefois fragile car il repose sur des engagements de l'exécutif américain qui sont susceptibles de changer.
+
+      Surtout, ce dispositif ne protège pas les données contre les exigences du CLOUD Act.
+
+      Pour les données sensibles de l'État, ce cadre juridique est considéré comme insuffisant.
+
+II. LE CADRE RÉGLEMENTAIRE ET LA RÉPONSE FRANÇAISE.
+
+   A. La doctrine Cloud au centre et la qualification SecNumCloud.
+
+      La doctrine Cloud au centre est issue de la circulaire du cinq juillet deux mille vingt et un, actualisée le trente et un mai deux mille vingt-trois. Elle établit que l'informatique en nuage devient le mode d'hébergement et de production par défaut pour les nouveaux projets numériques de l'État.
+
+      Pour les données les plus sensibles, l'État impose le recours à une offre qualifiée SecNumCloud. Cette approche vise à garantir une maîtrise accrue des données et de la continuité des services.
+
+      Le référentiel SecNumCloud trois virgule deux, daté du huit mars deux mille vingt-deux, définit les critères de cette qualification. Au-delà de la sécurité technique, il impose des critères d'immunité face aux lois extraterritoriales.
+
+      Pour obtenir cette qualification, un prestataire doit avoir son siège et ses données dans l'Union. Il doit également présenter un contrôle capitalistique européen.
+
+      L'objectif final est l'impossibilité pour un État tiers d'imposer la divulgation des données. Le label cloud de confiance est ainsi la reconnaissance par l'État d'offres protégées de ces législations.
+
+   B. La loi SREN et la protection contre les accès étrangers.
+
+      La loi SREN, via son article trente et un publié en mai deux mille vingt-quatre, renforce la protection des données de l'État. Elle concerne les données d'une sensibilité particulière confiées à un cloud commercial.
+
+      Cette loi impose que ces données soient protégées contre l'accès des autorités étrangères. Elle vise directement à contrer l'impact des lois extraterritoriales comme le CLOUD Act américain.
+
+      L'application de cet article est encadrée par une note interministérielle datée du vingt-deux avril deux mille vingt-cinq. Cette note en rappelle l'application stricte pour garantir la souveraineté numérique.
+
+      Cette protection est nécessaire car le cadre européen, comme le Data Privacy Framework de deux mille vingt-trois, reste fragile. Il dépend des engagements de l'exécutif américain et ne protège pas contre le CLOUD Act.
+
+   C. Le contrôle des achats et l'avis de la DINUM.
+
+      Le contrôle des achats publics est encadré par un décret et un arrêté de mars deux mille vingt-six. Ces textes modifient les modalités de validation des marchés numériques.
+
+      La DINUM doit désormais donner un avis préalable sur tout marché SaaS ou de suite collaborative d'au moins deux millions d'euros par an. Ce contrôle assure la cohérence avec la stratégie de souveraineté.
+
+      Le seuil pour les grands projets soumis à un avis conforme a été fixé à quinze millions d'euros. Cette mesure permet de surveiller les investissements les plus massifs de l'État.
+
+      Ces contrôles s'inscrivent dans un contexte où l'État consacre environ cinq virgule cinq milliards d'euros par an à ses SI. La maîtrise de ces dépenses est cruciale pour limiter la dépendance aux fournisseurs non européens.
+
+III. ÉTAT DES LIEUX DES OUTILS COLLABORATIFS ET BUREAUTIQUES.
+
+   A. Panorama de l'utilisation de Microsoft Office et LibreOffice.
+
+      L'examen mené par la Cour des comptes en deux mille vingt-six révèle un paysage bureautique très hétérogène au sein de l'État. La majorité des ministères utilisent encore Microsoft Office installé localement, ce qui en fait le standard dominant.
+
+      Certaines administrations ont toutefois pris le contrepied de cette tendance en privilégiant les logiciels libres. C'est le cas de l'Intérieur où seulement dix pour cent des deux cent quatre-vingt-dix mille postes utilisent Office, ou encore de la Transition écologique et de la DGFiP.
+
+      La DGFiP se distingue par une stratégie de souveraineté ancienne en ayant abandonné Microsoft Office dès la fin des années deux mille. Elle utilise LibreOffice, la messagerie Thunderbird de l'État et opère son propre cloud nommé NUBO.
+
+      La Gendarmerie nationale est également une administration pionnière dans ce domaine. Elle a déployé LibreOffice ainsi que le système d'exploitation libre GendBuntu sur soixante-douze mille postes.
+
+   B. Le rôle des outils interministériels souverains de la DINUM.
+
+      La DINUM propose une suite d'outils interministériels souverains pour répondre aux besoins de l'État. Cette suite comprend des solutions comme Tchap, qui est devenue obligatoire depuis juillet deux mille vingt-cinq, et Visio, l'outil unique de visioconférence depuis janvier deux mille vingt-six.
+
+      Le catalogue de la DINUM inclut également des services essentiels tels que FranceTransfert, la Messagerie, les Fichiers et Docs. Ces outils visent à garantir la maîtrise des données et la continuité du service public.
+
+      Pour structurer les données et créer des applications internes, l'État peut utiliser Grist. Cet outil combine les capacités d'un tableur avec celles d'une base de données relationnelle.
+
+      L'ensemble de ces solutions s'inscrit dans une volonté de réduire la dépendance aux fournisseurs étrangers. La DINUM pilote cette stratégie numérique et opère les services logiciels partagés pour l'ensemble des ministères.
+
+   C. Le cas des dérogations et la migration vers des offres qualifiées.
+
+      Bien que la DINUM ait proscrit Microsoft trois cent soixante-cinq dans les ministères dès septembre deux mille vingt et un, des dérogations subsistent. Les ministères sociaux, la Culture et la DGAC utilisent Microsoft trois cent soixante-cinq en cloud par dérogation.
+
+      Dans le cas de la Culture, une restriction est appliquée avec l'exclusion de sept mille sept cents postes sensibles. Ces dérogations sont accordées sous la condition que les ministères s'engagent à migrer vers une offre qualifiée.
+
+      L'objectif de ces migrations est de rejoindre des solutions répondant aux critères de la doctrine cloud au centre. Un exemple de solution cible est l'offre Bleu, portée par Capgemini et Orange, qui vise la qualification SecNumCloud.
+
+      La qualification SecNumCloud trois virgule deux impose des critères de protection contre les lois extraterritoriales. Elle exige un siège et des données dans l'Union, ainsi qu'un contrôle capitalistique européen.
+
+IV. GLOSSAIRE TECHNIQUE ET NOTIONS CLÉS.
+
+   A. Concepts liés au cloud et à la sécurité.
+
+      L'informatique en nuage ou cloud computing est un modèle qui fournit à la demande, par un réseau, des ressources informatiques partagées et configurables comme le calcul, le stockage et les applications.
+
+      Le cloud de confiance est une offre de cloud qui réunit un haut niveau de sécurité et une protection contre l'application des législations extraterritoriales, ce qui est matérialisé par la qualification SecNumCloud.
+
+      Le label cloud de confiance est la reconnaissance, par l'État, d'offres commerciales qualifiées SecNumCloud et protégées des législations extraterritoriales.
+
+      Le principe du cloud au centre signifie que le recours à l'informatique en nuage devient le mode d'hébergement et de production par défaut des nouveaux projets numériques de l'État.
+
+      Le cloud interne, ou cloud privé de l'État, est une offre d'informatique en nuage opérée par l'État lui-même pour ses propres besoins.
+
+      Une offre cloud communautaire est une offre physiquement dédiée à un ensemble d'entités d'intérêt commun, qu'elles soient étatiques ou privées.
+
+   B. Typologie des menaces informatiques.
+
+      La menace hacktiviste ou isolée désigne les attaques menées par un individu isolé ou un groupe hacktiviste à des fins de déstabilisation, de vengeance ou pour un motif idéologique.
+
+      La menace stratégique désigne les attaques informatiques persistantes et ciblées, menées ou financées par un État, à des fins d'espionnage, de pré-positionnement ou de déstabilisation.
+
+      La menace systémique désigne les menaces susceptibles d'affecter une large proportion d'entités, notamment la menace cybercriminelle qui est majoritairement opportuniste et à finalité lucrative.
+
+      Le rançongiciel désigne un code malveillant déployé pour bloquer l'accès aux données en échange d'une rançon.
+
+   C. Gouvernance et acteurs du numérique de l'État.
+
+      La direction interministérielle du numérique est un service du Premier ministre créé en deux mille dix-neuf qui pilote la stratégie numérique de l'État et opère les services logiciels partagés.
+
+      Le comité d'orientation stratégique interministériel du numérique est une instance présidée par la secrétaire générale du Gouvernement qui fixe la stratégie et les moyens budgétaires.
+
+      Le comité interministériel du numérique est une instance opérationnelle présidée par la directrice de la DINUM qui réunit les directeurs du numérique pour partager l'avancement des chantiers.
+
+      La direction ministérielle du numérique est la structure au sein de chaque ministère qui organise, pilote et déploie la politique numérique et les services aux agents.
+
+      Le contrôleur budgétaire et comptable ministériel est l'autorité chargée de valider l'exécution financière et la conformité des achats publics au sein de chaque ministère.
+
+V. STRATÉGIE ET CONSÉQUENCES POUR L'INFRASTRUCTURE.
+
+   A. Approche par la gradation de la sensibilité des données.
+
+      La stratégie de souveraineté ne repose pas sur un modèle de tout souverain mais sur une gradation appliquée selon la sensibilité des informations.
+
+      Il convient de classer les données et les applications par niveau de criticité pour en déduire l'hébergement autorisé.
+
+      Les données les plus sensibles doivent impérativement être hébergées sur une offre qualifiée SecNumCloud conformément à la doctrine Cloud au centre.
+
+      Cette doctrine, issue de la circulaire du cinq juillet deux mille vingt et un et actualisée le trente et un mai deux mille vingt-trois, fait du cloud l'hébergement par défaut des nouveaux projets de l'État.
+
+      La loi SREN, via son article trente et un de mai deux mille vingt-quatre, impose la protection des données d'une sensibilité particulière contre l'accès des autorités étrangères.
+
+      Une note interministérielle du vingt-deux avril deux mille vingt-cinq a d'ailleurs rappelé l'application stricte de cette protection juridique.
+
+   B. Conséquences techniques : formats ouverts, réversibilité et chiffrement.
+
+      Pour garantir la maîtrise des choix et éviter la reconstruction complète des systèmes, l'État doit privilégier l'usage de formats ouverts comme l'ODF et le PDF.
+
+      Le respect des standards du référentiel général d'interopérabilité est essentiel pour maintenir la liberté de changer de fournisseur.
+
+      Chaque contrat doit obligatoirement inclure des clauses de réversibilité précisant l'export des données, les formats utilisés, les délais et les coûts associés.
+
+      Dans les cas où l'hébergeur n'est pas considéré comme un prestataire de confiance, le ministère doit procéder au chiffrement des données.
+
+      Ce chiffrement doit être réalisé avec des clés de chiffrement que le ministère maîtrise intégralement.
+
+   C. Gestion des dépendances et plans de repli.
+
+      L'État doit identifier précisément les dépendances critiques vis-à-vis d'un fournisseur non européen pour anticiper les risques.
+
+      La présence de ces dépendances nécessite la préparation systématique d'un plan de repli pour assurer la continuité du service.
+
+      Cette vigilance est cruciale car l'État consacre environ cinq virgule cinq milliards d'euros par an à ses systèmes d'information.
+
+      Une dépendance mal maîtrisée sur une partie de ce montant expose l'administration à des hausses de prix imposées ou à des risques de coupure de service.
+
+      Le risque juridique est également majeur, notamment face à des lois comme le CLOUD Act qui permet d'exiger des données auprès d'un fournisseur américain peu importe leur lieu de stockage.
+
+POINTS D'ATTENTION.
+
+      La localisation des données en France ne garantit pas la souveraineté si le prestataire est soumis à des lois extraterritoriales comme le CLOUD Act américain.
+
+      Il ne faut pas confondre la sécurité technique avec l'immunité juridique qui est un critère essentiel de la qualification SecNumCloud trois virgule deux.
+
+      La stratégie de l'État n'est pas le tout souverain mais une gradation de l'hébergement selon la sensibilité des données et des applications.
+
+      Le cadre européen comme le Data Privacy Framework reste fragile car il dépend de l'exécutif américain et ne protège pas contre le CLOUD Act.
+
+      La réversibilité doit être préparée dans chaque contrat pour garantir la liberté de changer de fournisseur sans tout reconstruire.
+
+EXEMPLES CITÉS.
+
+      La DGFiP utilise LibreOffice et sa plateforme collaborative Novae tout en opérant son propre cloud nommé NUBO pour cinq cents projets.
+
+      L'État consacre environ cinq virgule cinq milliards d'euros par an à ses systèmes d'information.
+
+      La DINUM donne un avis préalable sur les marchés SaaS de plus de deux millions d'euros par an depuis mars deux mille vingt-six.
+
+      L'administration de l'Intérieur utilise LibreOffice sur seulement dix pour cent de ses deux cent quatre-vingt-dix mille postes.
+
+      La suite de la DINUM propose des outils souverains comme Tchap qui est obligatoire depuis juillet deux mille vingt-cinq ou Visio depuis janvier deux mille vingt-six.

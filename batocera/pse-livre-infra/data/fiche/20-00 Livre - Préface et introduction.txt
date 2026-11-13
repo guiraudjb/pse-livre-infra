@@ -1,0 +1,215 @@
+SYNTHÈSE DE LA PRÉPARATION À LA QUALIFICATION INFORMATIQUE MINISTÉRIELLE ET ANALYSE DE LA CRISE CYBER DE deux mille vingt-six.
+
+LEXIQUE COMPLET.
+
+      L'ANSSI désigne l'agence nationale chargée de la cybersécurité qui publie des rapports et coordonne l'opération REACTIV lancée le premier septembre deux mille vingt-six.
+
+      Le sigle DGFiP désigne la Direction générale des Finances publiques qui a subi des cyberattaques entre mai et août deux mille vingt-six.
+
+      Le terme Zero Trust désigne un principe d'architecture visant à concevoir une infrastructure capable de résister à une compromission.
+
+      Le sigle NIS deux désigne une réglementation qui transforme les bonnes pratiques en obligations avec des sanctions et une responsabilité des dirigeants.
+
+      L'acteur Zerobytes désigne l'entité qui a revendiqué en août deux mille vingt-six l'exfiltration des données de près de trois cent cinquante-trois mille particuliers et deux cent cinquante-deux mille professionnels.
+
+      Le sigle MFA désigne l'authentification forte ou le second facteur de vérification dont l'absence est une cause majeure d'intrusion.
+
+      L'opération REACTIV désigne l'initiative lancée par le Premier ministre le premier septembre deux mille vingt-six pour traiter les comptes compromis et les fuites de données.
+
+      Le sigle IDOR désigne une faille de contrôle d'autorisation permettant de lire le dossier d'un usager en changeant un identifiant dans une requête.
+
+      La DINUM désigne l'organisme dont les publications font foi pour vérifier l'exactitude des informations techniques et réglementaires.
+
+      Le sigle SIEM désigne le système de gestion des événements de sécurité dans lequel toutes les applications doivent être intégrées pour assurer la remédiation.
+
+COURS DÉTAILLÉ.
+
+I. CONTEXTE ET MÉTHODOLOGIE DE L'OUVRAGE.
+
+   A. Origine et but de la préparation.
+
+      Cet ouvrage provient de la préparation d'une qualification informatique ministérielle menée par son auteur.
+
+      Il s'appuie sur l'accumulation de plusieurs centaines de fiches de révision incluant des guides de l'ANSSI, des textes nationaux et européens, ainsi que des cours de réseaux et systèmes.
+
+      L'objectif principal est de créer un fil conducteur entre ces notions éparses en les mettant en situation dans le cadre de l'informatique d'un ministère.
+
+      Le document sert de support de révision en reliant les concepts théoriques à des cas pratiques d'administration.
+
+   B. Utilisation de l'intelligence artificielle.
+
+      L'auteur a utilisé une intelligence artificielle pour la rédaction de la majeure partie du texte à partir de ses fiches et de sources publiques.
+
+      Le processus a été dirigé par l'auteur qui a fixé le plan, choisi les sources, posé les questions et effectué la relecture finale.
+
+      D'autres outils d'IA exécutés localement ont été employés pour produire la version en style administratif, la lecture audio et les illustrations.
+
+      Cette méthode de travail déplace le rôle de l'apprentissage vers la capacité à formuler des requêtes, vérifier des sources et trancher entre des formulations.
+
+   C. Avertissements et limites du document.
+
+      Ce document est un outil de révision personnel et n'est pas une publication officielle qui engage une administration.
+
+      Le ministère utilisé comme fil rouge pour les exemples est une entité fictive inspirée de la DGFiP.
+
+      Une erreur de l'IA peut subsister malgré les vérifications, notamment sur une date, un chiffre ou le développement d'un sigle.
+
+      Les textes officiels de l'ANSSI, de la DINUM et de la CNIL doivent être considérés comme les seules références faisant foi.
+
+      Les informations contenues dans l'ouvrage datent de novembre deux mille vingt-six et peuvent être dépassées par l'évolution du droit et des menaces.
+
+      Les fiches de révision sont identifiées par un numéro comme le 03-310 pour permettre de retrouver la notion d'origine.
+
+II. ÉVOLUTION DE L'ENVIRONNEMENT DE MENACE ET RÉGLEMENTAIRE.
+
+   A. Professionnalisation de la menace cyber.
+
+      La menace cyber s'est considérablement professionnalisée avec l'émergence de rançongiciels industrialisés et de modes opératoires étatiques.
+
+      Les attaques assistées par l'IA constituent désormais une réalité qui modifie la donne pour la sécurité des infrastructures.
+
+      L'exemple de la DGFiP illustre cette montée en puissance avec quatre mille neuf cent vingt-cinq attaques recensées en deux mille vingt-quatre, ce qui représente une hausse de quatre-vingt-dix pour cent par rapport à l'année deux mille vingt-trois.
+
+   B. Durcissement du cadre juridique et normatif.
+
+      Le cadre réglementaire se transforme pour faire passer les bonnes pratiques du stade de recommandation à celui d'obligations strictes.
+
+      Les textes tels que NIS deux, le CRA, l'AI Act et le ReCyF imposent de nouvelles contraintes aux organisations.
+
+      Ces évolutions législatives s'accompagnent de la mise en place de sanctions et d'une responsabilité accrue pour les dirigeants.
+
+   C. Déplacement technologique et nouvelles dépendances.
+
+      L'évolution technologique déplace les périmètres de sécurité vers le Cloud, l'IA générative et la gestion des données massives.
+
+      Ces nouveaux usages créent des dépendances critiques, notamment envers des acteurs soumis à des lois étrangères.
+
+      La modernisation des infrastructures doit désormais intégrer la capacité de résister à une compromission plutôt que de chercher uniquement à l'éviter.
+
+III. ANALYSE DE L'INCIDENT MAJEUR DE LA DGFIP.
+
+   A. Description de l'attaque et exfiltration de données.
+
+      L'incident majeur de la DGFiP s'est déroulé entre mai et août deux mille vingt-six suite à une série d'intrusions sans exploit sophistiqué.
+
+      Des identifiants volés ont permis un accès à distance à des applications exposées à des tiers.
+
+      Entre le vingt-deux et le vingt-cinq juin, un volume de onze Go de données a été exfiltré, souvent durant la nuit, sans déclencher d'alerte.
+
+      L'acteur Zerobytes a revendiqué en août les données de près de trois cent cinquante-trois mille particuliers et deux cent cinquante-deux mille professionnels.
+
+   B. Principes d'architecture violés.
+
+      L'attaque démontre qu'un simple identifiant volé suffit pour obtenir un accès distant, ce qui viole les principes d'authentification forte et de Zero Trust.
+
+      Le fait qu'un portail exposé ne soit pas supervisé par le SOC constitue une violation du principe de supervision exhaustive.
+
+      L'absence d'alerte face à des volumes, des horaires et des adresses suspectes montre un défaut de détection d'anomalies et de quotas.
+
+      Enfin, l'utilisation de comptes ordinaires pour lire de gros volumes de données contrevient aux principes de moindre privilège et de cloisonnement des données.
+
+   C. Mesures de remédiation préconisées.
+
+      La remédiation demandée par l'ANSSI impose l'intégration de toutes les applications dans le SIEM.
+
+      Il est nécessaire de mettre en place des quotas de consultation pour limiter les volumes de données accessibles.
+
+      Le dispositif doit inclure une protection efficace contre les injections.
+
+      Enfin, un filtrage par géolocalisation et par réputation doit être instauré pour sécuriser les accès.
+
+IV. PANORAMA DES CRISES CYBER MINISTÉRIELLES DE deux mille vingt-cinq À deux mille vingt-six.
+
+   A. L'opération REACTIV de l'ANSSI.
+
+      Lancée le premier septembre deux mille vingt-six sur demande du Premier ministre, l'opération REACTIV vise à répondre à la multiplication des exfiltrations de données touchant presque tous les ministères.
+
+      L'ANSSI réoriente ses moyens pour traiter les comptes compromis et les fuites de données tout en centralisant la communication technique.
+
+      L'agence dispose de la capacité d'imposer des mesures de protection dans des délais contraints aux différents ministères.
+
+      Le premier point de situation du premier octobre deux mille vingt-six recensait quatre-vingt-dix-neuf violations de données signalées depuis le premier août, dont soixante-sept étaient confirmées.
+
+      Le second point de situation du douze novembre deux mille vingt-six a ajouté soixante-quatre violations en un mois, dont seulement cinq concernaient des ministères ou leurs opérateurs.
+
+   B. Chronologie des violations de données par organisme.
+
+      Dès décembre deux mille vingt-cinq, le Ministère de l'Intérieur subit la compromission de messageries professionnelles de policiers permettant l'accès à des applications métier et l'exfiltration de soixante-douze fiches TAJ.
+
+      En mars deux mille vingt-six, le portail RH COMPAS de l'Éducation nationale est visé, entraînant l'exfiltration des données d'environ deux cent quarante-trois mille agents.
+
+      L'agence ANTS subit une attaque en avril deux mille vingt-six sur le portail ants.gouv.fr, touchant onze virgule sept millions de comptes avec des données d'identité et de courriel.
+
+      La DGFiP subit une intrusion majeure entre juin et août deux mille vingt-six, où onze Go de données sont sortis sans alerte, concernant six cent soixante-dix-huit mille particuliers et professionnels.
+
+      Entre juillet et août deux mille vingt-six, les applications GAIA et SIECLE de l'Éducation nationale sont visées dans plus d'une douzaine d'académies.
+
+      Le mois d'août deux mille vingt-six est marqué par une injection SQL critique sur les instances Metabase de neuf services ministériels et des compromissions de comptes d'agents sur Tchap, la Transition écologique, les Douanes et TRACFIN.
+
+      En octobre deux mille vingt-six, des failles IDOR et l'absence de MFA touchent la CAF, France Travail, l'OFB, l'ASP et les Affaires étrangères.
+
+   C. Causes communes et failles récurrentes.
+
+      La majorité des incidents provient du vol d'identifiants, souvent via des infostealers sur des postes personnels ou des partenaires, ou à partir d'anciennes fuites.
+
+      L'absence de double authentification ou l'utilisation de facteurs faibles comme le SMS ou le courriel facilite l'accès aux applications.
+
+      Le retard dans l'application des correctifs sur les applications exposées constitue une vulnérabilité majeure pour les organismes.
+
+      Les comptes de sous-traitants et de partenaires sont fréquemment utilisés pour accéder aux données de l'État.
+
+      Les failles de contrôle d'autorisation de type IDOR permettent de lire des dossiers d'usagers en modifiant simplement un identifiant dans une requête.
+
+      Le schéma classique consiste en un identifiant valide ouvrant une application, permettant ensuite l'exfiltration de données par des accès paraissant légitimes.
+
+V. MODÈLE DE RÉFÉRENCE ET STRUCTURE DE L'ÉTUDE.
+
+   A. Caractéristiques du ministère fictif de référence.
+
+      Le document s'appuie sur un ministère imaginaire dont l'échelle est inspirée des grandes administrations réelles comme la DGFiP. Cet organisme fictif compte cent mille agents dont vingt mille effectuent du télétravail de manière régulière.
+
+      L'infrastructure de ce ministère est répartie sur trois cents sites situés en métropole et outre-mer. Il dispose de cinq mille informaticiens internes pour gérer environ huit cents applications dont une partie repose sur des systèmes mainframe.
+
+      L'hébergement des données est assuré par deux datacenters ministériels, un cloud interne et des services SecNumCloud. Cette entité est considérée comme une entité essentielle au sens de NIS deux et un opérateur d'importance vitale.
+
+      Les services en ligne de cette administration s'adressent à plusieurs dizaines de plateformes pour des millions d'usagers et d'entreprises. Des encadrés nommés Le cas DGFiP permettent de comparer ces données avec les chiffres réels de la DGFiP.
+
+   B. Guide de lecture par profil d'utilisateur.
+
+      Les décideurs, directeurs et responsables métier doivent se concentrer sur les enjeux, les obligations, les arbitrages et la feuille de route. Pour eux, la lecture des parties I, IV et V ainsi que le début de chaque chapitre est conseillée.
+
+      Les architectes, RSSI et chefs de projet sont invités à lire l'intégralité de l'ouvrage. Ils y trouveront le cadre, les principes, les choix techniques et les critères nécessaires à leur fonction.
+
+      Les techniciens et les candidats aux qualifications informatiques trouveront dans ce document les notions, le vocabulaire, les mécanismes et les exemples. Une lecture complète est recommandée, en accordant une attention particulière aux sections techniques et aux fiches citées.
+
+   C. Organisation et sources des chapitres.
+
+      Chaque chapitre est structuré selon une progression identique pour faciliter l'apprentissage. Il expose d'abord ce qu'il faut comprendre, puis pourquoi cela constitue un enjeu, avant d'expliquer la mise en œuvre et de proposer des fiches de révision.
+
+      Les fiches de révision sont référencées par leur numéro spécifique, comme l'exemple 03-310 pour le guide de sauvegarde de l'ANSSI. Ces fiches permettent au lecteur de remonter directement à la notion d'origine.
+
+      Les sources utilisées pour la rédaction sont des fiches thématiques portant sur la sécurité nationale, le cadre public, les systèmes, les réseaux ou encore Bercy. Les informations provenant de l'AI Act ou de certains plans nationaux sont également explicitement indiquées.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre la publication officielle avec ce document de révision personnel qui n'engage aucune administration.
+
+      Une distinction importante doit être faite entre les volumes de données réellement exfiltrées et les volumes revendiqués par les attaquants qui sont souvent bien supérieurs.
+
+      L'utilisateur doit comprendre que l'IA peut commettre des erreurs sur une date, un chiffre ou un sigle malgré les relectures effectuées.
+
+      La sécurité ne doit pas être vue comme une simple stratégie d'évitement mais comme une conception capable de résister à une compromission.
+
+      Il est crucial de ne pas confondre une attaque sophistiquée avec des défauts d'architecture comme l'absence d'authentification forte ou de cloisonnement.
+
+EXEMPLES CITÉS.
+
+      L'incident de la DGFiP entre mai et août deux mille vingt-six a vu l'exfiltration de onze Go de données sans déclencher d'alerte.
+
+      L'acteur Zerobytes a revendiqué les données de près de trois cent cinquante-trois mille particuliers et deux cent cinquante-deux mille professionnels en août deux mille vingt-six.
+
+      Le portail ants.gouv.fr a été touché en avril deux mille vingt-six avec onze virgule sept millions de comptes concernés selon l'agence.
+
+      L'opération REACTIV lancée le premier septembre deux mille vingt-six par le Premier ministre a recensé quatre-vingt-dix-neuf violations de données signalées depuis le premier août.
+
+      Le ministère fictif utilisé pour l'ouvrage compte cent mille agents dont vingt mille en télétravail régulier.

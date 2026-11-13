@@ -1,0 +1,265 @@
+PANORAMA DU DROIT EUROPÉEN DE LA CYBERSÉCURITÉ ET DE LA PROTECTION DES DONNÉES.
+
+LEXIQUE COMPLET.
+
+      Le NIS deux désigne une directive qui impose la gestion des risques, la notification des incidents et l'implication de la direction pour les entités essentielles et importantes.
+
+      Le RGPD désigne un règlement qui oblige les responsables de traitement à protéger les données personnelles et à notifier les violations.
+
+      Le CRA désigne un règlement qui impose aux fabricants de produits numériques de livrer des produits sans vulnérabilité exploitable connue et avec une configuration sécurisée par défaut.
+
+      L'AI Act désigne un règlement qui classe les systèmes d'intelligence artificielle selon leur niveau de risque, allant de l'interdiction pour les risques inacceptables à l'absence d'obligation pour les risques minimaux.
+
+      Le SBOM désigne une nomenclature logicielle que le fabricant doit tenir pour les produits numériques conformément au CRA.
+
+      L'ANSSI désigne l'agence française qui a publié le Référentiel Cyber France pour décrire les mesures de sécurité attendues.
+
+      Le DORA désigne un règlement sur la résilience opérationnelle numérique du secteur financier et de ses prestataires TIC.
+
+      Le DSA désigne un règlement qui encadre les intermédiaires numériques et leur régime de responsabilité concernant les contenus.
+
+      L'EUCC désigne un schéma européen de certification pour les produits et services qui est applicable depuis février deux mille vingt-cinq.
+
+      Le ReCyF désigne le Référentiel Cyber France qui décrit les mesures de sécurité attendues en attendant la loi de transposition de NIS deux.
+
+      La CNIL désigne l'autorité qui reçoit les notifications de violations de données personnelles et qui peut effectuer des contrôles.
+
+      L'ENISA désigne l'agence de l'Union européenne pour la cybersécurité qui rédige les schémas candidats et publie les certificats.
+
+COURS DÉTAILLÉ.
+
+I. CADRE JURIDIQUE ET DISTINCTION FONDAMENTALE.
+
+   A. Différence entre règlement et directive.
+
+      L'Union européenne définit les règles de cybersécurité et de données à travers deux instruments juridiques distincts.
+
+      Un règlement possède une application directe dans tous les États membres de l'Union.
+
+      Le RGPD, le CRA, l'AI Act, le DORA, le Data Act et le Cybersecurity Act sont des exemples de règlements.
+
+      Une directive, en revanche, nécessite une transposition dans le droit national pour devenir applicable.
+
+      La directive NIS deux et la directive sur la résilience des entités critiques (REC) illustrent ce mode de fonctionnement.
+
+   B. Le paradoxe de la transposition française.
+
+      Il existe une différence de mise en œuvre entre les textes qui crée une situation paradoxale en France.
+
+      Les règlements européens s'appliquent déjà de manière effective sur le territoire national.
+
+      À l'inverse, la directive NIS deux est toujours dans l'attente de sa loi de transposition.
+
+      Le projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité a été présenté le quinze octobre deux mille vingt-quatre.
+
+      Ce texte a été adopté par le Sénat le douze mars deux mille vingt-cinq et doit être examiné par l'Assemblée nationale en novembre deux mille vingt-six.
+
+      La Commission européenne a d'ailleurs engagé une procédure contre la France en raison de ce retard.
+
+   C. Vue d'ensemble des principaux textes.
+
+      La directive NIS deux (2022/2555) vise les entités essentielles et importantes, dont l'administration centrale.
+
+      Elle impose de gérer les risques et de notifier les incidents, avec une transposition attendue depuis le dix-sept octobre deux mille vingt-quatre.
+
+      Le RGPD (2016/679) est applicable depuis mai deux mille dix-huit et oblige tout responsable de traitement à protéger les données personnelles.
+
+      Le CRA (2024/2847) concerne les fabricants de produits numériques et prévoit des signalements en septembre deux mille vingt-six pour une application complète en décembre deux mille vingt-sept.
+
+      L'AI Act (2024/1689) impose aux fournisseurs et déployeurs de systèmes d'IA une application progressive de deux mille vingt-cinq à deux mille vingt-sept.
+
+      Le DORA (2022/2554) s'applique au secteur financier et à ses prestataires TIC depuis janvier deux mille vingt-cinq.
+
+II. NIS deux ET L'ORGANISATION DE LA SÉCURITÉ.
+
+   A. Champ d'application et entités essentielles.
+
+      La directive NIS deux étend considérablement le champ d'application par rapport à la première directive. En France, le nombre d'entités concernées passerait d'environ cinq cents opérateurs à près de quinze mille entités.
+
+      Les entités de l'administration publique centrale sont classées parmi les entités essentielles.
+
+   B. Piliers de la directive : gouvernance et gestion des risques.
+
+      La gouvernance impose que la direction approuve les mesures de sécurité et supervise leur mise en œuvre. Les dirigeants doivent également se former et peuvent être tenus pour responsables.
+
+      La gestion des risques repose sur une approche multirisque couvrant la chaîne d'approvisionnement. Elle inclut la gestion des incidents, la continuité, le chiffrement et l'hygiène informatique.
+
+   C. Obligations de notification et sanctions.
+
+      La directive impose une notification des incidents importants selon un calendrier précis. Il faut prévoir une alerte précoce sous vingt-quatre heures, une notification sous soixante-douze heures et un rapport final sous un mois.
+
+      Pour les entités privées, les sanctions peuvent atteindre dix millions d'euros ou deux pour cent du chiffre d'affaires mondial pour une entité essentielle.
+
+   D. État d'avancement de la loi en France.
+
+      Le projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité a été présenté le quinze octobre deux mille vingt-quatre. Il a été adopté par le Sénat le douze mars deux mille vingt-cinq.
+
+      L'examen en séance à l'Assemblée nationale est prévu pour novembre deux mille vingt-six. Ce texte transpose NIS deux et REC tout en adaptant le droit national à DORA.
+
+      La Commission européenne a engagé une procédure contre la France en raison de ce retard de transposition.
+
+      En attendant la loi, l'ANSSI a publié le Référentiel Cyber France, appelé ReCyF. Pour l'État, l'intégration du référentiel NIS deux à la PSSIE est prévue au premier trimestre deux mille vingt-sept.
+
+III. PROTECTION DES DONNÉES ET SÉCURITÉ DES PRODUITS.
+
+   A. RGPD : protection des personnes et obligations du ministère.
+
+      Le ministère traite massivement des données personnelles concernant les usagers, les contribuables et les agents. Le RGPD impose la protection des données dès la conception et par défaut pour tous les traitements.
+
+      L'organisation doit mettre en place un registre des traitements et désigner un délégué à la protection des données, le DPO. Une analyse d'impact, appelée AIPD, est obligatoire pour les traitements présentant un risque élevé.
+
+      En cas de violation de données, le ministère doit notifier la CNIL sous soixante-douze heures. Si le risque pour les personnes est élevé, elles doivent également être informées de l'incident.
+
+      Le cadre réglementaire encadre strictement les transferts de données hors de l'Union européenne. Le guide de la CNIL précise des mesures concrètes comme l'authentification, la journalisation, les sauvegardes et le chiffrement.
+
+   B. CRA : exigences de sécurité pour les achats de produits numériques.
+
+      Le règlement sur la cyber-résilience vise les fabricants de produits numériques et modifie la position de l'acheteur public. Les produits doivent être livrés sans vulnérabilité exploitable connue et avec une configuration sécurisée par défaut.
+
+      Le fabricant est tenu de fixer une période d'assistance d'au moins cinq ans incluant des mises à jour de sécurité gratuites. Il doit également tenir une nomenclature logicielle, le SBOM, et signaler toute vulnérabilité activement exploitée sous vingt-quatre heures.
+
+      Le marquage CE atteste la conformité des produits et le ministère peut désormais exiger ces éléments dans ses marchés. Le refus d'un produit non conforme est une possibilité offerte par le règlement.
+
+      Les logiciels développés par le ministère pour son propre usage ne sont pas concernés par le CRA. Toutefois, les bonnes pratiques de ce règlement s'y appliquent de manière utile.
+
+   C. Le rôle de la CNIL et les erreurs courantes.
+
+      La CNIL est l'autorité de contrôle chargée de veiller à l'application du RGPD. En deux mille vingt-cinq, elle a reçu six mille cent soixante-sept notifications de violations, ce qui représente près de seize notifications par jour.
+
+      L'administration publique est le premier secteur concerné par ces violations avec dix-neuf pour cent des notifications. Elle devance le secteur de la santé qui représente quinze pour cent et la finance qui représente douze pour cent.
+
+      La moitié des notifications enregistrées proviennent d'un piratage et dix pour cent résultent d'un incident chez un sous-traitant. Les manquements relevés lors des contrôles sont souvent élémentaires.
+
+      Les erreurs fréquentes incluent des données accessibles en modifiant une URL ou des politiques de mots de passe insuffisantes. Le stockage de mots de passe en clair est également un manquement régulièrement constaté.
+
+IV. ENCADREMENT DE L'INTELLIGENCE ARTIFICIELLE.
+
+   A. Classification des systèmes selon le niveau de risque.
+
+      Le règlement sur l'intelligence artificielle classe les systèmes selon quatre niveaux de risque distincts.
+
+      Le niveau inacceptable regroupe des pratiques comme la notation sociale ou la manipulation, lesquelles sont interdites depuis le deux février deux mille vingt-cinq.
+
+      Les systèmes à haut risque concernent des domaines tels que l'accès aux prestations publiques, le recrutement ou certains usages répressifs.
+
+      Le risque limité s'applique aux agents conversationnels et aux contenus générés, imposant une simple obligation de transparence.
+
+      Enfin, le risque minimal couvre des outils comme les filtres anti-spam ou les correcteurs, sans obligation spécifique prévue.
+
+   B. Obligations pour les déployeurs de systèmes à haut risque.
+
+      Lorsqu'un ministère utilise une IA à haut risque, il agit en tant que déployeur avec des responsabilités précises.
+
+      Il doit impérativement assurer un contrôle humain sur le système et garantir la qualité des données utilisées.
+
+      La mise en place d'une gestion des risques et d'une documentation rigoureuse est également exigée pour ces usages.
+
+      Pour les organismes publics, l'analyse d'impact sur les droits fondamentaux est une obligation spécifique lors du déploiement.
+
+      Le ministère doit également veiller à la conservation des journaux pour assurer la traçabilité des opérations.
+
+   C. Calendrier d'application et enjeux de formation.
+
+      L'application de l'AI Act est progressive et s'étalera de deux mille vingt-cinq à deux mille vingt-sept.
+
+      Les modèles d'IA à usage général sont soumis à des obligations spécifiques dès le deux août deux mille vingt-cinq.
+
+      Un report concernant le calendrier des systèmes à haut risque a été proposé par la Commission fin deux mille vingt-cinq dans l'omnibus numérique.
+
+      L'obligation de maîtrise de l'IA impose aux déployeurs de former leurs personnels pour encadrer correctement les usages.
+
+      Le ministère doit tenir un registre des systèmes d'IA en service en précisant leur niveau de risque respectif.
+
+V. AUTRES RÉGLEMENTATIONS ET ENJEUX SECTORIELS.
+
+   A. Certification européenne et Cybersecurity Act.
+
+      Le Cybersecurity Act et l'EUCC sont des règlements qui visent les produits et services certifiés. L'EUCC est applicable depuis février deux mille vingt-cinq.
+
+      Ce schéma européen de certification se fonde sur les Critères Communs qui remplacent progressivement les schémas nationaux pour les produits. Les Critères Communs constituent une norme internationale ISO/IEC quinze mille quatre cent huit et non une norme européenne.
+
+      L'ENISA est l'agence de l'Union européenne pour la cybersécurité qui rédige les schémas candidats et publie les certificats. Elle travaille avec le SCCG, un groupe de parties prenantes représentant le secteur privé, la normalisation et les consommateurs.
+
+      L'évaluation est réalisée par un CESTI qui produit un rapport technique d'évaluation présentant les conclusions et les justifications. Un organisme de certification délivre ensuite les certificats à partir de ces rapports.
+
+      Le processus peut impliquer un produit composite qui est un produit TIC évalué avec un produit sous-jacent déjà certifié EUCC. L'échelle des critères communs compte sept niveaux d'assurance nommés EAL.
+
+   B. DORA et la résilience du secteur financier.
+
+      Le règlement DORA concerne la résilience opérationnelle numérique du secteur financier et de ses prestataires TIC. Il est applicable depuis janvier deux mille vingt-cinq.
+
+      Ce texte repose sur cinq piliers incluant la gestion du risque TIC, la gestion et la notification des incidents, les tests de résilience, le risque lié aux prestataires TIC et le partage d'information. L'organe de direction est responsable du cadre de gestion du risque selon l'article cinq.
+
+      Le principe de proportionnalité prévu par l'article quatre permet d'adapter les exigences à la taille des entités. Bien qu'un ministère n'y soit pas directement soumis, ses opérateurs financiers et ses prestataires peuvent l'être.
+
+      La logique de DORA sert de bon guide pour les autres secteurs avec une stratégie multifournisseurs et une tolérance au risque approuvée par la direction. Le règlement prévoit également des tests d'intrusion avancés nommés TLPT pour les entités les plus importantes.
+
+   C. Data Act et services numériques (DSA).
+
+      Le Data Act est un règlement qui concerne les détenteurs de données et les fournisseurs de cloud. Il est applicable depuis septembre deux mille vingt-cinq.
+
+      Ce texte facilite le changement de fournisseur cloud en supprimant progressivement les frais de changement. Il définit le détenteur de données comme une personne physique ou morale ayant le droit ou l'obligation d'utiliser et de mettre à disposition les données.
+
+      Le règlement sur les services numériques, ou DSA, encadre les intermédiaires comme le simple transport, le cache ou l'hébergement. Il définit également les plateformes en ligne comme des services d'hébergement qui diffusent des informations au public.
+
+      L'administration est concernée par le DSA lorsqu'elle héberge des contenus d'usagers sur des forums ou des dépôts de pièces. Elle doit également utiliser le dispositif pour signaler des contenus illicites aux plateformes.
+
+      Le règlement distingue les services selon leur taille, notamment les très grandes plateformes ou très grands moteurs de recherche qui comptent au moins quarante-cinq millions de destinataires actifs mensuels dans l'Union. Le DSA permet aussi l'intervention de signaleurs de confiance pour détecter les contenus illicites.
+
+VI. SYNTHÈSE OPÉRATIONNELLE POUR LE MINISTÈRE.
+
+   A. Responsabilités de la direction et gestion unifiée des incidents.
+
+      La direction du ministère est désormais tenue pour responsable de l'approbation des mesures de sécurité et de la supervision de leur mise en œuvre. Elle doit impérativement se former pour assumer ses nouvelles obligations de gouvernance imposées par NIS deux.
+
+      Une approche de gestion des risques multirisque doit être adoptée pour couvrir la chaîne d'approvisionnement, la gestion des incidents, la continuité, le chiffrement et l'hygiène informatique. Cette stratégie doit être cohérente avec les exigences de la PSSIE qui intégrera le référentiel NIS deux au premier trimestre deux mille vingt-sept.
+
+      Le ministère doit mettre en place une procédure unique de qualification et de notification des incidents pour répondre aux délais très courts. Une alerte précoce est exigée sous vingt-quatre heures, suivie d'une notification sous soixante-douze heures et d'un rapport final sous un mois.
+
+      L'organisation doit être capable de traiter simultanément les obligations de différents textes car une même fuite peut déclencher une notification NIS deux à l'ANSSI et une notification RGPD à la CNIL. Cette gestion unifiée est cruciale puisque l'administration publique est le premier secteur concerné par les violations de données avec dix-neuf pour cent des notifications reçues par la CNIL en deux mille vingt-cinq.
+
+   B. Impacts sur l'infrastructure et la gestion contractuelle.
+
+      L'infrastructure doit être dotée de journaux exploitables pour permettre la reconstitution précise d'un incident de cybersécurité. Un inventaire rigoureux des produits et de leurs composants est nécessaire pour exploiter les SBOM et suivre les fins de support.
+
+      La gestion des systèmes d'intelligence artificielle impose la tenue d'un registre des systèmes en service avec leur niveau de risque associé. Pour les usages à haut risque, le ministère doit assurer le contrôle humain, la conservation des journaux et réaliser une analyse d'impact sur les droits fondamentaux.
+
+      Les clauses contractuelles des marchés publics doivent désormais intégrer les exigences du CRA, de NIS deux et du RGPD. Le ministère peut exiger que les produits numériques soient livrés sans vulnérabilité exploitable connue et avec une configuration sécurisée par défaut.
+
+      L'acheteur public doit veiller à ce que le fabricant garantisse une période d'assistance d'au moins cinq ans avec des mises à jour de sécurité gratuites. Il est également possible de refuser un produit non conforme au marquage CE ou ne disposant pas d'une nomenclature logicielle SBOM.
+
+   C. Glossaire des notions techniques et juridiques.
+
+      Le responsable du traitement est l'autorité publique qui détermine les finalités et les moyens du traitement des données à caractère personnel. La pseudonymisation permet de traiter les données de façon à ce qu'elles ne puissent plus être attribuées à une personne précise sans informations supplémentaires conservées séparément.
+
+      Un produit comportant des éléments numériques désigne tout produit logiciel ou matériel incluant des solutions de traitement de données à distance. Le CRA distingue les produits critiques présentant un risque systémique élevé de ceux qui sont importants avec un risque de cybersécurité élevé.
+
+      Le SBOM est une nomenclature logicielle indispensable pour la traçabilité des composants. Un fabricant doit signaler toute vulnérabilité activement exploitée sous vingt-quatre heures.
+
+      Le niveau AVA_VAN mesure la résistance d'une cible d'évaluation à l'exploitation de ses failles sur une échelle de un à cinq. L'EAL représente l'échelle des critères communs pour l'assurance de l'évaluation qui compte sept niveaux.
+
+      La lex specialis signifie que le règlement DORA prime sur NIS deux pour la gestion du risque cyber et la notification des incidents des entités financières. Un incident de cybersécurité majeur est un incident dont l'impact dépasse les capacités de réaction d'un État membre.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre règlement et directive car le règlement s'applique directement tandis que la directive nécessite une transposition en droit national.
+
+      La distinction entre NIS deux et le RGPD est cruciale puisque la première organise la sécurité globale et la seconde assure la protection des personnes.
+
+      Le CRA ne vise pas les utilisateurs mais les fabricants de produits numériques, même si le ministère doit en intégrer les exigences dans ses achats.
+
+      L'AI Act classe les systèmes selon leur risque et les ministères peuvent être considérés comme déployeurs de systèmes à haut risque.
+
+      Une même fuite de données peut déclencher simultanément une notification NIS deux auprès de l'ANSSI et une notification RGPD auprès de la CNIL.
+
+EXEMPLES CITÉS.
+
+      En deux mille vingt-cinq la CNIL a reçu six mille cent soixante-sept notifications de violations de données, ce qui représente près de seize incidents par jour.
+
+      L'administration publique est le premier secteur concerné par ces violations avec dix-neuf pour cent des notifications totales.
+
+      Pour les entités privées les sanctions liées à NIS deux peuvent atteindre dix millions d'euros ou deux pour cent du chiffre d'affaires mondial.
+
+      Le projet de loi français pour transposer NIS deux et REC a été adopté par le Sénat le douze mars deux mille vingt-cinq.
+
+      Le CRA prévoit des signalements de vulnérabilités dès septembre deux mille vingt-six pour une application complète en décembre deux mille vingt-sept.

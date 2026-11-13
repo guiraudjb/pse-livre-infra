@@ -1,0 +1,21 @@
+{
+  "name": "Livre : infrastructure informatique publique",
+  "short_name": "pse-livre-infra",
+  "description": "Révision chapitre par chapitre du livre « Infrastructure informatique d'une grande organisation publique » : contexte et cadre (menace, droit européen, socle national, souveraineté), gouvernance et architecture, réseau, identités, datacenters et cloud, poste de travail, données, achats, IA, supervision, crise, continuité, sauvegarde, compétences et feuille de route 2026-2030. Chaque module propose la lecture du chapitre par Amélie, le chapitre en PDF, une fiche, un QCM, des flashcards, un podcast, une infographie et une chanson slam.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f5f5fe",
+  "theme_color": "#000091",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

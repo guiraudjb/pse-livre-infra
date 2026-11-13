@@ -1,0 +1,259 @@
+ANALYSE DE LA MENACE CYBER ET DES ENJEUX DE SÉCURITÉ POUR UN MINISTÈRE.
+
+LEXIQUE COMPLET.
+
+      L'ANSSI désigne l'autorité qui traite les événements de sécurité et considère les cybercriminels ainsi que les attaquants liés à la Chine et à la Russie comme les trois principales menaces.
+
+      Le RaaS désigne le Ransomware as a Service, un modèle économique où un opérateur fournit des ressources de rançongiciel à des affiliés contre un pourcentage des rançons.
+
+      L'ENISA désigne l'agence européenne qui a publié un rapport couvrant la période de juillet deux mille vingt-quatre à juin deux mille vingt-cinq sur la base de quatre mille huit cent soixante-quinze incidents.
+
+      L'ADINT désigne une technique exploitant les failles du marché publicitaire pour associer un équipement à son utilisateur à des fins d'espionnage.
+
+      Le mode opératoire Nobelium désigne une attaque réputée liée au service de renseignement extérieur russe, le SVR, spécialisée dans l'hameçonnage ciblé.
+
+      Le mode opératoire Volt Typhoon désigne une attaque attribuée par les Five Eyes à la Chine pour du pré-positionnement en vue de déstabilisation.
+
+      Le wiper désigne un programme malveillant qui détruit les données d'un système.
+
+      L'INESIA désigne l'Institut national pour l'évaluation et la sécurité de l'intelligence artificielle qui fédère les acteurs français autour de la régulation et de la fiabilité.
+
+      Le REMPAR25 désigne l'exercice de crise cyber massifié organisé le dix-huit septembre deux mille vingt-cinq par l'ANSSI pour simuler un black-out numérique.
+
+      La loi de blocage désigne la loi du vingt-six juillet mille neuf cent soixante-huit qui interdit de communiquer à des autorités étrangères des informations sensibles pouvant porter atteinte aux intérêts nationaux.
+
+COURS DÉTAILLÉ.
+
+I. TYPOLOGIE ET MOTIVATIONS DES ATTAQUANTS.
+
+   A. Les trois profils d'attaquants et leurs objectifs.
+
+      Un ministère est visé par trois types d'attaquants distincts dont les motivations diffèrent. Les criminels cherchent l'argent, les services étrangers visent le renseignement et les hacktivistes ciblent l'image.
+
+      L'extorsion est pratiquée par des groupes cybercriminels ou parfois étatiques pour obtenir une rançon ou revendre des données. Ils utilisent notamment le modèle de rançongiciel en mode service ou le vol de données sans chiffrement.
+
+      L'espionnage est mené par des acteurs dont les modes opératoires sont réputés russes et chinois. Leur but est d'obtenir un renseignement stratégique, politique ou économique par la compromission discrète de messageries et d'annuaires.
+
+      La déstabilisation est l'objectif des hacktivistes et de certains services étrangers pour nuire à l'image ou saboter. Ils emploient le déni de service distribué, la défiguration de sites ou l'usage de code destructeur.
+
+   B. L'écosystème de la cybercriminalité et de l'espionnage étatique.
+
+      L'ANSSI identifie l'écosystème cybercriminel ainsi que les attaquants liés à la Chine et à la Russie comme les trois principales menaces pour les systèmes critiques. Le modèle du ransomware as a service permet à des affiliés de bénéficier de ressources contre un pourcentage des rançons.
+
+      Le rapport ENISA Threat Landscape deux mille vingt-cinq montre que l'hacktivisme représente près de quatre-vingts pour cent des incidents, bien que seuls deux pour cent perturbent réellement un service. Le groupe NoName057(seize) est responsable de plus de soixante pour cent des revendications via sa plateforme DDoSia.
+
+      Le rançongiciel demeure la menace la plus lourde avec des acteurs comme Akira et SafePay. En deux mille vingt-quatre, cent quarante-quatre compromissions par rançongiciel ont été signalées avec trente-neuf souches différentes.
+
+      L'espionnage étatique utilise des méthodes comme Nobelium, un mode opératoire russe spécialisé dans l'hameçonnage ciblé. La Chine est également associée à Volt Typhoon, un mode opératoire utilisé pour le pré-positionnement en vue de déstabilisation.
+
+      La menace s'étend également aux téléphones mobiles où l'ANSSI a traité plusieurs compromissions de hauts responsables. Les logiciels espions visent des autorités, des élus et des journalistes via des chaînes d'infection furtives.
+
+   C. Évolution des capacités techniques et usage de l'IA.
+
+      Les attaquants détournent désormais des outils légitimes comme la prise en main à distance ou le stockage en ligne pour fondre leur trafic dans l'activité normale. Ils utilisent aussi des voleurs d'identifiants pour préparer des attaques par rançongiciel.
+
+      L'intelligence artificielle est utilisée pour produire des sites et des messages très crédibles. Elle permet également d'accélérer les phases de reconnaissance lors des attaques.
+
+      L'ingénierie sociale est enrichie par l'IA capable de cloner des voix et des vidéos pour des escroqueries au faux dirigeant. Les attaquants utilisent aussi des domaines en caractères cyrilliques ressemblant au latin pour tromper les victimes.
+
+      Le partage d'outils publics entre attaquants rend l'imputation de leurs actes de plus en plus difficile. Cette tendance s'inscrit dans des campagnes continues qui érodent la résilience globale des organisations.
+
+II. PANORAMA STATISTIQUE ET ÉTAT DE LA MENACE.
+
+   A. Indicateurs de l'ANSSI et tendances des rançongiciels.
+
+      En deux mille vingt-quatre, l'ANSSI a traité quatre mille trois cent quatre-vingt-six événements de sécurité, ce qui représente une hausse de quinze pour cent, dont mille trois cent soixante et un incidents.
+
+      Le pic d'activité constaté en juillet est directement lié à l'organisation des Jeux olympiques et paralympiques.
+
+      On a signalé cent quarante-quatre compromissions par rançongiciel en deux mille vingt-quatre avec l'utilisation de trente-neuf souches différentes.
+
+      Les PME, ETI et TPE sont les cibles les plus touchées, tandis que l'enseignement supérieur représente douze pour cent des cas.
+
+      En deux mille vingt-cinq, les rançongiciels connaissent une légère baisse, mais la souche Qilin cause à elle seule plus de sept cents victimes dans le monde.
+
+      L'état du parc montre que quatre-vingt-deux pour cent des postes suivis par l'ANSSI étaient sous Windows dix au moment de la fin du support le quatorze octobre deux mille vingt-cinq.
+
+   B. Analyse du paysage européen selon l'ENISA.
+
+      Le rapport ENISA Threat Landscape deux mille vingt-cinq couvre la période de juillet deux mille vingt-quatre à juin deux mille vingt-cinq et s'appuie sur quatre mille huit cent soixante-quinze incidents.
+
+      L'hacktivisme représente près de quatre-vingts pour cent des incidents, bien que seuls deux pour cent aient réellement perturbé un service.
+
+      Le groupe NoName057(seize) et sa plateforme DDoSia sont à l'origine de plus de soixante pour cent des revendications.
+
+      Le rançongiciel demeure la menace la plus lourde avec les souches Akira et SafePay parmi les plus déployées.
+
+      Le constat global montre une transition vers des campagnes continues qui érodent la résilience plutôt que des incidents isolés spectaculaires.
+
+   C. Données nationales sur les atteintes numériques.
+
+      Le ministère de l'Intérieur a enregistré deux cent soixante-dix-huit mille sept cent soixante-dix atteintes numériques en deux mille vingt-trois, soit une augmentation de quarante pour cent en cinq ans.
+
+      Parmi les atteintes aux biens, les escroqueries représentent soixante-dix-neuf pour cent des cas recensés.
+
+      Les saisines concernant les rançongiciels ont connu une progression de vingt-huit pour cent.
+
+      La DGFiP a subi quatre mille neuf cent vingt-cinq attaques en deux mille vingt-quatre, ce qui marque une hausse de quatre-vingt-dix pour cent en un an.
+
+      Le CERT ministériel de Bercy a traité environ deux cents alertes et soixante-dix-sept incidents au cours de l'année deux mille vingt-cinq.
+
+III. VECTEURS D'INTRUSION ET VULNÉRABILITÉS.
+
+   A. Équipements de bordure et annuaire Active Directory.
+
+      Les équipements de bordure comme les pare-feu et les passerelles VPN sont des cibles privilégiées car ils sont directement exposés sur internet. Les attaquants exploitent ces dispositifs dès la publication d'une faille, ce qui impose de tenir un inventaire précis et d'appliquer des correctifs en urgence.
+
+      L'annuaire Active Directory constitue un enjeu majeur car sa maîtrise permet de prendre le contrôle de l'ensemble du système d'information. Pour limiter les risques, il est nécessaire de mettre en place un modèle d'administration en tiers et de protéger les comptes à privilèges.
+
+      L'utilisation de l'attribut ServicePrincipalName, ou SPN, mal positionné sur un compte privilégié peut permettre une attaque par force brute nommée Kerberoasting. Le durcissement du système d'information vise justement à sécuriser cet annuaire pour ralentir la progression d'un attaquant.
+
+      La virtualisation et la messagerie offrent également des accès profonds et durables aux intrus. L'infrastructure doit prévoir un cloisonnement des consoles ainsi qu'une supervision rigoureuse pour contrer ces menaces.
+
+   B. Prestataires, cloud et terminaux mobiles.
+
+      Les prestataires et les services de cloud représentent des vecteurs d'entrée critiques car la compromission d'un seul prestataire peut ouvrir l'accès à de nombreux clients. La sécurité doit être garantie par des clauses contractuelles, un contrôle des accès tiers et une qualification des prestataires.
+
+      Les terminaux mobiles sont vulnérables à des failles dites sans clic qui sont vendues par des sociétés de lutte informatique offensive privée. Le CERT-FR note que l'ANSSI a traité plusieurs compromissions de téléphones de hauts responsables publics sur leurs appareils personnels.
+
+      Les logiciels espions visent des cibles de haut niveau comme des élus, des avocats ou des journalistes avec des chaînes d'infection très furtives. Une gestion rigoureuse de la flotte et des mises à jour rapides sont indispensables pour protéger ces équipements.
+
+      L'ADINT est une technique d'espionnage qui exploite les failles du marché publicitaire pour associer un équipement à son utilisateur. Cette méthode permet de surveiller ou de cibler des individus de manière détournée.
+
+   C. Le facteur humain et l'ingénierie sociale.
+
+      L'ingénierie sociale utilise des techniques de manipulation pour exploiter la confiance ou l'urgence afin d'obtenir une action de la part de la victime. Les attaquants utilisent l'IA pour créer des messages et des sites extrêmement crédibles afin de faciliter leurs opérations.
+
+      Les utilisateurs sont régulièrement la cible de hameçonnage, de fatigue liée au MFA ou encore d'hameçonnage vocal. La sensibilisation et l'usage d'un MFA résistant au hameçonnage sont les principaux moyens de défense recommandés.
+
+      La fraude au président est une forme d'escroquerie par usurpation d'identité de dirigeant pour obtenir des virements ou des informations sensibles. Elle peut être enrichie par l'IA grâce au clonage de voix et de vidéo.
+
+      L'ingérence peut également passer par des approches physiques lors de déplacements à l'étranger dans des lieux comme les aéroports ou les hôtels. La DGSI décrit ces cas comme des tentatives de débauchage d'experts ou des escroqueries utilisant des domaines en caractères cyrilliques.
+
+      La fuite d'information ne passe pas toujours par le réseau informatique mais peut résulter d'une manipulation humaine directe. Les administrations doivent être vigilantes face à ces approches et utiliser les canaux de signalement dédiés.
+
+IV. MENACES SPÉCIFIQUES ET INGÉRENCES.
+
+   A. Compromission des téléphones et logiciels espions.
+
+      Le CERT-FR relève que l'ANSSI a traité plusieurs compromissions de téléphones de hauts responsables publics et de dirigeants en l'espace de trois ans.
+
+      Ces attaques visent principalement les appareils personnels des hautes autorités, des élus, des avocats, des journalistes et de leurs proches.
+
+      Les logiciels espions utilisent des chaînes d'infection furtives qui sont particulièrement difficiles à détecter.
+
+      Certaines failles dites sans clic sont vendues par des sociétés de lutte informatique offensive privée pour cibler les mobiles.
+
+      Une flotte gérée et des mises à jour rapides sont nécessaires pour contrer ces menaces sur les appareils mobiles.
+
+   B. L'ingérence par le facteur humain et les techniques de manipulation.
+
+      La DGSI publie des Flash ingérence pour illustrer les cas réels d'approches lors de déplacements à l'étranger dans les aéroports ou les hôtels.
+
+      Les méthodes incluent le débauchage d'experts, l'utilisation d'applications et d'audits étrangers ou encore des escroqueries au faux dirigeant.
+
+      L'IA permet d'enrichir ces fraudes en utilisant des voix et des vidéos clonées ou des domaines en caractères cyrilliques ressemblant au latin.
+
+      La fuite d'information pour une administration ne passe pas toujours par le réseau informatique mais par l'humain.
+
+      Les signalements de ces comportements doivent être adressés à l'adresse securite-economique@interieur.gouv.fr.
+
+   C. Protection du potentiel scientifique et technique.
+
+      La PPST est le dispositif réglementaire qui encadre l'accès aux savoirs sensibles pour protéger le potentiel scientifique et technique de la Nation.
+
+      Le contrôle des investissements étrangers en France, ou IEF, permet de soumettre à autorisation préalable certains investissements dans des secteurs stratégiques.
+
+      La loi de blocage du vingt-six juillet mille neuf cent soixante-huit interdit de communiquer à des autorités étrangères des informations sensibles pouvant porter atteinte aux intérêts nationaux.
+
+      Le SISSE est le guichet obligatoire pour l'application de cette loi de blocage au sein du ministère de l'Économie.
+
+      Pour les laboratoires sensibles, l'accès est soumis à autorisation au sein d'une zone à régime restrictif appelée ZRR.
+
+      Le FSD est le fonctionnaire de sécurité et de défense qui constitue l'interlocuteur obligatoire avant toute mobilité ou coopération étrangère sensible.
+
+V. STRATÉGIES DE DÉFENSE ET RÉSILIENCE MINISTÉRIELLE.
+
+   A. Le triptyque de l'ANSSI : sécuriser, superviser, répondre.
+
+      L'ANSSI préconise une approche structurée autour de trois piliers fondamentaux pour faire face à la menace. Cette stratégie repose sur la nécessité de réduire l'exposition initiale tout en se préparant à l'intrusion inévitable.
+
+      Le premier pilier consiste à sécuriser les systèmes en limitant les possibilités de déplacement latéral des attaquants. Une priorité absolue est donnée à la sécurisation de l'annuaire Active Directory pour empêcher la maîtrise totale du système d'information.
+
+      Le deuxième pilier est la supervision qui vise à détecter toute activité malveillante en analysant les journaux de bord. Cette étape est cruciale pour identifier les comportements anormaux avant qu'ils ne causent des dommages majeurs.
+
+      Le troisième pilier concerne la capacité de répondre qui implique de savoir gérer un incident technique puis une crise plus large. Cette préparation permet de maintenir la continuité de l'action de l'État malgré les attaques.
+
+   B. Mesures de protection de l'infrastructure et gestion des correctifs.
+
+      La protection de l'infrastructure commence par la tenue d'un inventaire rigoureux et à jour de tous les services exposés sur internet. Il est impératif de savoir précisément quels équipements sont accessibles de l'extérieur.
+
+      Un circuit de correction d'urgence doit être organisé pour les équipements de bordure comme les pare-feu ou les passerelles VPN. Ces correctifs doivent être appliqués en quelques jours et non en plusieurs semaines pour contrer l'exploitation immédiate des failles.
+
+      La gestion du parc informatique nécessite de sortir les systèmes obsolètes ou de les isoler pour éviter qu'ils ne deviennent des vecteurs d'attaque. Par exemple, trente-six pour cent des serveurs Windows étaient dans une version obsolète selon les données de l'ANSSI.
+
+      Le cas de Windows dix est particulièrement critique puisque le support s'est arrêté le quatorze octobre deux mille vingt-cinq. Comme quatre-vingt-deux pour cent des postes suivis par l'ANSSI étaient sous ce système, cette obsolescence représente un risque majeur.
+
+   C. Limitation des dégâts et architecture de défense.
+
+      L'architecture de défense doit être conçue pour limiter les conséquences d'une compromission réussie. Le cloisonnement des consoles de virtualisation et de la messagerie est une mesure essentielle pour empêcher un accès profond et durable.
+
+      Le durcissement du système d'information est une démarche de défense en profondeur qui ralentit la progression de l'attaquant. Cela inclut notamment la protection des comptes à privilèges et l'utilisation d'un modèle d'administration en tiers.
+
+      La résilience repose également sur la mise en place de sauvegardes hors ligne pour contrer les effets des rançongiciels. Cette mesure est vitale pour restaurer les données après une attaque par chiffrement ou par un programme de type wiper.
+
+      Enfin, la sécurité doit intégrer la gestion des accès tiers et des prestataires via des clauses de sécurité et un contrôle strict. Un prestataire compromis peut en effet ouvrir l'accès à de nombreux clients de manière simultanée.
+
+VI. GLOSSAIRE ET CADRE INSTITUTIONNEL.
+
+   A. Définitions techniques et concepts de cybersécurité.
+
+      Le Big Game Hunting désigne les attaques par rançongiciel ciblant des sociétés de grande taille particulièrement rentables.
+
+      Un wiper est un programme malveillant conçu pour détruire les données d'un système, tandis qu'une intrusion avérée est une compromission confirmée portée à la connaissance de l'ANSSI.
+
+      L'ADINT est une technique exploitant les failles du marché publicitaire pour associer un équipement à son utilisateur à des fins d'espionnage.
+
+      Le modèle Ransomware as a Service ou RaaS permet à un opérateur de fournir des ressources de rançongiciel à des affiliés contre un pourcentage des rançons.
+
+      Le durcissement du système d'information regroupe les mesures de défense en profondeur, comme la sécurisation de l'Active Directory, pour limiter les conséquences d'une compromission.
+
+      L'ingénierie sociale utilise des techniques de manipulation pour exploiter la confiance ou l'urgence afin d'obtenir une action de la victime.
+
+   B. Organismes, stratégies nationales et outils de gestion.
+
+      L'INESIA est l'institut national pour l'évaluation et la sécurité de l'intelligence artificielle qui fédère les acteurs français autour de la régulation et de la fiabilité.
+
+      La Stratégie nationale de cybersécurité deux mille vingt-six à deux mille trente est le volet de la Revue nationale stratégique deux mille vingt-cinq visant à former des talents et à entraver la menace.
+
+      Le SISSE est le service de l'information stratégique et de la sécurité économiques rattaché à la direction générale des entreprises pour l'application de la loi de blocage.
+
+      La loi de blocage du vingt-six juillet mille neuf cent soixante-huit interdit de communiquer à des autorités étrangères des informations sensibles pouvant porter atteinte aux intérêts nationaux.
+
+      Le programme REMPAR25 est un exercice de crise cyber organisé le dix-huit septembre deux mille vingt-cinq par l'ANSSI pour simuler un black-out numérique.
+
+      Le Secrétariat général assure la gestion opérationnelle et le pilotage ministériel pour rendre les ministères économiques et financiers plus résilients.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre un signalement qui regroupe un comportement anormal avec un incident où l'ANSSI confirme une action malveillante réussie.
+
+      La distinction entre l'extorsion et la déstabilisation est cruciale car la première vise l'argent tandis que la seconde cherche à nuire à l'image ou à saboter.
+
+      La sécurité par l'obscurité est une méthode jugée insuffisante par rapport à une véritable stratégie de défense en profondeur.
+
+      Il est important de nuancer l'impact de l'hacktivisme car si l'ENISA note que cela représente quatre-vingts pour cent des incidents, seuls deux pour cent perturbent réellement un service.
+
+      La fuite d'information ne passe pas uniquement par le réseau informatique mais peut aussi résulter d'une ingérence par le facteur humain.
+
+EXEMPLES CITÉS.
+
+      L'ANSSI a traité quatre mille trois cent quatre-vingt-six événements de sécurité en deux mille vingt-quatre, ce qui représente une augmentation de quinze pour cent.
+
+      Le groupe Qilin est un exemple de menace majeure avec plus de sept cents victimes recensées dans le monde en deux mille vingt-cinq.
+
+      La DGFiP a enregistré quatre mille neuf cent vingt-cinq attaques en deux mille vingt-quatre, soit une hausse de quatre-vingt-dix pour cent sur un an.
+
+      Le groupe NoName057(seize) est responsable de plus de soixante pour cent des revendications liées à la plateforme DDoSia.
+
+      Le ministère de l'Intérieur a comptabilisé deux cent soixante-dix-huit mille sept cent soixante-dix atteintes numériques en deux mille vingt-trois, avec une hausse de quarante pour cent en cinq ans.

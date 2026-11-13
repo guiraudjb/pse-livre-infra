@@ -1,0 +1,219 @@
+ANALYSE DU CONTEXTE INTERNATIONAL DE LA CYBER-GUERRE ET DE L'ORGANISATION DE LA CYBERDÉFENSE FRANÇAISE.
+
+LEXIQUE COMPLET.
+
+      L'ANSSI désigne l'agence chargée de la doctrine, des alertes et de l'assistance en cas d'incident pour la chaîne de protection.
+
+      Le sigle APT28 désigne un groupe de l'acteur russe GRU qui cible les ministères, les collectivités et les administrations françaises depuis deux mille vingt et un.
+
+      Le sigle FIMI désigne les manipulations de l'information et les ingérences étrangères.
+
+      Le sigle SGDSN désigne l'organisme qui anime le centre interministériel de crise et préside le COLMI.
+
+      Le sigle Viginum désigne le service de vigilance et de protection contre les ingérences numériques étrangères rattaché au SGDSN.
+
+      Le sigle C4 désigne le centre de coordination des crises cyber qui conduit la connaissance, la détection, la caractérisation et l'imputation des attaques.
+
+      Le sigle TTP désigne les techniques, tactiques et procédures qui caractérisent la manière d'agir d'un attaquant.
+
+      Le sigle SOC désigne le security operating centre qui est la structure opérationnelle chargée de la supervision des systèmes et le premier niveau de détection des attaques cyber.
+
+      Le sigle CEMA désigne le chef d'état-major des armées qui est responsable de la conduite de la cyberdéfense des systèmes d'information du ministère des Armées.
+
+      Le sigle LIO désigne la capacité de lutte offensive qui est séparée de la défense dans le modèle français.
+
+COURS DÉTAILLÉ.
+
+I. LE NOUVEAU PARADIGME DE LA CONFLICTUALITÉ CYBER.
+
+   A. Le passage de la paix à la compétition permanente.
+
+      La doctrine militaire française a abandonné le continuum classique entre la paix, la crise et la guerre pour adopter un nouveau triptyque composé de la compétition, de la contestation et de l'affrontement.
+
+      Le cyberespace est désormais considéré comme un champ de conflit permanent où les administrations civiles se retrouvent en première ligne comme cibles directes.
+
+      La Revue nationale stratégique de juillet deux mille vingt-cinq souligne un risque élevé de guerre majeure en Europe à l'horizon deux mille trente, ce qui s'accompagnera d'actions hybrides massives sur le territoire.
+
+      Cette situation implique qu'il n'existe plus de période de calme permettant de reporter les mesures de sécurité à une échéance ultérieure.
+
+   B. Les objectifs et les leviers de la stratégie hybride.
+
+      Les objectifs poursuivis par les attaquants demeurent des classiques tels que l'espionnage, les trafics illicites, la déstabilisation et le sabotage.
+
+      Ce qui caractérise l'évolution actuelle est la modification des moyens et de la vitesse d'exécution, ainsi que l'effacement progressif des frontières entre les acteurs étatiques et les criminels.
+
+      La stratégie hybride s'appuie sur cinq leviers prioritaires définis par la doctrine interministérielle de février deux mille vingt-cinq.
+
+      Ces leviers incluent les cyberattaques, la manipulation de l'information, le lawfare par l'usage offensif du droit, les pressions économiques et les opérations militaires.
+
+II. PANORAMA DES ACTEURS ET DES MENACES.
+
+   A. Typologie des acteurs étatiques et criminels.
+
+      La Russie agit principalement via ses services de renseignement comme le GRU, le FSB ou le SVR pour mener des missions de renseignement, de déstabilisation et de sabotage. Elle est associée à des groupes tels que APT28, qui a fait l'objet d'une première attribution nationale publique en deux mille vingt-cinq, ou encore Turla, attribué le treize juillet deux mille vingt-six.
+
+      La Chine se concentre sur l'espionnage de long terme et le prépositionnement stratégique en ciblant notamment les télécommunications et l'industrie. Des acteurs comme APT31 ou Houken sont cités dans ce cadre.
+
+      L'Iran et la Corée du Nord mènent des campagnes opportunistes visant l'espionnage et la génération de revenus.
+
+      Les cybercriminels recherchent l'argent par le biais des rançons, de la revente de données ou d'accès, en utilisant des services de rançongiciels comme Akira, SafePay ou Lockean.
+
+      Les hacktivistes cherchent la visibilité, à l'image du groupe NoName057(seize) qui est responsable de plus de soixante pour cent des revendications de déni de service en Europe.
+
+   B. Convergence des modes opératoires et des intérêts.
+
+      La frontière entre les acteurs étatiques et les criminels devient de plus en plus floue dans le paysage actuel. Le panorama deux mille vingt-cinq de l'ANSSI note que des acteurs étatiques déploient désormais eux-mêmes des rançongiciels.
+
+      L'ENISA constate une convergence croissante des pressions exercées par ces différentes catégories d'attaquants.
+
+      La stratégie hybride utilisée par les adversaires combine plusieurs leviers prioritaires selon la doctrine interministérielle de février deux mille vingt-cinq. Ces leviers incluent les cyberattaques, la manipulation de l'information, le lawfare, l'économie et les opérations militaires.
+
+      Les objectifs des attaquants restent classiques, à savoir l'espionnage, les trafics illicites, la déstabilisation et le sabotage. Ce qui change est la vitesse des attaques et l'effacement des frontières entre les acteurs.
+
+III. ENSEIGNEMENTS DES CONFLITS CONTEMPORAINS.
+
+   A. Le conflit ukrainien comme laboratoire.
+
+      Le conflit en Ukraine sert de véritable laboratoire pour l'observation des nouvelles formes de guerre hybride.
+
+      Les attaques contre les réseaux électriques ukrainiens ont été lancées bien avant l'invasion du vingt-quatre février deux mille vingt-deux.
+
+      L'attaque visant le réseau satellitaire Viasat le jour de l'invasion a démontré l'ampleur des dommages collatéraux.
+
+      Les effets de cette opération sur Viasat ont été ressentis jusqu'en Europe de l'Ouest.
+
+   B. Les leçons sur les effets de débordement et les vecteurs d'attaque.
+
+      Les attaques comme NotPetya en deux mille dix-sept ou Viasat en deux mille vingt-deux ont frappé des organisations qui n'étaient pas les cibles initiales.
+
+      Ces événements prouvent que les effets de débordement peuvent toucher des entités totalement étrangères au conflit.
+
+      Les équipements de bordure comme les routeurs, les passerelles, les pare-feu, les VPN et les serveurs de messagerie constituent les principales portes d'entrée.
+
+      Ces actifs sont souvent peu surveillés et peuvent être compromis par des acteurs comme APT28 sans même le dépôt d'une porte dérobée.
+
+   C. L'information comme arme de déstabilisation.
+
+      L'information est devenue une arme capable de servir de support à des campagnes de dénigrement contre les services publics.
+
+      Le service Viginum a identifié quarante-trois manœuvres informationnelles qui visaient spécifiquement les Jeux de Paris deux mille vingt-quatre.
+
+      Les données et les services publics en ligne peuvent être exploités pour mener ces opérations de déstabilisation.
+
+IV. L'ORGANISATION DE LA CYBERDÉFENSE EN FRANCE.
+
+   A. Le modèle de séparation offensif et défensif.
+
+      Le modèle français de cyberdéfense est fondé sur un principe de distinction stricte entre les capacités offensives et les capacités défensives.
+
+      Cette organisation structurelle a été confirmée par la revue stratégique de cyberdéfense de deux mille dix-huit.
+
+      Cette séparation garantit que les missions de protection et de réponse aux incidents ne sont pas confondues avec les opérations de combat ou d'influence.
+
+      L'action militaire reste par principe hors du périmètre civil, sauf en cas de crise majeure.
+
+   B. Les quatre chaînes opérationnelles et le rôle du C4.
+
+      La défense repose sur quatre chaînes opérationnelles distinctes qui sont coordonnées par un centre interministériel de crise animé par le SGDSN.
+
+      La chaîne de protection est assurée par l'ANSSI et le CERT-FR pour la doctrine, les alertes et l'assistance en cas d'incident.
+
+      Le renseignement est confié à la DGSE et à la DGSI pour assurer la connaissance de la menace et fournir des alertes ciblées.
+
+      L'investigation judiciaire est menée par la police, la gendarmerie et le COMCYBER-MI pour les plaintes, les enquêtes et les poursuites.
+
+      L'action militaire est pilotée par le COMCYBER pour la lutte défensive, offensive et d'influence.
+
+      Le C4, qui est le centre de coordination des crises cyber, a pour mission de conduire la connaissance, la détection, la caractérisation et l'imputation des attaques.
+
+V. CONCEPTS TECHNIQUES ET TERMINOLOGIE SPÉCIALISÉE.
+
+   A. Techniques d'attaque et outils malveillants.
+
+      Les attaquants utilisent des infostealers qui sont des codes malveillants conçus pour collecter des informations sur le poste de travail de la victime.
+
+      Le credentials harvesting permet une collecte massive d'identifiants de connexion pour compromettre des accès.
+
+      Les acteurs peuvent détourner des binaires légitimes d'un système d'exploitation de manière furtive via des lolbins.
+
+      Un rootkit est un code malveillant qui se dissimule au cœur du système, notamment sous la forme d'un module du noyau.
+
+      Le tunneling est une méthode permettant de transporter des données sur un réseau via des protocoles non pris en charge.
+
+      Les attaquants utilisent des webshells, qui sont des scripts déposés sur un serveur web pour permettre de le commander à distance.
+
+   B. Notions de manipulation de l'information et d'ingérence.
+
+      La FIMI désigne les manipulations de l'information et les ingérences étrangères dans le cyberespace.
+
+      Un ensemble de manipulation de l'information, ou IMS, est un dispositif organisé comme les campagnes Storm-1516 ou Doppelgänger.
+
+      Viginum est le service de vigilance et de protection contre les ingérences numériques étrangères rattaché au SGDSN.
+
+      Le COLMI est le comité opérationnel de lutte contre les manipulations de l'information présidé par le SGDSN et animé par Viginum.
+
+      Les Revolubots, aussi appelés Undercut, constituent un réseau de comptes inauthentiques diffusant des vidéos anti-ukrainiennes.
+
+      Le deepfake est une technique d'images de synthèse basée sur l'intelligence artificielle pour modifier des vidéos de façon apparemment authentique.
+
+   C. Dimensions et couches du cyberespace.
+
+      La couche physique du cyberespace est constituée des équipements des systèmes informatiques et de leurs réseaux comme les ordinateurs ou les routeurs.
+
+      La couche logique est formée par les données numériques, les processus et les outils de gestion de ces flux d'échanges.
+
+      La couche sémantique et sociale, également appelée couche informationnelle ou cognitive, comprend les informations circulant dans le cyberespace et les identités numériques.
+
+      La guerre de l'information est un affrontement de deux volontés par des messages visant à promouvoir des objectifs et à réduire ceux de l'adversaire.
+
+      La StratCom désigne le processus de communication stratégique des armées pour conduire toute activité militaire comme un message cohérent.
+
+VI. ENJEUX ET RÉSILIENCE POUR LES ADMINISTRATIONS.
+
+   A. Le ministère comme cible directe et par ricochet.
+
+      Le ministère constitue une cible directe pour des acteurs étatiques comme APT28 qui visent les administrations françaises depuis deux mille vingt et un.
+
+      L'administration est également une cible par ricochet car ses prestataires, ses partenaires et ses fournisseurs de logiciels représentent des portes d'entrée pour les attaquants.
+
+      La stratégie hybride des adversaires combine des cyberattaques avec la manipulation de l'information et le lawfare pour déstabiliser les institutions.
+
+      Les objectifs de ces attaques incluent l'espionnage, le sabotage, les trafics illicites et la déstabilisation des structures publiques.
+
+      La frontière entre les acteurs étatiques et les cybercriminels devient floue puisque certains États déploient désormais leurs propres rançongiciels.
+
+   B. Conséquences opérationnelles pour l'infrastructure et la continuité d'activité.
+
+      La résilience cyber de premier rang est l'objectif fixé par la Revue nationale stratégique pour permettre à la France de fonctionner sous pression.
+
+      Il est impératif de concevoir l'infrastructure en supposant la compromission afin de confiner toute intrusion dans une zone spécifique.
+
+      Les équipements de bordure tels que les VPN, les pare-feu et les serveurs de messagerie doivent être traités comme des actifs critiques nécessitant une mise à jour rapide.
+
+      L'administration doit être capable de prévoir un fonctionnement dégradé sans accès à Internet et sans certains fournisseurs étrangers.
+
+      Le raccordement aux circuits d'alerte nationaux comme l'ANSSI, le CERT-FR ou le C4 est indispensable pour la gestion des incidents.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre la période de paix avec une absence de menace car la doctrine française utilise désormais le triptyque compétition, contestation et affrontement.
+
+      Une erreur courante est de croire que les cyberattaques sont l'unique levier de la stratégie hybride alors qu'elles s'accompagnent de la manipulation de l'information, du lawfare, de l'économie et des opérations militaires.
+
+      Il est crucial de distinguer la victime finale, qui est l'objectif de l'espionnage, de la victime intermédiaire, qui sert de relais pour l'infrastructure de l'attaquant.
+
+      La frontière entre les acteurs étatiques et les cybercriminels devient floue puisque certains États déploient eux-mêmes des rançongiciels.
+
+      Il faut bien différencier la couche physique du cyberespace, qui concerne les équipements, de la couche sémantique et sociale qui concerne les informations et les identités numériques.
+
+EXEMPLES CITÉS.
+
+      L'attaque contre le réseau satellitaire Viasat le jour de l'invasion de l'Ukraine en deux mille vingt-deux a eu des répercussions jusqu'en Europe de l'Ouest.
+
+      Le groupe NoName057(seize) est responsable de plus de soixante pour cent des revendications de déni de service en Europe.
+
+      Viginum a identifié quarante-trois manœuvres informationnelles visant les Jeux de Paris deux mille vingt-quatre.
+
+      L'acteur russe APT28 a fait l'objet de la première attribution nationale publique en deux mille vingt-cinq.
+
+      La campagne Doppelgänger est un exemple d'usurpation de médias européens liée au groupe RRN.

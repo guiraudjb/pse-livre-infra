@@ -1,0 +1,269 @@
+LE SOCLE NATIONAL DE LA SÉCURITÉ DES SYSTÈMES D'INFORMATION DE L'ÉTAT.
+
+LEXIQUE COMPLET.
+
+      L'ANSSI désigne l'autorité nationale de sécurité des SI, rattachée au SGDSN, qui définit les règles, les guides, les qualifications, les contrôles et la réponse aux incidents.
+
+      La PSSIE désigne la circulaire 5725/SG du dix-sept juillet deux mille quatorze qui pose les règles de protection des SI de l'État pour les SI internes des administrations de l'État.
+
+      Le RGS deux virgule zéro désigne l'ordonnance du huit décembre deux mille cinq, en version deux mille quatorze, qui organise la sécurité des échanges électroniques pour les téléservices de l'État, des collectivités et des établissements publics.
+
+      L'homologation désigne l'acceptation des risques métier par une autorité, et non une simple formalité administrative.
+
+      L'II neuf cent un désigne le texte qui fixe les objectifs de sécurité et le socle de mesures pour les SI sensibles et les informations de Diffusion Restreinte.
+
+      L'IGI mille trois cents désigne le texte de deux mille vingt et un relatif au secret de la défense nationale pour les SI classifiés Secret et Très Secret.
+
+      Le dispositif SAIV désigne le dispositif de sécurité des activités d'importance vitale qui compte douze secteurs, environ trois cents OIV et mille cinq cents points d'importance vitale.
+
+      Le CSPN désigne un visa qui atteste de la résistance d'un produit lors d'une évaluation courte, comme un pare-feu ou un chiffreur.
+
+      Le SecNumCloud désigne un label pour les prestataires cloud de confiance permettant l'hébergement des données sensibles.
+
+      La mention Diffusion Restreinte désigne une mention de protection qui impose une architecture dédiée sans être un timbre de classification.
+
+      L'AQSSI désigne l'autorité qualifiée pour la sécurité des SI qui désigne l'autorité d'homologation sur son périmètre et porte la responsabilité juridique de la décision.
+
+COURS DÉTAILLÉ.
+
+I. GOUVERNANCE ET ACTEURS DE LA SÉCURITÉ NATIONALE.
+
+   A. Rôles des autorités (SGDSN, ANSSI, DINUM).
+
+      La SGDSN pilote la sécurité nationale et prépare les instructions interministérielles telles que l'IGI mille trois cents, l'II neuf cent un ou l'IGI six mille six cents.
+
+      L'ANSSI est l'autorité nationale de sécurité des SI rattachée au SGDSN, chargée des règles, des guides, des qualifications, des contrôles et de la réponse aux incidents.
+
+      La DINUM définit la stratégie numérique de l'État et la doctrine cloud, tout en étant co-auteur du guide d'homologation.
+
+   B. La chaîne fonctionnelle SSI et hiérarchique.
+
+      La chaîne fonctionnelle SSI est une organisation qui double la chaîne hiérarchique pour assurer la sécurité.
+
+      Cette structure porte la sécurité des systèmes d'information depuis le cabinet du ministre jusqu'au service local.
+
+      Elle permet d'étendre la responsabilité de la sécurité à tous les niveaux de l'administration.
+
+   C. Les acteurs opérationnels (HFDS, AQSSI, RSSI).
+
+      Le HFDS du ministère anime et contrôle la politique de sécurité, avec l'assistance du FSSI.
+
+      L'AQSSI est une autorité qualifiée qui assure la responsabilité de la sécurité des SI au niveau des directions.
+
+      Le RSSI est le responsable de la sécurité des SI qui apporte l'expertise et porte le dossier lors de la démarche d'homologation.
+
+II. CADRE RÉGLEMENTAIRE ET TEXTES DE RÉFÉRENCE.
+
+   A. La PSSIE et les règles de protection des SI de l'État.
+
+      La PSSIE est régie par la circulaire 5725/SG du dix-sept juillet deux mille quatorze et définit les règles de protection des SI de l'État. Elle s'applique spécifiquement aux SI internes des administrations de l'État.
+
+      Ce texte pose un socle commun que chaque ministère doit décliner dans sa propre politique de sécurité. La feuille de route pour les années deux mille vingt-six à deux mille vingt-sept prévoit d'y intégrer les exigences de NIS deux.
+
+      Les principes fondamentaux reposent sur la responsabilité des autorités, la défense en profondeur et l'obligation d'homologation. Elle impose également l'usage de produits et de prestataires qualifiés ainsi que le cloisonnement des réseaux.
+
+      La politique intègre aussi la maîtrise des accès internet, la journalisation des activités et la sensibilisation des agents. Elle s'appuie sur une chaîne fonctionnelle SSI qui assure la sécurité du cabinet du ministre jusqu'au service local.
+
+   B. Le RGS et la sécurité des échanges électroniques.
+
+      Le RGS deux virgule zéro repose sur l'ordonnance du huit décembre deux mille cinq et la version de deux mille quatorze. Il est destiné à sécuriser les téléservices de l'État, des collectivités et des établissements publics.
+
+      Ce référentiel organise la sécurité autour de cinq fonctions essentielles. Celles-ci sont l'identification, l'authentification, la signature électronique, la confidentialité et l'horodatage.
+
+      Pour chaque fonction, l'administration doit choisir un niveau de sécurité parmi un, deux ou trois étoiles. Ce choix doit être dicté par une analyse de risque préalable.
+
+      Le RGS s'articule directement avec le règlement européen eIDAS. Il utilise des prestataires de services de confiance qualifiés pour assurer la certification électronique ou l'horodatage.
+
+   C. Les instructions II neuf cent un, II neuf cent dix et IGI mille trois cents.
+
+      La protection des systèmes d'information de l'État s'étage sur trois textes préparés par l'ANSSI. L'instruction IGI mille trois cents de deux mille vingt et un concerne le secret de la défense nationale pour les SI classifiés Secret et Très Secret.
+
+      L'instruction II neuf cent un définit les objectifs de sécurité et le socle de mesures pour les SI sensibles. Elle s'applique aux administrations et à tout organisme traitant des informations sensibles sans qu'elles relèvent du secret de la défense nationale.
+
+      La mention Diffusion Restreinte n'est pas une classification mais une mention qui impose une architecture dédiée. Elle nécessite notamment l'isolement d'internet et l'usage de passerelles maîtrisées.
+
+      L'instruction II neuf cent dix traite des articles contrôlés de la sécurité ou ACSSI. Elle encadre spécifiquement les moyens de chiffrement et la gestion des clés.
+
+      Ces instructions s'appuient sur la chaîne fonctionnelle SSI comprenant le HFDS, le FSSI, le RSSI et l'autorité d'homologation. L'II neuf cent un fixe un socle sans pour autant dispenser de l'analyse de risque propre à chaque système.
+
+III. LE PROCESSUS D'HOMOLOGATION DES SYSTÈMES D'INFORMATION.
+
+   A. Principes et niveaux de la démarche d'homologation.
+
+      L'homologation n'est pas une simple formalité administrative mais constitue une acceptation formelle des risques métier par une autorité.
+
+      Le guide ANSSI-DINUM de deux mille vingt-cinq a simplifié cette démarche en introduisant trois niveaux de procédure selon la criticité et l'exposition du système.
+
+      Un système d'information peu critique peut bénéficier d'un dossier d'homologation allégé pour gagner en efficacité.
+
+      Les homologations provisoires ont disparu pour laisser place à une durée de validité qui est de trois ans au maximum en général.
+
+      Il est possible d'homologuer un système d'information imparfait à condition que ses risques résiduels soient acceptables et suivis par un plan d'action.
+
+   B. Responsabilités et gestion des risques métier.
+
+      La démarche repose sur trois lignes de responsabilité distinctes pour garantir la sécurité du système.
+
+      La DSI assure la mise en œuvre technique tandis que le RSSI apporte l'expertise nécessaire et porte le dossier d'homologation.
+
+      Le comité d'homologation intervient pour contrôler la validité de la procédure et de la décision.
+
+      L'analyse de risques doit être réalisée selon la méthode EBIOS Risk Manager quand l'ANSSI est l'autorité d'homologation.
+
+      L'AQSSI est l'autorité qualifiée qui désigne l'autorité d'homologation sur son périmètre et porte la responsabilité juridique de la décision.
+
+   C. Exigences de cartographie et de maintien en condition.
+
+      La cartographie du système d'information doit impérativement être tenue à jour et sauvegardée en dehors du système lui-même.
+
+      Elle doit présenter trois vues distinctes qui sont les vues métier, applicative et infrastructure.
+
+      Cette cartographie doit être datée pour garantir la fiabilité des informations de l'inventaire.
+
+      Tout système d'information exploité sans homologation doit être soit homologué, soit arrêté.
+
+      Pour un ministère gérant huit cents applications, l'homologation représente un chantier permanent qui nécessite une industrialisation des processus.
+
+IV. PROTECTION DES INFORMATIONS SENSIBLES ET CLASSIFIÉES.
+
+   A. Niveaux de sensibilité et exigences d'infrastructure.
+
+      La protection des systèmes d'information de l'État s'articule autour de trois niveaux de sensibilité définis par les textes du SGDSN. Ces niveaux déterminent les mesures de sécurité et les types d'infrastructures à mettre en œuvre pour chaque organisme.
+
+      Le premier niveau concerne les informations sensibles sans mention particulière, qui sont régies par l'II neuf cent un. Ce niveau impose un socle de mesures de sécurité et une démarche d'homologation pour protéger les missions de l'entité.
+
+      Le deuxième niveau correspond à la mention Diffusion Restreinte, qui impose une architecture dédiée et des mesures de protection spécifiques. Elle se situe entre les informations sensibles classiques et le régime du secret de la défense nationale.
+
+      Le troisième niveau concerne les informations classifiées Secret et Très Secret, qui sont encadrées par l'IGI mille trois cents. Ce niveau exige des systèmes d'information dédiés, des homologations de deux à trois ans et des audits TEMPEST.
+
+   B. Le régime de la Diffusion Restreinte (DR).
+
+      La mention Diffusion Restreinte n'est pas une classification au sens juridique, mais une mention de protection. Elle est destinée à protéger des informations sensibles sans les placer sous le régime pénal du secret de la défense nationale.
+
+      L'application de cette mention impose des contraintes architecturales strictes pour l'organisme qui traite ces données. Le système doit notamment assurer un isolement par rapport à internet et utiliser des passerelles maîtrisées.
+
+      Le chiffrement des données dans un environnement DR doit être réalisé par un produit qualifié hors du système d'information. Cette exigence est un point majeur pour les ministères souhaitant migrer vers le cloud.
+
+      L'II neuf cent un s'applique aussi bien aux administrations qu'à tout organisme, public ou privé, traitant ces informations. Ce texte fixe un socle de mesures sans pour autant dispenser de l'analyse de risque propre à chaque système.
+
+   C. Le secret de la défense nationale et les SI classifiés.
+
+      Le secret de la défense nationale protège les informations dont la divulgation peut nuire aux intérêts fondamentaux de la Nation. Ce régime est encadré par l'IGI mille trois cents pour les systèmes d'information classifiés de niveau Secret et Très Secret.
+
+      L'accès à ces informations est strictement conditionné par l'habilitation et la nécessité absolue du besoin d'en connaître. L'habilitation est la décision qui autorise une personne physique ou morale à accéder à un niveau de classification.
+
+      Au niveau Très Secret, la gestion est renforcée par l'obligation de disposer d'un bureau de protection du secret. Ce bureau assure l'enregistrement, la conservation et le suivi rigoureux des informations classifiées.
+
+      La protection des systèmes classifiés repose sur des mesures techniques et organisationnelles de haut niveau. Cela inclut l'utilisation de systèmes dédiés et le respect de procédures d'audit et de contrôle très strictes.
+
+V. DISPOSITIF DE PROTECTION DES ACTIVITÉS D'IMPORTANCE VITALE.
+
+   A. Les opérateurs d'importance vitale (OIV) et les secteurs.
+
+      Le dispositif de sécurité des activités d'importance vitale, ou SAIV, s'articule autour de douze secteurs d'activités essentiels. Ces domaines regroupent des secteurs comme l'énergie, les transports, la santé, l'eau, les communications ou la finance.
+
+      Ce dispositif concerne environ trois cents OIV qui sont identifiés au sein de ces secteurs. Ces opérateurs gèrent également mille cinq cents points d'importance vitale répartis sur le territoire.
+
+      Un ministère peut lui-même avoir le statut d'OIV ou bien exercer la fonction de tutelle sur des OIV.
+
+   B. Obligations de déclaration et de contrôle.
+
+      Depuis l'application de la LPM de deux mille treize, chaque OIV est soumis à des obligations strictes de déclaration. Ils doivent notamment déclarer à l'ANSSI leurs systèmes d'information d'importance vitale, appelés SIIV.
+
+      Les opérateurs doivent appliquer les règles définies par les arrêtés sectoriels de leur domaine. Ils ont également l'obligation de déclarer leurs incidents sans délai.
+
+      La sécurité est renforcée par l'obligation de faire exploiter des sondes de détection par un prestataire qualifié. Enfin, les OIV sont soumis aux contrôles directs de l'ANSSI.
+
+   C. Plans de protection (PSO, PPE, PPP).
+
+      La protection des activités vitales repose sur une articulation de trois types de plans spécifiques. Le plan de sécurité d'opérateur, ou PSO, est le document par lequel un OIV décrit son organisation et les mesures de protection de ses activités.
+
+      Le plan particulier de protection, ou PPP, est le plan de protection propre à chaque point d'importance vitale et il est préparé par l'opérateur.
+
+      Le plan de protection externe, ou PPE, est établi par le préfet pour assurer la protection d'un point d'importance vitale par les forces de l'État.
+
+VI. QUALIFICATIONS, CERTIFICATIONS ET CONFIANCE NUMÉRIQUE.
+
+   A. Les visas de l'ANSSI (CSPN, Critères Communs, Qualification).
+
+      L'ANSSI délivre plusieurs types de visas pour attester de la sécurité des produits. Le CSPN atteste de la résistance d'un produit lors d'une évaluation courte pour des éléments comme un pare-feu ou un coffre-fort de mots de passe.
+
+      Les Critères Communs, allant de l'EAL1 à l'EAL7, permettent une évaluation approfondie et sont reconnus au niveau international pour des produits de sécurité critiques.
+
+      La qualification produit peut être de niveau élémentaire, standard ou renforcé. Elle constitue une recommandation de l'État pour un usage spécifique dans les systèmes d'information.
+
+   B. Les prestataires de services de confiance (PASSI, SecNumCloud).
+
+      L'ANSSI qualifie également des prestataires pour assurer des missions de sécurité essentielles. Les visas PASSI, PDIS, PRIS et PACS concernent respectivement les prestataires d'audit, de détection, de réponse aux incidents et de conseil.
+
+      Le visa PASSI est notamment utilisé pour réaliser un audit avant l'étape de l'homologation.
+
+      Le label SecNumCloud est destiné aux prestataires de cloud de confiance. Il est indispensable pour l'hébergement des données sensibles selon le chapitre dix-sept.
+
+   C. L'articulation avec le règlement européen eIDAS.
+
+      Le RGS s'articule directement avec le règlement européen eIDAS, qui est le règlement n° 910/2014 sur l'identification électronique et les services de confiance.
+
+      Le RGS organise la sécurité des services en ligne autour de cinq fonctions clés. Ces fonctions sont l'identification, l'authentification, la signature électronique, la confidentialité et l'horodatage.
+
+      Pour chacune de ces fonctions, l'administration choisit un niveau d'une, deux ou trois étoiles en fonction de son analyse de risque.
+
+      Les prestataires de services de confiance qualifiés sont les organismes habilités à délivrer des services tels que la certification électronique ou l'horodatage.
+
+VII. ENJEUX STRATÉGIQUES ET OPÉRATIONNELS POUR LES MINISTÈRES.
+
+   A. La chaîne de confiance et l'achat de produits qualifiés.
+
+      La sécurité repose sur une chaîne de confiance où chaque maillon doit être validé. Elle lie un produit évalué à un prestataire qualifié, au sein d'un système homologué par une autorité responsable.
+
+      Le ministère doit orienter ses achats vers des produits et des prestataires ayant obtenu des qualifications de l'ANSSI. Cela inclut des visas comme le CSPN pour la résistance des produits ou les Critères Communs pour les évaluations approfondies.
+
+      L'utilisation de prestataires qualifiés tels que les PASSI pour l'audit ou les SecNumCloud pour l'hébergement est essentielle. Ces acteurs garantissent la maîtrise des risques pour les données sensibles et les activités d'importance vitale.
+
+      Chaque maillon manquant dans cette chaîne représente un risque que l'autorité doit accepter de manière explicite. La responsabilité juridique de la décision d'homologation incombe à l'AQSSI au niveau ministériel.
+
+   B. Impacts sur l'infrastructure et la segmentation des zones.
+
+      L'infrastructure doit être organisée en zones séparées selon le niveau de sensibilité des informations traitées. On distingue ainsi les zones standard, les zones de diffusion restreinte et les zones classifiées.
+
+      La gestion des informations de diffusion restreinte impose une architecture dédiée avec un isolement d'internet. Elle nécessite l'usage de passerelles maîtrisées et de produits de chiffrement qualifiés hors du SI.
+
+      Pour les informations relevant du secret de la défense nationale selon l'IGI mille trois cents, des SI dédiés sont obligatoires. Ces systèmes font l'objet d'audits TEMPEST et d'une homologation de deux à trois ans.
+
+      Le ministère doit s'appuyer sur un catalogue de services d'infrastructure déjà homologués pour les réseaux et l'identité. Cette approche permet d'alléger la démarche d'homologation de chaque nouvelle application.
+
+      Une cartographie du SI doit être tenue à jour en trois vues, à savoir métier, applicative et infrastructure. Cette cartographie doit être datée et conservée en sécurité en dehors du SI lui-même.
+
+   C. Industrialisation et conformité technologique.
+
+      L'homologation est un chantier permanent qui nécessite une véritable industrialisation pour les ministères de grande taille. Pour un ministère gérant huit cents applications, la démarche doit être intégrée au cycle de vie du SI.
+
+      Le guide ANSSI-DINUM de deux mille vingt-cinq simplifie le processus en supprimant les homologations provisoires. Seule la durée de l'homologation compte, avec une limite générale de trois ans maximum.
+
+      La conformité technologique est un objectif majeur, comme l'illustre le cas de la DGFiP. Celle-ci doit faire progresser le taux de conformité de ses applications de quarante-trois virgule six pour cent à soixante-dix-huit pour cent d'ici deux mille vingt-sept.
+
+      L'homologation n'est pas une simple formalité administrative mais une acceptation des risques métier par une autorité. Un SI peut être exploité même s'il est imparfait, à condition que ses risques résiduels soient acceptables.
+
+      La démarche repose sur trois lignes de responsabilité distinctes entre la DSI, le RSSI et le comité d'homologation. Un SI exploité sans homologation doit impérativement être homologué ou arrêté.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre la mention Diffusion Restreinte avec une classification, car elle ne relève pas du régime pénal du secret de la défense nationale mais impose une architecture dédiée.
+
+      L'homologation n'est pas une simple formalité administrative mais une acceptation des risques métier par une autorité qui peut accepter un système imparfait si les risques résiduels sont suivis par un plan d'action.
+
+      La chaîne fonctionnelle de la sécurité des systèmes d'information est distincte de la chaîne hiérarchique car elle s'étend du cabinet du ministre jusqu'au service local.
+
+      Il existe une nuance entre la certification qui est une évaluation technique de la robustesse d'un produit et la qualification qui est une recommandation de l'État pour un usage spécifique.
+
+      L'homologation provisoire disparaît avec le nouveau guide de deux mille vingt-cinq pour laisser place à une durée maximale de trois ans.
+
+EXEMPLES CITÉS.
+
+      La DGFiP doit faire progresser la conformité technologique de ses applications de quarante-trois virgule six pour cent à soixante-dix-huit pour cent d'ici deux mille vingt-sept.
+
+      Le dispositif de sécurité des activités d'importance vitale compte douze secteurs, environ trois cents OIV et mille cinq cents points d'importance vitale.
+
+      Le RGS deux virgule zéro organise la sécurité autour de cinq fonctions comme l'identification, l'authentification, la signature électronique, la confidentialité et l'horodatage.
+
+      La PSSIE est régie par la circulaire 5725/SG du dix-sept juillet deux mille quatorze et définit les règles de protection des SI de l'État.

@@ -1,0 +1,227 @@
+LES PLANS NATIONAUX ET STRATÉGIES DE L'ÉTAT POUR L'INVESTISSEMENT, LA CYBERSÉCURITÉ ET LA RÉSILIENCE.
+
+LEXIQUE COMPLET.
+
+      L'INESIA désigne l'Institut national pour l'évaluation et la sécurité de l'IA, un organisme piloté par le SGDSN et la DGE avec le PEReN, le LNE, l'INRIA et l'ANSSI.
+
+      Le MFA désigne l'authentification multifacteur, une obligation qui doit être déployée pour tous les administrateurs avant fin deux mille vingt-six et pour tous les SI à enjeux avant le vingt-huit février deux mille vingt-sept.
+
+      Le C4 désigne le Centre de coordination des crises cyber, une structure placée sous l'égide du SGDSN et composée de l'ANSSI, du COMCYBER, de la DGA, de la DGSE, de la DGSI et du ministère de l'Europe et des Affaires étrangères.
+
+      La cryptographie post-quantique désigne l'ensemble des algorithmes cryptographiques assurant une sécurité contre la menace d'un futur ordinateur quantique.
+
+      Le Cyber Resilience Act désigne le règlement européen publié le vingt novembre deux mille vingt-quatre définissant des exigences minimales de cybersécurité pour les produits numériques.
+
+      Le CyCLONe désigne le Cyber Crisis Liaison Organisation Network, qui est le réseau européen rassemblant les agences en charge de la gestion de crise cybernétique.
+
+      L'homologation de sécurité désigne la décision obligatoire au titre de l'article 4-3 du décret n°2019-1088 du vingt-cinq octobre deux mille dix-neuf qui autorise la mise en service d'un système d'information de l'État.
+
+      Le Zéro Trust désigne une démarche de sécurité qui vérifie systématiquement l'identité, l'authentification et les droits avant tout accès.
+
+      La stratégie hybride désigne le recours par un acteur étranger à une combinaison intégrée et volontairement ambiguë de modes d'action militaires et non militaires.
+
+      Le DNUM désigne la direction du numérique d'un ministère avec laquelle la chaîne de sécurité des systèmes d'information doit s'articuler.
+
+COURS DÉTAILLÉ.
+
+I. TYPOLOGIE DES PLANS ET STRATÉGIES NATIONAUX.
+
+   A. Les trois familles de plans : investissement, sécurité et résilience.
+
+      L'État a mis en place depuis deux mille dix-huit des plans d'investissement et des stratégies qui imposent des échéances précises au ministère.
+
+      La première famille regroupe les plans d'investissement dont la logique est de financer une offre industrielle française et européenne, comme France deux mille trente ou les stratégies d'accélération cyber, cloud et IA.
+
+      La deuxième famille concerne les stratégies de sécurité qui fixent un niveau de protection et des obligations à l'État, à l'image de la stratégie nationale de cybersécurité deux mille vingt-six à deux mille trente.
+
+      La troisième famille est composée des stratégies de résilience qui visent à préparer la Nation à encaisser un choc et à continuer, comme la stratégie nationale de résilience deux mille vingt-deux.
+
+   B. Le rôle et l'impact des plans pour un ministère.
+
+      Pour un ministère, les plans d'investissement déterminent ce qu'il pourra acheter sur le marché.
+
+      Les stratégies de sécurité définissent ce que le ministère doit faire pour respecter ses obligations de protection.
+
+      Les stratégies de résilience dictent ce que le ministère doit tenir en cas de crise majeure.
+
+      L'infrastructure devient ainsi un élément de la défense nationale et non plus un simple outil de gestion.
+
+      L'acheteur public doit orienter ses achats vers l'offre française et européenne soutenue par France deux mille trente quand elle répond au besoin.
+
+      Les conséquences concrètes incluent la planification du MFA généralisé entre deux mille vingt-six et deux mille vingt-huit et l'intégration de la continuité nationale dans le PCA ministériel.
+
+II. LE DÉPLOIEMENT DE L'INTELLIGENCE ARTIFICIELLE.
+
+   A. Historique et étapes de la stratégie nationale de l'IA.
+
+      La stratégie nationale pour l'intelligence artificielle a débuté en deux mille dix-huit avec la première phase consécutive au rapport Villani. Cette étape initiale mettait l'accent sur la recherche, les instituts interdisciplinaires, l'ouverture des données et l'utilisation de la commande publique comme levier.
+
+      En deux mille vingt et un, une deuxième phase de la stratégie nationale a été lancée avec environ deux milliards d'euros de cofinancements, incluant une part de France deux mille trente. Ce volet se concentrait sur la formation et l'IA embarquée.
+
+      L'année deux mille vingt-quatre a été marquée par le travail de la Commission de l'IA qui a produit le rapport intitulé IA : notre ambition pour la France.
+
+      L'année deux mille vingt-cinq marque un tournant avec le Sommet pour l'action sur l'IA en février, durant lequel cent neuf milliards d'euros d'investissements ont été annoncés. Un plan nommé Osez l'IA destiné aux PME doit également intervenir en juillet.
+
+   B. L'écosystème et les nouveaux acteurs comme l'INESIA.
+
+      L'écosystème de l'intelligence artificielle s'enrichit de nouvelles structures de pilotage et d'évaluation. L'INESIA, l'Institut national pour l'évaluation et la sécurité de l'IA, est l'un des acteurs clés de cette dynamique.
+
+      Cet institut est piloté conjointement par le SGDSN et la DGE. Il s'appuie sur l'expertise de plusieurs organismes tels que le PEReN, le LNE, l'INRIA et l'ANSSI.
+
+      Le programme France deux mille trente joue également un rôle de moteur financier pour l'innovation dans ce secteur stratégique. À la fin de l'année deux mille vingt-cinq, quarante virgule cinq milliards d'euros avaient déjà été investis dans sept mille cinq cents projets, dont cinquante-cinq pour cent au profit des PME, ETI et TPE.
+
+   C. L'importance cruciale de la maîtrise des données.
+
+      Le rapport Villani a établi un principe fondamental pour l'infrastructure technologique en affirmant que la donnée est la matière première de l'IA.
+
+      Pour un ministère souhaitant déployer une IA utile, la priorité absolue est de maîtriser ses propres données. Cette maîtrise est un prérequis indispensable avant toute mise en œuvre technique.
+
+      L'intelligence artificielle repose sur des concepts techniques précis comme l'apprentissage automatique ou le machine learning. Ce champ permet aux ordinateurs d'apprendre à partir de données sans programmation explicite pour chaque tâche.
+
+      D'autres techniques plus complexes existent, à l'image de l'apprentissage profond ou deep learning. Cette méthode utilise des réseaux de neurones artificiels comportant plusieurs couches de traitement de l'information.
+
+III. FRANCE deux mille trente ET LE SOUTIEN À L'OFFRE SOUVERAINE.
+
+   A. Objectifs et financement de l'innovation stratégique.
+
+      Lancé en octobre deux mille vingt et un, le plan France deux mille trente a pour mission de financer l'innovation dans des secteurs jugés stratégiques pour la nation.
+
+      À la fin de l'année deux mille vingt-cinq, les investissements réalisés s'élevaient à quarante virgule cinq milliards d'euros répartis sur sept mille cinq cents projets.
+
+      Ce dispositif de financement soutient massivement le tissu économique avec cinquante-cinq pour cent des fonds alloués au profit des PME, ETI et TPE.
+
+   B. Les volets cybersécurité, cloud et IA.
+
+      Le volet cybersécurité repose sur une stratégie d'accélération lancée en février deux mille vingt et un qui dispose d'un peu plus d'un milliard d'euros et a permis la création du Campus Cyber.
+
+      La stratégie d'accélération pour le cloud est dotée de un virgule huit milliard d'euros et accompagne la doctrine du Cloud au centre ainsi que l'émergence des offres SecNumCloud.
+
+      Concernant l'intelligence artificielle, le plan finance la deuxième phase de la stratégie nationale.
+
+   C. L'enjeu de la préférence pour l'offre européenne dans les achats.
+
+      Ces plans nationaux font naître une offre française et européenne que l'acheteur public peut privilégier.
+
+      Dans certains cas, l'acheteur public a même l'obligation de privilégier cette offre souveraine.
+
+      L'enjeu pour l'acheteur est de s'appuyer sur ces investissements pour sécuriser ses infrastructures avec des fournisseurs de confiance.
+
+IV. LA CYBERSÉCURITÉ DE L'ÉTAT ET SES OBLIGATIONS.
+
+   A. La stratégie nationale deux mille vingt-six à deux mille trente et la feuille de route ministérielle.
+
+      La stratégie nationale de cybersécurité deux mille vingt-six à deux mille trente ambitionne d'atteindre une résilience cyber de premier rang pour la France. Elle s'appuie sur des piliers essentiels comme la création d'un vivier de talents et le renforcement de la culture de la gestion de crise.
+
+      Pour les administrations, cette stratégie se décline concrètement via la feuille de route de la sécurité numérique de l'État. Ce document est prévu par l'IGI mille trois cent trente-sept et fait l'objet d'une mise à jour chaque année.
+
+      La version deux mille vingt-six à deux mille vingt-sept de cette feuille de route a été élaborée suite aux intrusions et aux fuites de données survenues en deux mille vingt-cinq au sein des ministères. Elle impose des obligations strictes pour renforcer la protection des systèmes d'information.
+
+   B. Le calendrier des obligations techniques et le MFA.
+
+      Le calendrier impose la nomination d'un conseiller numérique chargé de la sécurité au cabinet dans le mois suivant la nomination d'un ministre. Dès la fin de l'année deux mille vingt-six, l'authentification multifacteur doit être déployée pour tous les administrateurs.
+
+      L'année deux mille vingt-sept marque des étapes cruciales avec l'intégration du référentiel NIS deux dans la politique de sécurité des SI de l'État au premier trimestre. Le vingt-huit février deux mille vingt-sept, l'authentification multifacteur devient obligatoire pour tous les SI à enjeux.
+
+      Les obligations se poursuivent avec l'identification des briques techniques à migrer vers la cryptographie post-quantique à la fin de l'année deux mille vingt-sept. L'authentification multifacteur doit ensuite être étendue à tous les SI d'ici le vingt-huit février deux mille vingt-huit.
+
+      Enfin, l'objectif de la fin de l'année deux mille trente est de garantir que tous les SI de Diffusion Restreinte soient protégés contre la menace quantique.
+
+   C. L'évolution des processus d'homologation de sécurité.
+
+      L'homologation de sécurité est une décision obligatoire au titre de l'article 4-3 du décret n°2019-1088 du vingt-cinq octobre deux mille dix-neuf. Elle autorise la mise en service d'un système de l'État après une analyse rigoureuse des risques.
+
+      Les commissions d'homologation font face à de nouvelles exigences concernant la transparence des risques. Elles doivent désormais présenter les risques résiduels liés aux objectifs qui n'ont pas été atteints par l'organisation.
+
+      Cela inclut notamment la présentation des correctifs qui n'ont pas été appliqués ou des tests de restauration qui n'ont pas été réalisés. Cette évolution renforce la responsabilité des acteurs dans la gestion de la sécurité.
+
+V. LA RÉSILIENCE NATIONALE FACE AUX MENACES HYBRIDES.
+
+   A. Définition et cadres stratégiques de la résilience.
+
+      La résilience est définie depuis le Livre blanc de deux mille huit comme la capacité à résister à une agression ou une catastrophe, puis à rétablir un fonctionnement normal ou socialement acceptable.
+
+      La stratégie nationale de résilience d'avril deux mille vingt-deux comprend soixante-treize actions, dont l'exercice Orion et le dispositif d'alerte FR-Alert.
+
+      En juin deux mille vingt-cinq, cette stratégie s'est recentrée sur deux priorités majeures que sont la continuité économique et l'engagement des citoyens.
+
+      La Revue nationale stratégique de juillet deux mille vingt-cinq fixe onze objectifs pour deux mille trente, incluant une résilience cyber de premier rang et une économie qui se prépare à la guerre.
+
+      Le Comité interministériel de la résilience nationale du huit juillet deux mille vingt-six a acté des mesures comme les stocks stratégiques pour certains opérateurs essentiels et l'extension des menaces hybrides à la Journée nationale de la résilience chaque treize octobre.
+
+   B. La Revue nationale stratégique deux mille vingt-cinq et les risques de haute intensité.
+
+      La Revue nationale stratégique publiée par le SGDSN en deux mille vingt-cinq décrit une France qui entre dans une nouvelle ère marquée par un risque élevé de guerre de haute intensité en Europe à l'horizon deux mille trente.
+
+      Cette période sera accompagnée d'actions hybrides massives sur le territoire national.
+
+      La Russie est désignée comme la menace la plus directe, notamment par le biais d'attaques numériques et de la manipulation d'élections.
+
+      Les cyberattaques proviennent principalement d'acteurs liés à la Chine, à la Russie et d'acteurs criminels affiliés.
+
+      Une stratégie hybride se caractérise par le recours par un acteur étranger à une combinaison intégrée et volontairement ambiguë de modes d'action militaires et non militaires, directs et indirects, légaux ou illégaux.
+
+   C. La préparation à la défense et au fonctionnement en mode dégradé.
+
+      Pour une DSI ministérielle, la résilience n'est plus un simple sujet de conformité mais devient un enjeu de défense.
+
+      Il est impératif de pouvoir fonctionner en mode dégradé pendant une crise longue, sous le feu d'attaques numériques et informationnelles simultanées.
+
+      L'exercice REMPAR25 a illustré ce scénario en réunissant mille deux cent soixante-trois organisations, un chiffre que l'ANSSI juge pourtant modeste à l'échelle de la Nation.
+
+      Les conséquences concrètes pour l'infrastructure incluent la planification du MFA généralisé selon les échéances deux mille vingt-six à deux mille vingt-huit et l'intégration des exigences de continuité nationale dans le PCA ministériel.
+
+      Il faut également inventorier les données sensibles et préparer la migration vers la cryptographie post-quantique pour assurer la protection des systèmes.
+
+VI. SYNTHÈSE DES ENJEUX ET CONSÉQUENCES POUR L'INFRASTRUCTURE.
+
+   A. Implications opérationnelles pour les DSI ministérielles.
+
+      Les DSI doivent répondre à des échéances de sécurité très strictes concernant l'authentification multifacteur. Le MFA doit être déployé pour tous les administrateurs avant la fin de l'année deux mille vingt-six, puis pour tous les SI à enjeux avant le vingt-huit février deux mille vingt-sept.
+
+      L'obligation de généraliser le MFA s'étend ensuite à l'ensemble des SI pour le vingt-huit février deux mille vingt-huit. Parallèlement, l'identification des briques techniques à migrer vers la cryptographie post-quantique est attendue pour la fin de l'année deux mille vingt-sept.
+
+      La gestion des données devient un enjeu de défense avec l'obligation de réaliser un inventaire des données durablement sensibles d'ici la fin de l'année deux mille vingt-six. À l'horizon deux mille trente, tous les SI de diffusion restreinte devront être protégés contre la menace quantique.
+
+      La résilience ne doit plus être traitée comme une simple conformité mais comme une capacité de défense. Les équipes doivent être capables de fonctionner en mode dégradé lors de crises longues impliquant des attaques numériques et informationnelles simultanées.
+
+   B. Orientations pour la planification et les achats.
+
+      La planification des investissements doit s'aligner sur les stratégies nationales qui définissent ce que l'État peut acheter et ce qu'il doit faire. Les plans d'investissement comme France deux mille trente visent à financer une offre industrielle française et européenne.
+
+      L'acheteur public doit privilégier l'offre nationale et européenne soutenue par les plans d'accélération. Cela concerne notamment les secteurs de la cybersécurité avec le Campus Cyber et du cloud avec la doctrine Cloud au centre.
+
+      Les stratégies de sécurité imposent des obligations précises, comme l'intégration du référentiel NIS deux dans la politique de sécurité des SI de l'État au premier trimestre deux mille vingt-sept. Les commissions d'homologation doivent désormais présenter les risques résiduels liés aux objectifs non atteints.
+
+      La continuité de service doit être intégrée au PCA ministériel en tenant compte des exigences de la résilience nationale. Cela inclut la préparation à des menaces hybrides et à des risques de guerre de haute intensité en Europe à l'horizon deux mille trente.
+
+   C. Le cas d'application du ministère de l'Économie.
+
+      Le ministère de l'Économie joue un rôle moteur dans la mise en œuvre des politiques nationales. La DGE pilote le programme France deux mille trente et participe au co-pilotage de l'INESIA, l'institut national pour l'évaluation et la sécurité de l'IA.
+
+      L'investissement dans l'intelligence artificielle est une priorité avec des jalons importants comme le plan Osez l'IA en juillet deux mille vingt-cinq. Les Journées numériques deux mille vingt-cinq de l'IGPDE ont d'ailleurs illustré cet engagement en réunissant mille quatre cents participants autour de l'IA.
+
+      Le ministère gère également des enjeux de modernisation structurelle et de transition. Le projet Bercy Demain vise à moderniser l'environnement de travail de près de neuf mille agents sur les sites de Bercy et de Chevaleret.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre les plans d'investissement qui financent l'offre avec les stratégies de sécurité qui fixent des obligations. Les stratégies de résilience, elles, servent à préparer la Nation à encaisser un choc et à continuer.
+
+      La distinction entre les familles de plans est cruciale car les premiers déterminent les capacités d'achat tandis que les deuxièmes dictent les actions à mener. Les troisièmes définissent la posture à tenir en cas de crise.
+
+      La résilience ne doit plus être perçue comme une simple question de conformité mais comme un véritable enjeu de défense nationale. Elle implique de pouvoir fonctionner en mode dégradé lors d'attaques numériques et informationnelles simultanées.
+
+      L'intelligence artificielle nécessite une maîtrise préalable des données car la donnée est la matière première de l'IA selon le rapport Villani. Un ministère doit donc d'abord maîtriser ses données pour utiliser l'IA de manière utile.
+
+      La menace quantique impose une anticipation technique spécifique. Il faut identifier les briques à migrer vers la cryptographie post-quantique d'ici la fin de l'année deux mille vingt-sept pour protéger les systèmes de diffusion restreinte d'ici deux mille trente.
+
+EXEMPLES CITÉS.
+
+      Le plan France deux mille trente a permis d'investir quarante virgule cinq milliards d'euros dans sept mille cinq cents projets à la fin de l'année deux mille vingt-cinq. Parmi ces projets, cinquante-cinq pour cent ont bénéficié à des PME, ETI et TPE.
+
+      La stratégie d'accélération pour le cloud dispose d'une dotation de un virgule huit milliard d'euros. La stratégie d'accélération pour la cybersécurité est quant à elle dotée de peu plus d'un milliard d'euros.
+
+      L'authentification multifacteur est une obligation avec des échéances précises. Elle doit concerner tous les administrateurs avant la fin de l'année deux mille vingt-six et tous les SI à enjeux avant le vingt-huit février deux mille vingt-sept.
+
+      L'exercice REMPAR25 a réuni mille deux cent soixante-trois organisations pour tester la résilience. L'ANSSI considère pourtant ce chiffre comme modeste à l'échelle de la Nation.
+
+      Le sommet pour l'action sur l'IA en février deux mille vingt-cinq a annoncé cent neuf milliards d'euros d'investissements. Le plan Osez l'IA pour les PME sera lancé en juillet deux mille vingt-cinq.

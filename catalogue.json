@@ -1,0 +1,10 @@
+{
+  "titre": "Livre : infrastructure informatique publique",
+  "depots": [
+    {
+      "nom": "pse-livre-infra",
+      "titre": "Livre : infrastructure informatique publique",
+      "url": "batocera/pse-livre-infra/data/"
+    }
+  ]
+}

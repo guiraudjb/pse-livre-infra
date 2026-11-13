@@ -1,0 +1,235 @@
+FICHE DE RÉVISION COMPLÈTE SUR LE RÉFÉRENTIEL CYBER FRANCE ET LA MISE EN ŒUVRE DE NIS deux.
+
+LEXIQUE COMPLET.
+
+      Le ReCyF désigne le Référentiel Cyber France proposé par l'ANSSI pour traduire la directive NIS deux en objectifs de sécurité concrets.
+
+      L'ANSSI désigne l'organisme qui propose le ReCyF et accompagne sa mise en œuvre par des fiches techniques.
+
+      Le NIS deux désigne la directive européenne dont les objectifs de sécurité sont traduits par le ReCyF.
+
+      La PSSI désigne la politique de sécurité des systèmes d'information qui doit être validée par la direction.
+
+      Le cœur de confiance désigne les annuaires et services d'authentification, comme l'Active Directory, qui nécessitent des protections maximales.
+
+      L'EDR désigne un outil de détection et de réponse installé sur les équipements terminaux.
+
+      La latéralisation désigne le déplacement d'un attaquant d'une zone compromise vers d'autres zones du même système.
+
+      Le patient zéro désigne le premier élément compromis par l'attaquant, qui est souvent recherché lors d'une investigation.
+
+      L'AH désigne l'autorité d'homologation qui prononce la décision d'homologation.
+
+      L'AQSSI désigne l'autorité qualifiée de la sécurité des systèmes d'information qui est juridiquement responsable.
+
+      La qualification d'un incident désigne l'estimation de sa gravité avérée et potentielle pour déterminer un engagement adapté.
+
+      Le SOC désigne un centre de supervision qui permet de traiter les alertes et d'analyser les événements.
+
+COURS DÉTAILLÉ.
+
+I. FONDAMENTAUX ET PRINCIPES DU RECYF.
+
+   A. Définition et rôle de traduction de NIS deux.
+
+      Le ReCyF est le document proposé par l'ANSSI pour traduire la directive NIS deux en objectifs de sécurité concrets.
+
+      Il est structuré autour de quatre piliers et de vingt objectifs de sécurité.
+
+      Ce référentiel sert de pont entre l'exigence réglementaire et les guides techniques de l'ANSSI pour les organisations.
+
+   B. Logique de moyens proportionnés et responsabilité du dirigeant.
+
+      Le ReCyF ne prescrit pas de produit spécifique mais fixe des objectifs applicables à tout le périmètre.
+
+      Une absence de risque peut être justifiée par écrit pour ne pas appliquer certains objectifs.
+
+      Le dirigeant exécutif est chargé de valider la politique de sécurité de l'entité.
+
+      Il répond personnellement de la mise en œuvre de cette politique de sécurité.
+
+   C. Différenciation entre entités importantes et essentielles.
+
+      Une entité importante peut tolérer certains écarts de sécurité comme l'usage d'équipements personnels.
+
+      À l'inverse, une entité essentielle ne peut pas accepter de tels écarts.
+
+      Les objectifs seize à vingt du ReCyF ne concernent que les entités essentielles, comme un ministère.
+
+      Pour les entités essentielles, l'analyse de risques doit être réévaluée au moins tous les trois ans avec des méthodes comme EBIOS Risk Manager.
+
+      L'interdiction des équipements personnels pour se connecter au réseau est une exigence renforcée pour les entités essentielles.
+
+II. LES QUATRE PILIERS DE LA SÉCURITÉ.
+
+   A. Gouvernance : inventaire, cartographie et PSSI.
+
+      La gouvernance vise à savoir ce que l'on possède, qui est responsable et avec quels partenaires l'entité travaille.
+
+      Elle repose sur l'établissement d'un inventaire des activités et du SI ainsi que sur une cartographie précise.
+
+      La direction doit valider la PSSI et assurer la cartographie des prestataires en incluant des clauses de sécurité.
+
+      Le dirigeant exécutif est responsable de la validation de la politique de sécurité et en répond personnellement.
+
+   B. Protection : réduction de la surface d'attaque.
+
+      La protection a pour objectif de réduire la surface d'attaque par des mesures techniques et organisationnelles.
+
+      Elle impose la mise en place de zones cloisonnées, un filtrage par défaut et des accès distants chiffrés avec une authentification forte.
+
+      L'utilisation de comptes nominatifs, une revue annuelle des droits et un durcissement des systèmes sont nécessaires.
+
+      L'administration doit être dédiée et le cœur de confiance comme l'Active Directory reçoit les protections maximales.
+
+      Pour une entité essentielle, l'administration doit se faire depuis un réseau isolé et des postes dédiés.
+
+   C. Défense : détection et analyse des événements.
+
+      Le pilier défense permet de détecter et de qualifier les incidents de cybersécurité.
+
+      Il nécessite la mise en place d'un centre de supervision capable de traiter les alertes sous vingt-quatre heures pour les entités essentielles.
+
+      Les mécanismes de remontée des signalements et l'analyse des événements sont au cœur de ce processus.
+
+      La conservation des journaux est une exigence majeure, avec une durée de trois mois minimum pour les entités essentielles.
+
+   D. Résilience : continuité et reprise d'activité.
+
+      La résilience consiste à encaisser un choc et à redémarrer les activités après un incident.
+
+      Elle s'appuie sur des sauvegardes déconnectées et des plans de continuité et de reprise.
+
+      La restauration des données doit être testée chaque année pour garantir l'efficacité des procédures.
+
+      La gestion de crise et la réalisation d'exercices réguliers complètent ce dispositif de résilience.
+
+      Pour les entités essentielles, le PCA et le PRA doivent définir des durées d'interruption tolérées.
+
+III. EXIGENCES SPÉCIFIQUES ET CŒUR DE CONFIANCE.
+
+   A. Renforcement des obligations pour les entités essentielles.
+
+      Les entités essentielles font face à des exigences renforcées par rapport aux entités importantes, notamment concernant l'analyse des risques qui doit être réévaluée au moins tous les trois ans, par exemple via la méthode EBIOS Risk Manager.
+
+      Le programme d'audit doit être indépendant et inclure obligatoirement des tests d'intrusion pour garantir la sécurité du système.
+
+      L'usage des équipements personnels pour se connecter au réseau est strictement interdit pour ces entités.
+
+      L'administration doit s'effectuer depuis un réseau isolé en utilisant des postes dédiés.
+
+      La supervision nécessite un centre de supervision capable de traiter les alertes sous vingt-quatre heures et de conserver les journaux pendant au moins trois mois.
+
+      La continuité de service doit être assurée par des PCA et des PRA définissant précisément les durées d'interruption tolérées.
+
+   B. Protection critique du cœur de confiance (Active Directory).
+
+      Le ReCyF insiste sur la protection du cœur de confiance qui regroupe les annuaires et les services d'authentification comme l'Active Directory.
+
+      La compromission de ces éléments équivaut à la perte totale du système d'information.
+
+      Ces services reçoivent donc les protections maximales, incluant une administration en tiers et l'utilisation de comptes dédiés.
+
+      Une supervision spécifique est également requise pour ce périmètre sensible, conformément au chapitre quinze.
+
+   C. Gestes simples et mesures préventives prioritaires.
+
+      Plusieurs mesures simples permettent d'éviter des incidents graves sans coût important, comme le changement des mots de passe par défaut de chaque équipement.
+
+      Il est crucial d'appliquer sans délai les correctifs sur les éléments exposés à internet et de supprimer les logiciels inutiles.
+
+      La désactivation des comptes au départ des agents et la conservation d'une copie de sauvegarde hors ligne, par exemple sur bande, sont des actions essentielles.
+
+      Il est recommandé d'imprimer la liste des contacts de crise pour pouvoir l'utiliser si la messagerie devient hors d'usage.
+
+      L'ANSSI préconise également la mise en œuvre de cinq mesures cyber préventives prioritaires pour limiter la probabilité et les effets d'une cyberattaque.
+
+IV. ACCOMPAGNEMENT TECHNIQUE ET FICHES PRATIQUES.
+
+   A. Rôle et structure des fiches ReCyF en pratique.
+
+      L'ANSSI accompagne le ReCyF par des fiches techniques qui éclairent les principales mesures sans pour autant s'y substituer.
+
+      Ces fiches ne sont ni prescriptives ni exhaustives et servent de pont entre l'exigence réglementaire et les guides techniques.
+
+      Elles sont organisées en cinq rubriques qui correspondent aux piliers de la gestion des risques et aux obligations NIS deux.
+
+      Ces rubriques sont la Défense, la Protection, la Gouvernance et la Résilience, complétées par les Obligations NIS deux.
+
+      Un repère en marge permet de distinguer les mesures qui ne visent que les entités essentielles de celles valables pour toutes.
+
+   B. Principes d'administration et d'architecture sécurisée.
+
+      La fiche sur l'administration repose sur l'idée que toute action doit être légitime, réalisée via un compte dédié et attribuable.
+
+      Le premier principe est la maîtrise des comptes et des privilèges pour garantir l'identité de l'administrateur ou du processus.
+
+      Le second principe est la maîtrise des ressources d'administration par la séparation des usages et le cloisonnement.
+
+      On retrouve dans ce cadre le modèle en tiers décrit au chapitre quinze pour protéger le cœur de confiance.
+
+      L'architecture sécurisée doit non seulement prévenir les intrusions mais aussi permettre de les détecter et d'y remédier.
+
+   C. Glossaire des notions techniques et opérationnelles.
+
+      L'utilisateur désigne les personnels et les prestataires qui accèdent aux systèmes informatiques.
+
+      La latéralisation correspond au déplacement d'un attaquant d'une zone compromise vers d'autres zones du même système.
+
+      L'investigation d'un incident permet d'acquérir une connaissance technique pour comprendre les impacts et identifier le périmètre compromis.
+
+      La qualification d'un incident consiste à estimer sa gravité pour déterminer un engagement adapté aux impacts métier.
+
+      La chasse est la recherche large d'un attaquant tandis que la levée de doute vérifie un signalement imprécis.
+
+      L'EDR est un outil de détection et de réponse sur les équipements terminaux et la sonde est un capteur réseau.
+
+V. APPLICATION STRATÉGIQUE POUR UN MINISTÈRE.
+
+   A. Enjeux de pilotage et langage commun.
+
+      Le ReCyF permet d'établir un langage commun entre la direction, la DSI et le RSSI.
+
+      Cet outil facilite la mesure d'un écart par rapport aux objectifs et permet de le chiffrer précisément.
+
+      Le pilotage de la réduction de ces écarts devient ainsi possible pour le ministère.
+
+      La difficulté majeure réside dans l'application de ces objectifs à trois cents sites et huit cents applications hétérogènes.
+
+   B. Méthodologie de mise en œuvre opérationnelle.
+
+      La première étape consiste à recenser les activités et les SI dans le périmètre en s'appuyant sur la cartographie d'homologation.
+
+      Il convient ensuite d'évaluer l'écart pour chaque objectif en utilisant une grille commune à toutes les directions.
+
+      La priorisation doit se concentrer sur le cœur de confiance, les services exposés, les sauvegardes et la supervision.
+
+   C. Stratégies de mutualisation et de mesure de la performance.
+
+      Le ministère peut mutualiser ses efforts par la mise en place d'un SOC ministériel ou d'une administration sécurisée commune.
+
+      L'utilisation de socles homologués une fois pour toutes constitue également une stratégie de mutualisation efficace.
+
+      La performance doit être mesurée via un tableau de bord par objectif qui est présenté au comité de direction.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre les objectifs du ReCyF avec des prescriptions de produits spécifiques. Le document fixe des objectifs de sécurité applicables à tout le périmètre sauf si une absence de risque est justifiée par écrit.
+
+      Une distinction majeure doit être faite entre les entités importantes et les entités essentielles. Les entités importantes peuvent tolérer certains écarts comme l'usage d'équipements personnels, contrairement aux entités essentielles.
+
+      La notion de cœur de confiance est une nuance critique pour la protection du système. La compromission d'un service d'authentification comme l'Active Directory équivaut à la perte totale du SI.
+
+      Il est essentiel de ne pas confondre la chasse et la levée de doute lors d'une investigation. La chasse est une recherche large sans piste initiale, tandis que la levée de doute vérifie un signalement imprécis.
+
+      La distinction entre l'autorité d'homologation et l'AQSSI est importante pour la responsabilité juridique. L'AH prononce la décision alors que l'AQSSI est l'autorité juridiquement responsable.
+
+EXEMPLES CITÉS.
+
+      Pour une entité essentielle, l'analyse de risques doit être réévaluée au moins tous les trois ans avec une méthode comme EBIOS Risk Manager.
+
+      La supervision pour une entité essentielle impose un centre de supervision capable de traiter les alertes sous vingt-quatre heures avec une conservation des journaux d'au moins trois mois.
+
+      Le ReCyF s'organise autour de quatre piliers et vingt objectifs, sachant que les objectifs seize à vingt ne concernent que les entités essentielles.
+
+      Un ministère doit appliquer ces mesures à une échelle complexe comprenant trois cents sites et huit cents applications hétérogènes.

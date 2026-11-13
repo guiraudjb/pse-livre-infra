@@ -1,0 +1,122 @@
+{
+ "versions": [
+  {
+   "id": "standard",
+   "titre": "Version standard",
+   "fichier": "lecture/standard.json"
+  }
+ ],
+ "modules": {
+  "20-00 Livre - Préface et introduction": [
+   "standard"
+  ],
+  "20-01 Livre - Le contexte international et la cyber-guerre": [
+   "standard"
+  ],
+  "20-02 Livre - Les plans nationaux - investir, se doter de capacités, tenir dans la durée": [
+   "standard"
+  ],
+  "20-03 Livre - La menace - qui attaque, pourquoi, par où": [
+   "standard"
+  ],
+  "20-04 Livre - Le droit européen - NIS 2, CRA, RGPD, AI Act et les autres": [
+   "standard"
+  ],
+  "20-05 Livre - Le socle national - ANSSI, PSSIE, RGS, homologation, OIV": [
+   "standard"
+  ],
+  "20-06 Livre - Le Référentiel Cyber France (ReCyF) - NIS 2 en mesures concrètes": [
+   "standard"
+  ],
+  "20-07 Livre - Interopérer, inclure, sobriété - RGI, RGAA, RGESN": [
+   "standard"
+  ],
+  "20-08 Livre - Souveraineté et lois extraterritoriales": [
+   "standard"
+  ],
+  "20-09 Livre - Gouvernance - qui décide, qui répond": [
+   "standard"
+  ],
+  "20-10 Livre - La dette technologique": [
+   "standard"
+  ],
+  "20-11 Livre - Les principes d'architecture": [
+   "standard"
+  ],
+  "20-12 Livre - Le réseau - sites, WAN, segmentation, sortie internet": [
+   "standard"
+  ],
+  "20-13 Livre - Interconnexion et exposition des services": [
+   "standard"
+  ],
+  "20-14 Livre - Télétravail et accès distants": [
+   "standard"
+  ],
+  "20-15 Livre - Identités, annuaires et accès privilégiés": [
+   "standard"
+  ],
+  "20-16 Livre - Datacenters, virtualisation et stockage": [
+   "standard"
+  ],
+  "20-17 Livre - Cloud public, privé, hybride et SecNumCloud": [
+   "standard"
+  ],
+  "20-18 Livre - Le poste de travail et les mobiles": [
+   "standard"
+  ],
+  "20-19 Livre - La chaîne logicielle - développer et déployer en sécurité": [
+   "standard"
+  ],
+  "20-20 Livre - La donnée - gouvernance, big data, lac de données": [
+   "standard"
+  ],
+  "20-21 Livre - Les systèmes particuliers - mainframe, bâtiments, téléphonie, classifié, post-quantique": [
+   "standard"
+  ],
+  "20-22 Livre - Acheter - marchés publics et offre souveraine": [
+   "standard"
+  ],
+  "20-23 Livre - Intégrer progressivement l'IA dans les outils des agents": [
+   "standard"
+  ],
+  "20-24 Livre - Shadow IT et shadow IA": [
+   "standard"
+  ],
+  "20-25 Livre - L'IA pour la sécurité et comme vecteur d'attaque": [
+   "standard"
+  ],
+  "20-26 Livre - Journalisation, supervision et SOC": [
+   "standard"
+  ],
+  "20-27 Livre - Incident, crise cyber et notification": [
+   "standard"
+  ],
+  "20-28 Livre - Continuité - PCA, PCI et PRA": [
+   "standard"
+  ],
+  "20-29 Livre - La sauvegarde - politiques et technologies": [
+   "standard"
+  ],
+  "20-30 Livre - Maintenir en conditions de sécurité (MCS)": [
+   "standard"
+  ],
+  "20-31 Livre - Sensibiliser tous les agents": [
+   "standard"
+  ],
+  "20-32 Livre - Former et accompagner les agents à l'IA": [
+   "standard"
+  ],
+  "20-33 Livre - Les filières et les compétences": [
+   "standard"
+  ],
+  "20-34 Livre - Trois parcours de bout en bout": [
+   "standard"
+  ],
+  "20-35 Livre - Feuille de route type 2026-2030": [
+   "standard"
+  ],
+  "20-36 Livre - Annexes, sigles et méthode": [
+   "standard"
+  ]
+ }
+}
