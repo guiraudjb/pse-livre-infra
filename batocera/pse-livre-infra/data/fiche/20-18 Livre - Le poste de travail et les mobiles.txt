@@ -1,0 +1,291 @@
+SÉCURISATION DES POSTES DE TRAVAIL, DES TERMINAUX MOBILES ET DES SUPPORTS AMOVIBLES.
+
+LEXIQUE COMPLET.
+
+      L'ANSSI désigne l'autorité qui fournit des guides de configuration et des recommandations pour la sécurité des systèmes d'information.
+
+      L'EDR désigne un outil de détection et de réponse sur le poste qui permet de détecter des comportements suspects et d'isoler un poste à distance.
+
+      Le VPN désigne un tunnel chiffré, de type IPsec ou TLS, qui permet de protéger et de superviser un poste en télétravail.
+
+      Le TPM désigne un composant de sécurité physique permettant d'établir une chaîne de confiance mesurée dès le démarrage.
+
+      Le MDM désigne un outil de gestion des appareils mobiles qui permet de gérer l'appareil entier, comme l'enrôlement, le chiffrement ou l'effacement à distance.
+
+      Le MAM désigne un outil de gestion des applications mobiles qui se concentre uniquement sur les applications professionnelles et leurs données.
+
+      Le BYOD désigne un modèle d'usage où l'agent utilise son appareil personnel, ce qui est à proscrire pour les informations sensibles selon l'ANSSI.
+
+      La station blanche désigne un poste dédié et isolé du SI qui analyse un support amovible avant tout échange de données avec le réseau.
+
+      L'II neuf cent un désigne l'instruction interministérielle n°901/SGDSN/ANSSI du vingt-huit janvier deux mille quinze qui définit les objectifs et les mesures de sécurité minimales pour protéger les informations sensibles, notamment celles de niveau Diffusion Restreinte.
+
+      Le Credential Guard désigne une sécurité fondée sur la virtualisation qui isole les secrets du processus LSASS pour empêcher le vol d'identifiants.
+
+      Le RGESN désigne un référentiel qui demande d'allonger la durée de vie des terminaux sans compromettre la présence de correctifs de sécurité.
+
+      Le SOC désigne le centre qui reçoit les journaux du poste centralisés pour détecter une intrusion silencieuse.
+
+COURS DÉTAILLÉ.
+
+I. LE POSTE DE TRAVAIL MAÎTRISÉ ET DURCI.
+
+   A. Principes d'un poste maîtrisé et mesures de base.
+
+      Un poste maîtrisé doit être homogène, à jour, durci et supervisé pour éviter de devenir inutilisable. L'utilisation d'une image maîtrisée avec un déploiement automatisé permet de rendre tous les postes identiques et reconstructibles en quelques heures.
+
+      La sécurité repose sur des mises à jour mensuelles automatiques pour fermer rapidement les failles connues. Le chiffrement du disque garantit qu'un poste perdu ne livre pas ses données sensibles.
+
+      L'utilisateur ne doit pas disposer de droits d'administration pour empêcher l'installation profonde de logiciels malveillants. Le démarrage sécurisé protège le système contre toute modification avant son lancement.
+
+      La détection est assurée par un EDR qui identifie les comportements suspects et permet l'isolement à distance. Le contrôle des applications limite l'exécution aux seuls logiciels autorisés tandis que le pare-feu local empêche les communications non justifiées entre les postes.
+
+      Pour le travail hors site, un VPN doit être toujours actif afin que le poste reste protégé et supervisé.
+
+   B. Techniques de durcissement du poste de bureau.
+
+      Le durcissement consiste à retirer tout ce qui est inutile et à activer les protections natives via une configuration centralisée. Cette démarche s'appuie sur les guides de l'ANSSI ou les référentiels CIS.
+
+      La gestion des comptes impose l'absence de droits d'administration pour l'utilisateur et l'usage d'un mot de passe administrateur local unique par poste, renouvelé automatiquement avec un outil de type LAPS. Cela empêche la propagation d'un attaquant d'un poste à l'autre.
+
+      Pour protéger les secrets d'authentification, la sécurité s'appuie sur la virtualisation VBS et Credential Guard qui isolent les secrets du processus LSASS. Cela bloque les techniques de vol d'empreintes comme le Pass-the-Hash ou le Pass-the-Ticket.
+
+      L'exécution est verrouillée par une liste blanche d'applications incluant exécutables, scripts et bibliothèques DLL. Le principe est celui du refus implicite où tout ce qui n'est pas autorisé est bloqué.
+
+      Le réseau est sécurisé par un pare-feu local bloquant les flux entre postes et par la désactivation des protocoles anciens comme SMBv1, NTLMv1, LLMNR ou NetBIOS. Le durcissement du démarrage inclut le chiffrement BitLocker avec TPM et l'interdiction du démarrage externe.
+
+      Enfin, PowerShell doit être utilisé en mode contraint et journalisé pour éviter l'usage détourné des outils d'administration par un attaquant.
+
+   C. Spécificités et durcissement des environnements Linux.
+
+      L'utilisation de postes Linux offre une maîtrise du code et une indépendance vis-à-vis des éditeurs. Cela permet également de prolonger la durée de vie du matériel ancien.
+
+      Le durcissement d'un poste Linux repose sur quatre niveaux cumulatifs définis par l'ANSSI, allant du niveau minimal au niveau élevé. Ces paliers exigent une minimisation des services et l'application du principe du moindre privilège.
+
+      Les mesures techniques incluent l'activation de l'UEFI protégé et du Secure Boot ainsi que l'activation de l'IOMMU. Le partitionnement doit séparer les zones sensibles et les comptes inutilisés doivent être désactivés.
+
+      Le contrôle d'accès obligatoire est assuré par des modules comme SELinux ou AppArmor. La sécurité est complétée par un paramétrage restrictif de l'UMASK et la réservation de la commande sudo à un groupe dédié.
+
+      Pour la protection des données, le chiffrement LUKS avec déverrouillage par TPM est préconisé. Le contrôle d'exécution est assuré par l'outil fapolicyd.
+
+II. LA SÉCURITÉ DU POSTE NOMADE ET DU TRAVAIL À DISTANCE.
+
+   A. Mesures de protection renforcées pour le nomadisme.
+
+      Le poste nomade est un outil dédié à un utilisateur identifié, fourni et maîtrisé par le ministère.
+
+      Le disque doit être chiffré avec l'utilisation du TPM ou d'une carte à puce pour garantir la protection des données.
+
+      La configuration des protections et du VPN ne doit pas être modifiable par l'utilisateur pour maintenir l'intégrité du système.
+
+      L'accès aux ressources nécessite un MFA et une PKI dédiée au nomadisme maîtrisée par l'entité avec des secrets dans un composant sécurisé.
+
+      Les produits utilisés doivent impérativement disposer d'un visa de sécurité de l'ANSSI.
+
+   B. Gestion des connexions et du réseau hors site.
+
+      Le poste doit utiliser un VPN IPsec ou TLS à l'état de l'art qui s'établit automatiquement dès le démarrage.
+
+      Le tunnel ne doit pas autoriser le split-tunneling, ce qui signifie que seuls les flux de montage du tunnel sortent en direct.
+
+      La résolution DNS ne doit pas se faire vers internet et les adresses des concentrateurs doivent être configurées dans le client.
+
+      Le pare-feu local doit rester actif et interdire tout flux direct entre les différents postes nomades.
+
+      Les portails captifs des hôtels ou des gares doivent être franchis sans ouvrir de navigation libre en dehors du tunnel.
+
+      L'accès aux ressources cloud depuis l'extérieur doit être soit interdit, soit strictement sécurisé.
+
+   C. Réflexes de sûreté et protection physique.
+
+      L'agent doit utiliser un filtre de confidentialité sur son écran pour éviter les regards indiscrets.
+
+      Une grande discrétion est recommandée lors des déplacements dans les transports.
+
+      Il est conseillé d'utiliser un matériel dédié pour les déplacements effectués dans les pays à risque.
+
+      L'agent doit faire preuve de méfiance envers le coffre de l'hôtel pour la protection de son matériel.
+
+III. GESTION DES SUPPORTS AMOVIBLES ET DES STATIONS BLANCHES.
+
+   A. Risques liés aux clés USB et vecteurs d'attaque.
+
+      Les clés USB constituent un vecteur d'attaque redoutable pour les organisations. Elles permettent notamment de franchir l'isolement d'un réseau coupé d'internet, comme l'ont démontré les incidents Agent.btz ou Stuxnet.
+
+      Un groupe lié à la Corée du Nord a encore utilisé des supports amovibles fin deux mille vingt-cinq. Ces supports servaient de canal de commande vers des réseaux isolés.
+
+      Le risque ne se limite pas au contenu des fichiers stockés sur le support. Une clé dont le micrologiciel a été reprogrammé peut se faire passer pour un clavier, une attaque appelée BadUSB.
+
+   B. Fonctionnement et limites de la station blanche.
+
+      La station blanche ou sas de décontamination est un poste dédié et isolé du SI. Elle sert à analyser un support avant tout échange de données avec le réseau du ministère.
+
+      Ce dispositif analyse le contenu avec plusieurs moteurs antiviraux et vérifie les types réels de fichiers. Il bloque ou assainit les formats à risque comme les macros, les exécutables ou les archives chiffrées non analysables.
+
+      Le processus consiste à copier les fichiers sains vers un support maîtrisé ou un dépôt réseau. On ne rend pas le support d'origine pour garantir la sécurité.
+
+      Chaque passage est journalisé et les alertes sont remontées au SOC. La station blanche doit elle-même être durcie, mise à jour et réinstallée régulièrement.
+
+      Ses limites sont réelles car un antivirus ne détecte pas une menace inconnue. Elle ne protège pas non plus contre les attaques de type BadUSB qui ciblent le matériel.
+
+   C. Règles et bonnes pratiques pour les supports externes.
+
+      Il convient de limiter l'usage des supports amovibles au strict besoin. Il est préférable de privilégier les échanges par le réseau via une passerelle d'échange selon les recommandations R45 de l'ANSSI.
+
+      L'utilisation de supports en lecture seule ou de bloqueurs d'écriture est recommandée pour importer des données sans risque d'exportation, conformément à la règle R47. Tout support fourni par un tiers ou d'innocuité douteuse doit passer par une station blanche selon la règle R48.
+
+      Les données sensibles et DR doivent être chiffrées sur le support avec un produit agréé ou disposant d'un visa, suivant les règles R57 et R58. Il est également conseillé de dédier des supports à une interconnexion donnée.
+
+      Sur les postes de travail, il faut n'accepter que les supports enregistrés par leur identifiant. L'exécution depuis un support amovible doit être interdite et les ports USB inutilisés doivent être bloqués.
+
+      La sensibilisation des agents est cruciale pour éviter les erreurs humaines. Une règle de base consiste à ne jamais brancher une clé trouvée ou offerte.
+
+IV. ÉVOLUTION DES SYSTÈMES ET GESTION DES TERMINAUX MOBILES.
+
+   A. Transition post-Windows dix et alternatives.
+
+      Le support de Windows dix s'est arrêté le quatorze octobre deux mille vingt-cinq. L'ANSSI constatait que quatre-vingt-deux pour cent des postes des organismes qu'elle suivait l'utilisaient encore.
+
+      Un poste qui n'est pas mis à jour constitue une porte ouverte pour les attaquants. Les options de migration incluent le passage vers Windows onze, ce qui nécessite souvent un renouvellement du matériel.
+
+      Il est également possible de souscrire au support étendu payant comme solution transitoire. Une autre alternative consiste à basculer certains usages sur Linux ou sur un poste léger accédant à des applications web ou virtualisées.
+
+      Ce choix doit concilier la sécurité, le budget, la souveraineté et la sobriété. Le RGESN demande d'allonger la durée de vie des terminaux sans pour autant accepter des terminaux sans correctifs.
+
+      L'utilisation de postes Linux offre des avantages comme la maîtrise du code et l'indépendance vis-à-vis d'un éditeur. Cela permet aussi d'utiliser du matériel ancien plus longtemps sous réserve d'un support interne solide.
+
+   B. Gestion de la flotte mobile via MDM, MAM et UEM.
+
+      Un smartphone professionnel accède à la messagerie, à l'agenda et aux applications métier, ce qui impose de le gérer comme un poste de travail. Les outils de gestion se sont accumulés pour répondre à ces besoins.
+
+      Le MDM permet la gestion de l'appareil entier, incluant l'enrôlement, la politique de code, le chiffrement, les mises à jour et l'effacement à distance.
+
+      Le MAM se concentre uniquement sur la gestion des applications professionnelles et de leurs données, sans intervenir sur le reste de l'appareil.
+
+      L'UEM ou EMM assure une gestion unifiée en regroupant les mobiles, les tablettes et les postes dans une même console de gestion.
+
+      L'accès aux ressources repose sur la vérification de conformité selon la logique du Zero Trust. Un appareil non enrôlé, débridé ou dont le système n'est plus mis à jour se voit refuser l'accès.
+
+   C. Modèles d'usage COPE, COBO et BYOD.
+
+      Le modèle COPE désigne un appareil fourni par l'administration où l'usage personnel est toléré. Il utilise un MDM complet avec un espace professionnel cloisonné.
+
+      Le modèle COBO est le plus sûr pour les fonctions sensibles car l'appareil est fourni pour un usage professionnel seul.
+
+      Le modèle BYOD concerne l'usage d'un appareil personnel et ne permet que l'utilisation du MAM. L'administration ne peut ni imposer ni contrôler la configuration, ce qui limite l'accès à des données peu sensibles.
+
+      L'ANSSI est formelle sur le fait que le BYOD est à proscrire pour les informations sensibles.
+
+      La console MDM constitue elle-même un actif critique car elle possède la capacité d'effacer ou de reconfigurer l'ensemble du parc.
+
+      Les téléphones des dirigeants doivent faire l'objet d'une attention particulière face aux logiciels espions sans clic. Cela impose des mises à jour immédiates, des redémarrages réguliers et une séparation des usages.
+
+V. ARCHITECTURE AVANCÉE ET ENVIRONNEMENTS SENSIBLES.
+
+   A. Le poste de travail multi-environnements et virtualisation.
+
+      Lorsqu'un agent doit accéder à des niveaux de sensibilité différents comme la bureautique et la Diffusion Restreinte, l'ANSSI autorise l'usage d'un poste multi-environnements.
+
+      Le cloisonnement doit impérativement reposer sur des machines virtuelles car elles offrent une robustesse supérieure à une simple isolation par le système d'exploitation.
+
+      Le socle de ce dispositif est durci et protégé par une chaîne de démarrage vérifiée utilisant le Secure Boot et le Measured Boot sur TPM.
+
+      Chaque domaine dispose de sa propre instance de virtualisation ainsi que de ses périphériques dédiés pour garantir l'étanchéité des environnements.
+
+      La configuration réseau échappe totalement à l'utilisateur et l'heure du système provient d'une source intègre nommée NTS.
+
+      Cette option est économique par rapport à l'achat de deux postes physiques mais elle nécessite un produit conçu et évalué spécifiquement pour cet usage.
+
+   B. Protection des systèmes isolés et exfiltration.
+
+      Un système isolé ou air-gap est un ordinateur ou un réseau physiquement et logiquement séparé d'Internet pour protéger les informations sensibles.
+
+      Malgré cet isolement, des risques d'exfiltration existent via des canaux cachés utilisant des émanations électromagnétiques, des ultrasons ou des ondes millimétriques.
+
+      Certaines attaques utilisent des microcapteurs mécaniques comme les MEMS pour transformer un smartphone à proximité en récepteur de signal.
+
+      La séparation rouge-noir est le principe d'architecture qui permet de distinguer strictement les équipements traitant des informations sensibles des équipements non sensibles.
+
+      Pour protéger les flux, on utilise des passerelles montantes avec une diode agréée par l'ANSSI ou des passerelles descendantes avec des dispositifs agréés.
+
+      Le zonage définit des zones de sécurité autour des équipements sensibles pour interdire la présence d'appareils non maîtrisés dans une certaine distance.
+
+   C. Gestion des équipements personnels et conformité.
+
+      L'utilisation d'équipements personnels présente des risques majeurs comme l'ont montré les identifiants volés lors de l'incident de la DGFiP en deux mille vingt-six.
+
+      Le règlement ReCyF interdit formellement l'usage d'équipements personnels pour une entité essentielle.
+
+      Pour les mobiles, le modèle COPE permet l'usage personnel toléré sur un appareil fourni par l'administration grâce à un MDM complet.
+
+      Le modèle COBO est le plus sûr pour les fonctions sensibles car il limite l'usage de l'appareil strictement au cadre professionnel.
+
+      Le modèle BYOD est à proscrire pour les informations sensibles car l'administration ne peut ni imposer ni contrôler la configuration de l'appareil.
+
+      La conformité repose sur une logique de Zero Trust où tout appareil non enrôlé, débridé ou non mis à jour se voit refuser l'accès aux ressources.
+
+VI. GLOSSAIRE TECHNIQUE ET NOTIONS CLÉS.
+
+   A. Concepts de sécurité système et virtualisation.
+
+      La TCB est l'ensemble des logiciels et matériels critiques pour la sécurité du système, dont une vulnérabilité entraîne la compromission complète de celui-ci.
+
+      Le VSM est l'environnement virtualisé de Microsoft qui isole les processus critiques du système d'exploitation traditionnel grâce à un hyperviseur.
+
+      Un Trustlet est un processus de confiance s'exécutant dans le VSM, protégé par une signature numérique et communiquant via des appels de procédure distante.
+
+      La sécurité fondée sur la virtualisation utilise Credential Guard pour isoler les secrets du processus LSASS et empêcher les attaques de type Pass-the-Hash ou Pass-the-Ticket.
+
+      Le Device Guard combine l'intégrité du code protégée par l'hyperviseur et l'intégrité du code configurable pour contrôler les programmes autorisés.
+
+      Une RTM est un composant de sécurité physique permettant d'établir une chaîne de confiance mesurée dès le démarrage du système.
+
+   B. Terminologie de la sûreté et de l'architecture réseau.
+
+      La séparation rouge-noir est un principe d'architecture qui sépare strictement les équipements traitant des informations sensibles dits rouges des équipements non sensibles dits noirs.
+
+      Un système isolé ou air-gap est un ordinateur ou un réseau physiquement et logiquement séparé d'Internet pour protéger les informations sensibles.
+
+      Le canal d'interconnexion nomade est le tunnel chiffré, VPN IPsec ou TLS, qui relie le poste nomade au système de l'entité.
+
+      Un portail captif est la page d'authentification imposée par certains réseaux Wi-Fi publics avant de permettre l'accès à Internet.
+
+      Une station blanche ou un sas est un moyen dédié à la dépollution des supports amovibles avant tout échange de données avec un SI sensible.
+
+      L'II neuf cent un est l'instruction interministérielle n°901/SGDSN/ANSSI du vingt-huit janvier deux mille quinze qui définit les objectifs et les mesures de sécurité minimales pour protéger les informations sensibles, notamment celles de niveau Diffusion Restreinte.
+
+   C. Architecture interne de Windows et gestion des fichiers.
+
+      Le mode noyau gère le noyau, la HAL, les pilotes et les interruptions, tandis que le mode utilisateur contient les applications et les API Win32.
+
+      La HAL est la couche d'abstraction matérielle située dans le mode noyau du système.
+
+      Le système de fichiers NTFS organise les fichiers et porte les autorisations de sécurité sur les volumes Windows modernes.
+
+      La MFT est la table maîtresse des fichiers qui contient les métadonnées et les références vers les données de chaque fichier et répertoire.
+
+      Les ACL permettent de définir les permissions sur un objet, incluant la DACL pour les droits discrétionnaires et la SACL pour l'audit des succès ou échecs.
+
+      Les ADS sont des flux alternatifs permettant de stocker des données de manière distincte dans un fichier.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre le contrôle du lancement avec le contrôle de l'exécution car un programme autorisé peut lui-même exécuter des scripts ou des greffons malveillants.
+
+      La liste blanche d'applications doit impérativement être construite par refus implicite pour être efficace.
+
+      Credential Guard protège contre le vol de tickets mais il présente des limites car il ne sécurise pas les comptes locaux ni les programmes stockant leurs secrets ailleurs.
+
+      Le modèle BYOD pour les équipements personnels est à proscrire pour les informations sensibles car l'administration ne peut ni imposer ni contrôler la configuration.
+
+      Une station blanche ne peut pas détecter une menace inconnue et elle est impuissante face à une attaque de type BadUSB qui détourne le micrologiciel d'une clé.
+
+EXEMPLES CITÉS.
+
+      Le support de Windows dix s'est arrêté le quatorze octobre deux mille vingt-cinq et l'ANSSI constatait que quatre-vingt-deux pour cent des postes des organismes qu'elle suivait l'utilisaient encore.
+
+      Un groupe lié à la Corée du Nord a utilisé des supports amovibles fin deux mille vingt-cinq comme canal de commande vers des réseaux isolés.
+
+      Le rapport de l'ANSSI sur la DGFiP en deux mille vingt-six a montré que des identifiants volés sur des appareils personnels ont permis une intrusion.
+
+      L'application de messagerie E-Contact désigne l'application de messagerie qui sert aux échanges entre la DGFiP et les usagers, dont les données ont été exfiltrées.

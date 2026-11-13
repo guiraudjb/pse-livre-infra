@@ -1,0 +1,261 @@
+ARCHITECTURE DE L'INTERCONNEXION ET DE L'EXPOSITION DES SERVICES MINISTÉRIELS.
+
+LEXIQUE COMPLET.
+
+      Le NGFW désigne un pare-feu de nouvelle génération qui filtre les flux selon les applications et les identités plutôt que selon les adresses et les ports.
+
+      La DMZ désigne une zone démilitarisée qui sert de zone tampon contenant les répartiteurs de charge, les reverse proxys et les WAF.
+
+      Le WAF désigne un pare-feu applicatif web qui inspecte le contenu HTTP pour bloquer les injections SQL et le cross-site scripting.
+
+      L'IDS désigne un système de détection d'intrusion qui reçoit une copie du trafic pour alerter le SIEM sans bloquer les paquets.
+
+      L'IPS désigne un système de prévention d'intrusion qui se place en coupure pour bloquer le paquet malveillant avant le serveur.
+
+      L'API désigne une interface de programmation qui permet d'exposer les données et les services de manière documentée et sécurisée.
+
+      La DINUM désigne l'organisme qui tient le catalogue des API publiques de l'État sur le site api.gouv.fr.
+
+      FranceConnect désigne une fédération d'identité des usagers basée sur OpenID Connect et réutilisable par tout téléservice.
+
+      Le DDoS désigne une attaque par déni de service distribué menée depuis de multiples sources contre une cible.
+
+      L'ANSSI désigne l'autorité qui qualifie les pare-feux et recommande l'utilisation de prestataires pour la détection des incidents.
+
+      Le SOC désigne le centre opérationnel de sécurité qui reçoit les journaux produits à chaque étape du parcours d'une requête.
+
+COURS DÉTAILLÉ.
+
+I. ARCHITECTURE EN ZONES ET PRINCIPES DE CLOISONNEMENT.
+
+   A. Découpage du datacenter par zones de confiance.
+
+      Le datacenter est découpé en zones de confiance distinctes par des grappes de pare-feu de nouvelle génération, appelés NGFW, qui filtrent les flux selon les applications et les identités.
+
+      La zone de bordure accueille les routeurs d'accès et la protection anti-déni de service pour filtrer le trafic provenant d'Internet.
+
+      La DMZ, ou zone démilitarisée, contient les répartiteurs de charge, les reverse proxys, les WAF et les passerelles d'échange qui reçoivent les flux d'Internet sur les seuls ports publiés.
+
+      La zone applicative regroupe les serveurs web et d'applications internes, accessibles depuis la DMZ et les utilisateurs internes via des flux déclarés.
+
+      La zone données est strictement réservée aux bases de données et au stockage, et elle n'est accessible que par la zone applicative sur des ports précis.
+
+      La zone d'administration est isolée et regroupe les bastions ainsi que les outils d'exploitation pour les besoins de maintenance.
+
+   B. Règle d'or du flux inter-zones.
+
+      La règle d'or de l'architecture impose qu'un flux ne saute jamais une zone de manière directe.
+
+      Internet ne communique qu'avec la DMZ, laquelle ne peut parler qu'à la zone applicative.
+
+      Seule la zone applicative est autorisée à interroger la zone de données pour assurer le cloisonnement des informations sensibles.
+
+   C. Gestion de la zone d'administration.
+
+      L'administration du système d'information passe par sa propre zone dédiée et ne doit jamais emprunter le chemin utilisé par les usagers.
+
+      L'accès à cette zone est réservé aux administrateurs authentifiés qui utilisent des postes de travail dédiés.
+
+      Ce cloisonnement garantit que les outils d'exploitation et les bastions restent protégés des flux applicatifs et des accès externes.
+
+II. MÉCANISMES DE PUBLICATION ET DE PROTECTION DES SERVICES.
+
+   A. Utilisation des VIP, reverse proxys et WAF.
+
+      Le nom d'un service comme impots.gouv.fr ne pointe jamais vers un serveur physique mais vers une VIP, qui est une adresse IP virtuelle portée par un répartiteur de charge ou une grappe de reverse proxys en DMZ.
+
+      Le reverse proxy termine la connexion chiffrée TLS, lit la requête et ouvre ensuite une nouvelle connexion vers le serveur interne pour que l'usager ne parle jamais directement au serveur.
+
+      Le WAF, ou pare-feu applicatif web, inspecte le contenu HTTP pour bloquer les injections SQL, le cross-site scripting et les abus d'API.
+
+      Le répartiteur de charge distribue les requêtes entre plusieurs serveurs pour éviter les congestions et retire automatiquement un serveur en panne du circuit.
+
+   B. Détection et prévention avec IDS et IPS.
+
+      L'IDS est un système de détection qui reçoit une copie du trafic via un port miroir pour alerter le SIEM sans bloquer les flux.
+
+      L'IPS est un système de prévention placé en coupure qui permet au trafic de le traverser pour bloquer le paquet malveillant avant qu'il n'atteigne le serveur.
+
+      La fonction IPS est aujourd'hui souvent intégrée directement aux NGFW, mais l'IDS reste utile pour observer un réseau sans risque de couper un service comme dans le milieu industriel.
+
+      Les OIV ont l'obligation de faire exploiter des sondes de détection par un prestataire qualifié par l'ANSSI.
+
+   C. Stratégies de haute disponibilité.
+
+      Le mode actif-passif utilise deux pare-feu où l'un traite le trafic et l'autre surveille son signal de vie pour reprendre la VIP en cas de chute.
+
+      La bascule en mode actif-passif prend de l'ordre de la seconde et peut descendre sous la seconde avec une détection rapide par BFD, tout en synchronisant les sessions pour éviter de couper les connexions.
+
+      Le mode actif-actif permet à des fermes de serveurs de travailler toutes en même temps grâce à la distribution des requêtes par le répartiteur de charge.
+
+      Pour les services critiques, un basculement peut s'opérer entre deux datacenters par le biais du DNS ou par le routage.
+
+III. ÉCHANGES AVEC LES PARTENAIRES ET L'ÉTAT PLATEFORME.
+
+   A. Interconnexions, API et transferts de fichiers.
+
+      Les ministères échangent des données avec des administrations, des banques ou des entreprises via des API publiées sur une passerelle dédiée avec authentification et quotas.
+
+      Les transferts de fichiers sécurisés utilisent le protocole SFTP recommandé par le RGI et passent par une passerelle d'échange située en DMZ.
+
+      Des interconnexions réseau dédiées et chiffrées sont également possibles, mais elles doivent être terminées sur un pare-feu propre à chaque partenaire.
+
+      Chaque interconnexion représente un risque d'entrée par un tiers et doit donc être déclarée, homologuée et revue de manière périodique.
+
+   B. Les piliers de l'API-sation et de l'État plateforme.
+
+      L'API-sation permet d'exposer les services sous forme d'interfaces de programmation documentées pour éviter les accès directs aux bases de données.
+
+      Ce modèle repose sur le principe du Dites-le-nous une fois où l'administration qui instruit une démarche récupère l'information auprès de celle qui la détient.
+
+      La modernisation progressive est facilitée par la possibilité de poser une API devant une application ancienne ou un mainframe sans modifier le cœur du système.
+
+      Le catalogue api.gouv.fr tenu par la DINUM répertorie les API publiques, tandis que les bouquets API Particulier et Entreprise simplifient les démarches.
+
+      La procédure DataPass permet à une administration de justifier son droit d'accès à des données personnelles avant d'obtenir ses jetons d'accès.
+
+      FranceConnect sert de fédération d'identité pour les usagers en utilisant le protocole OpenID Connect pour tous les téléservices.
+
+   C. Sécurisation et gestion des passerelles d'API.
+
+      La passerelle d'API placée en DMZ assure l'authentification des clients via des jetons OAuth deux virgule zéro ou des certificats.
+
+      Elle protège les applications d'arrière-plan contre la surcharge et le déni de service grâce à la limitation de débit et aux quotas.
+
+      Chaque appel est tracé pour savoir qui a demandé quelle donnée, quand et sous quelle habilitation, ce qui assure une journalisation complète.
+
+      La gestion du cycle de vie permet la coexistence de plusieurs versions d'une API et l'annonce de leur retrait progressif.
+
+      Le portail développeurs fournit la documentation au format OpenAPI ainsi qu'un environnement de test pour les partenaires.
+
+      Pour contrer les risques comme l'accès à l'objet d'autrui ou le vol de jetons, il faut appliquer un contrôle d'autorisation à chaque objet et utiliser des jetons courts.
+
+IV. SÉCURISATION DE LA PASSERELLE INTERNET ET DES INFRASTRUCTURES CRITIQUES.
+
+   A. Architecture de la passerelle d'interconnexion.
+
+      La passerelle d'interconnexion à Internet est découpée en zones fonctionnelles distinctes incluant l'accès Internet, les services exposés, les relais, l'administration et l'accès au SI interne.
+
+      Chaque flux doit traverser une rupture protocolaire où un relais applicatif termine la connexion entrante pour en ouvrir une nouvelle vers l'intérieur.
+
+      Le datacenter utilise une architecture en zones de confiance découpée par des grappes de NGFW qui filtrent selon les applications et les identités.
+
+      La règle d'or impose qu'un flux ne saute jamais une zone, Internet ne parlant qu'à la DMZ, la DMZ à la zone applicative, et la zone applicative aux données.
+
+      La DMZ sert de zone tampon contenant les répartiteurs de charge, les reverse proxys, les WAF et les passerelles d'échange.
+
+      L'administration passe par sa propre zone dédiée et ne doit jamais emprunter le chemin utilisé par les usagers.
+
+   B. Politique de filtrage et rôle des pare-feux.
+
+      Le pare-feu est l'équipement qui applique la matrice des flux et doit être utilisé en cascade avec au moins deux unités séparant Internet du SI.
+
+      Il est recommandé de diversifier les éditeurs de pare-feux pour éviter qu'une seule vulnérabilité n'ouvre les deux barrières.
+
+      La politique de filtrage doit suivre un modèle de sécurité positif en rejetant par défaut tout ce qui n'est pas explicitement autorisé.
+
+      Cette politique est organisée en sections comme l'administration, les flux sortants, les flux entrants et la règle de rejet final avec un nommage normalisé.
+
+      Les pare-feux peuvent être de type sans état, à état, applicatifs ou de nouvelle génération pour reconnaître l'application et l'utilisateur.
+
+      Le WAF est spécifiquement placé devant les sites et les API pour inspecter les requêtes HTTP contre les injections SQL et le cross-site scripting.
+
+   C. Sécurisation du DNS et lutte contre le DDoS.
+
+      La résolution DNS sépare la résolution interne DNS-PRIV de la publication externe DNS-PUB avec un serveur primaire caché.
+
+      Les zones doivent être signées par DNSSEC pour contrer l'empoisonnement de cache et la messagerie doit s'appuyer sur SPF, DKIM et DMARC.
+
+      Les attaques DDoS se divisent en trois catégories : les attaques volumétriques qui visent la bande passante, les attaques protocolaires et les attaques applicatives.
+
+      Pour contrer les attaques volumétriques, il faut utiliser un service anti-DDoS dédié chez l'opérateur ou un tiers en amont.
+
+      Les attaques applicatives, comme le DNS water torture, visent à épuiser les ressources CPU ou RAM en détournant le fonctionnement d'un service.
+
+      La préparation inclut la signature d'un contrat anti-DDoS avant l'attaque et la mise en place d'une page de mode dégradé prête.
+
+V. PROTOCOLES DE COMMUNICATION ET SERVICES RÉSEAUX.
+
+   A. Protocoles de transport et de nommage.
+
+      Le protocole TCP assure un transport fiable en établissant une connexion par une poignée de main en trois temps comprenant les étapes SYN, SYN-ACK et ACK. Il numérote les segments, acquitte et régule le débit, ce qui le rend plus lent à démarrer que le protocole UDP.
+
+      Le protocole UDP envoie des datagrammes sans connexion ni garantie de réception, ce qui est adapté pour la voix, la vidéo, le DNS ou la synchronisation horaire. Chaque service écoute sur un port spécifique, le couple adresse et port formant une socket.
+
+      Le DNS permet de traduire un nom en adresse en utilisant des serveurs récursifs qui interrogent les serveurs faisant autorité pour chaque zone. Il utilise divers enregistrements comme les types A et AAAA pour les adresses, CNAME pour les alias ou MX pour la messagerie.
+
+      La sécurité du DNS repose sur la signature des zones via le protocole DNSSEC pour lutter contre l'empoisonnement de cache. Les enregistrements TXT sont également utilisés pour des fonctions comme SPF ou DMARC.
+
+   B. Services web, messagerie et administration.
+
+      Le protocole HTTPS est indispensable pour le web et les API, utilisant les méthodes GET pour lire, POST pour créer, PUT pour remplacer et DELETE pour supprimer. Les versions un virgule un, deux et trois sont disponibles, la version trois fonctionnant sur QUIC en UDP avec un chiffrement TLS obligatoire.
+
+      La messagerie s'appuie sur le protocole SMTP pour le transport du courrier entre les serveurs MTA, tandis qu'IMAP et POP permettent aux clients MUA de lire les messages. Le chiffrement est assuré par STARTTLS ou TLS, et l'authentification des domaines utilise SPF, DKIM et DMARC.
+
+      L'administration et les transferts de fichiers sécurisés passent par les protocoles SSH et SFTP qui remplacent les anciens protocoles Telnet et FTP circulant en clair. La synchronisation des horloges via le protocole NTP est indispensable pour Kerberos et la corrélation des journaux.
+
+      La téléphonie sur IP utilise le protocole SIP pour établir l'appel et le protocole RTP pour le transport de la voix. Ces services présentent des exigences particulières concernant la latence et la gigue.
+
+   C. Gestion des adresses et du DHCP.
+
+      Le protocole DHCP permet l'attribution automatique d'une adresse, d'un masque, d'une passerelle et d'un DNS pour une durée déterminée appelée bail. Il est nécessaire de protéger ce service contre l'installation de faux serveurs DHCP.
+
+      Un relais DHCP peut être configuré sur le routeur pour servir plusieurs VLAN depuis un serveur centralisé. La gestion des adresses et des noms est une cible majeure pour les attaquants cherchant à détourner le trafic.
+
+      La résolution de noms distingue la résolution interne DNS-PRIV de la publication externe DNS-PUB. Pour la sécurité, le serveur primaire doit rester caché et les serveurs secondaires publics reçoivent les zones par transfert authentifié via TSIG ou XoT.
+
+VI. MENACES RÉSEAU ET DISPOSITIFS DE DÉFENSE.
+
+   A. Typologie des attaques réseau et applicatives.
+
+      Les attaques de déni de service distribué ou DDoS visent la disponibilité en s'appuyant sur de multiples sources. On distingue les attaques volumétriques qui saturent la bande passante, les attaques protocolaires qui épuisent les ressources des pare-feux ou des répartiteurs, et les attaques applicatives qui détournent le fonctionnement d'un service pour épuiser le CPU ou la RAM.
+
+      La reconnaissance par balayage de ports permet à un attaquant de cartographier une cible en cherchant les services ouverts. L'usurpation d'identité via ARP ou DNS permet d'intercepter le trafic en se faisant passer pour une passerelle ou un serveur de noms.
+
+      Certaines méthodes exploitent les protocoles pour amplifier l'attaque, comme le déni de service par réflexion qui utilise des serveurs tiers comme le DNS ou le NTP. L'inondation SYN sature les serveurs en ouvrant des milliers de connexions incomplètes.
+
+      Au niveau applicatif, les menaces incluent le Cross Site Scripting ou XSS qui exécute des scripts dans le navigateur de la victime. L'accès à l'objet d'autrui ou IDOR permet de modifier un identifiant dans une requête pour accéder à des données non autorisées.
+
+      Le bourrage d'identifiants ou credential stuffing consiste à rejouer massivement des couples identifiant et mot de passe issus de fuites. Le détournement de route BGP permet d'annoncer les adresses d'autrui pour capter leur trafic.
+
+   B. Fonctionnement et générations de pare-feux.
+
+      Le pare-feu est l'équipement qui applique la matrice des flux et peut être de plusieurs types. Le filtre de paquets sans état examine uniquement les adresses, les ports et les protocoles, tandis que le pare-feu à état ou stateful suit chaque connexion pour n'accepter que les réponses aux flux autorisés.
+
+      Les pare-feux de nouvelle génération ou NGFW reconnaissent l'application et l'utilisateur tout en inspectant le contenu et en déchiffrant parfois les flux. Le WAF, ou pare-feu applicatif web, est spécifiquement dédié à l'inspection des requêtes HTTP pour bloquer les injections SQL et les abus d'API.
+
+      La politique de filtrage doit suivre un modèle de sécurité positif qui interdit par défaut tout ce qui n'est pas explicitement autorisé. Elle est organisée en sections avec une logique de first-match où la première règle correspondante est appliquée.
+
+      Pour une sécurité renforcée, il est recommandé de diversifier les éditeurs de pare-feux en cascade pour éviter qu'une seule vulnérabilité ne compromette tout le SI. Les équipements doivent être dédiés au filtrage et qualifiés par l'ANSSI.
+
+   C. Utilisation des pots de miel et des sondes de détection.
+
+      Le pot de miel ou honeypot est un leurre constitué d'une machine ou d'un compte sans usage légitime. Tout accès à ce dispositif signale la présence d'un intrus et génère des alertes avec très peu de faux positifs.
+
+      Les sondes de détection complètent la défense en surveillant les activités suspectes. On distingue le NIDS qui surveille le trafic sur le réseau et le HIDS ou EDR qui surveille directement les machines.
+
+      L'IDS est un système de détection qui reçoit une copie du trafic via un port miroir pour alerter le SIEM sans bloquer les flux. L'IPS est un système de prévention qui se place en coupure pour bloquer le paquet malveillant avant qu'il n'atteigne le serveur.
+
+      Aujourd'hui, la fonction IPS est fréquemment intégrée aux NGFW. Les OIV ont l'obligation de faire exploiter des sondes de détection par un prestataire qualifié par l'ANSSI.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre l'IDS qui se contente d'alerter le SIEM et l'IPS qui agit en coupure pour bloquer les paquets malveillants.
+
+      Une confusion courante réside dans le rôle du reverse proxy qui termine la connexion TLS pour éviter que l'usager ne parle directement au serveur interne.
+
+      La règle d'or de l'architecture en zones impose qu'un flux ne saute jamais une zone, ce qui signifie qu'Internet ne peut parler qu'à la DMZ.
+
+      Il est crucial de distinguer l'attaque volumétrique qui sature la bande passante de l'attaque applicative qui épuise les ressources CPU ou RAM.
+
+      La distinction entre un pare-feu certifié et un pare-feu qualifié est importante car la qualification par l'ANSSI va au-delà de la simple certification.
+
+EXEMPLES CITÉS.
+
+      Le nom de domaine impots.gouv.fr ne pointe jamais vers un serveur physique mais vers une VIP portée par un répartiteur de charge en DMZ.
+
+      L'API Impôt particulier est un exemple de service exposé par la DGFiP qui nécessite une habilitation DataPass pour simplifier les démarches.
+
+      Le cas de l'attaque par inondation SYN montre comment des milliers de connexions incomplètes peuvent saturer un serveur.
+
+      Le catalogue api.gouv.fr est tenu par la DINUM pour répertorier les API publiques de l'État.

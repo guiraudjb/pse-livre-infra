@@ -1,0 +1,249 @@
+LA JOURNALISATION, LA SUPERVISION ET L'ORGANISATION DU SOC.
+
+LEXIQUE COMPLET.
+
+      Le SOC désigne l'équipe d'analystes qui qualifie les alertes et lance la réponse suite à la détection d'activités suspectes.
+
+      Le SIEM désigne l'outil permettant de stocker, rechercher, corréler et déclencher des alertes à partir des journaux collectés.
+
+      L'EDR désigne un outil de détection des comportements suspects sur les postes de travail.
+
+      Le NDR désigne un outil de détection des comportements suspects au sein du réseau.
+
+      Le CERT-FR désigne l'organisme fournissant des marqueurs d'attaque partagés pour le renseignement sur la menace.
+
+      Le ReCyF désigne le cadre demandant de conserver les journaux au moins trois mois et de traiter les alertes sous vingt-quatre heures pour une entité essentielle.
+
+      Le SNMP désigne le protocole universel utilisé pour la supervision des équipements réseau.
+
+      Le PDIS désigne un prestataire qualifié utilisé pour assurer la détection lorsque les ressources internes ne suffisent pas.
+
+      Le PRIS désigne un prestataire qualifié utilisé pour assurer la réponse en cas d'incident.
+
+      La QoS désigne la qualité de service qui organise le partage des liens réseau en priorisant les flux critiques.
+
+      Le CSIRT désigne l'organisme chargé de la réponse et de la coordination lors d'un incident de sécurité.
+
+      L'ANSSI désigne l'autorité ayant publié le rapport sur la DGFiP en deux mille vingt-six mentionnant l'exfiltration de onze gigaoctets de données.
+
+COURS DÉTAILLÉ.
+
+I. FONDAMENTAUX DE LA SUPERVISION.
+
+   A. Distinction entre supervision d'exploitation et de sécurité.
+
+      La supervision d'exploitation se concentre sur le bon fonctionnement et la rapidité des services en utilisant des métriques, des sondes de disponibilité, le protocole SNMP ou des tableaux de bord.
+
+      La supervision de sécurité cherche à identifier si une attaque est en cours en s'appuyant sur les journaux, le SIEM, l'EDR, les sondes réseau et le SOC.
+
+      Ces deux types de supervision sont complémentaires car une hausse de charge inexpliquée peut signifier aussi bien une panne qu'une exfiltration de données.
+
+      L'intelligence artificielle peut améliorer la supervision d'exploitation en apprenant le comportement normal pour anticiper des pannes comme la surchauffe d'un serveur ou les erreurs de lecture d'un disque.
+
+   B. La chaîne de détection et ses briques.
+
+      La chaîne commence par les sources de données qui incluent les pare-feu, les proxys, les VPN, l'annuaire, les postes via l'EDR, les serveurs, les applications et le cloud.
+
+      La collecte consiste à rassembler les journaux en les horodatant par une même source de temps via le protocole NTP et en les convertissant dans un format commun.
+
+      Le SIEM assure le stockage, la recherche, la corrélation et le déclenchement des alertes pour l'ensemble du système.
+
+      L'EDR et le NDR interviennent pour détecter les comportements suspects directement sur les postes de travail et au sein du réseau.
+
+      Le SOC est composé d'analystes qui qualifient les alertes et lancent la réponse face aux incidents identifiés.
+
+      Le renseignement sur la menace utilise des marqueurs d'attaque partagés par le CERT-FR et les autres CSIRT pour renforcer la détection.
+
+   C. L'importance de la corrélation des signaux faibles.
+
+      Un signal isolé comme un volume inhabituel, une connexion nocturne, une adresse IP étrangère ou un nombre élevé de requêtes génère souvent de nombreuses fausses alertes.
+
+      La corrélation de ces signaux permet de produire une alerte fiable et de transformer des événements isolés en une détection pertinente.
+
+      L'incident de la DGFiP illustre ce manque car un portail n'était pas supervisé par le SOC et les signaux n'ont pas été rapprochés.
+
+      L'exfiltration de onze gigaoctets de données en quatre jours sans alerte à la DGFiP rappelle l'importance de cette analyse de corrélation.
+
+      L'IA apporte une valeur ajoutée majeure au SOC en aidant à croiser les indicateurs pour identifier ces signaux faibles.
+
+II. STRATÉGIES DE JOURNALISATION.
+
+   A. Priorités de journalisation selon l'ANSSI.
+
+      L'ANSSI recommande de concentrer les efforts de journalisation sur les éléments les plus utiles lors d'une enquête technique. Les authentifications, qu'elles soient réussies ou échouées, doivent être suivies sur l'annuaire, le VPN, les bastions et les applications exposées.
+
+      Il est essentiel de tracer les actions d'administration ainsi que les flux aux frontières du système d'information comme les pare-feu, les proxys et le DNS. L'activité des postes et des serveurs doit également être capturée via l'EDR.
+
+      Une priorité majeure concerne les accès applicatifs aux données pour savoir qui a consulté quoi et en quel volume. L'ordre de priorité préconisé par l'ANSSI inclut les VPN et bureaux virtuels, les contrôleurs de domaine et les hyperviseurs.
+
+      Le déploiement d'outils de visibilité comme Sysmon, l'EDR ou l'XDR complète cette stratégie de couverture. Les alertes antivirus et l'EDR des serveurs sensibles constituent également des sources critiques.
+
+   B. Architecture et étapes de la chaîne de journalisation.
+
+      La chaîne de journalisation commence par la production où il faut activer la journalisation native sur un grand nombre d'équipements. Il convient de choisir une granularité adaptée pour ne pas saturer les ressources et de journaliser les empreintes des fichiers suspects.
+
+      L'étape de l'horodatage est cruciale pour la comparaison des événements sans erreur. Elle nécessite de synchroniser les horloges sur des sources cohérentes en utilisant le format ISO huit mille six cent un et le fuseau UTC.
+
+      La collecte et le transfert consistent à centraliser les données ou à les exporter vers un autre équipement via des flux protégés. Le mode Push permet aux clients WEF d'initier l'envoi vers le serveur, tandis que le mode Pull voit le serveur interroger les clients.
+
+      Le SIEM assure ensuite le stockage, la recherche, la corrélation et le déclenchement des alertes. Pour la détection comportementale, les outils EDR et NDR sont utilisés sur les postes et dans le réseau.
+
+      Le stockage doit être dimensionné correctement, protégé en termes d'intégrité et les durées de conservation doivent être fixées. En cas d'externalisation, il est nécessaire d'encadrer le prestataire PDIS qualifié pour garder la maîtrise des journaux.
+
+   C. Contraintes de stockage et de conservation.
+
+      Le ReCyF impose une conservation minimale des journaux de trois mois pour une entité essentielle. Les alertes doivent être traitées sous vingt-quatre heures dans ce cadre réglementaire.
+
+      En pratique, une conservation plus longue de six à douze mois est fortement recommandée pour faciliter les investigations. L'exfiltration de la DGFiP a par exemple été découverte sept semaines après les faits.
+
+      Le dimensionnement du stockage est une étape clé de l'architecture pour éviter la perte de données. Il faut également veiller à la protection de l'intégrité des journaux stockés.
+
+      La gestion de la granularité est une contrainte technique majeure car tout journaliser risque de saturer les ressources de stockage. L'objectif est de trouver l'équilibre entre la richesse de l'information et la capacité de stockage disponible.
+
+III. ORGANISATION ET PILOTAGE DE LA RÉPONSE.
+
+   A. Structure du SOC et du CSIRT ministériel.
+
+      Le SOC ministériel est une structure mutualisée qui opère vingt-quatre heures sur vingt-quatre pour assurer la surveillance des systèmes critiques.
+
+      Il a pour mission de collecter les journaux de tout le SI, de les corréler et d'alerter les équipes capables de réagir.
+
+      Le CSIRT ministériel assure la réponse et la coordination des actions de sécurité.
+
+      Ce CSIRT est directement relié au CERT-FR ainsi qu'aux autres CSIRT pour garantir une coopération efficace.
+
+   B. Recours aux prestataires qualifiés PDIS et PRIS.
+
+      Lorsque les ressources internes de l'entité sont insuffisantes, le recours à des prestataires qualifiés devient nécessaire.
+
+      Les prestataires PDIS sont sollicités spécifiquement pour assurer la mission de détection.
+
+      Les prestataires PRIS interviennent pour prendre en charge la partie réponse aux incidents.
+
+   C. Pilotage de la supervision et couverture de la menace.
+
+      La supervision de sécurité ne se limite pas à la détection car elle inclut également la qualification et le choix de la réaction.
+
+      Le pilotage repose sur l'idée qu'une attaque se décompose en étapes selon des modèles comme la Cyber Kill Chain ou le MITRE ATT&CK.
+
+      Une supervision efficace permet d'arrêter l'attaquant avant qu'il n'atteigne son objectif en repérant les traces laissées par ses actions.
+
+      La couverture de la supervision doit être mesurée en évaluant la part des applications, des comptes et des flux qui sont effectivement supervisés.
+
+      L'ordre de priorité de l'ANSSI impose de surveiller en premier le VPN, les bureaux virtuels, les contrôleurs de domaine et les hyperviseurs.
+
+IV. SUPERVISION D'EXPLOITATION ET GESTION RÉSEAU.
+
+   A. Le modèle gestionnaire-agent et le protocole SNMP.
+
+      La supervision d'exploitation vérifie en continu le fonctionnement des équipements et des services tout en mesurant leurs performances dans la durée via la métrologie. Elle repose sur le modèle gestionnaire-agent où un agent sur chaque équipement expose des valeurs qu'une station de supervision interroge ou reçoit.
+
+      Le protocole SNMP est le standard universel pour les équipements réseau. Chaque valeur comme la charge d'une interface ou la température est un objet rangé dans une MIB et identifié par un OID.
+
+      Le gestionnaire peut lire les valeurs par une commande GET ou en modifier via une commande SET. L'agent peut aussi signaler des événements de lui-même en utilisant des traps.
+
+      Les versions un et 2c de ce protocole utilisent un mot de communauté en clair pour l'authentification. Seule la version trois, qui est authentifiée et chiffrée, est acceptable sur le réseau d'administration.
+
+      Les équipements récents complètent ces capacités par la télémétrie en flux continu avec des modèles YANG ou le protocole gNMI.
+
+   B. Outils de métrologie et de monitoring.
+
+      Plusieurs outils permettent de surveiller l'état des systèmes avec des approches variées. Des solutions comme Nagios, Centreon, Icinga ou Shinken utilisent des sondes et des greffons pour renvoyer un état OK, un avertissement ou un état critique.
+
+      Zabbix propose une approche intégrée combinant la supervision et la métrologie grâce aux agents et au protocole SNMP.
+
+      Dans les environnements conteneurisés, le standard repose sur Prometheus et Grafana. Prometheus collecte des séries temporelles par interrogation avec le langage de requête PromQL pour alimenter les tableaux de bord Grafana.
+
+      Pour l'historique du trafic des interfaces réseau, des outils classiques comme MRTG, Cacti ou RRDtool sont utilisés pour générer des graphes.
+
+      L'outil Ping utilise le protocole ICMP pour mesurer la latence ou vérifier l'accessibilité d'une machine en envoyant une requête ICMP Echo.
+
+      L'agent NSCA permet une vérification planifiée et exécutée en local pour envoyer le résultat à Nagios en mode passif ou trapping. Cette méthode est utile derrière un pare-feu en diode car elle inverse le sens des connexions.
+
+   C. Qualité de service et gestion des flux.
+
+      La qualité de service, ou QoS, organise le partage des liens réseau lorsqu'ils arrivent à saturation. Elle permet de s'assurer que la voix et les applications critiques sont servies en priorité par des files d'attente prioritaires ou pondérées.
+
+      La QoS se caractérise par des indicateurs précis tels que la latence, la gigue et la perte de paquets.
+
+      Le trafic de masse peut être lissé par une technique de shaping ou simplement limité pour préserver les flux essentiels.
+
+      Sans marquage préalable, le réseau traite l'ensemble du trafic en mode best effort. Cela peut entraîner des problèmes graves comme une sauvegarde qui couperait les communications téléphoniques d'un site.
+
+      Une supervision efficace doit mesurer ce que vit réellement l'usager, comme le taux d'erreur ou le temps de réponse d'une démarche, plutôt que de se limiter à l'état des machines.
+
+V. APPORTS DE L'INTELLIGENCE ARTIFICIELLE.
+
+   A. IA appliquée à la supervision d'exploitation.
+
+      L'intelligence artificielle améliore la supervision classique en apprenant le comportement normal des systèmes pour repérer les écarts.
+
+      Elle permet de croiser les indicateurs afin de trouver la cause exacte d'un problème technique.
+
+      Cette technologie est capable d'anticiper certaines pannes grâce à la maintenance prédictive, comme un disque qui multiplie les erreurs de lecture ou un serveur qui va surchauffer.
+
+      L'IA réduit le nombre de fausses alertes, à la condition que les données utilisées soient fiables et que les équipes conservent la maîtrise des décisions.
+
+      Elle peut également surveiller des composants spécifiques comme le processeur pour détecter une augmentation soudaine de son utilisation.
+
+   B. IA pour l'aide à la décision au SOC.
+
+      L'intelligence artificielle apporte une valeur ajoutée majeure au SOC en aidant à la corrélation des signaux faibles.
+
+      Elle permet de classer les incidents par gravité et de suggérer des solutions concrètes aux techniciens.
+
+      En analysant rapidement de grandes quantités de données, elle aide à transformer des volumes de données brutes en alertes fiables.
+
+      Cette capacité de traitement est essentielle pour éviter que des événements isolés ne passent inaperçus, comme ce fut le cas lors de l'exfiltration de la DGFiP.
+
+VI. ENJEUX ET RETOURS D'EXPÉRIENCE.
+
+   A. Analyse de l'incident de la DGFiP.
+
+      L'incident de la DGFiP, rapporté par l'ANSSI en deux mille vingt-six, illustre les dangers d'une supervision incomplète.
+
+      Au cours de cet événement, onze gigaoctets de données ont été exfiltrés en l'espace de quatre jours sans qu'aucune alerte ne soit déclenchée.
+
+      L'exfiltration a été découverte sept semaines après les faits, ce qui démontre l'importance d'une conservation prolongée des journaux.
+
+      L'analyse montre qu'un portail n'était pas supervisé par le SOC et que les signaux faibles n'ont pas été rapprochés.
+
+      En réponse, le plan d'action de la DGFiP prévoit désormais d'étendre la supervision à toutes les applications métier.
+
+      Cette nouvelle stratégie inclut la mise en place de quotas de consultation et de blocages basés sur la réputation des adresses IP.
+
+   B. Réduction de la gravité des attaques par la détection.
+
+      La détection constitue le maillon critique qui détermine la gravité d'une cyberattaque pour une organisation.
+
+      Une intrusion qui est détectée en quelques heures est considérée comme un incident, tandis qu'une détection après plusieurs semaines transforme l'événement en une crise.
+
+      Investir dans la capacité de détection permet de réduire directement les conséquences d'une attaque sur le système d'information.
+
+      Le principe de la supervision de sécurité repose sur l'idée qu'une attaque se décompose en étapes laissant des traces.
+
+      En utilisant des outils comme le SIEM, l'EDR ou le NDR, il est possible d'arrêter un attaquant avant qu'il n'atteigne son objectif final.
+
+      Le CSIRT ministériel de Bercy a traité environ deux cents alertes et soixante-dix-sept incidents au cours de l'année deux mille vingt-cinq.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre la supervision d'exploitation qui vérifie la disponibilité et la rapidité des services avec la supervision de sécurité qui cherche des traces d'attaques.
+
+      Une hausse de charge inexpliquée sur un serveur peut être interprétée soit comme une panne technique, soit comme une exfiltration de données par un attaquant.
+
+      La corrélation est essentielle car un signal faible comme une connexion nocturne ou une IP étrangère produit souvent des faux positifs s'il est analysé isolément.
+
+      La supervision de sécurité ne se limite pas à la détection mais inclut aussi la qualification de l'événement et le choix de la réaction appropriée.
+
+      En matière de protocole SNMP, les versions un et 2c sont insuffisantes car les mots de communauté circulent en clair, contrairement à la version trois qui est chiffrée.
+
+EXEMPLES CITÉS.
+
+      Le rapport de l'ANSSI sur la DGFiP en deux mille vingt-six montre que onze gigaoctets de données ont été exfiltrés en quatre jours sans qu'aucune alerte ne soit déclenchée.
+
+      L'exfiltration de la DGFiP a été découverte sept semaines après les faits, ce qui souligne l'importance de conserver les journaux au moins six à douze mois.
+
+      Le ReCyF impose de conserver les journaux au moins trois mois et de traiter les alertes sous vingt-quatre heures pour une entité essentielle.
+
+      Le CSIRT Finances de Bercy a traité environ deux cents alertes et soixante-dix-sept incidents au cours de l'année deux mille vingt-cinq.

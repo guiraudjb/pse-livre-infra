@@ -1,0 +1,47 @@
+TITRE : L'IA ENTRE OMBRE ET LUMIÈRE
+
+[Intro]
+Entre vecteur d'attaque et bouclier de défense,
+L'intelligence artificielle change la cadence.
+
+[Couplet 1]
+L'ANSSI observe, le CERT-FR dresse un constat prudent,
+En février deux mille vingt-six, un état des lieux est présent.
+Pas d'attaques françaises autonomes, pas de système seul,
+Mais l'IA booste la menace, l'hameçonnage est le seuil.
+Deepfakes vocaux pour quelques dizaines de dollars,
+L'ingénierie sociale s'étend, l'usurpation fait l'effort.
+Storm-1516, mode russe depuis août deux mille vingt-trois,
+Le dividende du menteur sème le doute et la loi.
+
+[Refrain]
+Double tranchant, l'IA s'élance,
+Entre l'attaque et la défense.
+
+[Couplet 2]
+Injection d'instructions ou empoisonnement des données,
+L'évasion modifie le code, les réponses sont détournées.
+L'INESIA, créée en deux mille vingt-cinq pour évaluer,
+Pilote la fiabilité pour ne pas se faire piéger.
+Au SOC, l'IA trie, enrichit et détecte l'anomalie,
+BigSleep en deux mille vingt-quatre ou XBOW en deux mille vingt-cinq agissent ici.
+Viginum traque les campagnes de manipulation,
+Pour protéger la vérité et la nation.
+
+[Refrain]
+Double tranchant, l'IA s'élance,
+Entre l'attaque et la défense.
+
+[Pont]
+Trente-cinq recommandations dans le guide ANSSI-PA-102,
+Pour sécuriser l'agent et l'usage de l'IA générative.
+L'architecture est la parade, le droit minimal est la règle,
+L'humain doit valider pour que l'action soit réelle.
+
+[Refrain final]
+Double tranchant, l'IA s'élance,
+Entre l'attaque et la défense.
+
+[Outro]
+L'expertise humaine reste le pilier de la vigilance,
+Face à la machine, gardons notre vigilance.

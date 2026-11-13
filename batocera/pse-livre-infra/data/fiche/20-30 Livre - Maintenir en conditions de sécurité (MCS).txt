@@ -1,0 +1,199 @@
+LE MAINTIEN EN CONDITIONS DE SÉCURITÉ POUR GARANTIR LA PÉRENNITÉ DE LA PROTECTION DES SYSTÈMES D'INFORMATION.
+
+LEXIQUE COMPLET.
+
+      Le MCS désigne le maintien en conditions de sécurité qui est le travail continu permettant de garder le niveau de sécurité d'un système constant dans le temps.
+
+      Le MCO désigne le maintien en conditions opérationnelles dont l'objectif est de s'assurer que le système fonctionne en gérant les pannes, la capacité et les versions.
+
+      Le CERT-FR désigne l'organisme qui publie des avis et des alertes sur les vulnérabilités critiques en collaboration avec l'ANSSI.
+
+      L'ANSSI désigne l'autorité qui conduit l'opération REACTIV et propose un service d'audit de l'Active Directory pour aider les organismes.
+
+      Le ReCyF désigne la règle qui exige l'application sans délai des correctifs sur les équipements exposés.
+
+      Le durcissement désigne l'activité consistant à appliquer des configurations conformes aux guides de l'ANSSI ou du CIS.
+
+      Le PASSI désigne l'entité chargée de réaliser des audits d'architecture, de configuration ou des tests d'intrusion.
+
+      La porte dérobée désigne un code malveillant inséré illégitimement dans un projet comme ce fut le cas pour le projet XZ Utils.
+
+      ARIANE désigne l'Autorité nationale pour l'intelligence artificielle et le numérique de l'État qui est le nom futur de la DINUM.
+
+      La DITSP désigne la direction interministérielle de la transformation et des services publics qui est le nom futur de la DITP.
+
+COURS DÉTAILLÉ.
+
+I. FONDAMENTAUX ET DISTINCTION ENTRE MCO ET MCS.
+
+   A. Définition du maintien en conditions de sécurité.
+
+      Le maintien en conditions de sécurité est un travail continu qui permet de garder le niveau de sécurité d'un système d'information constant dans le temps.
+
+      Un système d'information qui est considéré comme sûr le jour de sa mise en service ne l'est plus six mois après en raison de l'apparition quotidienne de nouvelles failles.
+
+      Cette activité vise à prévenir la majorité des incidents car la grande majorité des intrusions exploitent des failles connues et qui sont pourtant corrigeables.
+
+      Le maintien en conditions de sécurité nécessite des équipes, des outils et du temps planifié, ce qui implique un budget récurrent plutôt que de simples budgets de projets.
+
+   B. Différence entre maintien opérationnel et maintien de sécurité.
+
+      Le maintien en conditions opérationnelles, ou MCO, a pour objectif principal de garantir que le système fonctionne correctement en gérant les pannes, la capacité et les versions.
+
+      Le maintien en conditions de sécurité, ou MCS, se concentre sur le fait que le système reste sûr à travers les correctifs, le durcissement, les contrôles et l'homologation.
+
+      Alors que le MCO traite de la disponibilité et de la performance, le MCS s'assure de la protection contre les vulnérabilités et le respect des règles de sécurité.
+
+II. ACTIVITÉS CLÉS ET PROCESSUS DU MCS.
+
+   A. Veille, gestion des correctifs et des vulnérabilités.
+
+      La veille repose sur l'analyse constante des avis et alertes du CERT-FR, des bulletins des éditeurs ainsi que du catalogue des failles activement exploitées.
+
+      La gestion des correctifs nécessite un tri rigoureux par gravité et exposition avant de procéder aux tests, au déploiement et au contrôle.
+
+      En cas de faille activement exploitée sur un équipement exposé à internet, le délai cible est de quelques heures à quarante-huit heures, ou l'isolement de l'équipement.
+
+      Les failles critiques sur un composant interne sensible comme l'annuaire ou la virtualisation doivent être traitées en quelques jours.
+
+      Les failles importantes suivent un cycle mensuel tandis que les failles mineures sont intégrées au cycle normal de mise à jour.
+
+      Le ReCyF exige l'application sans délai des correctifs sur les équipements exposés et impose des mesures de contournement ou une surveillance renforcée si aucun correctif n'existe.
+
+   B. Durcissement, audits et revue des droits.
+
+      Le durcissement consiste à appliquer des configurations conformes aux guides de l'ANSSI ou du CIS, avec un contrôle effectué de manière automatique.
+
+      La gestion des vulnérabilités s'appuie sur des scans réguliers et un suivi rigoureux de chaque faille jusqu'à sa correction effective.
+
+      Les audits sont réalisés par des PASSI à travers des tests d'intrusion ainsi que des audits d'architecture et de configuration.
+
+      La revue des droits permet de contrôler régulièrement les comptes, les groupes ainsi que les règles de pare-feu.
+
+      L'automatisation du durcissement peut passer par des outils de contrôle de conformité comme OpenSCAP, Ansible ou les GPO.
+
+   C. Suivi de l'homologation et gestion des changements.
+
+      Le suivi de l'homologation implique la mise en œuvre d'un plan d'action et le renouvellement de l'homologation avant son expiration.
+
+      Un réexamen de l'homologation doit être systématiquement effectué après chaque changement majeur sur le système.
+
+      Le maintien en conditions de sécurité est optimisé lorsque la sécurité est prévue dès la conception, notamment pour le choix des logiciels libres ou des objets connectés.
+
+      Pour les infrastructures modernes, la chaîne CI/CD permet de corriger les dépendances avant le déploiement et de réinstancier régulièrement l'infrastructure.
+
+      L'accès d'administration des prestataires chargés du MCO et du MCS doit être dédié, contrôlé et journalisé.
+
+III. STRATÉGIES DE PRIORISATION ET DE RÉPONSE AUX FAILLES.
+
+   A. Délais de correction selon la criticité et l'exposition.
+
+      La gestion des correctifs ne permet pas une intervention simultanée sur toutes les vulnérabilités, ce qui impose une hiérarchisation rigoureuse.
+
+      Une faille activement exploitée sur un équipement exposé à internet nécessite une réaction immédiate en quelques heures à quarante-huit heures, ou l'isolement de l'équipement.
+
+      Pour une faille critique touchant un composant interne sensible comme l'annuaire ou la virtualisation, le délai cible est de quelques jours.
+
+      Les failles jugées importantes sur d'autres types de composants suivent un cycle de correction mensuel.
+
+      Enfin, les failles mineures sont traitées selon le cycle normal de mise à jour du système.
+
+   B. Mesures de contournement et surveillance en l'absence de correctif.
+
+      Le ReCyF impose d'appliquer sans délai les correctifs sur les équipements qui sont exposés.
+
+      Lorsqu'un correctif n'est pas encore disponible, il est nécessaire d'appliquer les mesures de contournement qui ont été publiées.
+
+      Il est également impératif de renforcer la surveillance du système pour détecter toute activité suspecte.
+
+      Une recherche de traces de compromission antérieure doit être effectuée pour s'assurer que l'absence de correctif n'a pas déjà permis une intrusion.
+
+IV. AUTOMATISATION ET OUTILS DE PILOTAGE.
+
+   A. Déploiement et contrôle de conformité automatisés.
+
+      Le maintien en conditions de sécurité à grande échelle repose impérativement sur l'automatisation des processus.
+
+      Le déploiement des correctifs doit être réalisé via des outils centralisés pour garantir l'efficacité des interventions.
+
+      Le contrôle de la conformité des systèmes s'effectue de manière automatique grâce à des solutions comme OpenSCAP, Ansible ou les GPO.
+
+   B. Infrastructure en code et tableaux de bord de suivi.
+
+      L'approche par infrastructure en code permet de corriger directement le modèle pour ensuite redéployer l'ensemble.
+
+      Cette méthode évite la correction manuelle de chaque serveur individuellement.
+
+      Le pilotage de l'activité nécessite des tableaux de bord pour suivre le délai d'application des correctifs.
+
+      Ces outils permettent également de surveiller le taux de conformité ainsi que les dérogations en cours.
+
+V. INTÉGRATION DE LA SÉCURITÉ DÈS LA CONCEPTION.
+
+   A. Sécurité des logiciels libres et des objets connectés.
+
+      Le maintien en condition de sécurité est plus économique lorsqu'il est anticipé dès la conception ou le choix d'un composant.
+
+      Pour les logiciels libres, il convient de vérifier l'existence d'un contact sécurité et d'une procédure publique de gestion des vulnérabilités.
+
+      Un rythme régulier de correctifs est également un indicateur important, car une faible activité peut signaler un projet sans ressources.
+
+      Concernant les objets connectés, la sécurité doit être prévue dès la conception avec l'utilisation de composants éprouvés.
+
+      Le suivi des vulnérabilités est crucial pour ces équipements autonomes qui sont rarement administrés après leur déploiement.
+
+   B. Protection du socle matériel et de la chaîne CI/CD.
+
+      Le périmètre des mises à jour doit inclure le socle matériel, notamment les firmwares comme l'UEFI ou les cartes de gestion iLO et iDRAC.
+
+      Dans une chaîne CI/CD, les dépendances doivent être corrigées avant le déploiement pour garantir l'intégrité du processus.
+
+      L'infrastructure doit être réinstanciée régulièrement pour maintenir un niveau de sécurité optimal.
+
+   C. Encadrement des accès prestataires.
+
+      L'accès d'administration utilisé par le sous-traitant chargé du MCO et du MCS doit être strictement encadré.
+
+      Cet accès doit être dédié, contrôlé et systématiquement journalisé pour assurer une traçabilité complète.
+
+VI. ÉCOSYSTÈME DE SOUTIEN ET ENJEUX STRATÉGIQUES.
+
+   A. Rôle de l'ANSSI et du CERT-FR.
+
+      L'ANSSI joue un rôle central dans le maintien en conditions de sécurité en menant l'opération REACTIV.
+
+      Le CERT-FR collabore avec l'ANSSI pour publier des avis et des alertes concernant les vulnérabilités critiques.
+
+      Ce service d'État aide également les organismes à mesurer leur exposition grâce à son service d'audit de l'Active Directory.
+
+   B. Importance du budget récurrent et prévention des incidents.
+
+      Le maintien en conditions de sécurité est essentiel car la grande majorité des intrusions exploitent des failles connues et corrigeables.
+
+      Bien que cette activité ne soit pas spectaculaire, elle permet d'éviter la plupart des incidents de sécurité.
+
+      La mise en œuvre du MCS nécessite des équipes, des outils et du temps planifié.
+
+      Par conséquent, cela exige un budget récurrent et ne peut pas être considéré comme un simple projet ponctuel.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre le MCO qui assure le fonctionnement et la capacité du système avec le MCS qui garantit que le système reste sûr.
+
+      Le MCS ne doit pas être vu comme une action ponctuelle mais comme un travail continu pour maintenir un niveau de sécurité constant.
+
+      La priorité de correction ne dépend pas seulement de la gravité de la faille mais aussi de son exposition et de la sensibilité du composant.
+
+      Le maintien en condition de sécurité doit être intégré dès la conception des composants pour limiter les coûts et les risques.
+
+      L'automatisation est une condition nécessaire pour gérer le MCS à grande échelle via le déploiement centralisé ou l'infrastructure en code.
+
+EXEMPLES CITÉS.
+
+      Une faille activement exploitée sur un équipement exposé à internet doit être traitée en quelques heures à quarante-huit heures.
+
+      Le cas du projet XZ Utils illustre l'insertion malveillante d'une porte dérobée dans un projet logiciel.
+
+      L'ANSSI conduit l'opération REACTIV et publie des avis via le CERT-FR pour aider les organismes.
+
+      Le service d'audit de l'Active Directory aide les organisations à mesurer leur exposition aux vulnérabilités.

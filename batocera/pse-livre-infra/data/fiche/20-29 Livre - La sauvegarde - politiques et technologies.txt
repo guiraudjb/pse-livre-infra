@@ -1,0 +1,263 @@
+GUIDE COMPLET SUR LES POLITIQUES ET TECHNOLOGIES DE SAUVEGARDE.
+
+LEXIQUE COMPLET.
+
+      L'ANSSI désigne l'organisme qui recommande notamment de cloisonner les serveurs de sauvegarde et d'utiliser une copie hors ligne indispensable.
+
+      La règle 3-2-1 désigne une méthode de sauvegarde impliquant trois copies des données, sur deux supports différents, dont une copie hors site.
+
+      Le SOC ou centre opérationnel de sécurité désigne la structure chargée de la supervision et de la détection des événements de sécurité d'un système d'information.
+
+      La DMIA ou RTO désigne la durée maximale d'interruption admissible ou le recovery time objective qui représente la durée maximale d'indisponibilité tolérée avant restauration complète du service.
+
+      Le DPD ou DPO désigne le délégué à la protection des données qui doit pouvoir rapporter au plus haut niveau de la direction.
+
+      Le RSSI désigne le responsable de la sécurité des systèmes d'information qui doit pouvoir rapporter au plus haut niveau de la direction.
+
+      La technologie LTO désigne la bande magnétique offrant un mode WORM, un chiffrement matériel et un faible coût au téraoctet.
+
+      Le stockage objet immuable désigne une technologie de verrouillage d'objet qui rend la copie non modifiable pendant une durée fixée.
+
+      La remédiation désigne le projet de reprise de contrôle d'un système d'information compromis et de rétablissement d'un état de fonctionnement suffisant.
+
+      Le niveau zéro désigne une sauvegarde intégrale qui sauvegarde tous les fichiers de la liste sans tenir compte d'une sauvegarde antérieure.
+
+COURS DÉTAILLÉ.
+
+I. PRINCIPES FONDAMENTAUX ET RÈGLES DE L'ART.
+
+   A. La règle 3-2-1 et ses extensions.
+
+      La règle 3-2-1 constitue le socle de la stratégie de sauvegarde en imposant la détention de trois copies des données, incluant la production et deux sauvegardes.
+
+      Il est impératif d'utiliser deux supports ou technologies différents pour garantir la diversité des protections.
+
+      Une copie doit obligatoirement être conservée hors site pour parer aux sinistres physiques.
+
+      L'extension de cette règle ajoute une copie hors ligne ou immuable pour contrer les attaques modernes.
+
+      L'objectif ultime est d'atteindre le chiffre zéro concernant les erreurs lors de la vérification des restaurations.
+
+   B. L'importance de la copie hors ligne.
+
+      L'ANSSI insiste sur le fait que la copie hors ligne est indispensable pour la survie du système.
+
+      Même si elle est moins fréquente que les sauvegardes en ligne, elle protège contre la destruction volontaire des données par les attaquants.
+
+      Les technologies comme la bande magnétique LTO offrent un mode hors ligne avec un faible coût au téraoctet et une longue durée de vie.
+
+      L'utilisation de supports déconnectés ou de stockage immuable permet de briser la chaîne d'attaque des rançongiciels.
+
+      Une sauvegarde qui n'est pas déconnectée du réseau reste vulnérable si l'attaquant maîtrise l'infrastructure.
+
+   C. Différences entre réplication, sauvegarde et archivage.
+
+      La réplication vise la continuité avec un RPO très court, mais elle ne remplace pas la sauvegarde car elle recopie aussi le chiffrement d'un rançongiciel.
+
+      La sauvegarde a pour objectif de revenir à un état antérieur sain du système d'information.
+
+      L'archivage sert à la conservation à long terme avec une valeur probante, mais il n'est pas conçu pour une restauration rapide.
+
+      Contrairement à la sauvegarde, l'archivage possède une durée de conservation limitée.
+
+II. TECHNOLOGIES ET ARCHITECTURES DE STOCKAGE.
+
+   A. Comparatif des supports : disque, instantanés et stockage objet.
+
+      Le disque, utilisé via une appliance de sauvegarde, permet une restauration rapide et offre la déduplication. Cependant, il reste en ligne et peut être atteint si le cloisonnement est insuffisant.
+
+      Les instantanés de stockage permettent un retour en arrière en quelques minutes. Leur limite majeure est qu'ils se trouvent sur la même baie que la production.
+
+      Le stockage objet immuable utilise le verrouillage d'objet pour créer une copie non modifiable pendant une durée fixée. Le verrouillage doit impérativement résister aux comptes d'administration.
+
+   B. Utilisation de la bande magnétique et du cloud.
+
+      La bande magnétique LTO est une solution hors ligne avec un faible coût au téraoctet et une longue durée de vie. Elle propose le mode WORM et un chiffrement matériel, malgré une restauration lente et une manipulation physique.
+
+      Le cloud permet de stocker les données hors site sans avoir besoin de bâtiment. L'utilisation du cloud impose de maîtriser la localisation, le chiffrement par le ministère et la souveraineté.
+
+      Pour l'externalisation, l'ANSSI demande de vérifier la localisation dans l'Union européenne. Le ministère doit chiffrer les données avec un moyen propre avant l'envoi et maîtriser la durée de conservation ainsi que la suppression.
+
+   C. Combinaison des technologies pour une architecture résiliente.
+
+      Une bonne architecture de sauvegarde ne repose pas sur un seul support mais combine plusieurs technologies. Elle doit utiliser le disque pour la rapidité de récupération.
+
+      L'architecture doit également intégrer des solutions immuables ou de la bande pour garantir la survie des données. Cette complémentarité est essentielle pour répondre aux exigences de sécurité.
+
+      L'objectif est de construire une défense qui respecte la règle 3-2-1 et ses extensions. Cela inclut l'utilisation de copies hors ligne ou immuables pour contrer les attaques de type rançongiciel.
+
+III. SÉCURISATION DE L'INFRASTRUCTURE DE SAUVEGARDE.
+
+   A. Cloisonnement et isolation du réseau de production.
+
+      L'infrastructure de sauvegarde doit être strictement cloisonnée dans une zone d'administration distincte de la zone de production.
+
+      Les flux de données entre ces deux environnements doivent impérativement transiter par un segment réseau dédié.
+
+      Il est crucial que la sauvegarde soit totalement indépendante de la plateforme virtualisée et de l'annuaire utilisé par la production.
+
+      Cette isolation garantit qu'un attaquant ayant pris le contrôle de l'hyperviseur ou de l'AD ne puisse pas atteindre les copies de sécurité.
+
+      Toutes les copies ne doivent pas être joignables depuis le réseau pour éviter une destruction massive par un rançongiciel.
+
+      L'ANSSI recommande de déconnecter au moins les sauvegardes les plus critiques, comme les disques externes ou les bandes, en les actualisant fréquemment.
+
+   B. Gestion des accès, comptes dédiés et MFA.
+
+      Les serveurs de sauvegarde ne doivent en aucun cas être rattachés à l'annuaire de production comme l'Active Directory.
+
+      Cette mesure empêche un attaquant maître de l'annuaire de se connecter directement aux systèmes de sauvegarde.
+
+      L'utilisation de comptes dédiés à la sauvegarde est une exigence fondamentale pour maintenir l'étanchéité des privilèges.
+
+      L'authentification multi-facteurs, ou MFA, doit être systématiquement appliquée sur ces comptes pour renforcer la sécurité.
+
+      La politique de sécurité doit également interdire aux utilisateurs de procéder eux-mêmes à des opérations de restauration.
+
+   C. Chiffrement et protection des clés.
+
+      Le chiffrement doit être appliqué de manière systématique tant pour les flux de données que pour les sauvegardes stockées.
+
+      La protection des clés de chiffrement est un enjeu majeur qui nécessite de les maintenir hors du SI de production.
+
+      En cas d'externalisation vers un cloud ou un prestataire, le ministère doit chiffrer les données avec ses propres moyens avant l'envoi.
+
+      Cette maîtrise du chiffrement permet de garantir la confidentialité et la souveraineté des données même hors site.
+
+   D. Surveillance et sauvegarde de l'infrastructure elle-même.
+
+      Une surveillance active de l'activité est indispensable pour détecter des volumes de données incohérents ou des modifications de politiques.
+
+      Ces anomalies peuvent constituer des signaux d'alerte précoces signalant une attaque en cours sur le système.
+
+      Il est impératif de sauvegarder l'infrastructure de sauvegarde elle-même, incluant les binaires et les configurations.
+
+      Les procédures de reconstruction doivent également être sauvegardées pour permettre de repartir de zéro en cas de sinistre.
+
+      Cette approche garantit que l'outil de restauration est aussi résilient que les données qu'il est censé protéger.
+
+IV. PÉRIMÈTRE ET GESTION DES DONNÉES À SAUVEGARDER.
+
+   A. Données métier et cœur de confiance.
+
+      La sauvegarde ne doit pas se limiter uniquement aux données métier de l'organisation.
+
+      Il est impératif de sauvegarder les annuaires et le cœur de confiance du système.
+
+      La capacité à restaurer l'annuaire est un point décisif pour la reconstruction.
+
+      Une sauvegarde contenant un annuaire compromis ne permet pas de reconstruire le cœur de confiance.
+
+   B. Configurations réseau, sécurité et applications.
+
+      Le périmètre de sauvegarde inclut les configurations des équipements réseau et de sécurité.
+
+      Il faut également sauvegarder les médias d'installation ainsi que les configurations des applications.
+
+      Le code et l'infrastructure en code doivent être intégrés dans la stratégie de sauvegarde.
+
+      Il est nécessaire de paramétrer explicitement la sauvegarde des bases de données SGBD.
+
+   C. Documentation de reconstruction et procédures.
+
+      La documentation de reconstruction doit être sauvegardée de manière spécifique.
+
+      Cette documentation doit être disponible sur papier et en dehors du SI.
+
+      Elle constitue un élément essentiel pour la reconstruction complète du système.
+
+V. EXTERNALISATION ET GESTION DES RISQUES.
+
+   A. Exigences de l'ANSSI pour le cloud et les prestataires.
+
+      Lors de l'externalisation vers un cloud ou un prestataire, l'ANSSI exige de vérifier que la localisation des données se situe dans l'Union européenne.
+
+      Le ministère doit impérativement chiffrer les données avec un moyen propre avant leur envoi vers l'extérieur.
+
+      Il est nécessaire de maîtriser pleinement la durée de conservation des données ainsi que leur processus de suppression.
+
+   B. Identification des pièges et points de vigilance.
+
+      Un piège majeur consiste à laisser toutes les copies de sauvegarde joignables depuis le réseau sans déconnexion.
+
+      L'ANSSI recommande de déconnecter au moins les sauvegardes les plus critiques, comme les disques externes ou les bandes, en les actualisant fréquemment.
+
+      Il faut veiller à ce que les sauvegardes n'expirent pas durant une période de migration technique.
+
+      Une vigilance particulière doit être portée sur le paramétrage explicite de la sauvegarde des bases de données pour éviter une mauvaise couverture.
+
+      L'absence de capacité à restaurer l'annuaire est un risque décisif car elle empêche la reconstruction du cœur de confiance.
+
+   C. Indépendance vis-à-vis de l'annuaire et de l'hyperviseur.
+
+      La sauvegarde doit être totalement indépendante de la plateforme virtualisée et de l'annuaire de production.
+
+      Il est crucial de ne pas rattacher les serveurs de sauvegarde à l'Active Directory pour éviter qu'un attaquant ne puisse s'y connecter.
+
+      L'infrastructure de sauvegarde doit être cloisonnée dans une zone d'administration distincte de la production avec des flux dédiés.
+
+      L'utilisation de comptes dédiés avec MFA est nécessaire pour garantir que les utilisateurs ne puissent pas restaurer les données eux-mêmes.
+
+VI. PILOTAGE, MÉTRIQUES ET MISE EN ŒUVRE.
+
+   A. Indicateurs de performance et tests de restauration.
+
+      Le véritable indicateur de fiabilité ne consiste pas à affirmer que l'on sauvegarde, mais à prouver que l'on a restauré une application spécifique en un nombre d'heures défini durant le trimestre.
+
+      Une sauvegarde qui n'a jamais fait l'objet d'une restauration concrète ne doit être considérée que comme une simple hypothèse de travail.
+
+      La feuille de route deux mille vingt-six à deux mille vingt-sept demande d'ailleurs que les tests de restauration non réalisés figurent parmi les risques présentés en homologation.
+
+      L'objectif est de passer d'une logique de présence de données à une logique de capacité de reprise réelle et mesurable.
+
+   B. Modèle de politique de sauvegarde type.
+
+      La fréquence des sauvegardes est incrémentale quotidienne, complète hebdomadaire ; plus fréquente pour les données critiques.
+
+      La rétention est de trente jours en ligne, douze mois sur immuable ou bande.
+
+      La stratégie impose la présence d'au moins une copie hebdomadaire déconnectée pour garantir la sécurité hors ligne.
+
+      Le contrôle de la politique repose sur un rapport quotidien des échecs, une surveillance des alertes de volume et une revue régulière des droits d'accès.
+
+      Les tests de restauration doivent couvrir chaque application critique au moins une fois par an, avec un échantillonnage mensuel.
+
+   C. Glossaire des notions techniques et réglementaires.
+
+      La DMIA ou RTO désigne la durée maximale d'interruption admissible, ou recovery time objective, est la durée maximale d'indisponibilité tolérée avant restauration complète du service.
+
+      Le DPD ou DPO est le délégué à la protection des données, tandis que le RSSI est le responsable de la sécurité des systèmes d'information.
+
+      Le SOC ou centre opérationnel de sécurité est la structure chargée de la supervision et de la détection des événements de sécurité d'un système d'information.
+
+      La remédiation correspond au projet de reprise de contrôle d'un système d'information compromis et au rétablissement d'un état de fonctionnement suffisant.
+
+      Le niveau de sauvegarde est un degré de zéro à neuf identifiant les sauvegardes incrémentales, le niveau zéro correspondant à une sauvegarde intégrale.
+
+      Une sauvegarde complète ou intégrale consiste à sauvegarder tous les fichiers d'une liste sans tenir compte d'une sauvegarde antérieure.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre la réplication avec la sauvegarde car la réplication recopie également le chiffrement d'un rançongiciel.
+
+      La sauvegarde ne remplace pas l'archivage qui sert à la conservation à long terme avec une valeur probante.
+
+      Une erreur classique consiste à lier les serveurs de sauvegarde à l'annuaire de production car un attaquant maître de l'AD pourrait ainsi les compromettre.
+
+      L'utilisation de l'immuabilité est une nuance cruciale de la règle 3-2-1 car le verrouillage doit pouvoir résister aux comptes d'administration.
+
+      Il est indispensable de ne pas se contenter de sauvegarder les données métier mais d'inclure aussi les configurations réseau et les médias d'installation.
+
+      Une sauvegarde qui n'a jamais été testée n'est qu'une simple hypothèse et ne garantit pas la reprise du service.
+
+EXEMPLES CITÉS.
+
+      La règle 3-2-1 peut être étendue avec un un pour une copie hors ligne ou immuable et un zéro pour garantir l'absence d'erreur lors des restaurations.
+
+      Le ministère peut utiliser le stockage objet immuable pour empêcher toute modification pendant une durée fixée.
+
+      La bande magnétique LTO est citée comme une solution offrant un faible coût au téraoctet et un mode WORM.
+
+      Une politique de sauvegarde type peut prévoir une rétention de trente jours en ligne et de douze mois sur un support immuable ou une bande.
+
+      La feuille de route deux mille vingt-six à deux mille vingt-sept demande d'ailleurs que les tests de restauration non réalisés figurent parmi les risques présentés en homologation.

@@ -1,0 +1,53 @@
+TITRE : LE CODE SÉCURISÉ
+
+[Intro]
+Écoute le rythme de la chaîne, le flux de la donnée,
+Le DevSecOps s'avance pour tout sécuriser.
+
+[Couplet 1]
+Oublie la sécurité qu'on ajoute à la fin,
+Intègre chaque étape, trace ton propre chemin.
+De la conception à l'exploitation pure,
+L'analyse de risque rend la structure plus sûre.
+Le SAST scanne le code, le SCA guette les failles,
+Le DAST teste le flux, sans aucune bataille.
+Le PASSI intervient avant la mise en production,
+Pour que l'intégrité devienne la seule direction.
+
+[Refrain]
+Pas de sécurité en bout de chaîne,
+Le DevSecOps brise les chaînes.
+Automatise, sécurise et contrôle,
+Pour que le logiciel joue son rôle.
+
+[Couplet 2]
+La SBOM liste tout, chaque version, chaque part,
+CycloneDX ou SPDX pour ne pas être à l'écart.
+Le CRA impose ce rôle aux fabricants de logiciels,
+Pour identifier les failles en quelques minutes, sans retard.
+Attention au Typosquatting, au paquet malveillant,
+Ou au composant piégé, au faux contributeur tentant.
+Le maintien en condition de sécurité est vital,
+Pour éviter que la dette technique ne devienne fatale.
+
+[Refrain]
+Pas de sécurité en bout de chaîne,
+Le DevSecOps brise les chaînes.
+Automatise, sécurise et contrôle,
+Pour que le logiciel joue son rôle.
+
+[Pont]
+La chaîne CI/CD est un outil d'administration,
+L'ANSSI exige une rigoureuse journalisation.
+Postes dédiés, comptes à privilèges, secrets bien cachés,
+L'infrastructure en code doit être toujours relecture et protégée.
+
+[Refrain final]
+Pas de sécurité en bout de chaîne,
+Le DevSecOps brise les chaînes.
+Automatise, sécurise et contrôle,
+Pour que le logiciel joue son rôle.
+
+[Outro]
+De la DGFiP et ses cinq mille informaticiens,
+Vers un État maître de ses propres liens.

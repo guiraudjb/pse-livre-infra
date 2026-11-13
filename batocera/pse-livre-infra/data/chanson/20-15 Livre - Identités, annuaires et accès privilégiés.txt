@@ -1,0 +1,47 @@
+TITRE : LE CŒUR DE CONFIANCE
+
+[Intro]
+Écoute le rythme du système, l'identité en mouvement,
+Garde tes clés, protège tes droits, reste vigilant.
+
+[Couplet 1]
+L'Active Directory est le cœur, l'annuaire de confiance,
+Mais un chemin de contrôle peut briser la défense.
+Du Tier zéro au Tier deux, segmente tes privilèges,
+Pour que l'attaquant ne traverse pas les pièges.
+Le bastion est le passage, le point de contrôle obligatoire,
+Il injecte les secrets, enregistre chaque trajectoire.
+L'authentification multifacteur doit être forte et réelle,
+FIDO deux ou carte à puce, pour une sécurité sans pareille.
+
+[Refrain]
+Gère l'identité, verrouille l'accès,
+Le cœur de confiance n'accepte aucun excès.
+
+[Couplet 2]
+Kerberos distribue les tickets, le TGT est la clé,
+Mais le Golden Ticket peut tout faire basculer.
+Le Kerberoasting et le DCSync guettent la moindre faille,
+Alors le modèle en tiers doit rester votre bataille.
+La PKI délivre les certificats, l'IGC gère la clé,
+Le protocole ACME automatise pour ne pas s'essouffler.
+Le chiffrement symétrique AES protège tes données,
+Tandis que l'asymétrique RSA garde les secrets bien cachés.
+
+[Refrain]
+Gère l'identité, verrouille l'accès,
+Le cœur de confiance n'accepte aucun excès.
+
+[Pont]
+Souviens-toi de la DGFiP, en deux mille vingt-six,
+Trois cent cinquante-trois mille particuliers, un scénario tragique.
+Deux cent cinquante-deux mille professionnels touchés par l'erreur,
+Car la réinitialisation n'a pas coupé les sessions, quelle horreur.
+
+[Refrain final]
+Gère l'identité, verrouille l'accès,
+Le cœur de confiance n'accepte aucun excès.
+
+[Outro]
+L'ANSSI définit les règles, la défense est un combat,
+Automatise ton cycle de vie, ne fais aucun faux pas.

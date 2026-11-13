@@ -1,0 +1,53 @@
+TITRE : LA FEUILLE DE ROUTE
+
+[Intro]
+De deux mille vingt-six à deux mille trente, le plan se dessine.
+Pas d'invulnérabilité, mais une résilience qui s'affine.
+
+[Couplet 1]
+Priorité aux échéances et au rapport risque-effort,
+Pour que la stratégie ne soit jamais un simple effort.
+Fin deux mille vingt-six, les fondations sont posées,
+Cinq pour cent du budget numérique pour la sécurité.
+Le MFA pour les administrateurs, une urgence immédiate,
+Puis les SI à enjeux, pour une protection systématique et mate.
+Le ReCyF mesure l'écart, le plan réduit la vulnérabilité,
+Et le premier trimestre deux mille vingt-sept voit NIS deux intégrée.
+
+[Refrain]
+Voir l'attaque, l'empêcher de s'étendre,
+Maintenir le service, ne jamais se rendre.
+Détecter, protéger, reconstruire le lien,
+La résilience est notre seul chemin.
+
+[Couplet 2]
+Phase deux, transformation, le ZTNA remplace l'ancien,
+Le SecNumCloud accueille les données selon leur besoin.
+DevSecOps et SBOM sécurisent la chaîne logicielle,
+Pendant que la dette technique sort de son sommeil mortel.
+D'ici le vingt-huit février deux mille vingt-huit, le MFA est partout,
+La segmentation réseau et le huit cent deux point un font le tout.
+L'IA arrive avec un registre et des assistants métier,
+Et le post-quantique s'identifie dès fin deux mille vingt-sept pour préparer.
+
+[Refrain]
+Voir l'attaque, l'empêcher de s'étendre,
+Maintenir le service, ne jamais se rendre.
+Détecter, protéger, reconstruire le lien,
+La résilience est notre seul chemin.
+
+[Pont]
+PCA, PCI et PRA, testés en conditions réelles,
+Pour que la reconstruction soit une réponse sans pareille.
+Souveraineté renforcée, dépendances non européennes réduites,
+Fin deux mille trente, les SI de diffusion restreinte sont protégés, sans limite.
+
+[Refrain final]
+Voir l'attaque, l'empêcher de s'étendre,
+Maintenir le service, ne jamais se rendre.
+Détecter, protéger, reconstruire le lien,
+La résilience est notre seul chemin.
+
+[Outro]
+Portage politique, budget pluriannuel et adhésion des agents,
+C'est ainsi que l'on bâtit un avenir de confiance et de mouvement.

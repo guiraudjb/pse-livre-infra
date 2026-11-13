@@ -1,0 +1,235 @@
+GESTION DES IDENTITÉS, DES ACCÈS PRIVILÉGIÉS ET DE LA CRYPTOGRAPHIE.
+
+LEXIQUE COMPLET.
+
+      L'Active Directory désigne l'annuaire qui constitue le cœur de confiance de la plupart des systèmes d'information.
+
+      Le modèle en tiers désigne une méthode de sécurisation organisant les ressources en trois niveaux, dont le Tier zéro qui regroupe les contrôleurs de domaine et les outils d'administration.
+
+      Le bastion désigne le point de passage obligatoire de toutes les sessions d'administration qui authentifie l'administrateur et enregistre ses actions.
+
+      L'authentification multifacteur désigne une méthode exigeant au moins deux facteurs de nature différente, comme la connaissance, la possession ou l'inhérence.
+
+      L'infrastructure de gestion de clés désigne l'ensemble des ressources permettant de relier une clé publique à une identité par un certificat signé.
+
+      Le Kerberos désigne le protocole d'authentification du domaine qui utilise des tickets pour permettre l'accès aux services sans renvoyer le mot de passe.
+
+      Le gestionnaire des accès à privilèges désigne la solution permettant de contrôler, tracer et enregistrer les sessions d'administration.
+
+      Le chemin de contrôle désigne une succession de relations de permissions ou de dépendances techniques permettant à un attaquant de progresser vers une ressource de plus haute confiance.
+
+      Le certificat désigne un document numérique délivré par une autorité de certification pour attester de l'identité d'une personne, d'une machine ou d'un service.
+
+      L'ANSSI désigne l'autorité qui définit les priorités de sécurisation et les mesures clés pour protéger l'annuaire Active Directory.
+
+COURS DÉTAILLÉ.
+
+I. LES FONDAMENTAUX DE LA GESTION DES IDENTITÉS.
+
+   A. Les briques de l'identité (IAM, Annuaire, SSO, MFA, PKI, PAM).
+
+      L'annuaire constitue le référentiel des comptes, des groupes et des droits, comme l'Active Directory ou les annuaires LDAP.
+
+      La gestion des identités ou IAM permet de créer, modifier ou supprimer les comptes en fonction des arrivées, des mobilités et des départs, souvent alimentée par le SIRH.
+
+      La fédération et l'authentification unique ou SSO permettent d'utiliser une seule authentification pour plusieurs applications via des protocoles comme OpenID Connect ou SAML.
+
+      L'authentification forte ou MFA exige au moins deux facteurs, tels qu'une carte agent, une clé FIDO2 ou une application d'authentification.
+
+      L'infrastructure de clés publiques ou PKI délivre les certificats des personnes, des machines et des services, avec des certificats qualifiés RGS et eIDAS.
+
+      La gestion des accès à privilèges ou PAM sert à contrôler, tracer et enregistrer les sessions d'administration en utilisant des bastions ou des coffres-forts de secrets.
+
+   B. Le cycle de vie des comptes et la gestion des accès.
+
+      La création des comptes doit être automatique dès l'arrivée d'un collaborateur en s'appuyant sur les données du SIRH.
+
+      Les droits accordés doivent être définis par rôle et rester strictement limités au besoin de l'utilisateur.
+
+      Une revue annuelle des droits appelée ReCyF est nécessaire pour maintenir la sécurité du système.
+
+      La désactivation des comptes doit être immédiate dès le départ de l'utilisateur.
+
+      La surveillance des fuites d'identifiants est cruciale et doit s'accompagner de la révocation de toutes les sessions en cas de compromission.
+
+   C. L'authentification multifacteur et ses niveaux de résistance.
+
+      Le code par courriel présente une faible résistance car il tombe si la messagerie ou le poste de travail est compromis.
+
+      Le code par SMS offre également une faible résistance en raison des risques de détournement de numéro ou d'hameçonnage.
+
+      La notification à valider possède une résistance moyenne car elle reste vulnérable à la fatigue MFA.
+
+      Le code à usage unique provenant d'une application offre une résistance moyenne car il peut être hameçonné en temps réel.
+
+      La clé FIDO2, la carte à puce ou le certificat offrent une forte résistance car ils résistent à l'hameçonnage.
+
+      L'authentification multifacteur combine au moins deux facteurs de nature différente, à savoir la connaissance, la possession et l'inhérence.
+
+II. SÉCURISATION DE L'ACTIVE DIRECTORY ET DU CŒUR DE CONFIANCE.
+
+   A. Le concept de cœur de confiance et les chemins d'attaque.
+
+      Le cœur de confiance désigne l'ensemble des ressources dont la compromission permet de prendre le contrôle total du système d'information. Cela inclut les contrôleurs de domaine, les serveurs de mise à jour WSUS, les outils de déploiement, les hyperviseurs et l'IGC. Dans le milieu industriel, les serveurs de supervision SCADA ou MES font également partie de ce périmètre critique.
+
+      Un chemin de contrôle ou chemin d'attaque est une succession de relations de permissions ou de dépendances techniques. Il permet à un attaquant de progresser d'une ressource de moindre confiance vers une ressource de plus haute confiance. L'analyse de ces chemins révèle souvent qu'un compte de service banal peut mener au domaine en seulement trois sauts.
+
+   B. Le modèle en tiers (tiering) et l'administration sécurisée.
+
+      Le modèle en tiers segmente les ressources pour isoler les privilèges. Le Tier zéro regroupe les contrôleurs de domaine et l'IGC, qui doivent être administrés uniquement depuis des postes physiques dédiés sans jamais se connecter ailleurs. Le Tier un concerne les serveurs et applications avec des comptes d'administration propres, tandis que le Tier deux traite les postes de travail avec un mot de passe administrateur local unique via LAPS.
+
+      L'administration sécurisée impose l'utilisation de postes d'administration dédiés sur un réseau séparé ou chiffré par IPsec. Les comptes d'administration doivent être nominatifs et distincts des comptes utilisateurs bureautiques. Pour une sécurité maximale, l'ANSSI préconise un poste d'administration dédié plutôt qu'un poste multi-environnements.
+
+      Les secrets sont stockés dans un coffre-fort et les sessions passent obligatoirement par un bastion journalisé. Ce bastion se situe dans la zone d'administration et non dans la DMZ. Il authentifie fortement l'administrateur, injecte les secrets sans les révéler et enregistre l'intégralité de la session.
+
+   C. Mécanismes internes : réplication, rôles FSMO et Kerberos.
+
+      L'Active Directory repose sur une forêt regroupant des domaines, chacun servi par des contrôleurs de domaine qui répliquent l'annuaire. La réplication multimaître permet de propager les modifications rapidement, mais une modification malveillante peut se diffuser partout en quelques minutes. Le service KCC génère dynamiquement cette topologie de réplication.
+
+      Cinq rôles FSMO assurent le fonctionnement de la forêt et du domaine, notamment le maître de schéma et l'émulateur PDC. Le PDC est une pièce critique car il sert de référence horaire et de gestion des mots de passe. Le partage SYSVOL contient les GPO et les scripts, ce qui signifie qu'un script piégé peut s'exécuter sur toutes les machines.
+
+      Le protocole Kerberos est le mécanisme d'authentification principal utilisant un centre de distribution de clés KDC. L'utilisateur obtient un ticket d'attribution de tickets TGT qu'il échange ensuite contre des tickets de service sans renvoyer son mot de passe. Ce système nécessite une synchronisation des horloges à quelques minutes près.
+
+   D. Attaques courantes et parades sur l'annuaire.
+
+      Plusieurs attaques ciblent les mécanismes de l'annuaire comme le Kerberoasting qui consiste à casser hors ligne les mots de passe de comptes de service. L'attaque Golden Ticket permet de forger des TGT avec la clé du compte krbtgt volée pour devenir n'importe quel utilisateur. Le DCSync permet à un attaquant de se faire passer pour un contrôleur afin de demander la réplication des secrets.
+
+      Le vol d'empreintes ou pass-the-hash permet de réutiliser l'empreinte d'un mot de passe sans le connaître. Pour contrer ces menaces, il est crucial d'appliquer le modèle en tiers et d'utiliser des comptes d'administration séparés et confinés. Les mots de passe des comptes de service doivent être longs et gérés de manière rigoureuse.
+
+      La défense passe aussi par le renouvellement périodique de la clé krbtgt et la surveillance des demandes de réplication ou de tickets anormales. Un audit régulier de l'annuaire et des chemins d'attaque est indispensable. L'utilisation d'outils comme BloodHound ou PingCastle permet d'analyser automatiquement ces vulnérabilités.
+
+III. CONTRÔLE DES ACCÈS ET ADMINISTRATION PRIVILÉGIÉE.
+
+   A. Le rôle et le fonctionnement des bastions.
+
+      Le bastion constitue le point de passage obligatoire pour l'ensemble des sessions d'administration au sein du système d'information.
+
+      Il assure une fonction d'authentification forte pour l'administrateur avant de lui permettre d'accéder aux ressources sensibles.
+
+      Ce dispositif injecte les secrets directement dans la session sans jamais les révéler à l'utilisateur qui les manipule.
+
+      Le bastion enregistre l'intégralité de la session et conserve les traces nécessaires pour assurer une traçabilité complète des actions.
+
+      Pour garantir sa sécurité, le bastion doit être positionné dans la zone d'administration et non dans la DMZ exposée à internet.
+
+   B. La gestion des sessions et des secrets.
+
+      Les secrets et les mots de passe doivent être rangés de manière sécurisée au sein d'un coffre-fort.
+
+      En cas de compromission, il est impératif de procéder à la révocation de toutes les sessions actives pour stopper l'exfiltration.
+
+      Une réinitialisation de mot de passe ne doit pas laisser les sessions déjà ouvertes, comme l'a montré l'incident de la DGFiP en deux mille vingt-six.
+
+      L'administration sécurisée repose sur l'utilisation de comptes nominatifs et distincts des comptes utilisateurs bureautiques.
+
+      Le modèle en tiers impose que les comptes du tier zéro ne se connectent jamais sur des serveurs applicatiques du tier un ou des postes de travail du tier deux.
+
+   C. L'utilisation de postes d'administration dédiés.
+
+      L'utilisation de postes d'administration dédiés est une mesure clé pour protéger l'annuaire Active Directory.
+
+      Ces postes doivent être utilisés sur un réseau d'administration séparé du reste du système d'information.
+
+      Le guide de l'ANSSI précise qu'un poste d'administration dédié offre un niveau de sécurité supérieur à un poste multi-environnements.
+
+      Les administrateurs du tier zéro doivent utiliser uniquement des postes physiques dédiés pour gérer le cœur de confiance.
+
+      Cette séparation empêche un administrateur d'exposer ses identifiants sur une machine moins protégée ou moins sécurisée.
+
+IV. PRINCIPES ET OUTILS DE LA CRYPTOGRAPHIE.
+
+   A. Les familles de chiffrement (symétrique, asymétrique, hachage).
+
+      La cryptographie protège la confidentialité, l'intégrité et l'authenticité des données à travers trois familles d'outils.
+
+      Le chiffrement symétrique utilise une même clé secrète pour chiffrer et déchiffrer les informations. L'AES avec des clés de cent vingt-huit ou deux cent cinquante-six bits est recommandé pour sécuriser les volumes, les sauvegardes et les flux de données.
+
+      La cryptographie asymétrique repose sur un couple de clés liées, une clé publique et une clé privée. On utilise des algorithmes comme RSA avec des clés de trois mille soixante-douze bits et plus ou des courbes elliptiques pour l'échange de clés, la signature et l'authentification.
+
+      Les fonctions de hachage produisent une empreinte de taille fixe qui est impossible à inverser. Les standards SHA-256 et SHA-3 assurent l'intégrité, la signature et le stockage sécurisé des mots de passe avec un algorithme lent dédié.
+
+      Il est impératif de proscrire les algorithmes obsolètes tels que DES, Triple DES, RC4, MD5 et SHA-1. L'ANSSI fixe les choix acceptables et leur durée de vie via son guide de sélection des algorithmes.
+
+   B. L'infrastructure de gestion de clés (IGC/PKI) et le protocole ACME.
+
+      Une infrastructure de gestion de clés, ou IGC, relie une clé publique à une identité par le biais d'un certificat signé. Elle s'appuie sur une autorité de certification qui signe les certificats et une autorité d'enregistrement qui vérifie l'identité du demandeur.
+
+      La gestion de la révocation des certificats s'effectue par des listes appelées CRL ou par une interrogation en ligne via le protocole OCSP. Pour assurer une redondance, il est idéal de combiner ces deux mécanismes.
+
+      L'IGC peut inclure un séquestre pour conserver une copie des clés de chiffrement afin de récupérer les données, mais il ne doit jamais conserver de clés de signature. Un HSM est un équipement matériel sécurisé destiné au stockage des clés privées des autorités de certification.
+
+      Le protocole ACME permet d'automatiser l'obtention et le renouvellement des certificats de serveurs, dont la durée de vie devient de plus en plus courte. Le renouvellement doit être planifié aux deux tiers de la durée de vie du certificat.
+
+      La transparence des certificats permet de publier tous les émis afin de repérer un faux certificat au nom d'un ministère. L'autorité racine doit rester hors ligne et signer des autorités intermédiaires pour émettre les certificats.
+
+   C. Protocoles de communication sécurisés (TLS, IPsec) et menace quantique.
+
+      Le protocole TLS assemble les briques cryptographiques en utilisant une poignée de main asymétrique pour authentifier le serveur et convenir d'une clé. Une fois la session établie, le chiffrement symétrique assure la protection du flux.
+
+      Seules les versions un virgule deux et un virgule trois de TLS sont acceptables pour la sécurité des communications. Le protocole IPsec joue un rôle similaire au niveau du réseau pour sécuriser les tunnels VPN.
+
+      L'échange de clés Diffie-Hellman permet de convenir d'un secret commun sur un canal écouté. L'utilisation de clés éphémères apporte la confidentialité persistante, garantissant que le vol ultérieur de la clé privée d'un serveur ne permette pas de déchiffrer les échanges passés.
+
+      La menace quantique impacte principalement la partie asymétrique de la cryptographie. La transition vers des algorithmes post-quantiques commence par un inventaire de tous les usages cryptographiques du SI.
+
+      La migration vers des solutions post-quantiques se prépare par une approche d'hybridation. On utilise notamment ML-KEM pour l'échange de clés et ML-DSA pour la signature.
+
+V. ANALYSE DE CAS ET BONNES PRATIQUES DE DÉFENSE.
+
+   A. Retour d'expérience sur l'incident de la DGFiP.
+
+      L'incident survenu à la DGFiP entre mai et août deux mille vingt-six constitue un cas d'école pour l'analyse des faiblesses d'identité. Le rapport public de l'ANSSI du vingt-trois septembre deux mille vingt-six souligne que l'attaque n'était pas sophistiquée mais reposait sur des failles d'architecture et de détection.
+
+      Plusieurs dizaines d'identifiants d'agents ont été dérobés par des infostealers, vraisemblablement sur des appareils personnels. L'absence de MFA sur deux portails a permis la réutilisation directe de ces identifiants volés.
+
+      Le contournement d'un code à usage unique envoyé par courriel a été rendu possible via le poste compromis d'un géomètre-expert. Cette vulnérabilité illustre la faiblesse des facteurs d'authentification par messagerie.
+
+      L'exfiltration des données s'est poursuivie car une réinitialisation de mot de passe n'a pas entraîné la coupure des sessions déjà ouvertes. Ce défaut de gestion des sessions a aggravé l'impact de l'intrusion.
+
+      Le bilan est lourd avec près de trois cent cinquante-trois mille particuliers et deux cent cinquante-deux mille professionnels touchés pour la seule application E-Contact. L'ANSSI conclut que les faiblesses résident dans la gestion des identités et de l'architecture.
+
+   B. Leçons de sécurité pour les organisations ministérielles.
+
+      La gestion des identités des tiers représente un défi majeur car leurs postes de travail ne sont pas administrés par le ministère. Les accès des prestataires et partenaires constituent des vecteurs d'entrée critiques.
+
+      Il est impératif de proscrire l'usage d'appareils personnels pour accéder aux ressources professionnelles du système d'information. L'utilisation de terminaux maîtrisés est une condition sine qua non de la sécurité.
+
+      La généralisation d'un MFA résistant à la compromission du premier facteur est une priorité absolue. Les solutions comme la clé FIDO2 ou la carte à puce sont préférables aux codes par SMS ou par courriel.
+
+      Les organisations doivent s'assurer que chaque réinitialisation de mot de passe provoque la révocation immédiate de toutes les sessions actives. Cela permet de stopper net un attaquant qui utiliserait un jeton de session volé.
+
+      La surveillance doit être renforcée en analysant toute l'activité d'un compte depuis sa date de compromission supposée. Cette approche permet de mesurer l'étendue réelle des dommages causés par un vol d'identifiants.
+
+   C. Synthèse des mesures de protection prioritaires.
+
+      La protection des comptes administrateurs est la mesure la plus rentable pour sécuriser le périmètre de l'identité. L'Active Directory doit être considéré comme le cœur de confiance dont le contrôle est vital.
+
+      L'application du modèle en tiers est essentielle pour isoler les comptes de l'annuaire. Les comptes du Tier zéro ne doivent jamais se connecter sur des serveurs applicatifs du Tier un ou des postes de travail du Tier deux.
+
+      Le déploiement de bastions constitue un point de passage obligatoire pour toutes les sessions d'administration. Ces outils permettent d'injecter les secrets sans les révéler et de conserver une trace complète des sessions.
+
+      Le cycle de vie des comptes doit être automatisé et rigoureux, de la création via le SIRH jusqu'à la désactivation immédiate au départ de l'agent. Une revue annuelle des droits nommée ReCyF doit être systématiquement réalisée.
+
+      Enfin, il est nécessaire de plafonner les volumes de données consultables par un compte non privilégié. Cette mesure de limitation permet de réduire l'impact d'une exfiltration massive par un utilisateur compromis.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre l'identification, qui est l'action de communiquer une identité enregistrée, avec l'authentification qui prouve cette identité.
+
+      Une confusion courante réside dans la résistance du MFA car les codes par courriel ou SMS sont considérés comme faibles face à l'hameçonnage.
+
+      Le modèle en tiers impose une séparation stricte où les comptes du tier zéro ne doivent jamais se connecter sur des machines des tiers un ou deux.
+
+      La gestion des clés en PKI doit distinguer le séquestre qui conserve les clés de chiffrement du fait qu'on ne conserve jamais les clés de signature.
+
+      Il est crucial de noter que la réinitialisation d'un mot de passe ne suffit pas si elle ne s'accompagne pas de la révocation de toutes les sessions actives.
+
+EXEMPLES CITÉS.
+
+      L'attaque sur la DGFiP en deux mille vingt-six a touché trois cent cinquante-trois mille particuliers et deux cent cinquante-deux mille professionnels via l'application E-Contact.
+
+      Le protocole Kerberos utilise un ticket d'attribution de tickets appelé TGT que l'utilisateur échange contre un ticket de service.
+
+      L'ANSSI fixe un calendrier de déploiement du MFA pour tous les administrateurs à la fin de l'année deux mille vingt-six.
+
+      L'outil BloodHound permet l'analyse automatique des chemins de contrôle au sein d'un annuaire Active Directory.

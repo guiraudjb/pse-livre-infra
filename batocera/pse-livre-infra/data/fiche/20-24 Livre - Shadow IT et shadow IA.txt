@@ -1,0 +1,181 @@
+COMPRENDRE ET GÉRER LE SHADOW IT ET LE SHADOW IA AU SEIN DE L'ADMINISTRATION.
+
+LEXIQUE COMPLET.
+
+      Le shadow IT désigne les outils numériques utilisés par les agents sans l'accord de leur administration.
+
+      Le shadow IA désigne l'usage d'IA générative grand public pour traiter des données professionnelles.
+
+      L'exfiltration désigne la sortie illégitime de données hors du système d'information de la victime.
+
+      Le RGPD désigne le règlement relatif à la protection des données personnelles.
+
+      L'ANSSI désigne l'autorité chargée de la certification de messageries comme Olvid.
+
+      La DSI désigne la direction qui doit réduire l'écart entre les besoins des agents et l'offre technologique.
+
+      Le SI désigne le système d'information de l'organisation.
+
+      Le SaaS désigne le modèle de logiciels souscrits par un service comme les outils de gestion de projet.
+
+      L'Assistant IA de l'État est l'outil officiel ayant réduit l'usage d'IA non souveraines chez cinquante-six pour cent des testeurs en juin deux mille vingt-six.
+
+      La Cour des comptes est l'organisme ayant relevé en deux mille vingt-six les lacunes de confidentialité liées à l'usage de WhatsApp ou Telegram.
+
+COURS DÉTAILLÉ.
+
+I. DÉFINITION ET TYPOLOGIE DES USAGES INFORMELS.
+
+   A. Définition du shadow IT et du shadow IA.
+
+      Le shadow IT désigne l'ensemble des outils numériques utilisés par les agents sans avoir obtenu l'accord préalable de leur administration.
+
+      Ce phénomène naît presque toujours d'un besoin réel de l'agent qui n'est pas correctement servi par l'offre numérique existante.
+
+      Le shadow IA constitue une forme spécifique de shadow IT liée à l'usage de l'intelligence artificielle générative grand public.
+
+      L'usage de ces outils pose des risques majeurs puisque les données transmises sont soumises à des lois étrangères et peuvent être réutilisées par des tiers.
+
+   B. Les différentes formes d'usages (messageries, stockage, SaaS, appareils personnels).
+
+      Les messageries grand public comme WhatsApp ou Telegram sont utilisées pour créer des groupes de service ou de cabinet, ce qui entraîne des fuites d'informations.
+
+      Le stockage et le partage en ligne via des comptes personnels permettent de travailler sur des fichiers sans que la sauvegarde ne soit maîtrisée par le SI.
+
+      L'usage d'outils SaaS souscrits directement par un service, tels que des formulaires ou des outils de gestion de projet, place des données personnelles chez un tiers.
+
+      L'utilisation d'appareils personnels pour consulter des applications professionnelles expose le système à un vol d'identifiants par des logiciels de type infostealer.
+
+   C. Le cas spécifique de l'IA générative grand public.
+
+      Le shadow IA se manifeste lorsque des agents collent un courrier ou une note dans un chatbot public pour obtenir une assistance.
+
+      Cette pratique entraîne la transmission de données sensibles à un tiers sans aucun contrôle sur leur conservation ou leur usage ultérieur.
+
+      L'évaluation de juin deux mille vingt-six a démontré que l'Assistant IA de l'État a permis de réduire l'usage d'IA non souveraines chez cinquante-six pour cent des testeurs.
+
+      L'expérience montre qu'offrir un outil officiel utile est la mesure la plus efficace pour lutter contre le shadow IA.
+
+II. ANALYSE DES RISQUES ET ENJEUX DE SÉCURITÉ.
+
+   A. Risques de fuite de données et perte de maîtrise.
+
+   B. Problématiques de non-conformité réglementaire.
+
+      L'utilisation de messageries grand public comme WhatsApp ou Telegram par des agents ou des cabinets ministériels entraîne une fuite d'informations et une conservation des données hors de tout contrôle.
+
+      Le stockage de fichiers de travail sur des comptes personnels ou l'usage d'outils SaaS non vérifiés font sortir les données du SI et empêchent toute sauvegarde maîtrisée.
+
+      L'usage de l'IA générative grand public expose les données transmises à des tiers qui peuvent les réutiliser, tout en les soumettant potentiellement à des lois étrangères.
+
+      L'absence de gestion centralisée des outils informels provoque une perte de maîtrise totale concernant l'archivage et la réversibilité des données professionnelles.
+
+   C. Vecteurs d'intrusion et compromission du système d'information.
+
+      Le recours au shadow IT engendre des manquements graves aux obligations liées au RGPD et au secret professionnel.
+
+      L'usage d'outils non officiels contrevient aux règles de l'II neuf cent un ainsi qu'aux obligations de conservation des archives publiques.
+
+      La Cour des comptes a d'ailleurs relevé en deux mille vingt-six des lacunes de confidentialité majeures dues à l'usage informel de messageries par les agents de l'État.
+
+III. RETOURS D'EXPÉRIENCE ET RÉPONSES DE L'ÉTAT.
+
+   A. Constats de la Cour des comptes sur les messageries.
+
+      La Cour des comptes a effectué un relevé en deux mille vingt-six concernant l'usage informel de messageries comme WhatsApp ou Telegram.
+
+      Ce constat concerne particulièrement les agents ainsi que les cabinets ministériels au sein de l'administration.
+
+      Ces pratiques ont révélé de graves lacunes en matière de confidentialité des échanges.
+
+   B. Déploiement des outils officiels certifiés (Olvid, Tchap, Visio).
+
+      Une réponse progressive a été mise en place pour encadrer les communications de l'État.
+
+      Une circulaire de novembre deux mille vingt-trois a d'abord demandé aux membres du Gouvernement d'adopter Olvid, une messagerie certifiée par l'ANSSI.
+
+      La circulaire du vingt-cinq juillet deux mille vingt-cinq a ensuite rendu l'usage de Tchap obligatoire dans toute la sphère publique.
+
+      Enfin, en janvier deux mille vingt-six, l'outil Visio est devenu l'outil unique de visioconférence pour l'ensemble de l'État.
+
+   C. Impact de l'Assistant IA de l'État sur le shadow IA.
+
+      L'évaluation réalisée en juin deux mille vingt-six a permis de mesurer l'efficacité des outils officiels face à l'IA générative.
+
+      L'usage de l'Assistant IA de l'État a permis de réduire l'usage d'IA non souveraines chez cinquante-six pour cent des testeurs.
+
+      Cette mesure démontre qu'offrir un outil officiel utile est la stratégie la plus efficace pour lutter contre le shadow IA.
+
+IV. STRATÉGIE DE LUTTE ET DE RÉGULATION.
+
+   A. Méthodologie en quatre temps : voir, comprendre, offrir, encadrer.
+
+      La première étape consiste à voir en analysant les flux sortants des proxys et les journaux du cloud. Cela permet de découvrir les services réellement utilisés par les agents.
+
+      La phase de compréhension nécessite de demander aux services pourquoi ils utilisent ces outils. Le besoin identifié est souvent tout à fait légitime.
+
+      L'étape d'offrir consiste à proposer un catalogue d'outils approuvés qui sont simples et rapides à obtenir. Il faut également prévoir un circuit court pour faire valider de nouveaux outils.
+
+      Enfin, il faut encadrer par une charte d'usage et le blocage des services à risque élevé. La protection contre la fuite de données et la sensibilisation complètent cette démarche.
+
+   B. L'importance de l'offre d'outils approuvés et de la réactivité de la DSI.
+
+      Offrir un outil officiel utile est la mesure anti-shadow IA la plus efficace. L'évaluation de juin deux mille vingt-six montre que l'Assistant IA de l'État a réduit l'usage d'IA non souveraines chez cinquante-six pour cent des testeurs.
+
+      Le shadow IT est un indicateur qui mesure l'écart entre les besoins des agents et l'offre de la DSI. Réduire ce phénomène demande autant d'écoute que de contrôle.
+
+      La réactivité est cruciale car un délai de six mois pour obtenir un outil approuvé fabrique du shadow IT. L'administration doit éviter de laisser les agents sans solution adaptée.
+
+   C. Mesures d'accompagnement et de sensibilisation.
+
+      L'État a mis en place des réponses progressives pour encadrer les usages comme les messageries. Une circulaire de novembre deux mille vingt-trois a demandé aux membres du Gouvernement d'adopter Olvid, une messagerie certifiée par l'ANSSI.
+
+      La circulaire du vingt-cinq juillet deux mille vingt-cinq a rendu Tchap obligatoire dans toute la sphère publique. En janvier deux mille vingt-six, Visio est devenu l'outil unique de visioconférence de l'État.
+
+      La lutte contre le shadow IT passe aussi par la sensibilisation aux risques de fuite de données et de non-conformité. Il faut rappeler les enjeux liés au RGPD, au secret professionnel et aux archives publiques.
+
+V. SYNTHÈSE DES NOTIONS ET RÉFÉRENCES.
+
+   A. Glossaire technique et notions clés.
+
+      Le shadow IT désigne l'utilisation d'outils numériques par les agents sans l'accord de leur administration. Ce phénomène naît souvent d'un besoin réel mal servi par l'offre existante.
+
+      Le shadow IA correspond à l'usage d'IA générative grand public comme les chatbots publics. Cela entraîne la transmission de données à des tiers et leur soumission à des lois étrangères.
+
+      L'exfiltration est définie comme la sortie illégitime de données hors du système d'information de la victime. Elle constitue un risque majeur lors de l'usage de messageries ou de services de stockage personnels.
+
+      La perte de maîtrise se manifeste par l'absence de sauvegarde, d'archivage et de réversibilité des données. L'usage d'outils non officiels empêche également le respect du RGPD, de l'II neuf cent un et du secret professionnel.
+
+   B. Références aux fiches et rapports institutionnels.
+
+      La Cour des comptes a relevé en deux mille vingt-six que l'usage informel de WhatsApp ou Telegram par des agents et des cabinets ministériels présentait de graves lacunes de confidentialité.
+
+      Le rapport de l'ANSSI sur la DGFiP en deux mille vingt-six illustre comment un compte personnel compromis ou un appareil infecté peut ouvrir l'accès au SI.
+
+      L'évaluation de juin deux mille vingt-six montre que l'Assistant IA de l'État a réduit l'usage d'IA non souveraines chez cinquante-six pour cent des testeurs.
+
+      Les fiches de référence incluent la fiche 04-140 sur les outils collaboratifs de la Cour des comptes en deux mille vingt-six, la fiche 17-60 sur le shadow IA et la fiche 08-32 sur l'assistant IA.
+
+      D'autres documents sont cités comme la fiche 00-10 concernant les appareils personnels et la fiche 01-50 relative au RGPD.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre l'interdiction pure et simple avec une stratégie efficace. Le shadow IT naît d'un besoin réel et la solution réside dans l'offre d'outils officiels de qualité.
+
+      Le shadow IA est une forme spécifique de shadow IT qui utilise des chatbots publics. Le risque majeur est la transmission de données à des tiers soumis à des lois étrangères.
+
+      Il est crucial de distinguer le shadow IT de la simple non-conformité. Le shadow IT est un indicateur de l'écart entre les besoins des agents et l'offre de la DSI.
+
+      La lutte contre ce phénomène ne doit pas être uniquement technique. Une stratégie réussie nécessite d'écouter les services pour comprendre la légitimité de leurs usages.
+
+      Le risque de sécurité ne se limite pas à la fuite de données. Un appareil personnel ou un compte compromis peut servir de porte d'entrée au SI.
+
+EXEMPLES CITÉS.
+
+      La Cour des comptes a relevé en deux mille vingt-six des lacunes de confidentialité dues à l'usage de WhatsApp ou Telegram par des agents.
+
+      L'État a réagi par des mesures progressives comme l'adoption d'Olvid en novembre deux mille vingt-trois ou l'obligation d'utiliser Tchap en juillet deux mille vingt-cinq.
+
+      En janvier deux mille vingt-six, l'outil Visio est devenu l'unique solution de visioconférence pour l'ensemble de l'État.
+
+      L'évaluation de juin deux mille vingt-six montre que l'Assistant IA de l'État a réduit l'usage d'IA non souveraines chez cinquante-six pour cent des testeurs.

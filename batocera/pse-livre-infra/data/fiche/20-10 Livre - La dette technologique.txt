@@ -1,0 +1,213 @@
+COMPRENDRE, MESURER ET RÉSORBER LA DETTE TECHNOLOGIQUE POUR LA SÉCURITÉ DES SYSTÈMES.
+
+LEXIQUE COMPLET.
+
+      L'ANSSI constatait que trente-six pour cent des serveurs Windows des organismes qu'elle accompagne étaient dans une version obsolète.
+
+      La dette technologique désigne ce que coûte aujourd'hui de ne pas avoir modernisé hier et représente une faille permanente ou une panne en attente.
+
+      Le RGPD désigne un règlement dont l'exigence de sécurité ne peut plus être garantie par un système non maintenu.
+
+      Le RGS désigne un référentiel dont le respect exige un niveau de sécurité que les systèmes obsolètes ne peuvent plus assurer.
+
+      La CMDB désigne l'outil de base qui relie les serveurs, les services, les applications et les utilisateurs.
+
+      Le MCO et le MCS désignent l'ensemble des actions de maintien en conditions opérationnelles et de sécurité permettant de garder un système fonctionnel et sécurisé.
+
+      Le RGAA désigne un référentiel de conformité pour les services en ligne à intégrer dans les critères de succès d'une migration.
+
+      Le RGESN désigne un critère de conformité lié aux services en ligne lors de la préparation d'une migration.
+
+      Le RGI désigne un critère de conformité que les organisations doivent viser lors de la définition des objectifs de migration.
+
+      Le WSUS désigne un outil de gestion centralisée des correctifs pour les environnements Windows.
+
+      La DGFiP désigne l'organisme dont le SI s'est construit dès les années mille neuf cent soixante-dix sur des mainframes GCOS avec une conformité technologique de quarante-trois virgule six pour cent en deux mille vingt-quatre.
+
+COURS DÉTAILLÉ.
+
+I. DÉFINITION ET TYPOLOGIE DE LA DETTE TECHNOLOGIQUE.
+
+   A. Concept et risques associés.
+
+      La dette technologique représente le coût généré par l'absence de modernisation des systèmes au cours des années précédentes.
+
+      Un système qui n'est plus supporté ne reçoit plus de correctifs de sécurité, ce qui crée une faille permanente et une panne en attente.
+
+      L'ANSSI constatait que trente-six pour cent des serveurs Windows des organismes qu'elle accompagne étaient dans une version obsolète.
+
+      L'obsolescence pose des problèmes de sécurité par l'augmentation de la surface d'attaque et de conformité vis-à-vis du RGPD et du RGS.
+
+      Ce phénomène impacte également la disponibilité des services par des pannes plus fréquentes et des réparations plus longues.
+
+      Enfin, la dette engendre des coûts élevés pour le support étendu et une difficulté à trouver des experts qualifiés.
+
+   B. Les différents types de dette : systèmes, matériel, langages, protocoles, configurations et documentation.
+
+      Les systèmes d'exploitation hors support comme les anciens Windows Server, les Unix propriétaires tels qu'AIX, Solaris ou HP-UX, et les distributions Linux expirées présentent des failles non corrigeables.
+
+      Le matériel obsolète, incluant les serveurs et les équipements réseau sans pièces ni support, entraîne des pannes longues et l'impossibilité de mettre à jour le micrologiciel.
+
+      Les langages et plateformes patrimoniaux comme le COBOL, le PL/1 ou le mainframe GCOS font face au risque de départ à la retraite des compétences.
+
+      L'utilisation de protocoles anciens tels que SSL, FTP, SMBv1, NTLM ou l'usage du seul IPv4 favorise l'interception et le déplacement latéral.
+
+      Les configurations héritées, comme les comptes de service à privilèges ou les règles de pare-feu jamais revues, créent des chemins d'attaque invisibles.
+
+      Les applications sans documentation présentent des dépendances inconnues et un code sans auteur disponible, ce qui rend toute migration impossible sans risque de casse.
+
+II. LES ENJEUX DE LA DETTE POUR LA SÉCURITÉ ET LA CONFORMITÉ.
+
+   A. Impacts sur la sécurité et la surface d'attaque.
+
+      La dette technologique représente une faille permanente et une panne en attente car un système hors support ne reçoit plus de correctifs.
+
+      Une surface d'attaque qui grandit chaque mois est le résultat de l'absence de correctifs.
+
+      L'utilisation de protocoles anciens comme le SSL, le FTP, le SMBv1, le NTLM ou l'IPv4 seul favorise l'interception et le déplacement latéral.
+
+      Les configurations héritées, telles que les comptes de service à privilèges ou les règles de pare-feu jamais revues, créent des chemins d'attaque invisibles.
+
+      L'ANSSI constatait que trente-six pour cent des serveurs Windows des organismes qu'elle accompagne étaient dans une version obsolète.
+
+   B. Enjeux de conformité réglementaire (RGPD, RGS).
+
+      Le RGPD et le RGS exigent un niveau de sécurité qu'un système non maintenu ne peut plus garantir.
+
+      L'homologation d'un système doit impérativement exposer les risques liés à l'obsolescence technologique.
+
+      Le non-respect de ces cadres réglementaires est directement lié à l'incapacité de maintenir des composants dans une version supportée.
+
+   C. Conséquences sur la disponibilité et les coûts.
+
+      L'obsolescence entraîne des pannes plus fréquentes et des processus de réparation plus longs.
+
+      Le matériel obsolète, comme les serveurs et équipements réseau sans pièces ni support, provoque des pannes longues et empêche la mise à jour du micrologiciel.
+
+      Le maintien de systèmes anciens coûte cher en raison du prix du support étendu et de la rareté des experts.
+
+      La dette absorbe une part croissante des équipes en maintenance corrective au détriment des projets innovants.
+
+III. MÉTHODES DE MESURE ET OUTILS DE PILOTAGE.
+
+   A. Indicateurs clés de performance (KPI).
+
+      La mesure de la dette technologique repose sur plusieurs indicateurs essentiels pour évaluer la conformité technologique et la part des composants dans une version supportée.
+
+      Le délai d'application des correctifs ou patch latency permet de mesurer le temps moyen écoulé entre la publication et l'application d'un correctif de sécurité.
+
+      La couverture du support et l'hétérogénéité du parc sont également cruciales, en surveillant la part des serveurs sous contrat de support et le nombre de systèmes et de versions différents en production.
+
+      L'écart au durcissement est mesuré par rapport aux référentiels ANSSI ou CIS via des outils comme OpenSCAP, Ansible ou les GPO.
+
+      Enfin, le pilotage doit intégrer le nombre de dérogations actives ainsi que leur âge pour identifier les exceptions de sécurité en cours.
+
+   B. L'importance de la CMDB et des inventaires automatiques.
+
+      L'outil de base pour mesurer la dette est une CMDB à jour qui permet de relier les serveurs, les services, les applications et les utilisateurs.
+
+      Cette base de données doit être alimentée par des inventaires automatiques utilisant des outils tels que GLPI, FusionInventory ou un équivalent.
+
+      Une gestion efficace de la dette nécessite de ne pas laisser les composants sans visibilité sur leurs versions, leurs dates de fin de support et leurs dépendances applicatives.
+
+      La maîtrise de ces inventaires est indispensable pour éviter que la dette ne se reconstitue dès que l'on arrête d'entretenir les systèmes.
+
+IV. STRATÉGIES DE RÉSORPTION ET DE PRÉVENTION.
+
+   A. Méthodologie de résorption par étapes.
+
+      La première étape consiste à réaliser un inventaire complet incluant les versions, les dates de fin de support et les dépendances applicatives.
+
+      Il faut ensuite prioriser les actions en fonction du risque, en ciblant d'abord les éléments exposés à internet, le cœur de confiance et les données sensibles.
+
+      Le choix de la cible doit se baser sur la durée de support annoncée, le coût de possession, les standards ouverts et les compétences disponibles.
+
+      La migration s'effectue par vagues successives comprenant une qualification en test, un pilote puis une généralisation, avec un plan de retour arrière systématique.
+
+      La phase de validation nécessite des tests fonctionnels, la vérification des sauvegardes et de la supervision ainsi qu'un contrôle de conformité.
+
+      Pour les éléments impossibles à migrer, il convient de les isoler dans un réseau dédié avec des flux limités et une supervision renforcée.
+
+   B. Pratiques pour éviter la reconstitution de la dette.
+
+      L'infrastructure et la configuration doivent être gérées en code, versionnées dans Git et déployées via des outils comme Ansible ou Puppet.
+
+      L'utilisation de socles standardisés permet de limiter le nombre de versions de systèmes et de garantir des mises à jour régulières et automatisées.
+
+      Un budget de maintien doit être prévu dès le lancement de tout projet pour couvrir l'ensemble de sa durée de vie.
+
+      Chaque composant doit intégrer un cycle de vie explicite avec une date de fin de service définie dès sa mise en service.
+
+      Le recours à des plateformes partagées, comme un cloud interne maintenu par une équipe dédiée, évite la multiplication de serveurs propres à chaque application.
+
+V. LA MIGRATION NUMÉRIQUE COMME LEVIER DE RÉDUCTION.
+
+   A. Phases critiques : avant, pendant et après la migration.
+
+      La phase de préparation exige d'impliquer très tôt les métiers, la DSI, le RSSI et le SOC. Il est indispensable de cartographier les éléments et de mettre à jour l'analyse de risque tout en étudiant la réversibilité du contrat.
+
+      Il faut également confirmer l'absence d'alerte de sécurité en cours et informer le SOC du planning prévu. Cette étape permet de s'assurer que le nouveau système répondra aux objectifs de migration définis.
+
+      Pendant la migration, l'accent est mis sur le chiffrement des données en transit et la surveillance des exports massifs. Il est crucial de vérifier que les sauvegardes n'expirent pas durant cette période de transition.
+
+      Le maintien de l'EDR, des pare-feux et de la journalisation doit rester actif tout au long du processus. Cela garantit une visibilité continue sur la sécurité des flux.
+
+      Après la migration, un audit post-migration doit être réalisé et renouvelé au fil du cycle de vie. Cette étape permet de valider la conformité du nouveau système.
+
+      La phase finale consiste à mettre à jour les procédures, y compris celles liées à l'astreinte. La refonte est l'occasion d'appliquer le durcissement et le filtrage que l'ancien système ne permettait pas.
+
+   B. Gestion du décommissionnement des anciens systèmes.
+
+      Le décommissionnement des anciens systèmes est une étape fondamentale pour éviter la création d'une nouvelle dette. Un serveur oublié et toujours joignable constitue une faille de sécurité permanente.
+
+      Il convient de supprimer les comptes, les données et les infrastructures selon leur niveau de sensibilité. Cette action garantit que les anciens accès ne restent pas ouverts inutilement.
+
+      La gestion rigoureuse de la fin de vie des composants permet de ne pas laisser de systèmes sans mise à jour. Cela évite que des infrastructures obsolètes ne deviennent des cibles faciles pour les attaquants.
+
+      Une migration réussie doit donc impérativement inclure la suppression effective de l'ancien environnement. Cela permet de clore proprement le cycle de vie du matériel et des logiciels.
+
+VI. ÉTUDE DE CAS ET ENJEUX STRATÉGIQUES.
+
+   A. Impact de la dette sur l'innovation et les équipes.
+
+      La dette technologique constitue le premier obstacle majeur à la réalisation des ambitions numériques d'une organisation.
+
+      Elle empêche notamment le déploiement de l'IA sur des données inaccessibles ou la migration vers le cloud d'applications dont les dépendances sont inconnues.
+
+      L'absence de production de journaux par des systèmes obsolètes rend également impossible toute tentative de supervision efficace.
+
+      Cette situation absorbe une part croissante du temps des équipes qui se concentrent sur la maintenance corrective au détriment des projets d'innovation.
+
+   B. Exemple de la DGFiP et retour d'expérience.
+
+      Le SI de la DGFiP s'est construit dès les années mille neuf cent soixante-dix sur des mainframes GCOS avec des applications majeures reposant encore sur COBOL ou PL/1.
+
+      En deux mille vingt-quatre, la conformité technologique de la DGFiP était de quarante-trois virgule six pour cent avec un objectif de soixante-dix-huit pour cent fin deux mille vingt-sept.
+
+      Les chantiers prioritaires incluent la sortie du mainframe pour MEDOC et REC ainsi que le remplacement de l'application AMD par NARA d'ici deux mille vingt-huit.
+
+      La Cour des comptes a estimé le coût de cette résorption à plusieurs centaines de millions d'euros et a regretté l'absence de schéma directeur pluriannuel après deux mille dix-sept.
+
+      La DGFiP lie désormais explicitement le passage au cloud à l'arrêt de la reconstitution de la dette technologique.
+
+POINTS D'ATTENTION.
+
+      La dette technologique ne se limite pas à un simple inconfort mais constitue une faille de sécurité permanente et une panne en attente.
+
+      Il ne faut pas confondre la dette avec un simple manque de confort car un système hors support ne reçoit plus de correctifs de sécurité.
+
+      La réduction de la dette nécessite impérativement une mesure préalable via des indicateurs comme la conformité technologique ou le délai d'application des correctifs.
+
+      La résorption de la dette ne s'arrête pas après une migration car ne pas décommissionner l'ancien système crée une nouvelle dette.
+
+      La dette technologique est un frein majeur aux ambitions modernes comme l'IA ou le cloud car elle absorbe les ressources des équipes en maintenance corrective.
+
+EXEMPLES CITÉS.
+
+      L'ANSSI a constaté que trente-six pour cent des serveurs Windows des organismes qu'elle accompagne étaient dans une version obsolète.
+
+      La DGFiP possède une conformité technologique de quarante-trois virgule six pour cent en deux mille vingt-quatre avec un objectif de soixante-dix-huit pour cent pour la fin deux mille vingt-sept.
+
+      Le remplacement de l'application AMD par NARA d'ici deux mille vingt-huit constitue l'un des chantiers prioritaires pour la DGFiP.
+
+      La Cour des comptes a estimé le coût de résorption de la dette pour la DGFiP à plusieurs centaines de millions d'euros.

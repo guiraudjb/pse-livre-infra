@@ -1,0 +1,183 @@
+SYNTHÈSE DES PARCOURS DE SÉCURITÉ ET DE RÉSILIENCE OPÉRATIONNELLE.
+
+LEXIQUE COMPLET.
+
+      L'EDR désigne un outil de détection et de réponse sur les postes de travail qui permet de repérer des outils d'administration inhabituels.
+
+      Le VPN désigne un tunnel sécurisé qui permet à une agente en télétravail de se connecter au concentrateur du datacenter.
+
+      La VRF désigne un mécanisme de cloisonnement qui permet de placer le flux d'une agente dans un réseau spécifique.
+
+      Le WAF désigne un pare-feu applicatif situé en DMZ qui protège les services contre les requêtes malveillantes.
+
+      Le RGAA désigne un ensemble de règles garantissant que le service est accessible et conforme pour les usagers.
+
+      Le SOC est l'entité qui corrèle les journaux et les alertes pour qualifier une intrusion en quarante minutes.
+
+      L'ANSSI désigne l'organisme qui reçoit une alerte précoce en cas d'attaque par rançongiciel.
+
+      La CNIL désigne l'organisme qui doit être notifié lors de la gestion d'un incident de sécurité.
+
+      Le MFA désigne une authentification multifacteur qui rend les identifiants volés par un infostealer inutilisables sur le VPN.
+
+      Le PRA désigne un plan de reconstruction à partir des sauvegardes immuables pour assurer la résilience après une attaque.
+
+COURS DÉTAILLÉ.
+
+I. SÉCURISATION DE L'ACCÈS DISTANT POUR LES AGENTS.
+
+   A. Protection du poste de travail et conformité.
+
+      Le poste de travail de l'agent est protégé dès son allumage par un disque chiffré et un démarrage sécurisé.
+
+      Un dispositif EDR est actif sur le portable pour assurer une surveillance continue de l'équipement.
+
+      Le concentrateur du datacenter vérifie systématiquement la conformité du poste avant d'autoriser l'accès.
+
+   B. Authentification et segmentation réseau.
+
+      L'agent utilise une carte agent pour s'authentifier lors de l'établissement de la connexion.
+
+      Le VPN maintient un tunnel actif vers le concentrateur le moins chargé de l'un des deux datacenters.
+
+      Le flux de l'agent est placé dans la VRF télétravail pour garantir un cloisonnement réseau.
+
+      Le pare-feu interne limite strictement les accès aux seules applications correspondant au profil de l'agent.
+
+      L'utilisation d'un MFA résistant à l'hameçonnage empêche l'usage d'identifiants volés sur le VPN.
+
+   C. Contrôle applicatif et usage de l'IA.
+
+      L'accès aux applications se fait par authentification unique avec une application des droits et un plafonnement des volumes consultables.
+
+      L'agent peut solliciter un Assistant IA pour résumer un dossier via une passerelle dédiée.
+
+      La passerelle d'IA vérifie l'identité de l'utilisateur et journalise chaque requête effectuée.
+
+      Le modèle d'IA fonctionne sur un hébergement de confiance pour garantir la sécurité des données.
+
+      Chaque étape de ces processus produit des journaux qui sont corrélés par le SOC.
+
+II. GESTION DES SERVICES PUBLICS EN LIGNE.
+
+   A. Authentification usager et protection périmétrique.
+
+      L'usager accède aux services en ligne en utilisant le système FranceConnect.
+
+      La requête de l'usager atteint d'abord une adresse VIP dédiée au service.
+
+      Le flux traverse ensuite une protection anti-déni de service et un pare-feu de bordure.
+
+      Le répartiteur de charge et le WAF en DMZ assurent la suite de la protection périmétrique.
+
+   B. Traitement applicatif et protection des données.
+
+      Le serveur applicatif est situé dans un cloud interne qualifié pour traiter la déclaration.
+
+      Ce serveur interroge la base de données en passant par un pare-feu interne.
+
+      Les données font l'objet d'une réplication synchrone vers le second datacenter.
+
+      Une sauvegarde est effectuée chaque nuit, incluant une copie immuable des informations.
+
+   C. Accessibilité et exploitation des données.
+
+      Le service doit être conforme au RGAA pour garantir une accessibilité optimale.
+
+      Le système est conçu pour fonctionner sur un vieux téléphone ou en bas débit.
+
+      Les données sont ensuite transférées vers le lac de données.
+
+      Elles sont pseudonymisées afin de permettre les analyses ultérieures.
+
+III. RÉPONSE À UNE CYBERATTAQUE PAR RANÇONGICIEL.
+
+   A. Détection et qualification de l'incident.
+
+      L'attaque débute par l'exploitation d'une faille sur un équipement de bordure et l'utilisation d'outils d'administration inhabituels détectés par l'EDR.
+
+      Le SOC joue un rôle central en corrélant l'alerte de l'EDR avec des connexions nocturnes et un volume réseau anormal.
+
+      Grâce à cette préparation, l'alerte est qualifiée en quarante minutes seulement.
+
+   B. Limitation de la propagation et gestion de crise.
+
+      Lorsque le chiffrement démarre sur les serveurs de fichiers, le cloisonnement par zones limite la propagation de l'attaque.
+
+      L'administration en tiers protège l'annuaire pour éviter une compromission totale du système.
+
+      La cellule de crise est activée en utilisant l'annuaire de contacts imprimé et la messagerie de secours.
+
+      Ces réflexes de gestion de crise sont le résultat d'exercices préalables.
+
+   C. Restauration et procédures réglementaires.
+
+      Dès le lendemain de l'attaque, les notifications sont envoyées à l'ANSSI, la CNIL et une plainte est déposée grâce à des modèles préparés.
+
+      La reconstruction s'effectue de J+1 à J+7 en utilisant les sauvegardes immuables selon l'ordre prévu par le PRA.
+
+      Les sauvegardes sont hors d'atteinte et ont été testées pour garantir la continuité.
+
+      À J+30, un retour d'expérience permet de définir un plan d'action et de mettre à jour l'homologation pour l'amélioration continue.
+
+IV. PRINCIPES FONDAMENTAUX DE LA SÉCURITÉ GLOBALE.
+
+   A. Importance de la préparation et des réflexes.
+
+      La préparation permet de transformer une attaque critique en un incident maîtrisé grâce à des mécanismes de défense préétablis.
+
+      L'utilisation de mesures comme le MFA résistant à l'hameçonnage rend les identifiants volés inutilisables lors d'une tentative d'intrusion sur le VPN.
+
+      En cas de crise, l'existence d'un annuaire de contacts imprimé et d'une messagerie de secours permet une activation rapide de la cellule de crise.
+
+      La réactivité du SOC, capable de qualifier une alerte en quarante minutes, illustre l'efficacité des processus de détection et de corrélation.
+
+      L'application de modèles préparés garantit le respect des procédures de notification auprès de l'ANSSI et de la CNIL dès le lendemain de l'attaque.
+
+      La capacité de reconstruction après un rançongiciel repose sur l'utilisation de sauvegardes immuables et sur l'exécution d'un PRA testé.
+
+   B. Rôle de l'amélioration continue.
+
+      Le retour d'expérience après un incident constitue une étape essentielle pour définir un nouveau plan d'action.
+
+      Cette phase de retour d'expérience permet de mettre à jour l'homologation du système pour renforcer la sécurité globale.
+
+      L'amélioration continue s'appuie sur les processus de gestion de la sécurité pour adapter les défenses aux nouvelles menaces.
+
+      La boucle de rétroaction transforme chaque événement, même une attaque, en une opportunité de renforcer les briques existantes.
+
+   C. Interdépendance des briques de sécurité.
+
+      La sécurité et la résilience d'un système ne proviennent pas d'une brique isolée mais de l'enchaînement cohérent de toutes les mesures.
+
+      La chaîne de sécurité cède à son maillon le plus faible, qui est souvent l'identité, la détection ou la sauvegarde.
+
+      Le cloisonnement par zones et l'administration en tiers protègent les actifs critiques comme l'annuaire lors d'une propagation de malware.
+
+      L'efficacité de la protection repose sur la coordination entre l'EDR, le SOC et les mécanismes de segmentation réseau comme la VRF.
+
+      L'absence de préparation transforme une intrusion détectable en une catastrophe avec un annuaire compromis et des sauvegardes chiffrées.
+
+POINTS D'ATTENTION.
+
+      La sécurité ne repose pas sur une brique unique mais sur l'enchaînement des dispositifs.
+
+      La chaîne de sécurité cède à son maillon le plus faible.
+
+      L'identité, la détection et la sauvegarde sont identifiées comme les points critiques de cette chaîne.
+
+      La résilience ne dépend pas seulement de la protection mais aussi de la capacité de reconstruction après une attaque.
+
+      Une préparation efficace permet de passer d'une découverte tardive de l'intrusion à une qualification rapide de l'alerte.
+
+EXEMPLES CITÉS.
+
+      Une agente en télétravail utilise un VPN et une carte agent pour accéder à une application métier.
+
+      Un usager dépose une déclaration en ligne via FranceConnect en passant par un WAF en DMZ.
+
+      Lors d'une attaque par rançongiciel, le SOC qualifie une alerte en quarante minutes grâce à la corrélation des journaux.
+
+      La reconstruction après une attaque s'effectue de J+1 à J+7 en utilisant des sauvegardes immuables.
+
+      Le ministère fictif décrit dans le texte compte cent mille agents.

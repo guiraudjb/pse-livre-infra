@@ -1,0 +1,207 @@
+PLAN DE RÉVISION DE LA FEUILLE DE ROUTE STRATÉGIQUE NUMÉRIQUE ET CYBERSÉCURITÉ deux mille vingt-six à deux mille trente.
+
+LEXIQUE COMPLET.
+
+      Le MFA désigne une méthode d'authentification forte qui doit être déployée pour tous les administrateurs puis pour les SI à enjeux.
+
+      Le SI désigne un système d'information dont la protection et l'accès sont des enjeux majeurs de la feuille de route.
+
+      Le ReCyF désigne un référentiel dont l'écart doit être mesuré pour établir un plan de réduction de la vulnérabilité.
+
+      Le NIS deux désigne une directive dont l'intégration à la PSSI est prévue pour le premier trimestre deux mille vingt-sept.
+
+      Le ZTNA désigne un mode d'accès distant par application qui remplace progressivement les anciens modes de connexion.
+
+      Le SecNumCloud désigne un standard de cloud vers lequel les applications doivent migrer selon leur sensibilité.
+
+      Le DevSecOps désigne une approche de la chaîne logicielle intégrant la sécurité au sein d'une forge commune.
+
+      Le SBOM désigne un inventaire systématique de la chaîne logicielle pour assurer la traçabilité des composants.
+
+      Le PCA désigne un plan de continuité d'activité qui doit être testé en conditions réelles.
+
+      Le PCI désigne un plan de continuité d'incident qui doit être testé en conditions réelles.
+
+      Le PRA désigne un plan de reprise d'activité incluant un scénario de reconstruction complète.
+
+COURS DÉTAILLÉ.
+
+I. PRINCIPES ET MÉTHODOLOGIE DE LA FEUILLE DE ROUTE.
+
+   A. Critères de priorisation des chantiers.
+
+      La feuille de route ordonne les chantiers selon deux critères fondamentaux.
+
+      Le premier critère repose sur le respect des échéances imposées par des contraintes externes.
+
+      Le second critère évalue le rapport entre la réduction du risque et l'effort nécessaire.
+
+      Cette méthode permet de structurer les actions en trois phases distinctes allant de deux mille vingt-six à deux mille trente.
+
+   B. Philosophie de la résilience informatique.
+
+      Une infrastructure moderne n'est pas celle qui n'est jamais attaquée.
+
+      Elle se définit par sa capacité à voir l'attaque vite, à l'empêcher de s'étendre et à permettre au service public de continuer.
+
+      La stratégie repose sur une progression allant de la mise en place des fondations à la transformation puis à la résilience.
+
+      La réussite de cette vision dépend d'un portage politique et administratif qui dépasse la durée d'un mandat.
+
+      Elle nécessite également un budget pluriannuel pour financer la dette et la sécurité de manière pérenne.
+
+II. PHASE un : MISE EN PLACE DES FONDATIONS.
+
+   A. Gouvernance et conformité réglementaire.
+
+      La gouvernance s'articule autour de la nomination d'un conseiller numérique au cabinet et de l'élaboration d'une feuille de route cyber ministérielle.
+
+      Un engagement budgétaire est fixé à hauteur de cinq pour cent du budget numérique pour assurer le financement de la cybersécurité.
+
+      Ces objectifs de gouvernance doivent être atteints d'ici la fin deux mille vingt-six, puis durant l'année deux mille vingt-sept.
+
+      La conformité nécessite de mesurer l'écart au ReCyF et de définir un plan de réduction associé.
+
+      L'intégration de la directive NIS deux à la PSSI est impérative pour le premier trimestre deux mille vingt-sept.
+
+   B. Sécurisation des identités et des accès.
+
+      La priorité est donnée à la mise en place du MFA pour l'ensemble des administrateurs.
+
+      Le déploiement du MFA s'étendra ensuite aux systèmes d'information présentant des enjeux spécifiques.
+
+      L'administration de l'annuaire doit être confiée à un tiers pour renforcer la sécurité.
+
+      L'échéance pour la sécurisation des administrateurs est fixée à la fin deux mille vingt-six.
+
+      La généralisation de ces mesures pour les SI à enjeux doit être effective le vingt-huit février deux mille vingt-sept.
+
+   C. Protection des actifs, données et sauvegardes.
+
+      L'exposition doit être maîtrisée par un inventaire des services exposés et un circuit de correctifs d'urgence pour les équipements de bordure.
+
+      La gestion des appareils impose la fin de l'accès depuis les appareils personnels et la sortie de Windows dix de manière immédiate.
+
+      La protection des données repose sur un inventaire des données durablement sensibles à réaliser d'ici la fin deux mille vingt-six.
+
+      Les sauvegardes doivent inclure une copie hors ligne ou immuable pour toutes les applications critiques.
+
+      La fiabilité du système est assurée par des tests de restauration effectués de manière immédiate.
+
+   D. Détection et supervision des services.
+
+      La supervision doit couvrir l'ensemble des applications exposées pour garantir une visibilité complète.
+
+      Le dispositif de détection doit intégrer des capacités de corrélation et des quotas de consultation.
+
+      L'objectif de mise en œuvre de cette supervision est fixé à l'année deux mille vingt-sept.
+
+III. PHASE deux : TRANSFORMATION ET MODERNISATION.
+
+   A. Généralisation du MFA et segmentation réseau.
+
+      La généralisation de l'authentification multifacteur s'étendra à tous les SI d'ici le vingt-huit février deux mille vingt-huit.
+
+      La segmentation du réseau passera par la mise en place de VRF par usage et l'utilisation généralisée du protocole 802.1X.
+
+      Une micro-segmentation des datacenters sera également déployée pour renforcer la sécurité des infrastructures.
+
+   B. Évolution vers le Cloud et le ZTNA.
+
+      L'accès à distance évoluera progressivement vers un modèle d'accès par application via le ZTNA.
+
+      Le déploiement du Cloud s'appuiera sur des zones d'atterrissage standardisées pour l'ensemble des services.
+
+      Les applications seront migrées vers le cloud interne ou vers SecNumCloud selon leur niveau de sensibilité.
+
+   C. Gestion de la dette technique et de la chaîne logicielle.
+
+      Un plan pluriannuel chiffré permettra de traiter la dette technique en sortant les systèmes hors support.
+
+      Ce plan inclura également le début de la sortie des plateformes patrimoniales.
+
+      La chaîne logicielle sera sécurisée par une forge commune DevSecOps et l'utilisation systématique de SBOM.
+
+   D. Intégration de l'IA et préparation au post-quantique.
+
+      L'IA sera intégrée via un assistant généralisé accompagné d'une formation et des premiers assistants métier.
+
+      Un registre des systèmes d'IA sera mis en place pour assurer le suivi de ces technologies.
+
+      La préparation au post-quantique débutera par l'identification des briques à migrer d'ici la fin deux mille vingt-sept.
+
+IV. PHASE trois : CONSOLIDATION DE LA RÉSILIENCE.
+
+   A. Continuité d'activité et reconstruction.
+
+      La phase de résilience prévoit la mise en œuvre de PCA, PCI et PRA.
+
+      Ces dispositifs doivent être testés en conditions réelles pour garantir leur efficacité.
+
+      Les tests incluront notamment un scénario de reconstruction complète du système.
+
+   B. Souveraineté et protection post-quantique.
+
+      Les dépendances critiques non européennes doivent être réduites ou couvertes par un plan de repli.
+
+      L'objectif est de renforcer la souveraineté technologique de l'organisation.
+
+      Concernant la cryptographie, les briques à migrer doivent être identifiées dès la fin deux mille vingt-sept.
+
+      Tous les SI de diffusion restreinte devront être protégés d'ici la fin deux mille trente.
+
+   C. Gouvernance des données et compétences.
+
+      La gouvernance de la donnée doit atteindre un niveau de maturité élevé.
+
+      Un lac de données sécurisé sera mis en place pour servir les missions.
+
+      Le volet humain repose sur la constitution d'un vivier interne suffisant sur les métiers critiques.
+
+V. FACTEURS CLÉS DE SUCCÈS.
+
+   A. Soutien politique et financier.
+
+      Le succès de la feuille de route repose sur un portage politique et administratif qui dépasse la durée d'un mandat.
+
+      Le financement doit être assuré par un budget pluriannuel car la dette et la sécurité ne peuvent se financer par projet.
+
+      La gouvernance prévoit l'affectation de cinq pour cent du budget numérique spécifiquement pour la cybersécurité.
+
+   B. Pilotage par indicateurs et gestion des compétences.
+
+      Le pilotage s'appuie sur des indicateurs simples qui doivent être suivis en comité de direction selon le chapitre neuf.
+
+      La réussite nécessite de recruter, former et fidéliser les compétences selon les modalités du chapitre trente-trois.
+
+      L'objectif final est de constituer un vivier interne suffisant sur les métiers critiques d'ici deux mille trente.
+
+   C. Adhésion et accompagnement des agents.
+
+      L'adhésion des agents est indispensable pour la mise en œuvre des changements techniques et organisationnels.
+
+      Cela passe par la mise à disposition d'outils utiles et des règles qui sont clairement expliquées.
+
+      Une formation réelle doit être proposée aux agents conformément aux chapitres trente et un et trente-deux.
+
+POINTS D'ATTENTION.
+
+      La feuille de route ne cherche pas l'invulnérabilité mais la capacité à détecter l'attaque et à maintenir le service public. Il ne faut pas confondre une infrastructure moderne avec une infrastructure imprenable.
+
+      L'ordre des chantiers ne repose pas sur une simple chronologie mais sur un arbitrage entre les échéances imposées et le rapport entre l'effort et la réduction du risque.
+
+      La réussite du plan ne dépend pas uniquement de la technique mais nécessite un portage politique qui dépasse la durée d'un mandat.
+
+      Le financement de la dette et de la sécurité ne doit pas être traité projet par projet mais via un budget pluriannuel.
+
+      Il est crucial de distinguer la phase de fondation qui traite l'immédiat de la phase de transformation qui traite la dette et l'IA.
+
+EXEMPLES CITÉS.
+
+      La phase un prévoit l'allocation de cinq pour cent du budget numérique pour la cybersécurité d'ici la fin deux mille vingt-six.
+
+      Le déploiement du MFA pour les administrateurs doit être terminé fin deux mille vingt-six, tandis que la généralisation à tous les SI est fixée au vingt-huit février deux mille vingt-huit.
+
+      La transition vers la protection post-quantique commence par l'identification des briques à migrer fin deux mille vingt-sept pour protéger les SI Diffusion Restreinte d'ici fin deux mille trente.
+
+      L'objectif de la phase un inclut l'intégration de NIS deux à la PSSI pour le premier trimestre deux mille vingt-sept.

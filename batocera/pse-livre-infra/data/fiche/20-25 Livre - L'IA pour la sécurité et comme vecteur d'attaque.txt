@@ -1,0 +1,229 @@
+L'INTELLIGENCE ARTIFICIELLE ENTRE VECTEUR D'ATTAQUE ET OUTIL DE DÉFENSE EN CYBERSÉCURITÉ.
+
+LEXIQUE COMPLET.
+
+      L'ANSSI désigne l'Agence nationale de la sécurité des systèmes d'information.
+
+      L'INESIA désigne l'Institut national pour l'évaluation et la sécurité de l'IA, créé en deux mille vingt-cinq pour évaluer la fiabilité des modèles.
+
+      Le LLM désigne un Large Language Model, une catégorie de modèles d'IA générative capables de produire du texte proche du langage naturel.
+
+      Le SOC désigne le Security Operations Center, où l'IA aide au tri et à l'enrichissement des alertes.
+
+      Le sigle NIS deux désigne la directive européenne 2022/2555 qui impose des obligations de cybersécurité aux entités essentielles et importantes.
+
+      L'injection d'instructions désigne le fait d'insérer des consignes cachées dans un document ou un courriel pour détourner un assistant.
+
+      L'empoisonnement désigne le fait de piéger des données d'entraînement ou d'indexation pour fausser les réponses d'un système.
+
+      L'évasion désigne l'altération des données d'entrée pour modifier le fonctionnement attendu d'un système.
+
+      Le Storm-1516 désigne un mode opératoire informationnel russe actif depuis au moins août deux mille vingt-trois.
+
+      Le dividende du menteur désigne le fait que la montée du sceptisme dans une société facilite la contestation de faits pourtant avérés.
+
+      Le deepfake désigne une technologie de service permettant l'usurpation d'identité par des contenus vocaux ou vidéo.
+
+      Viginum désigne l'organisme qui détecte les campagnes coordonnées de manipulation de l'information, y compris celles utilisant l'IA.
+
+COURS DÉTAILLÉ.
+
+I. L'IA COMME LEVIER POUR LES ATTAQUANTS.
+
+   A. Évolution de la menace et état des lieux.
+
+      La synthèse du CERT-FR du quatre février deux mille vingt-six dresse un état des lieux prudent de la situation actuelle.
+
+      L'ANSSI n'a pas connaissance d'attaques contre des acteurs français menées à l'aide de l'IA.
+
+      Il n'existe pas non plus de système capable de réaliser seul toutes les étapes d'une attaque.
+
+      Toutefois, l'IA améliore déjà le niveau, la quantité et la diversité des attaques.
+
+      Cette menace est particulièrement marquée contre les environnements peu sécurisés.
+
+   B. Typologie des usages malveillants.
+
+      L'IA facilite l'hameçonnage et l'ingénierie sociale par la génération en masse de contenus en plusieurs langues.
+
+      Les attaquants créent également de faux profils d'entreprises et d'employés pour tromper leurs victimes.
+
+      L'usurpation d'identité est possible grâce à des services de deepfakes vocaux et vidéo loués pour quelques dizaines de dollars.
+
+      La reconnaissance permet une recherche rapide d'informations sur les cibles et les experts.
+
+      Le code malveillant peut être produit via des scripts générés par un modèle ou des prototypes qui se réécrivent pour échapper à la détection.
+
+      L'IA aide à l'exploitation des données volées par l'analyse massive des informations exfiltrées pour repérer l'utile.
+
+      Enfin, des sites pièges d'apparence légitime sont générés par l'IA.
+
+   C. Limites actuelles et automatisation future.
+
+      La recherche de vulnérabilités reste pour l'instant une activité largement humaine.
+
+      Sur une cinquantaine d'IA testées par des chercheurs, seules trois ont produit un exploit fonctionnel.
+
+      Les acteurs les plus avancés pourraient toutefois automatiser presque entièrement une chaîne d'attaque à moyen terme.
+
+II. LES VULNÉRABILITÉS SPÉCIFIQUES AUX SYSTÈMES D'IA.
+
+   A. Principales méthodes d'attaque sur les modèles.
+
+      L'injection d'instructions consiste à insérer des consignes cachées dans un document, un courriel ou une page web pour détourner le fonctionnement de l'assistant.
+
+      L'exfiltration par l'assistant permet à ce dernier de révéler des documents auxquels l'utilisateur n'aurait pas dû avoir accès.
+
+      L'empoisonnement repose sur l'utilisation de données d'entraînement ou d'indexation piégées afin de fausser les réponses fournies par le modèle.
+
+      Le vol ou le détournement du modèle peut se traduire par la copie du modèle ou son piégeage directement dans la chaîne d'approvisionnement.
+
+      L'abus d'un agent d'IA survient lorsqu'un agent capable d'agir dans les applications est manipulé pour exécuter des actions non voulues.
+
+   B. Principes de défense architecturale.
+
+      La parade principale contre ces attaques est d'ordre architectural pour garantir la sécurité du système.
+
+      L'IA ne doit jamais posséder plus de droits que l'utilisateur qui l'utilise.
+
+      Toutes les actions sensibles effectuées par l'IA doivent impérativement être validées par un humain.
+
+      L'ensemble des activités et des interactions doit faire l'objet d'une journalisation systématique.
+
+      Pour les agents, il est crucial de ne pas autoriser d'action critique sans validation humaine et de respecter le principe des droits minimaux.
+
+III. L'IA AU SERVICE DE LA CYBERDÉFENSE.
+
+   A. Optimisation des opérations de sécurité (SOC).
+
+      L'IA permet notamment le tri et l'enrichissement des alertes au sein du SOC.
+
+      Cette capacité permet aux analystes de se concentrer prioritairement sur les vrais incidents.
+
+   B. Détection d'anomalies et recherche de failles.
+
+      L'IA facilite la détection d'anomalies dans les journaux comme les volumes inhabituels ou les connexions nocturnes.
+
+      Une corrélation de signaux faibles aurait permis de détecter l'exfiltration lors du rapport sur la DGFiP.
+
+      Des outils comme BigSleep de Google en deux mille vingt-quatre ou XBOW en deux mille vingt-cinq permettent la recherche de vulnérabilités dans le code.
+
+      L'IA aide également à l'analyse de codes malveillants ainsi qu'à la rédaction des rapports.
+
+   C. Lutte contre la manipulation de l'information.
+
+      L'organisme Viginum est utilisé pour détecter les campagnes coordonnées.
+
+      Cela inclut les campagnes qui utilisent l'IA pour manipuler l'information.
+
+IV. CADRE DE CONFIANCE ET ÉVALUATION DE LA SÉCURITÉ.
+
+   A. Rôle de l'INESIA et des organismes de contrôle.
+
+      L'INESIA, l'Institut national pour l'évaluation et la sécurité de l'IA, a été créé en deux mille vingt-cinq pour assurer la mission de contrôle.
+
+      Cet institut est piloté par le SGDSN et la DGE avec la participation de l'ANSSI, l'INRIA, le LNE et le PEReN.
+
+      Sa fonction principale consiste à évaluer la sécurité ainsi que la fiabilité des différents modèles d'IA.
+
+   B. Approche par les risques et recommandations de l'ANSSI.
+
+      En février deux mille vingt-cinq, lors du Sommet pour l'action sur l'IA, l'ANSSI a publié un document sur la confiance dans l'IA basé sur l'approche par les risques.
+
+      Ce document a été élaboré avec la CNIL, l'INRIA, le LNE, le PEReN et l'AMIAD, et sa version anglaise est cosignée par le BSI allemand et le NCSC britannique.
+
+      L'ANSSI a également formulé trente-cinq recommandations dans le guide ANSSI-PA-102 du vingt-neuf avril deux mille vingt-quatre pour sécuriser les systèmes d'IA générative.
+
+      Ces recommandations couvrent des domaines précis comme la synthèse documentaire, l'extraction d'information, la génération de texte et l'assistance au développement.
+
+      Le principe directeur est qu'un système d'IA possède les vulnérabilités de tout logiciel, auxquelles s'ajoutent celles liées à ses données.
+
+      La sécurité doit être pensée selon les phases d'entraînement, de déploiement, de production et l'usage des agents.
+
+V. SÉCURISATION DU CYCLE DE VIE D'UN SYSTÈME D'IA.
+
+   A. Risques et mesures lors de l'entraînement et du déploiement.
+
+      La phase d'entraînement d'un système d'IA expose à des risques d'empoisonnement des données ou à la fuite du corpus utilisé. Pour y remédier, il est nécessaire de maîtriser la provenance des données et d'utiliser des environnements séparés.
+
+      Lors du déploiement, le risque principal réside dans le téléchargement d'un modèle piégé depuis un dépôt public. La mesure de protection consiste à vérifier l'intégrité du modèle et à privilégier l'usage d'un dépôt interne.
+
+      L'approche globale de l'ANSSI souligne qu'un système d'IA possède les vulnérabilités de tout logiciel, auxquelles s'ajoutent celles liées à ses données.
+
+      L'INESIA, créée en deux mille vingt-cinq et pilotée par le SGDSN et la DGE avec l'ANSSI, l'INRIA, le LNE et le PEReN, joue un rôle clé en évaluant la sécurité et la fiabilité des modèles.
+
+   B. Sécurisation de la production et des agents d'IA.
+
+      En phase de production, les systèmes sont vulnérables à l'injection d'instructions et à l'extraction de données par des requêtes. La parade repose sur le cloisonnement des droits de l'IA, le filtrage des entrées et des sorties, ainsi que la journalisation systématique.
+
+      L'utilisation d'agents d'IA qui peuvent agir dans les applications présente un risque de manipulation pour l'exécution d'actions non voulues. Il est impératif de ne pas accorder d'action critique sans une validation humaine et de respecter le principe des droits minimaux.
+
+      La parade principale pour sécuriser ces systèmes est d'ordre architectural. L'IA ne doit jamais disposer de plus de droits que l'utilisateur et toutes ses actions sensibles doivent être validées par un humain.
+
+      Le guide ANSSI-PA-102 du vingt-neuf avril deux mille vingt-quatre propose trente-cinq recommandations pour sécuriser les systèmes d'IA générative, couvrant notamment la synthèse documentaire et l'assistance au développement.
+
+VI. ENJEUX STRATÉGIQUES ET MISE EN ŒUVRE OPÉRATIONNELLE.
+
+   A. Adaptation des fondamentaux de la sécurité.
+
+      L'IA n'altère pas les principes de base de la cybersécurité mais elle en accélère considérablement la cadence.
+
+      Les attaques deviennent plus rapides et les leurres plus crédibles, ce qui impose une accélération de la détection et de l'application des correctifs.
+
+      Le renforcement de l'authentification devient crucial, notamment par l'usage de mécanismes MFA résistants à l'hameçonnage.
+
+      La mise en place de procédures de vérification hors bande, comme l'appel d'un numéro connu avant un virement, est désormais indispensable.
+
+      Chaque système d'IA doit être traité avec la même rigueur qu'un système d'information classique nécessitant une homologation.
+
+   B. Recommandations pour la sensibilisation et les procédures.
+
+      Les programmes de sensibilisation doivent impérativement intégrer les nouveaux usages malveillants de l'IA comme les deepfakes ou les faux appels de dirigeants.
+
+      Il est nécessaire de prévoir des procédures de double validation systématique pour toutes les opérations sensibles au sein de l'organisation.
+
+      L'usage de l'IA au sein du SOC pour le tri des alertes doit être expérimenté tout en maintenant un contrôle humain constant.
+
+      La sécurité des agents d'IA repose sur une architecture garantissant qu'ils n'ont pas plus de droits que l'utilisateur et que leurs actions critiques sont validées par un humain.
+
+      La journalisation de toutes les activités et le cloisonnement des droits sont des mesures essentielles pour protéger la phase de production.
+
+   C. Glossaire des notions techniques et modes opératoires.
+
+      Le mode opératoire CopyCop est attribué à John Mark Dougan et gère une partie des infrastructures de Storm-1516.
+
+      Storm-1516, aussi appelé Neva Flood par Microsoft, est un mode opératoire informationnel russe actif depuis au moins août deux mille vingt-trois.
+
+      Le dividende du menteur désigne le fait qu'une société de plus en plus sceptique facilite la contestation de faits pourtant avérés.
+
+      Le LLM, ou Large Language Model, est une catégorie de modèles d'IA générative capable de produire du texte proche du langage naturel.
+
+      L'évasion consiste à altérer les données d'entrée pour modifier le fonctionnement attendu du système.
+
+      Le DevSecOps et l'IA agentique désignent l'approche réunissant le développement, la sécurité et l'exploitation logicielle.
+
+POINTS D'ATTENTION.
+
+      L'IA est un outil à double usage qui sert aussi bien les attaquants que les défenseurs.
+
+      Il ne faut pas confondre l'amélioration de la diversité des attaques avec une capacité d'attaque totalement autonome.
+
+      L'ANSSI précise qu'aucun système n'est capable de réaliser seul toutes les étapes d'une attaque à ce jour.
+
+      La recherche de vulnérabilités reste un processus largement humain malgré les capacités des modèles.
+
+      Un système d'IA présente les vulnérabilités classiques d'un logiciel auxquelles s'ajoutent des risques liés aux données.
+
+      L'expertise humaine demeure indispensable car l'IA peut introduire des failles invisibles pour les contrôles.
+
+EXEMPLES CITÉS.
+
+      Sur une cinquantaine d'IA testées par des chercheurs, trois seulement ont produit un exploit fonctionnel.
+
+      Des services de deepfakes vocaux et vidéo peuvent être loués pour quelques dizaines de dollars.
+
+      Le rapport sur la DGFiP montre qu'une corrélation de signaux faibles aurait permis de détecter l'exfiltration.
+
+      Des outils comme BigSleep de Google en deux mille vingt-quatre ou XBOW en deux mille vingt-cinq ont réussi à trouver des failles réelles.
+
+      L'INESIA a été créé en deux mille vingt-cinq pour évaluer la sécurité et la fiabilité des modèles.

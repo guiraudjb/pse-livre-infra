@@ -1,0 +1,53 @@
+TITRE : LA VIGILANCE EN ACTION
+
+[Intro]
+Écoute le rythme, le signal, la menace qui rôde,
+La cybersécurité n'est pas un jeu, c'est notre code.
+
+[Couplet 1]
+L'ANSSI propose son MOOC SecNumacadémie,
+Pour changer les comportements et bannir l'incertitude et l'ennui.
+Pas de culpabilité, mais une culture de la vigilance,
+Le SOC attend ton signal, c'est là toute l'importance.
+On ne compte pas que les clics, on mesure la rapidité,
+Le taux de signalement est notre seule vérité.
+L'IGPDE a formé trente-six mille vingt-neuf agents,
+En deux mille vingt-cinq, pour faire face aux courants.
+
+[Refrain]
+Signale, ne clique pas, reste sur tes gardes,
+La menace est réelle, ne la laisse pas s'attarde.
+Vigilance et réflexe, c'est notre bouclier,
+Pour protéger l'organisation et ne jamais plier.
+
+[Couplet 2]
+Méfie-toi du typosquatting et de l'astroturfing,
+De la désinformation qui cherche le timing.
+La malinformation utilise le vrai pour nuire,
+La mésinformation est une erreur sans vouloir détruire.
+Le MFA ne se valide que si l'ordre est de toi,
+Contre le deepfake, pose une question, garde la foi.
+L'OSINT de Viginum utilise les sources publiques,
+Pour contrer l'ingérence et les tactiques de l'amnésique.
+
+[Refrain]
+Signale, ne clique pas, reste sur tes gardes,
+La menace est réelle, ne la laisse pas s'attarde.
+Vigilance et réflexe, c'est notre bouclier,
+Pour protéger l'organisation et ne jamais plier.
+
+[Pont]
+Le débauchage cible l'expert, l'offre est trop belle,
+Le troll est humain, le bot est une étincelle.
+La plateforme THÉSÉE pour les plaintes d'escroquerie,
+L'eIDAS règle la confiance et l'identité.
+
+[Refrain final]
+Signale, ne clique pas, reste sur tes gardes,
+La menace est réelle, ne la laisse pas s'attarde.
+Vigilance et réflexe, c'est notre bouclier,
+Pour protéger l'organisation et ne jamais plier.
+
+[Outro]
+La stratégie nationale deux mille vingt-six à deux mille trente,
+C'est notre mission, c'est notre réponse au monde.

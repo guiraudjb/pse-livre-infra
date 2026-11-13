@@ -1,0 +1,53 @@
+TITRE : L'IA EN SERVICE PUBLIC
+
+[Intro]
+Écoute le rythme de la donnée qui s'installe,
+L'intelligence artificielle entre dans l'administration digitale.
+
+[Couplet 1]
+De la DINUM à la DGFiP, le déploiement s'organise,
+En octobre deux mille vingt-cinq, trois mille agents sont à l'aise.
+L'assistant généraliste rédige, résume et reformule,
+Mais pour la doctrine, le RAG est la méthode qui circule.
+L'inférence répond au prompt, l'instruction est donnée,
+Sur le site assistant.numerique.gouv.fr, la tâche est lancée.
+Dix mille licences testées entre décembre deux mille vingt-cinq et juin deux mille vingt-six,
+Mistral AI en partenaire, pour un modèle sans aucun vice.
+
+[Refrain]
+Souveraine, sécurisée, l'IA est intégrée,
+Sous contrôle humain, la mission est guidée.
+Souveraine, sécurisée, l'IA est intégrée,
+Pour l'agent public, la modernité est assurée.
+
+[Couplet 2]
+Attention au jailbreak-as-a-service et aux injections cachées,
+L'ANSSI du vingt-neuf avril deux mille vingt-quatre nous a prévenus, faut pas s'égarer.
+L'AI Act impose le classement et le contrôle du risque,
+Le RGPD exige la minimisation, pour que le droit soit complice.
+Le GPU calcule, surveille le coût et l'électricité,
+La DITP dit en juin deux mille vingt-six que soixante-quinze pour cent voient l'utilité.
+Cinquante-six pour cent utilisent moins les modèles non souverains,
+La DGFiP cible la moitié de ses contrôles par des algorithmes sereins.
+
+[Refrain]
+Souveraine, sécurisée, l'IA est intégrée,
+Sous contrôle humain, la mission est guidée.
+Souveraine, sécurisée, l'IA est intégrée,
+Pour l'agent public, la modernité est assurée.
+
+[Pont]
+LexIA pour le juridique, LLaMandement pour les amendements,
+L'agent reste responsable, malgré les erreurs plausibles et les changements.
+Pas d'action sensible sans validation de l'humain,
+La transparence envers l'usager trace le bon chemin.
+
+[Refrain final]
+Souveraine, sécurisée, l'IA est intégrée,
+Sous contrôle humain, la mission est guidée.
+Souveraine, sécurisée, l'IA est intégrée,
+Pour l'agent public, la modernité est assurée.
+
+[Outro]
+L'intelligence artificielle, un outil pour l'État,
+Maîtrisée et documentée, pour un service de haut éclat.

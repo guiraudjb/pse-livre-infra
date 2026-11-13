@@ -1,0 +1,231 @@
+LES FILIÈRES ET LES COMPÉTENCES NUMÉRIQUES ET CYBERSÉCURITÉ AU SEIN DE L'ÉTAT.
+
+LEXIQUE COMPLET.
+
+      L'ANSSI désigne l'organisme qui fournit des guides, des qualifications et un appui aux incidents, comptant six cent cinquante-huit agents en deux mille vingt-cinq.
+
+      La DINUM désigne l'entité responsable de la stratégie RH du numérique de l'État, des communautés métiers et du contrôle des grands projets.
+
+      Le Campus Cyber désigne le lieu qui rassemble les acteurs publics et privés et propose des groupes de travail comme la prospective Horizon Cyber deux mille trente.
+
+      Le CND désigne l'entité issue de la réforme ORGANUM au sein du ministère des Armées pour intégrer les fonctions numériques et cyber.
+
+      Le 17Cyber désigne le service en ligne d'assistance aux victimes lancé en décembre deux mille vingt-quatre qui peut mettre en relation avec policiers et gendarmes.
+
+      Le quishing désigne une technique de hameçonnage réalisée par l'utilisation de QR code.
+
+      L'opération Cactus désigne une simulation d'hameçonnage menée dans les espaces numériques de travail des établissements scolaires.
+
+      L'avis conforme désigne un avis qui lie l'administration et qui empêche l'engagement d'un projet en cas de réponse défavorable.
+
+      Le PSE désigne une qualification professionnelle de programmeur système d'exploitation utilisée par la DGFiP pour former ses spécialistes.
+
+      SensCyber désigne un programme de sensibilisation en ligne qui accompagne le Cybermois, le mois européen de la cybersécurité en octobre.
+
+COURS DÉTAILLÉ.
+
+I. LES ENJEUX ET LES MÉTIERS EN TENSION.
+
+   A. Importance stratégique de la compétence.
+
+      La compétence est considérée comme la ressource la plus critique de toute la feuille de route pour une infrastructure moderne.
+
+      Une infrastructure de pointe nécessite des compétences rares telles que des architectes, des ingénieurs cloud ou des spécialistes de la donnée et de l'IA.
+
+      La stratégie nationale de cybersécurité deux mille vingt-six à deux mille trente place d'ailleurs le vivier de talents comme l'un de ses piliers fondamentaux.
+
+      Sans une véritable politique de compétences, la meilleure des stratégies reste purement théorique et demeure uniquement sur le papier.
+
+   B. Cartographie des métiers par domaine.
+
+      Le domaine de l'infrastructure et du cloud regroupe les architectes, les ingénieurs systèmes et réseaux, les ingénieurs de plateforme ainsi que les profils FinOps.
+
+      Pour la sécurité, les métiers en tension incluent les RSSI, les analystes SOC, les répondants à incident, les auditeurs et les architectes sécurité.
+
+      Le secteur du développement mobilise des développeurs, des experts DevSecOps et des spécialistes des technologies patrimoniales comme le COBOL ou le mainframe.
+
+      La donnée et l'IA nécessitent des compétences spécifiques de data engineers, de data scientists et d'ingénieurs MLOps.
+
+      Enfin, le pilotage repose sur des chefs de projet, des product owners, des urbanistes et des acheteurs numériques.
+
+   C. La concurrence avec le secteur privé.
+
+      L'État se trouve directement en concurrence avec le secteur privé pour réussir à recruter et à garder ces profils spécialisés.
+
+      Pour faire face à cette concurrence, l'État peut recourir à des contractuels bénéficiant de rémunérations proches de celles du marché pour les métiers rares.
+
+      La stratégie d'accélération cybersécurité de deux mille vingt et un visait notamment la création de trente-sept mille emplois dans la filière d'ici deux mille vingt-cinq.
+
+      Pour limiter la dépendance aux prestataires privés, un ministère doit impérativement garder en interne la capacité de décider, d'architecturer et de contrôler.
+
+II. LES LEVIERS D'ACTION DE L'ÉTAT POUR LA GESTION DES TALENTS.
+
+   A. Stratégies de recrutement et d'apprentissage.
+
+      L'État doit faire face à une concurrence directe avec le secteur privé pour attirer les profils aux compétences rares.
+
+      Le recrutement s'appuie sur l'usage de contractuels bénéficiant de rémunérations proches de celles du marché pour les métiers en tension.
+
+      Les modalités de sélection incluent également des concours spécialisés ainsi que le développement de l'apprentissage.
+
+   B. Formation interne et reconversion.
+
+      La montée en compétences passe par la reconversion d'agents déjà en poste vers les nouveaux métiers du numérique.
+
+      Des qualifications professionnelles spécifiques sont mises en place, à l'image du programme de programmeur système d'exploitation au sein de la DGFiP.
+
+      Ce modèle de formation interne permet de répondre aux besoins de l'infrastructure moderne sans dépendre uniquement du marché extérieur.
+
+   C. Fidélisation et transmission des savoirs.
+
+      Pour retenir les talents, l'État mise sur des parcours de carrière attractifs et des projets offrant du sens par le service public.
+
+      Le télétravail constitue un levier important pour la fidélisation des agents dans ces filières critiques.
+
+      La transmission des savoirs est organisée pour anticiper les départs à la retraite, particulièrement pour les technologies patrimoniales.
+
+   D. Mutualisation de l'expertise.
+
+      Plutôt que de laisser une expertise rare se disperser, l'État privilégie la création de centres d'expertise interministériels.
+
+      Cette stratégie de mutualisation permet de mieux gérer les ressources critiques de la feuille de route numérique.
+
+      L'objectif est de transformer des compétences isolées en un vivier de talents structuré et partagé.
+
+III. LA GESTION DE LA RELATION AVEC LES PRESTATAIRES.
+
+   A. Limites de l'externalisation totale.
+
+      Un ministère ne peut pas réaliser l'intégralité de ses missions par lui-même.
+
+      Cependant, une dépendance totale vis-à-vis des prestataires présente des risques majeurs pour l'organisation.
+
+      Cette dépendance peut entraîner une perte de maîtrise sur les systèmes et les processus.
+
+      Elle engendre également des enjeux de coûts et de continuité de service pour l'administration.
+
+   B. Règle de maîtrise de l'architecture et du contrôle.
+
+      Le ministère doit appliquer une règle de bon sens pour gérer ses relations avec les prestataires.
+
+      Il est impératif de garder en interne la capacité de décider et d'architecturer les systèmes.
+
+      L'administration doit également conserver la maîtrise du contrôle des infrastructures et des projets.
+
+      L'externalisation doit être réservée uniquement aux tâches d'exécution quand cela est jugé pertinent.
+
+IV. L'ÉCOSYSTÈME DE SOUTIEN ET D'APPUI PUBLIC.
+
+   A. Rôle de l'ANSSI et de la DINUM.
+
+      L'ANSSI compte six cent cinquante-huit agents en deux mille vingt-cinq et dispose de sites à Paris, au Campus Cyber et à Rennes.
+
+      Elle apporte des guides, des qualifications et un appui lors des incidents.
+
+      Elle propose également les services MesServicesCyber pour effectuer un test de maturité ou un diagnostic Cyberdépart.
+
+      La DINUM définit la stratégie RH du numérique de l'État et anime les communautés métiers.
+
+      Elle assure également le contrôle des grands projets numériques.
+
+   B. Appui de Cybermalveillance.gouv.fr et du Campus Cyber.
+
+      Cybermalveillance.gouv.fr est un GIP de soixante-quatre membres en deux mille vingt-cinq qui propose des kits de sensibilisation.
+
+      Ce dispositif a traité plus de quatre cent vingt mille demandes d'assistance en deux mille vingt-quatre et dispose du service 17Cyber.
+
+      Le Campus Cyber réunit les acteurs publics et privés autour de thématiques comme le Studio des communs ou les groupes de travail.
+
+      Il porte également la prospective Horizon Cyber deux mille trente.
+
+   C. Le modèle du CND et de la réforme ORGANUM.
+
+      La réforme de l'organisation du numérique du ministère est désignée par le terme ORGANUM.
+
+      Cette réforme a abouti à la création du CND au sein du ministère des Armées.
+
+      Le CND propose un modèle d'intégration des fonctions numériques et cyber au sein d'une seule et même entité.
+
+V. GLOSSAIRE TECHNIQUE ET NOTIONS CLÉS.
+
+   A. Outils et services de cybersécurité.
+
+      Le 17Cyber est un service en ligne d'assistance aux victimes lancé en décembre deux mille vingt-quatre qui fonctionne vingt-quatre heures sur vingt-quatre. Ce dispositif permet d'établir une mise en relation directe avec les policiers et les gendarmes.
+
+      L'ANSSI dispose de six cent cinquante-huit agents en deux mille vingt-cinq et intervient via des sites situés à Paris, au Campus Cyber et à Rennes. Elle propose des guides, des qualifications ainsi que des outils comme MesServicesCyber pour effectuer des diagnostics.
+
+      Cybermalveillance.gouv.fr est un GIP composé de soixante-quatre membres en deux mille vingt-cinq qui a traité plus de quatre cent vingt mille demandes d'assistance en deux mille vingt-quatre. Il fournit notamment des kits de sensibilisation aux utilisateurs.
+
+      Le Campus Cyber regroupe les acteurs publics et privés à travers son Studio des communs et ses groupes de travail. Il porte notamment la prospective Horizon Cyber deux mille trente.
+
+   B. Techniques de menace et sensibilisation.
+
+      Le quishing désigne une technique de hameçonnage spécifique qui utilise des codes QR pour piéger les victimes.
+
+      L'opération Cactus consiste en une simulation d'hameçonnage réalisée au sein des espaces numériques de travail des établissements scolaires.
+
+      SensCyber est un programme de sensibilisation disponible en ligne pour renforcer la culture numérique.
+
+      Le Cybermois est un événement européen dédié à la cybersécurité qui se déroule chaque année au mois d'octobre.
+
+   C. Cadre réglementaire et organisationnel.
+
+      La stratégie nationale de cybersécurité deux mille vingt-six à deux mille trente place le vivier de talents comme l'un de ses piliers fondamentaux.
+
+      La stratégie d'accélération cybersécurité de deux mille vingt et un visait la création de trente-sept mille emplois dans la filière pour l'année deux mille vingt-cinq.
+
+      L'avis conforme est une décision qui lie l'administration et empêche l'engagement d'un projet en cas d'avis défavorable.
+
+      La réforme ORGANUM a transformé l'organisation du numérique au sein du ministère et a permis la création du CND.
+
+      Le CND est une entité du ministère des Armées qui propose un modèle d'intégration des fonctions numériques et cyber.
+
+VI. ENJEUX DE MISE EN ŒUVRE ET EXEMPLES CONCRETS.
+
+   A. L'importance de la politique de compétences.
+
+      La compétence constitue la ressource la plus critique de toute la feuille de route pour une infrastructure moderne.
+
+      L'État doit faire face à une concurrence directe avec le secteur privé pour recruter et fidéliser des profils rares comme les architectes cloud ou les analystes SOC.
+
+      Une stratégie numérique, même si elle est excellente sur le papier, ne peut être mise en œuvre sans des personnes compétentes pour l'exécuter.
+
+      Pour pallier la pénurie, l'État utilise des leviers tels que le recrutement de contractuels avec des rémunérations proches du marché ou la formation interne par la reconversion.
+
+      La gestion des talents repose aussi sur la transmission des savoirs avant les départs à la retraite et la mutualisation des expertises via des centres interministériels.
+
+      Le ministère doit impérativement garder en interne la capacité de décider, d'architecturer et de contrôler pour éviter une dépendance totale aux prestataires.
+
+   B. Le cas d'étude de la DGFiP.
+
+      La DGFiP représente l'un des plus grands employeurs publics du numérique avec un effectif de plus de cinq mille informaticiens.
+
+      Cette administration illustre la capacité de l'État à former ses propres spécialistes grâce à des qualifications professionnelles internes.
+
+      Elle utilise notamment le programme de qualification de programmeur système d'exploitation, désigné par le sigle PSE.
+
+      Ce modèle de formation interne permet de répondre aux besoins spécifiques de l'organisation tout en développant une expertise propre.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre l'avis conforme et l'avis simple. L'avis conforme lie l'administration et empêche le lancement d'un projet en cas de refus, contrairement à l'avis simple.
+
+      La gestion des prestataires doit éviter la dépendance totale pour ne pas perdre la maîtrise des coûts et de la continuité. L'État doit impérativement garder la capacité de décider, d'architecturer et de contrôler en interne.
+
+      La compétence est considérée comme la ressource la plus critique de la feuille de route. Sans une véritable politique de compétences, la stratégie numérique reste théorique.
+
+      Il existe une nuance importante entre la mission de l'ANSSI et celle de la DINUM. L'ANSSI fournit des guides et un appui technique, tandis que la DINUM pilote la stratégie RH et les communautés métiers.
+
+      La transmission des savoirs est un enjeu majeur pour éviter la perte d'expertise sur les technologies patrimoniales. Cela concerne particulièrement les départs à la retraite imminents.
+
+EXEMPLES CITÉS.
+
+      La DGFiP illustre la capacité de formation interne avec ses cinq mille informaticiens et sa qualification de programmeur système d'exploitation.
+
+      La stratégie d'accélération cybersécurité visait trente-sept mille emplois dans la filière pour l'année deux mille vingt-cinq.
+
+      Le service 17Cyber a été lancé en décembre deux mille vingt-quatre pour offrir une assistance aux victimes disponible vingt-quatre heures sur vingt-quatre.
+
+      Cybermalveillance.gouv.fr est un GIP de soixante-quatre membres qui a traité plus de quatre cent vingt mille demandes d'assistance en deux mille vingt-quatre.
+
+      L'ANSSI compte six cent cinquante-huit agents en deux mille vingt-cinq et dispose de sites à Paris, au Campus Cyber et à Rennes.

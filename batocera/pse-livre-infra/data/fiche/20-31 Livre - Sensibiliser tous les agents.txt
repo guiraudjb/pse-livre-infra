@@ -1,0 +1,191 @@
+STRATÉGIES ET MÉTHODES DE SENSIBILISATION DES AGENTS À LA CYBERSÉCURITÉ.
+
+LEXIQUE COMPLET.
+
+      L'ANSSI désigne l'organisme qui propose le MOOC SecNumacadémie pour la formation en ligne.
+
+      Le MFA désigne le mécanisme de validation d'une demande qu'il ne faut jamais valider si on ne l'a pas initiée soi-même.
+
+      L'OSINT désigne la méthode de Viginum fondée exclusivement sur l'utilisation de sources publiques.
+
+      Le SOC désigne le service qui peut détecter rapidement une menace grâce au signalement rapide des agents.
+
+      L'eIDAS désigne le règlement européen relatif à l'identification électronique et aux services de confiance pour les transactions électroniques.
+
+      Le typosquatting désigne l'enregistrement d'un nom de domaine très proche d'un site officiel pour tromper les internautes.
+
+      L'astroturfing désigne l'action coordonnée d'un petit groupe de comptes pour faire croire qu'un sujet est un phénomène de masse.
+
+      La désinformation désigne la diffusion délibérée d'informations fausses ou trompeuses dans l'intention de nuire.
+
+      La malinformation désigne une information qui est fondée sur la réalité mais utilisée pour porter préjudice.
+
+      La mésinformation désigne la diffusion involontaire d'informations erronées sans intention de nuire.
+
+      Le débauchage est le recrutement ciblé de salariés d'un concurrent pour capter ses compétences, ses clients ou ses savoir-faire, ou pour le fragiliser.
+
+      La plateforme THÉSÉE désigne l'outil permettant de déposer une plainte pour escroquerie en ligne.
+
+COURS DÉTAILLÉ.
+
+I. PRINCIPES FONDAMENTAUX DE LA SENSIBILISATION.
+
+   A. Changement de comportement et valorisation du signalement.
+
+      Une sensibilisation efficace ne doit pas se limiter à la simple transmission de connaissances mais doit viser un véritable changement des comportements.
+
+      Pour atteindre cet objectif, les actions de sensibilisation doivent être courtes, répétées, concrètes et adaptées aux spécificités de chaque métier.
+
+      Il est crucial de ne pas culpabiliser les agents afin de favoriser une culture de la vigilance plutôt que de la peur.
+
+      La stratégie doit valoriser le signalement car un agent qui signale un courriel douteux, même après avoir cliqué, rend un service précieux à l'organisation.
+
+      Le succès d'un service se mesure non seulement par le taux de clic lors des campagnes simulées, mais surtout par le taux de signalement et sa rapidité.
+
+      Un service où les agents signalent les incidents rapidement permet au SOC de détecter les menaces avec une plus grande efficacité.
+
+   B. Les messages essentiels par thématique.
+
+      Concernant le hameçonnage, les agents doivent vérifier l'expéditeur et le lien, puis signaler le message plutôt que de simplement le supprimer en cas de doute.
+
+      Pour la gestion des mots de passe et du MFA, il est recommandé d'utiliser un mot de passe par service, un gestionnaire de mots de passe et de ne jamais valider une demande MFA non initiée.
+
+      La séparation des usages impose de ne pas utiliser d'appareil personnel pour le travail ni d'outil grand public pour les documents professionnels.
+
+      L'usage de l'IA générative nécessite l'utilisation de l'outil officiel et l'interdiction stricte de coller des données sensibles dans un service grand public.
+
+      Face à l'ingénierie sociale, il faut se méfier de l'urgence et de l'autorité, en rappelant l'interlocuteur sur un numéro connu pour contrer les deepfakes.
+
+      Le nomadisme exige de verrouiller sa session, de protéger son écran et de ne jamais laisser son poste de travail sans surveillance.
+
+II. MÉTHODES ET FORMATS DE FORMATION.
+
+   A. Outils et modules pédagogiques.
+
+      La formation repose sur des modules en ligne courts comme le MOOC SecNumacadémie de l'ANSSI.
+
+      Des kits sont mis à disposition par Cybermalveillance.gouv.fr et par Viginum pour lutter contre les ingérences numériques.
+
+      L'apprentissage doit être adapté aux métiers car les comptables, les RH ou les cabinets ne sont pas exposés aux mêmes leurres.
+
+      La sensibilisation doit être courte, répétée, concrète et adaptée au métier pour changer réellement les comportements.
+
+   B. Campagnes de simulation et exercices de crise.
+
+      Des campagnes d'hameçonnage simulées sont organisées pour offrir un retour pédagogique immédiat sans jamais appliquer de sanction.
+
+      Des exercices de crise sont destinés aux dirigeants, qui doivent eux aussi être formés selon NIS deux.
+
+      La DGSI recommande d'organiser plusieurs fois par an des tests d'hameçonnage pour maintenir la vigilance.
+
+   C. Indicateurs de mesure de l'efficacité.
+
+      L'efficacité ne se mesure pas seulement par le taux de clic lors des campagnes simulées.
+
+      L'indicateur principal est le taux de signalement ainsi que son délai de réalisation.
+
+      Un service où les agents signalent rapidement les incidents permet au SOC de détecter les menaces plus vite.
+
+III. PRÉVENTION CONTRE L'USURPATION ET L'INGÉRENCE.
+
+   A. Réflexes face aux faux interlocuteurs et aux deepfakes.
+
+      En cas d'usurpation d'identité d'un dirigeant ou d'un fournisseur, il faut rester vigilant face à une adresse ou un domaine inhabituel, l'usage de caractères cyrilliques, l'urgence ou une demande de confidentialité.
+
+      Le réflexe immédiat consiste à vérifier l'information par un autre canal et à appliquer la procédure établie sans aucune dérogation.
+
+      Il est impératif d'alerter rapidement les services de l'informatique et de la sûreté car plusieurs agents sont souvent visés par ces tentatives.
+
+      Face à une visioconférence ou un appel vocal utilisant une voix ou un visage cloné par IA, il faut poser une question de contrôle.
+
+      Il est également conseillé de rappeler l'interlocuteur sur un numéro connu pour confirmer son identité.
+
+   B. Comportements à adopter lors de déplacements à l'étranger.
+
+      Lors d'un déplacement, l'agent doit être attentif aux approches d'inconnus, aux rencontres imprévues ou à la réception de cadeaux.
+
+      Il est recommandé d'utiliser un matériel dédié et minimal pour limiter les risques.
+
+      L'agent ne doit rien laisser sans surveillance durant ses déplacements.
+
+      Il est nécessaire de rendre compte de la situation auprès de sa hiérarchie au retour du déplacement.
+
+   C. Protection contre la sollicitation d'experts.
+
+      Il faut se méfier des offres flatteuses ou des propositions de rémunération inhabituelles lors de la sollicitation d'un expert.
+
+      En cas de doute, l'agent doit en parler à sa hiérarchie ainsi qu'à l'officier de sécurité.
+
+IV. GLOSSAIRE DES NOTIONS TECHNIQUES ET INFORMATIONNELLES.
+
+   A. Concepts de l'ingérence et de la désinformation.
+
+      L'astroturfing consiste à simuler un phénomène de masse par l'action coordonnée d'un petit groupe de comptes.
+
+      Le copy pasta désigne la publication répétée d'un même texte légèrement modifié pour amplifier un message sans subir de censure.
+
+      La désinformation est la diffusion délibérée d'informations fausses ou trompeuses avec l'intention de nuire.
+
+      La malinformation repose sur une information fondée sur la réalité mais utilisée pour porter préjudice.
+
+      La mésinformation correspond à la diffusion involontaire d'informations erronées sans aucune intention de nuire.
+
+      L'opération informationnelle est l'emploi ponctuel de ressources et de TTP par un MOI pour des objectifs tactiques, tandis que la campagne informationnelle regroupe des opérations au service d'objectifs stratégiques.
+
+      Le troll est une personne réelle qui provoque ou insulte pour déstabiliser le débat, alors que le bot est un compte automatisé.
+
+      La surinformation est l'excès d'informations qui empêche de comprendre, de vérifier et de garder un regard critique.
+
+      L'OSINT est la méthode de Viginum fondée exclusivement sur des sources publiques de renseignement d'origine sources ouvertes.
+
+   B. Définitions réglementaires et techniques.
+
+      L'eIDAS désigne le règlement européen sur l'identification électronique et les services de confiance pour les transactions électroniques au sein de l'Union européenne.
+
+      Le débauchage est le recrutement ciblé de salariés d'un concurrent pour capter ses compétences, ses clients ou ses savoir-faire, ou pour le fragiliser.
+
+      Le typosquatting est l'enregistrement d'un nom de domaine très proche d'un site officiel pour tromper les internautes.
+
+V. ENJEUX STRATÉGIQUES ET INSTITUTIONNELS.
+
+   A. Recommandations pour le ministère et la DGFiP.
+
+      Le rapport sur la DGFiP en deux mille vingt-six préconise un renforcement de la sensibilisation des agents.
+
+      Une attention particulière doit être portée à la séparation des usages personnels et professionnels.
+
+      Chaque agent dont le compte a été compromis doit faire l'objet d'une sensibilisation spécifique.
+
+      L'IGPDE a déjà démontré son engagement en formant trente-six mille vingt-neuf agents durant l'année deux mille vingt-cinq.
+
+   B. Cadre stratégique et ressources complémentaires.
+
+      La sensibilisation est un élément intégré à la PSSIE, au ReCyF et à la stratégie nationale deux mille vingt-six à deux mille trente.
+
+      Les agents peuvent s'appuyer sur le MOOC SecNumacadémie de l'ANSSI pour leurs formations en ligne.
+
+      Les kits de Cybermalveillance.gouv.fr et de Viginum constituent des ressources essentielles pour la prévention.
+
+      Les victimes d'escroquerie en ligne ont la possibilité de déposer une plainte sur la plateforme THÉSÉE.
+
+POINTS D'ATTENTION.
+
+      La sensibilisation ne doit pas viser à culpabiliser les agents mais à changer leurs comportements de manière concrète et adaptée à leur métier.
+
+      Il est crucial de ne pas confondre le troll qui est une personne réelle avec le bot qui est un compte automatisé.
+
+      Il faut distinguer la désinformation qui est délibérée de la mésinformation qui est une diffusion involontaire d'erreurs.
+
+      La malinformation se distingue des deux autres car elle repose sur des faits réels mais est utilisée pour nuire.
+
+      L'objectif de la mesure de l'efficacité ne doit pas être uniquement le taux de clic mais surtout la rapidité et le taux de signalement.
+
+EXEMPLES CITÉS.
+
+      L'IGPDE a formé trente-six mille vingt-neuf agents au cours de l'année deux mille vingt-cinq.
+
+      Un agent peut utiliser le MOOC SecNumacadémie de l'ANSSI ou les kits de Cybermalveillance.gouv.fr pour se former.
+
+      En cas d'escroquerie en ligne, une plainte peut être déposée via la plateforme THÉSÉE.
+
+      Le recours à l'OSINT est une méthode utilisée par Viginum en se fondant exclusivement sur des sources publiques.

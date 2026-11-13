@@ -1,0 +1,47 @@
+TITRE : LE RÉSEAU MINISTÉRIEL
+
+[Intro]
+Écoute le flux, le rythme des données qui circulent,
+De la fibre au bit, l'architecture qui s'instruit.
+
+[Couplet 1]
+Du LAN au MAN, puis vers le WAN, le périmètre s'étend,
+Depuis deux mille onze, le RIE mutualise le réseau des ministères, c'est puissant.
+Le MPLS commute par étiquettes, le SD-WAN pilote par logiciel,
+Il choisit le meilleur chemin, entre la fibre, la quatre G ou la cinq G.
+On segmente par VRF pour isoler les tables de routage,
+L'utilisateur, l'invité ou l'administration, sans aucun naufrage.
+Le VLAN découpe le commutateur pour limiter la diffusion,
+Tandis que l'OSPF calcule le chemin avec précision.
+
+[Refrain]
+Segmenter, authentifier, sécuriser le flux,
+Le réseau est un empire, un système continu.
+
+[Couplet 2]
+L'ANSSI recommande le huit cent deux point un X avec l'EAP-TLS,
+Pour que le branchement d'un câble ne soit jamais une faille, une faiblesse.
+Le serveur RADIUS authentifie les supplicants pour le bon segment,
+Mais pour l'objet connecté, un VLAN dédié reste le seul rempart exigeant.
+L'IPv4 est en fin de vie selon le RGI, l'IPv6 arrive en cent vingt-huit bits,
+Supprimant le NAT interne et la pénurie, pour un monde sans limites.
+Le BGP échange les préfixes, mais attention au détournement de trafic,
+Utilise le RPKI pour signer les origines et rester sans un souci.
+
+[Refrain]
+Segmenter, authentifier, sécuriser le flux,
+Le réseau est un empire, un système continu.
+
+[Pont]
+Cent mille agents, quatre-vingts connexions, cent vingt-cinq adresses publiques,
+Le PAT gère les ports de seize bits pour éviter les pannes critiques.
+Élimine les points de défaillance uniques, double les liens et les opérateurs,
+Pour que le maintien en condition opérationnelle soit un pilier de valeur.
+
+[Refrain final]
+Segmenter, authentifier, sécuriser le flux,
+Le réseau est un empire, un système continu.
+
+[Outro]
+De la couche deux à la couche trois, le savoir est gravé,
+L'infrastructure est maîtresse, le système est protégé.

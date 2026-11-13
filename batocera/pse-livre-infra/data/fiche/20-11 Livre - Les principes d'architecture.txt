@@ -1,0 +1,207 @@
+LES PRINCIPES FONDAMENTAUX DE L'ARCHITECTURE DE RÉFÉRENCE ET DU MODÈLE ZERO TRUST.
+
+LEXIQUE COMPLET.
+
+      Le Zero Trust désigne un modèle de contrôle d'accès qui part du principe qu'aucun accès n'est accordé par le simple fait d'être à l'intérieur du réseau.
+
+      L'ANSSI désigne l'autorité qui rappelle que le Zero Trust est un modèle et non une technologie ou un produit unique.
+
+      Le NIST désigne l'organisme qui a décrit le modèle Zero Trust dans le document SP 800-207 en deux mille vingt.
+
+      Le MFA désigne un mécanisme de vérification systématique qui permet d'authentifier chaque accès à chaque fois.
+
+      Le ZTNA désigne un mode d'accès par application plutôt que par le réseau entier.
+
+      L'ABAC désigne un mode de contrôle par attributs où les autorisations sont calculées selon le service, l'habilitation, la conformité du poste, l'heure ou le lieu.
+
+      Le TOGAF désigne un cadre d'architecture d'entreprise qui outille la démarche d'urbanisation du système d'information.
+
+      Le RGI désigne le référentiel qui fixe les normes d'échange entre les administrations.
+
+      Le SOA désigne une architecture orientée services qui utilise un bus d'entreprise et des intergiciels pour mutualiser les services.
+
+      Le SPA désigne une application monopage dont l'interface est exécutée dans le navigateur et qui appelle des API.
+
+      Le DSI désigne la Direction des Systèmes d'Information chargée de la gestion technique du parc informatique.
+
+      Le RSSI désigne le Responsable de la Sécurité des Systèmes d'Information qui pilote la politique de sécurité de l'organisme.
+
+COURS DÉTAILLÉ.
+
+I. ÉVOLUTION DES MODÈLES DE SÉCURITÉ.
+
+   A. Le modèle du château fort et ses limites.
+
+      Le modèle du château fort repose sur une sécurité périmétrique utilisant un pare-feu pour protéger un intérieur où la circulation est libre.
+
+      Cette approche considère que la menace est extérieure et qu'une fois la barrière franchie, l'attaquant peut se déplacer sans entrave.
+
+      Les attaques WannaCry et NotPetya en deux mille dix-sept ont démontré les dangers de ce modèle en paralysant des organisations entières.
+
+      Ces menaces se sont propagées d'un poste à l'autre en exploitant le partage de fichiers Windows au sein du réseau.
+
+   B. Le concept de Zero Trust.
+
+      Le modèle Zero Trust a été formulé par Forrester en deux mille dix et est décrit par le NIST en deux mille vingt dans le document SP 800-207.
+
+      Il part du principe inverse du château fort en considérant qu'aucun accès n'est accordé simplement parce qu'un utilisateur est à l'intérieur.
+
+      Chaque accès doit être systématiquement vérifié selon l'identité, l'état de l'équipement et le contexte de la demande.
+
+      L'identité est devenue le nouveau périmètre de sécurité, faisant de l'annuaire la cible prioritaire des attaquants.
+
+      La mise en pratique repose sur la micro-segmentation guidée par l'identité pour empêcher la communication entre des postes sans raison métier.
+
+   C. La vision de l'ANSSI sur le modèle.
+
+      L'ANSSI précise dans son avis de deux mille vingt et un que le Zero Trust n'est ni une technologie ni un produit mais un modèle de contrôle d'accès.
+
+      Ce modèle doit compléter la défense en profondeur et le cloisonnement sans pour autant les remplacer.
+
+      Une adoption trop rapide peut donner un faux sentiment de sécurité et affaiblir le système d'information.
+
+      L'approche préconise de contrôler les accès par attributs et d'évaluer en continu le sujet, l'équipement et le contexte.
+
+      Il est essentiel de cartographier les applications et les flux car on ne peut pas protéger ce que l'on ne connaît pas.
+
+      L'organisation doit également se méfier de la centralisation car le moteur de décision peut devenir un point unique de défaillance.
+
+II. LES PRINCIPES DIRECTEURS DE L'ARCHITECTURE.
+
+   A. Principes de défense et de cloisonnement.
+
+      L'architecture moderne repose sur l'hypothèse que l'attaquant finira par entrer quelque part. La défense en profondeur consiste à multiplier les barrières indépendantes comme les pare-feu, le WAF, le durcissement, le MFA et la supervision pour qu'une chute ne suffise pas à compromettre le système.
+
+      Le cloisonnement vise à découper le SI en zones étanches pour ne laisser passer que les flux nécessaires via des VRF ou la micro-segmentation. Le modèle Zero Trust complète ces principes en vérifiant chaque accès selon l'identité, l'état de l'équipement et le contexte.
+
+      La micro-segmentation guidée par l'identité empêche par exemple un poste de la comptabilité de joindre un poste des ressources humaines voisin. Cela peut être réalisé avec des Private VLAN, des pare-feu internes ou le contrôle d'accès 802.1X.
+
+   B. Gestion des privilèges et de l'administration.
+
+      Le principe du moindre privilège impose que chaque utilisateur n'ait que les droits strictement utiles à sa mission. Cela se traduit concrètement par l'usage de comptes nominatifs, des revues de droits régulières et des comptes d'administration séparés.
+
+      La séparation de l'administration exige que les chemins d'administration ne passent jamais par les mêmes voies que l'usage courant. On utilise pour cela des réseaux et des postes d'administration dédiés ainsi que des bastions.
+
+      L'identité est devenue le nouveau périmètre de sécurité, ce qui fait de l'annuaire la cible prioritaire des attaquants. Le contrôle d'accès doit être systématique et authentifié à chaque fois, notamment via le ZTNA.
+
+   C. Continuité, conception et traçabilité.
+
+      La sécurité doit être intégrée dès la conception des projets par une analyse de risque EBIOS RM plutôt qu'en fin de cycle. La capacité de reconstruction permet de rebâtir le SI à partir d'éléments sains grâce aux sauvegardes hors ligne et à l'infrastructure en code.
+
+      L'absence de point unique de défaillance est cruciale pour éviter qu'un seul élément critique ne paralyse tout le système. On utilise pour cela des grappes actif-passif ou actif-actif et plusieurs datacenters.
+
+      La traçabilité garantit que tout accès sensible laisse une trace exploitable grâce à des journaux centralisés et horodatés. Enfin, la simplicité est un principe clé car un système simple est plus facile à comprendre, à surveiller et à corriger.
+
+III. MISE EN ŒUVRE PRATIQUE DU ZERO TRUST.
+
+   A. La micro-segmentation guidée par l'identité.
+
+      L'état de l'art actuel repose sur une micro-segmentation qui s'appuie sur l'identité pour limiter les mouvements latéraux. Un poste de la comptabilité ne doit posséder aucune raison de joindre un poste des ressources humaines voisin.
+
+      Pour mettre cela en œuvre, on utilise des Private VLAN qui empêchent les postes d'un même VLAN de communiquer entre eux. On peut aussi déployer des pare-feu internes ainsi que le pare-feu local de chaque poste.
+
+      Le contrôle d'accès au réseau s'effectue via le protocole 802.1X en fonction de l'identité de l'équipement et de l'utilisateur. Enfin, l'accès distant se fait par application plutôt qu'au réseau entier via le ZTNA.
+
+   B. L'identité comme nouveau périmètre.
+
+      Le goulot d'étranglement de la sécurité s'est déplacé au fil des années du support partagé vers le routeur, puis vers le pare-feu. Aujourd'hui, l'identité constitue le nouveau périmètre de l'infrastructure.
+
+      Cette évolution fait de l'annuaire la cible prioritaire des attaquants. La sécurité ne repose plus sur la position géographique dans le réseau mais sur la vérification de l'identité.
+
+   C. Recommandations et mesures de l'ANSSI.
+
+      L'ANSSI précise que le Zero Trust est un modèle de contrôle d'accès qui complète la défense en profondeur sans la remplacer. Il faut évaluer chaque accès en continu selon le sujet, l'état de l'équipement et le contexte.
+
+      Les autorisations doivent être calculées par le contrôle par attributs ou ABAC en utilisant des référentiels fiables. Il est également crucial de cartographier les applications, les données, les utilisateurs, les équipements et les flux.
+
+      L'authentification forte par MFA est requise pour les utilisateurs et les identités gérées pour les processus automatiques. Il faut toutefois se méfier de la centralisation car le moteur de décision peut devenir un point unique de défaillance.
+
+      L'adoption doit se faire par cas d'usage précis, comme l'accès nomade à une application métier. Les priorités de l'ANSSI incluent le renforcement de l'authentification des comptes exposés, la supervision des journaux, la sauvegarde déconnectée et l'inventaire des services.
+
+IV. URBANISATION ET ARCHITECTURES APPLICATIVES.
+
+   A. Logique d'urbanisation du système d'information.
+
+      L'urbanisation du système d'information applique au SI la logique d'une ville en faisant évoluer le système quartier par quartier selon un plan d'ensemble plutôt que de tout reconstruire.
+
+      Cette démarche décrit le SI à travers quatre vues superposées qui sont les vues métier, fonctionnelle, applicative et technique.
+
+      La vue fonctionnelle est découpée en zones, quartiers et îlots qui constituent des blocs fonctionnels.
+
+      L'urbanisation s'appuie sur des cadres d'architecture d'entreprise comme le TOGAF qui outillent la démarche par des référentiels de briques et un cycle de développement.
+
+   B. Évolution des architectures de la centralisation aux microservices.
+
+      Le modèle mainframe et terminaux repose sur un traitement centralisé avec des écrans passifs, offrant une grande robustesse mais nécessitant des compétences rares.
+
+      L'architecture client-serveur utilise une application lourde sur le poste et une base sur un serveur, ce qui entraîne un déploiement coûteux et un poste exposé.
+
+      Le modèle trois tiers ou web est le modèle dominant où la présentation se fait dans le navigateur, la logique sur un serveur d'application et les données dans une base.
+
+      L'architecture orientée services ou SOA utilise des services réutilisables reliés par un bus d'entreprise ou ESB, mais ce bus peut devenir un point unique de défaillance.
+
+      Les microservices proposent des petits services autonomes déployés en conteneurs et dialoguant par API pour offrir agilité et montée en charge, malgré une complexité d'exploitation accrue.
+
+      Les applications monopages ou SPA utilisent une interface dans le navigateur qui appelle des API REST ou GraphQL, imposant un contrôle de l'autorisation côté serveur.
+
+   C. Enjeux de la cartographie et des échanges.
+
+      Une cartographie à jour est un outil de sécurité indispensable car on ne peut pas protéger ce que l'on ne connaît pas.
+
+      L'urbanisation impose qu'une donnée de référence possède un seul propriétaire et un seul lieu de mise à jour, comme pour les référentiels des usagers ou des agents.
+
+      Les blocs du système d'information doivent communiquer par des échanges déclarés via des API ou des messages sans jamais lire directement la base de données d'un autre bloc.
+
+      Toute évolution du système doit suivre une trajectoire précise allant de la cartographie actuelle vers la cible, étape par étape.
+
+      Le RGI fixe les normes d'échange entre les administrations pour garantir la cohérence du système.
+
+V. GLOSSAIRE TECHNIQUE ET ENJEUX STRATÉGIQUES.
+
+   A. Définitions des notions clés et fiches associées.
+
+      L'architecture sécurisée d'un système d'information regroupe les choix de conception et d'évolution ayant un impact direct sur le niveau de sécurité, comme le précise la fiche 03-180.
+
+      Le dossier d'architecture technique documente ces choix de conception selon des thématiques attendues, tandis que la DSI assure la gestion technique du parc informatique selon la fiche 03-50.
+
+      Le RSSI pilote la politique de sécurité de l'organisme, alors que le CERT, comme le CERT-FR, assure une mission de veille et publie des alertes sur les failles selon la fiche 09-430.
+
+      La sauvegarde hors ligne consiste à utiliser des supports déconnectés comme des bandes magnétiques pour protéger les données contre le chiffrement par rançongiciel, conformément à la fiche 03-1080.
+
+      L'homologation de sécurité est un engagement formel attestant qu'un système est protégé pour une durée de trois à cinq ans, selon les modalités de la fiche 09-390.
+
+      La réduction de la surface d'attaque consiste à supprimer tout élément logiciel superflu pour limiter les opportunités offertes à l'attaquant, d'après la fiche 09-430.
+
+   B. Impacts et coûts de l'application des principes.
+
+      L'application de ces principes de sécurité représente un coût élevé lorsqu'ils sont mis en œuvre après coup sur un système d'information déjà existant.
+
+      En revanche, l'intégration de ces principes dans les socles communs permet de réduire les coûts, notamment via un réseau déjà segmenté ou une plateforme d'hébergement déjà cloisonnée.
+
+      Chaque nouveau projet doit hériter de ces socles, comme un service d'identité déjà durci, pour garantir une efficacité économique et sécuritaire.
+
+      L'adoption trop rapide du modèle Zero Trust peut engendrer un faux sentiment de sécurité et affaiblir le système d'information si elle n'est pas maîtrisée.
+
+      Le moteur de décision du Zero Trust constitue un point unique de défaillance dont la panne bloque tout et dont la compromission ouvre l'accès à tout le système.
+
+POINTS D'ATTENTION.
+
+      Le Zero Trust ne doit pas être confondu avec une technologie ou un produit unique. Il s'agit d'un modèle de contrôle d'accès qui complète la défense en profondeur sans la remplacer.
+
+      Il est dangereux d'adopter le Zero Trust trop rapidement car cela peut donner un faux sentiment de sécurité. Une mise en œuvre mal maîtrisée peut même affaiblir le système d'information.
+
+      L'identité est devenue le nouveau périmètre de sécurité. Cela signifie que l'annuaire est désormais la cible prioritaire des attaquants.
+
+      Le moteur de décision du Zero Trust représente un risque de centralisation. Sa panne peut bloquer tout le système et sa compromission peut ouvrir tous les accès.
+
+      L'urbanisation du système d'information ne consiste pas à tout reconstruire mais à faire évoluer les quartiers un par un. Chaque évolution doit suivre une trajectoire précise vers la cible.
+
+EXEMPLES CITÉS.
+
+      En deux mille dix-sept, les attaques WannaCry et NotPetya ont illustré les limites du modèle du château fort. Ces menaces se sont propagées d'un poste à l'autre via le partage de fichiers Windows.
+
+      Le modèle Zero Trust a été formulé par Forrester en deux mille dix et décrit par le NIST en deux mille vingt dans le document SP 800-207.
+
+      La micro-segmentation guidée par l'identité permet d'empêcher un poste de la comptabilité de communiquer avec un poste des ressources humaines voisin.
+
+      L'architecture des applications évolue des systèmes Mainframe vers les microservices ou les applications monopages utilisant des API REST ou GraphQL.

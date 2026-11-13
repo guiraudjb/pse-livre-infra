@@ -1,0 +1,233 @@
+LES ENJEUX ET MÉCANISMES DE L'ACHAT PUBLIC NUMÉRIQUE POUR LA SOUVERAINETÉ DE L'ÉTAT.
+
+LEXIQUE COMPLET.
+
+      La DAE désigne la Direction des achats de l'État qui définit la stratégie d'achat de l'État pour environ cinquante milliards d'euros par an.
+
+      La DINUM désigne la Direction interministérielle du numérique qui exerce un contrôle sur les grands projets et publie le SILL.
+
+      Le SILL désigne le Socle interministériel de logiciels libres qui est un catalogue de référence proposant plus de six cents logiciels recommandés pour l'administration.
+
+      L'ANSSI désigne l'Agence nationale de la sécurité des systèmes d'information qui délivre des visas de confiance et des qualifications de sécurité.
+
+      Le SecNumCloud désigne une qualification délivrée par l'ANSSI qui atteste qu'un prestataire de cloud satisfait à des exigences de sécurité élevées.
+
+      Le CCTP désigne le cahier des clauses techniques particulières qui décrit précisément le besoin dans un dossier de consultation des entreprises.
+
+      Le CCAG-TIC désigne le cahier des clauses administratives générales des techniques de l'information et de la communication.
+
+      Le SREN désigne un cadre législatif garantissant la localisation des données et l'absence d'accès par des autorités étrangères pour les données sensibles.
+
+      La procédure MAPA désigne la procédure adaptée qui s'applique pour les achats sous les seuils européens et permet à l'acheteur de négocier.
+
+      Le SILL est un outil qui garantit quatre libertés, à savoir utiliser, étudier, modifier et redistribuer le logiciel.
+
+COURS DÉTAILLÉ.
+
+I. LE CADRE RÉGLEMENTAIRE ET LES ACTEURS DE L'ACHAT PUBLIC.
+
+   A. Règles de mise en concurrence et acteurs clés.
+
+      Le cadre juridique de l'achat public numérique est régi par le Code de la commande publique qui définit les règles de mise en concurrence et d'égalité de traitement.
+
+      La DAE, ou Direction des achats de l'État, pilote la stratégie d'achat pour un montant d'environ cinquante milliards d'euros par an en plaçant la souveraineté parmi ses priorités.
+
+      Les acheteurs peuvent se fournir auprès de l'UGAP, qui agit comme une centrale d'achat public permettant de s'approvisionner sans avoir à mener une mise en concurrence propre.
+
+      Les entreprises utilisent des outils comme PLACE, le profil d'acheteur de l'État, pour consulter les marchés et déposer leurs candidatures de manière dématérialisée.
+
+      L'outil métier APPACH permet aux acheteurs de l'État de conduire les projets d'achat, de suivre les dépenses et d'exprimer les besoins de manière structurée.
+
+   B. Le rôle de la DINUM et le contrôle des grands projets.
+
+      La DINUM exerce un contrôle stratégique sur les investissements numériques de l'État avec un budget de quarante millions d'euros et un effet de levier sur environ cinq cents millions d'euros.
+
+      L'avis de l'article trois est requis pour les projets dont le coût global atteint le seuil réglementaire, lequel est passé de neuf à quinze millions d'euros TTC par le décret de mars deux mille vingt-six.
+
+      Cet avis est conforme pour un projet ministériel ou interministériel, tandis qu'il est simple pour un organisme placé sous tutelle.
+
+      La DINUM peut également réaliser des missions de l'article quatre, qui consistent en un audit ou un appui sur un projet en difficulté à la demande d'un ministre.
+
+      Le Panorama des grands projets permet un suivi semestriel des coûts, des délais et de la météo des projets afin de mesurer les éventuelles dérives.
+
+   C. La doctrine d'achat et les seuils de contrôle.
+
+      La doctrine d'achat numérique, définie par la circulaire du cinq février deux mille vingt-six, privilégie les solutions du marché avant d'envisager le développement interne ou mutualisé.
+
+      La DINUM, puis ARIANE, doit rendre un avis conforme sur les projets de plus de quinze millions d'euros pour garantir la cohérence des investissements.
+
+      Un avis préalable est également exigé pour les marchés de type SaaS et les solutions collaboratives dont le montant atteint au moins deux millions d'euros par an.
+
+      Le décret de deux mille vingt-six impose aussi aux ministères d'inventorier leurs systèmes existants dont les évolutions annuelles dépassent cinq millions d'euros.
+
+      Le choix final de l'offre repose sur l'offre économiquement la plus avantageuse, en pondérant des critères tels que le prix, la sécurité, la réversibilité et l'impact environnemental.
+
+II. LES EXIGENCES CONTRACTUELLES POUR LA SÉCURITÉ ET LA SOUVERAINETÉ.
+
+   A. Clauses de sécurité, conformité et gestion des données.
+
+      Le contrat doit impérativement exiger le respect de la PSSI ainsi que la notification des incidents sous vingt-quatre heures. L'acheteur doit également s'assurer du droit d'audit et de l'utilisation de produits qualifiés ou certifiés.
+
+      En matière de conformité produit, le marquage CE au titre du CRA est requis. Le prestataire doit fournir un SBOM, garantir une durée de support d'au moins cinq ans et proposer des correctifs gratuits.
+
+      La gestion des données impose de définir précisément leur localisation. L'absence d'accès par des autorités étrangères pour les données sensibles doit être garantie via le SREN ou la qualification SecNumCloud.
+
+      La sous-traitance doit être strictement conforme au RGPD. L'acheteur doit vérifier que le prestataire respecte ces règles de protection des données personnelles.
+
+   B. Réversibilité, continuité de service et gestion des personnels.
+
+      Pour garantir la réversibilité, le contrat doit prévoir l'utilisation de formats ouverts et un export complet des données. L'assistance à la sortie doit être incluse avec des coûts plafonnés.
+
+      La continuité de service repose sur des engagements de disponibilité et un plan de continuité du prestataire. Ce dernier doit également participer aux exercices de continuité.
+
+      La gestion des personnels exige des habilitations spécifiques si nécessaire. Les accès doivent être réalisés par un bastion et utiliser des comptes nominatifs.
+
+   C. Les visas de confiance et certifications de l'ANSSI.
+
+      L'acheteur s'appuie sur les visas de l'ANSSI pour les fonctions de sécurité, notamment la CSPN et les Critères Communs. Ces certifications peuvent être de niveau élémentaire, standard ou renforcé.
+
+      Les Critères Communs constituent une norme internationale ISO/IEC quinze mille quatre cent huit reconnue entre de nombreux pays. Le schéma européen EUCC organise la certification dans l'Union depuis deux mille vingt-cinq.
+
+      Une certification atteste qu'un produit a résisté à une évaluation sur une cible définie. Elle ne signifie toutefois pas que l'intégralité du code source a été auditée.
+
+      L'acheteur doit impérativement vérifier la liste à jour de l'ANSSI au moment du marché et ne pas se contenter d'une brochure commerciale. Chaque visa porte sur une version et un périmètre précis.
+
+III. LES LEVIERS DE L'OFFRE SOUVERAINE ET EUROPÉENNE.
+
+   A. Solutions d'infrastructure et cloud qualifié SecNumCloud.
+
+      Le marché propose des solutions françaises ou européennes pour la plupart des briques d'infrastructure. Des exemples incluent Stormshield pour les pare-feux, TheGreenBow pour les clients VPN ou encore Wallix pour la gestion des accès à privilèges.
+
+      Pour les fonctions de sécurité, l'acheteur peut s'appuyer sur les visas de l'ANSSI tels que la CSPN ou les Critères Communs. Ces derniers constituent une norme internationale ISO/IEC quinze mille quatre cent huit dont la certification est organisée par le schéma européen EUCC depuis deux mille vingt-cinq.
+
+      L'offre de cloud qualifié SecNumCloud comprend des prestataires comme OVHcloud, 3DS Outscale ou Cloud Temple. Il est impératif de consulter la liste de l'ANSSI car la qualification porte sur une offre précise.
+
+      L'immunité aux lois extraterritoriales est une garantie essentielle pour qu'un prestataire qualifié ne soit pas soumis à un droit étranger comme le Cloud Act américain. Ce dernier permettrait aux autorités des États-Unis d'exiger la communication de données stockées par un fournisseur soumis au droit américain.
+
+   B. Le logiciel libre et le socle SILL.
+
+      Le logiciel libre est un levier de souveraineté garantissant quatre libertés : utiliser, étudier, modifier et redistribuer le logiciel. Cela permet au ministère d'auditer le code, de le corriger et de sortir d'un éditeur sans perdre son outil.
+
+      Le SILL est le catalogue de référence des logiciels libres recommandés pour l'administration, comptant plus de six cents solutions en deux mille vingt-six. Il est publié sur code.gouv.fr par la mission logiciels libres de la DINUM.
+
+      La politique d'usage des logiciels libres est encadrée par la circulaire du Premier ministre du dix-neuf septembre deux mille douze et la loi pour une République numérique de deux mille seize. Cette dernière encourage l'usage des formats ouverts et précise que les codes sources des administrations sont des documents communicables.
+
+      La DINUM a engagé une refonte du SILL en deux mille vingt-six pour en faire un outil d'aide à la décision. Cette même année, la DINUM a annoncé le passage des postes de ses administrateurs sous GNU/Linux pour réduire les dépendances non européennes.
+
+      La DGFiP constitue l'un des plus gros utilisateurs de logiciels libres de l'État. Elle a quitté Microsoft Office pour LibreOffice à la fin des années deux mille et utilise Thunderbird ainsi que la solution NUBO bâtie sur OpenStack.
+
+   C. Critères de sélection et vitalité des projets.
+
+      Le choix d'une solution doit se faire sur le besoin, la sécurité, le coût complet et la réversibilité. Le coût complet de possession inclut les licences, l'exploitation, la formation et les coûts de sortie.
+
+      Pour le logiciel libre, le guide de l'ANSSI demande d'examiner la vitalité du projet via la régularité des contributions et le nombre de mainteneurs. Il faut aussi analyser la gestion des vulnérabilités et la gouvernance pour éviter les risques de changement de licence.
+
+      La réversibilité est une clause contractuelle majeure qui doit exiger des formats ouverts, un export complet et des coûts de sortie plafonnés. Une exigence absente du dossier de consultation des entreprises ne peut pas être imposée après la signature.
+
+      L'acheteur doit privilégier la solution du SILL ou qualifiée par l'ANSSI à besoin égal face à une solution propriétaire extra-européenne. Tout code développé spécifiquement pour le ministère doit être livré avec ses sources.
+
+IV. LES PROCÉDURES ET LA MISE EN ŒUVRE OPÉRATIONNELLE DES MARCHÉS.
+
+   A. Types de procédures selon les seuils de commande publique.
+
+      Le Code de la commande publique impose de choisir la procédure en fonction du montant estimé du besoin, en se référant aux seuils européens qui sont révisés tous les deux ans.
+
+      La procédure adaptée, ou MAPA, est utilisée pour les achats situés sous les seuils européens, permettant à l'acheteur de fixer ses propres modalités et de négocier.
+
+      L'appel d'offres, qu'il soit ouvert ou restreint, est la procédure de droit commun pour les montants situés au-dessus des seuils, sans possibilité de négociation.
+
+      Les procédures avec négociation sont réservées aux besoins nécessitant une adaptation ou une conception particulière, tandis que le dialogue compétitif s'applique aux projets complexes.
+
+      Le marché sans publicité ni mise en concurrence est strictement limité à des cas précis comme l'urgence impérieuse, l'exclusivité technique ou de faibles montants.
+
+   B. Constitution du dossier de consultation et critères d'attribution.
+
+      Le dossier de consultation des entreprises, ou DCE, réunit le règlement de la consultation, l'acte d'engagement, le cahier des clauses techniques particulières et le cahier des clauses administratives particulières.
+
+      Le CCTP décrit précisément le besoin technique, tandis que le CCAP renvoie au CCAG-TIC pour les clauses administratives générales relatives aux techniques de l'information et de la communication.
+
+      L'offre retenue doit être l'offre économiquement la plus avantageuse, en s'appuyant sur des critères pondérés qui sont annoncés à l'avance lors de la consultation.
+
+      Les critères de sélection incluent le prix, la valeur technique, la sécurité, la réversibilité ainsi que l'impact environnemental des solutions proposées.
+
+   C. Allotissement et accords-cadres.
+
+      La règle de l'allotissement prévoit que les marchés doivent être découpés en plusieurs lots pour favoriser la concurrence.
+
+      Les marchés prennent souvent la forme d'accords-cadres, qui peuvent être conclus à bons de commande ou à marchés subséquents pour une durée de plusieurs années.
+
+      Le choix des critères et des exigences dans le CCTP est crucial car une exigence absente du DCE ne pourra pas être imposée après la signature du marché.
+
+V. LA MODERNISATION DES FLUX FINANCIERS ET LA FACTURATION.
+
+   A. La généralisation de la facturation électronique.
+
+      Depuis le premier septembre deux mille vingt-six, toutes les entreprises assujetties à la TVA ont l'obligation de pouvoir recevoir leurs factures sous forme électronique.
+
+      Les grandes entreprises et les entreprises de taille intermédiaire doivent déjà émettre leurs factures de cette manière selon l'article deux cent quatre-vingt-neuf bis du Code général des impôts.
+
+      L'obligation d'émission de factures électroniques s'étendra aux PME ainsi qu'aux microentreprises à partir de septembre deux mille vingt-sept.
+
+      Les factures transitent par des plateformes agréées par l'administration fiscale qui assurent également la transmission des données de transaction et de paiement via l'e-reporting.
+
+      L'État assure la gestion de ce dispositif en fournissant l'annuaire des destinataires ainsi que le concentrateur de données.
+
+   B. Le système de la DGFiP et Chorus Pro.
+
+      Le système de la DGFiP constitue un cas d'école d'infrastructure critique gérant des millions de factures chaque jour et des données commerciales sensibles.
+
+      Ce système interconnecte des plateformes privées avec l'État et privilégie la continuité lors de sa phase de démarrage.
+
+      Une facture reçue par un canal habituel reste payable si l'opération est réelle et aucune sanction automatique ne vise les entreprises qui documentent leurs difficultés de mise en conformité.
+
+      Pour les achats publics, la généralisation de la facturation électronique est effective depuis deux mille vingt grâce à l'utilisation de Chorus Pro.
+
+      Ce portail, ouvert en deux mille dix-sept, permet à tous les fournisseurs de l'État et des collectivités de déposer leurs factures.
+
+VI. SYNTHÈSE DES ENJEUX STRATÉGIQUES POUR LE MINISTÈRE.
+
+   A. Soutien aux filières et coût complet de possession.
+
+      L'achat public constitue un levier stratégique capable de faire naître ou mourir une filière industrielle. Les plans France deux mille trente financent l'offre, mais la commande publique doit ensuite lui assurer des clients pour garantir la pérennité des solutions françaises ou européennes.
+
+      La souveraineté ne doit pas justifier l'acquisition de produits inadaptés aux besoins réels. Le choix doit reposer sur un équilibre entre le besoin métier, la sécurité, le coût complet et la réversibilité de la solution.
+
+      Le coût complet de possession doit être intégré comme critère de décision majeur. Cela inclut non seulement le prix des licences, mais aussi les coûts d'exploitation, de formation et les frais liés à la sortie de l'outil.
+
+      Le ministère doit privilégier, à besoin égal, une solution issue du SILL ou qualifiée par l'ANSSI face à une solution propriétaire extra-européenne. Tout code développé spécifiquement pour le ministère doit être livré avec ses sources et publié dès que possible.
+
+   B. Méthodes de mise en œuvre et pilotage des risques.
+
+      La mise en œuvre repose sur l'utilisation systématique d'un cahier des clauses de sécurité et de réversibilité commun à l'ensemble des marchés numériques. Cela garantit des exigences précises sur la localisation des données, l'absence d'accès par des autorités étrangères et l'export complet des données.
+
+      Le pilotage des risques nécessite la tenue à jour d'une cartographie des prestataires et de leurs accès, appelée ReCyF. Cette visibilité est essentielle pour contrôler les accès par bastion et les comptes nominatifs des personnels intervenants.
+
+      Un dialogue en amont avec les filières françaises et européennes, via le sourcing, est préconisé pour aligner les besoins de l'État avec l'offre disponible. Cela permet d'anticiper les solutions capables de répondre aux exigences de la PSSI.
+
+      Le contrôle des grands projets est assuré par la DINUM, qui exerce un avis conforme pour les projets dont le coût global atteint quinze millions d'euros TTC. La DINUM surveille également les marchés SaaS ou de suite collaborative d'au moins deux millions d'euros par an.
+
+      La gestion des risques passe aussi par la vérification rigoureuse des visas de l'ANSSI au moment du marché. L'acheteur doit s'appuyer sur la liste à jour des produits qualifiés ou certifiés, comme les Critères Communs ou la qualification SecNumCloud, plutôt que sur une simple brochure commerciale.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre une certification avec un audit complet du code source, car elle atteste seulement qu'un produit a résisté à une évaluation sur une cible définie.
+
+      Une nuance importante réside dans le fait que le logiciel libre n'est ni gratuit ni sûr par nature, ce qui impose d'analyser sa vitalité, sa gouvernance et sa gestion des vulnérabilités.
+
+      L'acheteur doit éviter l'erreur de ne pas exiger de clauses spécifiques dans le contrat, car ce qui n'est pas écrit dans le cahier des charges ne pourra pas être obtenu.
+
+      Il existe une distinction entre l'avis conforme de la DINUM pour les projets ministériels et l'avis simple pour les organismes sous tutelle.
+
+      La distinction entre la MOA et la MOE est essentielle pour comprendre la séparation entre le commanditaire et le réalisateur technique d'un projet.
+
+EXEMPLES CITÉS.
+
+      La DGFiP est citée comme un exemple majeur d'utilisation des logiciels libres avec l'usage de LibreOffice, Thunderbird et la construction de NUBO sur OpenStack.
+
+      Le seuil pour les grands projets numériques de l'État est fixé à neuf millions d'euros TTC, incluant deux années de fonctionnement.
+
+      La DINUM exerce un contrôle sur les marchés SaaS ou de suite collaborative dès lors qu'ils atteignent au moins deux millions d'euros par an.
+
+      Le SILL propose un catalogue de référence qui comptait plus de six cents logiciels libres en deux mille vingt-six.
+
+      La loi pour une République numérique de deux mille seize garantit que les codes sources des logiciels utilisés par les administrations sont des documents communicables.

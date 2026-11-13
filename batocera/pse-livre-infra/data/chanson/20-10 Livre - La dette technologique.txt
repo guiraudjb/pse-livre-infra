@@ -1,0 +1,53 @@
+TITRE : LA DETTE INVISIBLE
+
+[Intro]
+Écoute le bruit des systèmes qui s'effondrent en silence,
+L'obsolescence avance et brise notre confiance.
+
+[Couplet 1]
+Trente-six pour cent des serveurs Windows sont déjà dans l'oubli,
+L'ANSSI le constate, le risque est un gouffre sans répit.
+La dette technologique, c'est le coût de l'hier négligé,
+Une faille permanente, une panne en attente, un destin engagé.
+Le RGPD et le RGS réclament une sécurité garantie,
+Mais les systèmes sans maintien perdent toute leur étincelle de vie.
+Du COBOL au mainframe GCOS, les compétences s'envolent,
+Pendant que les protocoles anciens comme le SSL nous isolent.
+
+[Refrain]
+Moderniser pour ne pas subir,
+Mesurer la dette pour ne pas périr,
+Résorber l'ancien pour mieux bâtir,
+La sécurité est notre seul avenir.
+
+[Couplet 2]
+La DGFiP lutte, quarante-trois virgule six pour cent de conformité,
+En deux mille vingt-quatre, le défi est une réalité.
+Objectif soixante-dix-huit pour cent fin deux mille vingt-sept,
+Sortir du mainframe, remplacer AMD par NARA, tel est le projet.
+La Cour des comptes compte des centaines de millions d'euros,
+Pour réparer les erreurs et effacer les vieux malheurs.
+Utilisez la CMDB, l'inventaire et le code via Ansible,
+Pour que la dette ne revienne pas, pour que le système soit stable.
+
+[Refrain]
+Moderniser pour ne pas subir,
+Mesurer la dette pour ne pas périr,
+Résorber l'ancien pour mieux bâtir,
+La sécurité est notre seul avenir.
+
+[Pont]
+Ne laissez pas l'ancien serveur traîner dans l'ombre,
+Le décommissionnement est la clé pour sortir de la pénombre.
+Planifiez la migration, du pilote à la généralisation,
+Pour que l'innovation ne soit pas une simple illusion.
+
+[Refrain final]
+Moderniser pour ne pas subir,
+Mesurer la dette pour ne pas périr,
+Résorber l'ancien pour mieux bâtir,
+La sécurité est notre seul avenir.
+
+[Outro]
+La dette est un frein, un mur devant l'IA et le cloud,
+Réveille ton système avant que le crash ne soit trop loud.

@@ -1,0 +1,229 @@
+GESTION DES INCIDENTS, DES CRISES CYBER ET DES OBLIGATIONS DE NOTIFICATION.
+
+LEXIQUE COMPLET.
+
+      Le SOC désigne l'entité qui pilote les événements observés dans un journal ou signalés par un agent.
+
+      Le CSIRT désigne l'entité qui pilote les incidents portant atteinte à la sécurité.
+
+      Le RSSI désigne l'acteur qui pilote les incidents ainsi que les incidents majeurs ayant un impact important sur un service ou des données.
+
+      L'ANSSI désigne l'autorité qui fournit les clés de décision pour la qualification des incidents et qui lance l'opération REACTIV.
+
+      La CNIL désigne l'autorité à laquelle doit être notifiée une violation de données personnelles sous soixante-douze h dans le cadre du RGPD.
+
+      Le DPO désigne l'acteur qui doit préparer les notifications avec le RSSI et le juridique.
+
+      Le COSSIM désigne l'entité de l'Éducation nationale qui a partagé des marqueurs dès le neuf juin deux mille vingt-six lors de l'incident de la DGFiP.
+
+      La DINUM désigne la Direction interministérielle du numérique rattachée aux services du Premier ministre.
+
+      Le RETEX désigne l'action de capitalisation menée après une crise ou un exercice, à chaud puis à froid.
+
+      La séquence E3R désigne les étapes d'endiguement, d'éviction et d'éradication, accompagnées en parallèle de la reconstruction.
+
+      L'opération REACTIV désigne l'opération de cyberdéfense lancée par l'ANSSI le premier septembre deux mille vingt-six pour répondre aux violations de données dans les services de l'État.
+
+COURS DÉTAILLÉ.
+
+I. DE L'ÉVÉNEMENT À LA CRISE CYBER.
+
+   A. Niveaux de gravité et pilotage.
+
+      La gestion d'un événement commence par l'observation d'un fait dans un journal ou un signalement par un agent, ce qui est piloté par le SOC.
+
+      Un incident survient lorsqu'un événement porte atteinte à la sécurité et sa gestion est assurée par le SOC, le CSIRT ou le RSSI.
+
+      L'incident majeur se caractérise par un impact important sur des données ou un service, sous le pilotage du RSSI, de la DSI et de la cellule technique.
+
+      La crise est une situation qui menace les missions et dépasse le fonctionnement normal, nécessitant l'intervention de la direction et de la cellule de crise stratégique.
+
+   B. Critères de qualification de l'ANSSI.
+
+      Le guide de l'ANSSI fournit les clés de décision pour qualifier un incident selon plusieurs paramètres précis.
+
+      La qualification repose sur l'analyse du périmètre touché ainsi que sur la sensibilité des données concernées par l'attaque.
+
+      Il faut également évaluer la capacité de l'attaquant et le risque de propagation de l'incident au sein du système.
+
+II. LA RÉPONSE TECHNIQUE À L'INCIDENT.
+
+   A. Les six étapes de la réponse.
+
+      La première étape consiste à détecter et qualifier l'événement pour déterminer s'il est réel, définir son périmètre et évaluer sa gravité.
+
+      L'étape de la contention vise à isoler les postes et les serveurs touchés, à couper les flux de l'attaquant et à révoquer toutes les sessions des comptes compromis.
+
+      L'investigation permet de reconstituer le chemin de l'attaquant depuis son entrée tout en veillant scrupuleusement à la conservation des preuves.
+
+      L'éradication consiste à supprimer tous les accès de l'attaquant de manière simultanée afin de ne pas le prévenir.
+
+      La reconstruction s'appuie sur des éléments sains et impose l'application de tous les correctifs avant toute reconnexion au réseau.
+
+      La dernière phase est celle du retour d'expérience qui permet de tirer les leçons de l'incident via un plan d'action et un suivi.
+
+   B. Les enjeux de l'éradication et de la reconstruction.
+
+      Supprimer uniquement la faille utilisée par l'intrus est une mesure très insuffisante car l'attaquant a pu laisser d'autres portes d'accès.
+
+      La séquence E3R regroupe l'endiguement, l'éviction, l'éradication et la reconstruction menée en parallèle pour assurer la sécurité.
+
+      L'éviction vise à chasser l'intrus du cœur du système pour recréer une base de confiance indispensable.
+
+      L'éradication doit impérativement supprimer toutes les capacités de retour de l'adversaire, notamment les portes dérobées.
+
+      La reconstruction du cœur de confiance, qui correspond en pratique au Tier zéro de l'Active Directory, est l'étape la plus décisive.
+
+      Un échec lors de cette reconstruction mène généralement à un cycle de compromission et de remédiation pouvant durer des mois ou des années.
+
+III. L'ORGANISATION DE LA GESTION DE CRISE.
+
+   A. Dualité des cellules stratégique et opérationnelle.
+
+      Une crise cyber se caractérise par la combinaison de deux crises distinctes, à savoir une crise technique liée au fonctionnement du SI et une crise métier impactant les missions de l'organisation.
+
+      La gestion de cette situation repose sur l'organisation de deux cellules complémentaires, la cellule stratégique et la cellule opérationnelle.
+
+      La cellule stratégique a pour rôle de décider des priorités, de gérer la communication, les relations avec les autorités et de définir le mode dégradé. Elle est composée du secrétaire général, des directeurs, de l'HFDS, de la communication et du juridique.
+
+      La cellule opérationnelle est chargée d'investiguer, de contenir et de reconstruire les systèmes. Elle réunit la DSI, le RSSI, le CSIRT et les prestataires PRIS.
+
+   B. Conditions de succès et moyens de secours.
+
+      Le succès de la gestion de crise repose sur la mise en place de moyens de crise totalement indépendants du SI habituel.
+
+      Il est indispensable de disposer d'un annuaire de contacts imprimé, de téléphones et d'une messagerie de secours, ainsi que de postes de travail sains.
+
+      Une main courante doit être tenue pour assurer la traçabilité de toutes les décisions prises durant l'événement.
+
+      La communication doit être préparée en amont avec des messages types destinés aux agents, aux usagers et à la presse.
+
+      Enfin, la réalisation d'exercices réguliers est nécessaire pour que les réflexes de réponse existent avant le jour J.
+
+   C. La spécificité de la crise cyber.
+
+      La crise cyber présente des traits singuliers tels qu'une double temporalité avec un impact immédiat mais une remédiation pouvant durer plusieurs semaines ou mois.
+
+      Elle se distingue par l'absence d'unité de lieu en raison d'une propagation possible vers les partenaires interconnectés et par un adversaire qui s'adapte aux mesures de défense.
+
+      Le périmètre de compromission est souvent incertain et l'attribution de l'attaque reste difficile.
+
+      La remédiation suit la séquence E3R qui comprend l'endiguement, l'éviction, l'éradication et la reconstruction menée en parallèle.
+
+      La reconstruction du cœur de confiance, notamment le Tier zéro de l'Active Directory, est l'étape décisive pour éviter un cycle de compromission prolongé.
+
+IV. LE CADRE DES NOTIFICATIONS OBLIGATOIRES.
+
+   A. Obligations envers l'ANSSI et le CERT-FR.
+
+      Dans le cadre de la directive NIS deux, une alerte précoce doit être transmise à l'ANSSI ou au CERT-FR sous vingt-quatre h après la détection d'un incident important.
+
+      Une notification plus détaillée doit ensuite être effectuée sous soixante-douze h, suivie d'un rapport final qui doit être transmis dans un délai d'un mois.
+
+      Pour les entités relevant du régime OIV ou de la LPM, l'ANSSI doit être informée sans délai en cas d'incident survenant sur un SIIV.
+
+   B. Conformité RGPD et protection des personnes.
+
+      En cas de violation de données personnelles, l'organisation est tenue d'en informer la CNIL dans un délai de soixante-douze h.
+
+      Si l'incident présente un risque élevé pour les droits et libertés des individus, les personnes concernées doivent être informées dans les meilleurs délais.
+
+      Ces différentes notifications doivent être préparées de manière conjointe par le DPO, le RSSI et le service juridique.
+
+   C. Démarches judiciaires et coordination interministérielle.
+
+      Il est nécessaire de déposer plainte auprès du Procureur de la République dès que possible, conformément à l'article quarante du code de procédure pénale.
+
+      La coordination entre les administrations est cruciale, comme l'illustre l'incident de la DGFiP où l'attaquant a utilisé des infrastructures de l'Éducation nationale.
+
+      Le partage rapide des marqueurs de compromission entre les CSIRT ministériels constitue une condition essentielle de la défense collective.
+
+V. LA REMÉDIATION ET LA RECONSTRUCTION DU SYSTÈME.
+
+   A. La séquence E3R et les quatre temps de la remédiation.
+
+      La remédiation s'articule autour de la séquence E3R qui regroupe les étapes d'endiguement, d'éviction et d'éradication.
+
+      L'endiguement a pour objectif d'empêcher l'aggravation de la situation technique ou de l'attaque en cours.
+
+      L'éviction consiste à chasser l'intrus du cœur du système pour recréer une base de confiance indispensable.
+
+      L'éradication vise à supprimer les capacités de retour de l'attaquant, notamment en éliminant ses portes dérobées.
+
+      La reconstruction est menée en parallèle des trois autres temps pour donner les moyens nécessaires aux étapes précédentes.
+
+   B. La reconstruction du cœur de confiance.
+
+      La reconstruction du cœur de confiance, qui correspond en pratique au Tier zéro de l'Active Directory, est l'étape la plus décisive.
+
+      Un échec lors de cette phase mène généralement à un cycle de compromission et de remédiation pouvant durer des mois ou des années.
+
+      Le guide de l'ANSSI de janvier deux mille vingt-six liste les éléments à préparer à froid comme les inventaires et les sauvegardes de l'annuaire.
+
+      Il est également crucial de prévoir des moyens d'administration de secours ainsi que les contacts et les contrats d'assistance.
+
+   C. L'opération REACTIV.
+
+      Le Premier ministre a demandé le premier septembre deux mille vingt-six à l'ANSSI de lancer l'opération REACTIV face à la multiplication des violations de données.
+
+      Cette opération de cyberdéfense interministérielle vise à répondre et agir face aux violations de données dans les services de l'État.
+
+      L'ANSSI bascule ses efforts opérationnels vers l'appui aux ministères concernant les comptes compromis et les exfiltrations.
+
+      L'agence peut également faire prendre des mesures d'urgence dans des délais contraints pour protéger les organisations.
+
+      Cette initiative complète la feuille de route des efforts prioritaires pour la période deux mille vingt-six à deux mille vingt-sept.
+
+VI. LEXIQUE TECHNIQUE ET ENJEUX STRATÉGIQUES.
+
+   A. Définitions des notions clés.
+
+      La crise d'origine cyber se définit comme une déstabilisation immédiate et majeure du fonctionnement courant d'une organisation, telle que l'arrêt des activités ou des pertes financières lourdes, qui ne peut être traitée par les processus habituels.
+
+      La séquence E3R désigne les étapes cruciales de la remédiation comprenant l'endiguement, l'éviction, l'éradication, lesquelles sont accompagnées en parallèle de la reconstruction.
+
+      L'analyse forensique constitue l'investigation technique d'un incident visant à en établir l'origine, le déroulement et l'étendue.
+
+      Les marqueurs de compromission sont des indices techniques d'attaque partagés par l'ANSSI pour permettre aux victimes de détecter une intrusion.
+
+      L'activation par le haut correspond au déclenchement du dispositif de crise par le volet stratégique selon des critères préétablis, tandis que l'activation par le bas est la mobilisation du dispositif opérationnel par effet de seuil.
+
+      Un compte bris de glace est un compte disposant de droits étendus, conservé hors ligne dans un coffre ou sous scellé, spécifiquement destiné aux incidents graves.
+
+   B. Enjeux de maîtrise et retour d'expérience.
+
+      Une crise mal gérée s'avère plus coûteuse que l'attaque elle-même en raison de décisions précipitées, d'une communication contradictoire ou d'une reconstruction sur des bases compromises.
+
+      La reconstruction du cœur de confiance, qui correspond en pratique au Tier zéro de l'Active Directory, est l'étape décisive dont l'échec peut entraîner un cycle de compromission durant des mois ou des années.
+
+      Le RETEX est l'action de capitalisation menée après la crise ou l'exercice, réalisée à chaud puis à froid pour tirer les leçons de l'événement.
+
+      Le partage rapide des marqueurs entre les CSIRT ministériels constitue une condition essentielle de la défense collective, comme l'a montré l'enjeu interministériel lors de l'incident de la DGFiP.
+
+      La gestion de crise doit impérativement s'appuyer sur des moyens de crise indépendants du SI, incluant un annuaire de contacts imprimé, des téléphones de secours et une main courante pour tracer les décisions.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre l'incident qui est traité par les équipes techniques et la crise qui engage l'ensemble de l'organisation.
+
+      La différence entre un incident majeur et une crise réside dans le fait que la crise menace les missions de l'organisation et dépasse son fonctionnement normal.
+
+      Une erreur critique lors de la réponse consiste à ne supprimer que la faille utilisée par l'intrus sans vérifier les autres portes laissées ouvertes.
+
+      La remédiation doit suivre la séquence E3R comprenant l'endiguement, l'éviction, l'éradication et la reconstruction pour éviter un cycle de compromission infini.
+
+      La reconstruction du cœur de confiance, comme le Tier zéro de l'Active Directory, est l'étape la plus décisive pour réussir la remédiation.
+
+      La gestion de crise doit impérativement s'appuyer sur des moyens de secours totalement indépendants du système d'information habituel.
+
+EXEMPLES CITÉS.
+
+      L'attaque contre la DGFiP a montré qu'un attaquant peut passer par les infrastructures de l'Éducation nationale pour atteindre une autre administration.
+
+      Dans le cadre de la directive NIS deux, une alerte précoce doit être envoyée à l'ANSSI sous vingt-quatre h et une notification sous soixante-douze h.
+
+      Le Premier ministre a lancé l'opération REACTIV le premier septembre deux mille vingt-six pour appuyer les ministères face aux exfiltrations de données.
+
+      L'outil Metabase a fait l'objet d'une exploitation massive de sa vulnérabilité CVE-2026-72898 à partir du mois d'août deux mille vingt-six.
+
+      Les ministères économiques et financiers ont réalisé un exercice de crise spécifique le sept octobre deux mille vingt-cinq.

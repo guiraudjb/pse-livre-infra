@@ -1,0 +1,53 @@
+TITRE : L'Architecture du Cloud
+
+[Intro]
+Des serveurs, des données, un monde de silicium,
+Écoute le rythme du datacenter, entre ombre et bastion.
+
+[Couplet 1]
+Le PUE mesure l'énergie, un virgule trois pour l'efficacité,
+Mais les vieilles salles dépassent deux, perdues dans l'obscurité.
+Tier un sans redondance, Tier quatre avec tolérance,
+L'Uptime Institute définit la robustesse et la vigilance.
+L'État rationalise, cent trente centres vers la mutualisation,
+Le cloud interne NUBO, de la DGFiP, est la nouvelle direction.
+Quinze ministères, cinq cents projets, une ambition qui s'élance,
+Trente pour cent d'applications en cloud fin deux mille vingt-sept, c'est la chance.
+
+[Refrain]
+Réplique pas l'erreur, sauvegarde tes données,
+Le RAID n'est pas un rempart, ne te laisse pas tromper.
+L'hyperviseur est la clé, mais la console est la cible,
+Sécurise l'infrastructure, rends ton système invincible.
+
+[Couplet 2]
+Le SAN en mode bloc, le NAS en mode fichier,
+Le DAS en attachement direct, pour un serveur singulier.
+Le RAID zéro est proscrit, le RAID six protège les gros volumes,
+Le RAID dix combine miroir et entrelacement dans la brume.
+Synchrone pour le RPO nul, asynchrone pour la distance,
+Mais la réplication copie le rançongiciel et sa violence.
+LVM découpe les volumes, le LTO archive sur bande,
+La sauvegarde doit être indépendante, pour que l'espoir demande.
+
+[Refrain]
+Réplique pas l'erreur, sauvegarde tes données,
+Le RAID n'est pas un rempart, ne te laisse pas tromper.
+L'hyperviseur est la clé, mais la console est la cible,
+Sécurise l'infrastructure, rends ton système invincible.
+
+[Pont]
+MFA pour l'administration, l'ANSSI guide la rigueur,
+Isole les cartes de gestion, éloigne toute la peur.
+Micro-segmentation pour les flux est-ouest en grappe,
+L'infrastructure as code, l'idempotence qui nous frappe.
+
+[Refrain final]
+Réplique pas l'erreur, sauvegarde tes données,
+Le RAID n'est pas un rempart, ne te laisse pas tromper.
+L'hyperviseur est la clé, mais la console est la cible,
+Sécurise l'infrastructure, rends ton système invincible.
+
+[Outro]
+De la dette technique au cloud souverain,
+Le système est debout, il trace son chemin.

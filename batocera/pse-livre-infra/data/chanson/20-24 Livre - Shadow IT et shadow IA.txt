@@ -1,0 +1,47 @@
+TITRE : L'OMBRE ET LA LUMIÈRE
+
+[Intro]
+Écoute le silence des serveurs et le bruit des besoins,
+L'écart se creuse entre l'offre et ce que l'agent veut vraiment.
+
+[Couplet 1]
+Shadow IT, outils cachés, l'administration est déjouée,
+Le besoin est réel mais la DSI ne sait pas l'accompagner.
+SaaS, stockage, messageries, WhatsApp ou Telegram,
+Les données s'exfiltrent, s'échappent, loin du système.
+Shadow IA, le chatbot public devient le nouveau danger,
+On colle un courrier, une note, sans jamais rien protéger.
+Les données partent vers l'étranger, soumises à d'autres lois,
+L'exfiltration commence quand l'agent perd toute sa foi.
+
+[Refrain]
+Ne bloque pas l'usage, offre l'outil qui rassure,
+Réduis l'écart pour que la sécurité soit pure.
+
+[Couplet 2]
+La Cour des comptes l'a dit en deux mille vingt-six,
+Les lacunes de confidentialité sont un risque critique.
+Le RGPD et le secret professionnel sont mis en péril,
+L'archivage et la réversibilité deviennent fragiles.
+Mais l'État répond, avec des outils certifiés et souverains,
+Olvid par l'ANSSI pour tracer de nouveaux chemins.
+Tchap devient obligatoire en juillet deux mille vingt-cinq,
+Et Visio, en janvier deux mille vingt-six, est le seul destin.
+
+[Refrain]
+Ne bloque pas l'usage, offre l'outil qui rassure,
+Réduis l'écart pour que la sécurité soit pure.
+
+[Pont]
+Voir les flux, comprendre les besoins, offrir le catalogue,
+Encadrer par la charte pour sortir de ce monologue.
+L'Assistant IA de l'État a prouvé sa valeur,
+En juin deux mille vingt-six, il a calmé la peur.
+
+[Refrain final]
+Ne bloque pas l'usage, offre l'outil qui rassure,
+Réduis l'écart pour que la sécurité soit pure.
+
+[Outro]
+Cinquante-six pour cent des testeurs ont choisi la souveraineté,
+L'outil officiel est la clé de la véritable sécurité.

@@ -1,0 +1,53 @@
+TITRE : LA CHAÎNE DE RÉSILIENCE
+
+[Intro]
+Écoute le rythme de la défense, le flux qui circule,
+La sécurité n'est pas un mur, c'est un système qui circule.
+
+[Couplet 1]
+L'agent s'allume, disque chiffré, démarrage sécurisé,
+L'EDR surveille, les outils inhabituels sont démasqués.
+Le VPN ouvre un tunnel, la carte agent valide l'accès,
+Le MFA bloque l'infostealer, le vol est sans succès.
+La VRF cloisonne, le flux est mis dans sa zone,
+Le pare-feu limite les droits, chaque profil est un trône.
+L'IA passe par une passerelle, l'identité est vérifiée,
+Chaque requête est journalisée, par le SOC elle est corrélée.
+
+[Refrain]
+La chaîne cède au maillon le plus faible,
+La sécurité est une lutte sans relâche.
+Identité, détection, sauvegarde en ligne de mire,
+Pour que la résilience puisse enfin s'écrire.
+
+[Couplet 2]
+L'usager arrive, FranceConnect est le premier pas,
+Le WAF en DMZ protège les services de l'attaque.
+Le serveur en cloud interne traite la déclaration,
+La réplication synchrone assure la duplication.
+Le RGAA garantit l'accès, même en bas débit,
+Les données pseudonymisées rejoignent le lac de données, sans un bruit.
+Le SOC qualifie l'alerte en quarante minutes seulement,
+Grâce aux journaux, l'intrusion est connue, l'incident est présent.
+
+[Refrain]
+La chaîne cède au maillon le plus faible,
+La sécurité est une lutte sans relâche.
+Identité, détection, sauvegarde en ligne de mire,
+Pour que la résilience puisse enfin s'écrire.
+
+[Pont]
+Le rançongiciel frappe, mais le PRA est prêt,
+L'ANSSI et la CNIL sont notifiées dès le lendemain, en effet.
+De J plus un à J plus sept, la reconstruction s'élance,
+Sur les sauvegardes immuables, on reprend la défense.
+
+[Refrain final]
+La chaîne cède au maillon le plus faible,
+La sécurité est une lutte sans relâche.
+Identité, détection, sauvegarde en ligne de mire,
+Pour que la résilience puisse enfin s'écrire.
+
+[Outro]
+À J plus trente, le retour d'expérience affine le plan,
+Pour cent mille agents, la sécurité est un combat constant.

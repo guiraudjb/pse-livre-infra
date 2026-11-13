@@ -1,0 +1,47 @@
+TITRE : L'ARCHITECTURE DU FLUX
+
+[Intro]
+Écoute le rythme du réseau et de ses barrières,
+Le cloisonnement s'élève, une défense de fer.
+
+[Couplet 1]
+Le datacenter se découpe en zones de confiance,
+Des grappes de NGFW dictent la cadence.
+La bordure filtre l'Internet et le déni de service,
+La DMZ est la zone tampon, le premier sacrifice.
+Répartiteurs, reverse proxys et WAF sont en attente,
+Pour que la zone applicative reste saine et constante.
+La zone données est sacrée, protégée par les flux déclarés,
+Et l'administration est isolée pour ne jamais être détournée.
+
+[Refrain]
+Un flux, une zone, jamais de saut direct,
+La règle d'or protège le système et son respect.
+
+[Couplet 2]
+L'usager ne parle jamais au serveur, il touche la VIP,
+Le reverse proxy termine le TLS, la connexion est finie.
+Le WAF inspecte le contenu pour bloquer l'injection,
+Pendant que l'IPS en coupure stoppe l'agression.
+L'IDS, lui, reçoit une copie, il alerte le SIEM sans bloquer,
+Mais pour les OIV, l'ANSSI impose des sondes à faire exploiter.
+L'API-sation expose les services, documentés et sécurisés,
+Via la DINUM et api.gouv.fr, les données sont partagées.
+
+[Refrain]
+Un flux, une zone, jamais de saut direct,
+La règle d'or protège le système et son respect.
+
+[Pont]
+DDoS volumétrique ou attaque applicative,
+La menace est partout, la défense est active.
+De l'inondation SYN au détournement de BGP,
+Le SOC analyse les journaux pour rester en sécurité.
+
+[Refrain final]
+Un flux, une zone, jamais de saut direct,
+La règle d'or protège le système et son respect.
+
+[Outro]
+De FranceConnect aux bastions, le cloisonnement est roi,
+L'architecture tient bon, protégeant chaque droit.

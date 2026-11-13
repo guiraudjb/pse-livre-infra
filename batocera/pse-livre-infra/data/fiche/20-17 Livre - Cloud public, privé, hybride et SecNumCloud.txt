@@ -1,0 +1,219 @@
+COMPRENDRE LES MODÈLES, LA DOCTRINE ET LES ENJEUX DE L'HÉBERGEMENT CLOUD POUR L'ÉTAT.
+
+LEXIQUE COMPLET.
+
+      Le cloud désigne l'hébergement par défaut des projets de l'État depuis deux mille vingt et un.
+
+      Le sigle IaaS désigne le modèle d'infrastructure où le fournisseur gère le matériel, le réseau et la virtualisation.
+
+      Le sigle PaaS désigne le modèle de plateforme où le fournisseur gère en plus les systèmes et les moteurs.
+
+      Le sigle SaaS désigne le modèle de logiciel où le fournisseur gère toute l'application.
+
+      Le sigle SecNumCloud désigne le référentiel de l'ANSSI pour les prestataires de cloud qui exige l'immunité aux lois extraterritoriales.
+
+      Le sigle NUBO désigne une offre de cloud interne et communautaire opérée par la DGFiP sur des logiciels libres.
+
+      Le sigle π désigne une offre de cloud interne opérée par le ministère de l'Intérieur.
+
+      Le sigle ANSSI désigne l'organisme qui publie la liste à jour des offres qualifiées SecNumCloud.
+
+      Le sigle RGPD désigne le règlement dont l'article vingt-cinq prévoit la protection des données dès la conception et par défaut.
+
+      Le sigle SBOM désigne la Software Bill Of Materials qui est la liste des composants d'un logiciel dans un format technique.
+
+      Le sigle DevSecOps désigne la méthodologie qui vise à inclure les pratiques de sécurité dans le processus de développement et de mise en production d'applications.
+
+      Le sigle IaC désigne l'Infrastructure as Code qui est la pratique consistant à décrire l'infrastructure sous forme de code.
+
+COURS DÉTAILLÉ.
+
+I. LES FONDAMENTAUX DU CLOUD ET LA RESPONSABILITÉ PARTAGÉE.
+
+   A. Modèles de service : IaaS, PaaS et SaaS.
+
+      Le modèle IaaS, ou infrastructure, confie la gestion du matériel, du réseau et de la virtualisation au fournisseur. Le ministère conserve la responsabilité des systèmes, des logiciels, des données et des accès, comme pour des machines virtuelles.
+
+      Le modèle PaaS, ou plateforme, ajoute la gestion des systèmes et des moteurs à la responsabilité du fournisseur. Le ministère gère alors les applications, les données et les accès, par exemple pour des bases de données ou du Kubernetes géré.
+
+      Le modèle SaaS, ou logiciel, signifie que le fournisseur gère l'intégralité de l'application. Le ministère reste responsable de ses données, de ses accès et de sa configuration, comme pour une messagerie ou une suite collaborative.
+
+   B. Modèles de déploiement et usages ministériels.
+
+      Le cloud interne est opéré par l'État pour l'État et sert aux applications sensibles ou à la Diffusion Restreinte. Les offres comme NUBO ou π sont des exemples de clouds internes et communautaires.
+
+      Le cloud privé commercial propose des ressources physiquement dédiées chez un prestataire pour les applications sensibles ou le SIIV. Le cloud communautaire permet une mutualisation entre des entités d'intérêt commun.
+
+      Le cloud public utilise des ressources mutualisées entre tous les clients pour les sites d'information ou les données publiques. Le modèle hybride combine ces différents types de déploiements avec des flux entre eux.
+
+      L'État opère deux clouds internes, NUBO par la DGFiP et π par le ministère de l'Intérieur. NUBO utilise OpenStack pour proposer du IaaS et du stockage, tandis que le Cloud π Native propose du PaaS avec Kubernetes.
+
+   C. Le principe de responsabilité partagée.
+
+      Quel que soit le modèle de service choisi, les données, les identités et la configuration restent sous la responsabilité du ministère. Ce principe définit le périmètre d'homologation de sécurité.
+
+      La décision de migrer un SI sensible doit être prise par la plus haute autorité de l'entité. Elle nécessite une étude d'impact métier et juridique ainsi qu'une analyse de risques.
+
+      Pour les systèmes traitant des données sensibles, l'hébergement n'est autorisé que sur une offre qualifiée SecNumCloud. Cette qualification peut concerner une offre interne ou commerciale.
+
+      Le choix du cloud se fait de manière graduée selon la sensibilité des données. On utilise le cloud interne pour la Diffusion Restreinte, le SecNumCloud commercial pour le PaaS avancé, et le cloud commercial non qualifié pour les données publiques.
+
+II. LA DOCTRINE CLOUD AU CENTRE ET LES OFFRES SOUVERAINES.
+
+   A. La circulaire de deux mille vingt et un et l'hébergement par défaut.
+
+      La circulaire du cinq juillet deux mille vingt et un, actualisée le trente et un mai deux mille vingt-trois, instaure le cloud comme l'hébergement par défaut pour les nouveaux projets de l'État.
+
+      Pour les systèmes traitant des données sensibles, l'hébergement est strictement limité aux offres qualifiées SecNumCloud, qu'elles soient internes ou commerciales.
+
+   B. Les clouds internes de l'État : NUBO et Pi.
+
+      L'État opère deux clouds internes, NUBO et π, qui sont des offres internes et communautaires basées sur des logiciels libres et des datacenters propres.
+
+      NUBO est opéré par la DGFiP pour les ministères économiques et financiers en utilisant OpenStack pour proposer du IaaS, du stockage et des conteneurs.
+
+      Le ministère de l'Intérieur opère le cloud Pi via OpenStack pour fournir des machines virtuelles, ainsi que le Cloud Pi Native qui propose du PaaS avec Kubernetes et OpenShift.
+
+      Ces offres supportent déjà des services interministériels comme la Suite numérique de la DINUM et prévoient des capacités de calcul sur GPU pour l'IA d'ici deux mille vingt-cinq.
+
+   C. Limites d'utilisation et enjeux de l'interministérialité.
+
+      Le bilan de la DINUM de janvier deux mille vingt-cinq indique que la part interministérielle de l'utilisation de ces clouds n'est que de cinq pour cent.
+
+      La Cour des comptes souligne que ces clouds souverains sont peu utilisés, y compris par les services des ministères qui les ont créés.
+
+      En septembre deux mille vingt-cinq, le Gouvernement a lancé une mission avec l'IGF et le CGE pour étudier l'adéquation de l'offre et l'éventualité d'un cloud interministériel unique.
+
+III. LA QUALIFICATION SECNUMCLOUD ET LA PROTECTION DES DONNÉES.
+
+   A. Exigences du référentiel de l'ANSSI.
+
+      Le référentiel SecNumCloud de l'ANSSI est basé sur la version trois virgule deux du huit mars deux mille vingt-deux. Il s'applique aux prestataires de cloud pour les modèles IaaS, PaaS et SaaS.
+
+      Ce référentiel exige un haut niveau de sécurité technique et d'exploitation. Cela inclut la gouvernance, la protection physique et logique, ainsi que la gestion des incidents.
+
+      Le cloisonnement entre les clients est une exigence fondamentale pour garantir la sécurité. La qualification porte sur une offre précise et non sur l'entreprise entière.
+
+      Il est important de noter que la qualification ne garantit pas la sécurité des applications installées par le client. Elle se concentre sur l'infrastructure et les services fournis.
+
+   B. Immunité aux lois extraterritoriales et localisation.
+
+      Le référentiel impose la localisation des données et des opérations au sein de l'Union européenne. Cette mesure vise à assurer un contrôle territorial strict des informations.
+
+      Une exigence majeure concerne l'immunité aux lois extraterritoriales pour protéger les données. Un prestataire qualifié ne doit pas pouvoir être contraint par un droit étranger comme le CLOUD Act.
+
+      La question de l'immunité juridique divise actuellement les États membres au niveau européen. Cela concerne notamment les discussions autour du schéma de certification cloud, l'EUCS.
+
+      La réversibilité est également un pilier de ce référentiel pour éviter les blocages. Elle permet de garantir la capacité de l'organisation à quitter le service.
+
+   C. Recommandations d'hébergement selon la sensibilité des systèmes.
+
+      Pour les systèmes de Diffusion Restreinte, l'ANSSI recommande des offres SecNumCloud internes, communautaires ou commerciales privées. Cela permet d'éviter la latéralisation depuis un autre client.
+
+      Les systèmes d'information sensibles doivent être hébergés sur des offres qualifiées SecNumCloud. Ces offres peuvent être de nature interne, privée, communautaire ou publique.
+
+      Les systèmes d'information des OIV et des opérateurs de services essentiels exigent tout type d'offre qualifiée SecNumCloud. La sécurité doit y être maximale.
+
+      Pour les SIIV, le responsable doit prendre une décision motivée. Il est préférable de privilégier les offres internes, communautaires ou privées.
+
+      Enfin, les données publiques et non sensibles peuvent utiliser des offres commerciales classiques. Elles doivent simplement respecter les règles de sécurité usuelles.
+
+IV. RISQUES, VIGILANCE ET CRITÈRES DE CHOIX TECHNIQUES.
+
+   A. Principaux risques : configuration, comptes et dépendance.
+
+      La mauvaise configuration est la première cause de fuite de données, notamment par l'exposition publique de stockages ou l'ouverture d'interfaces d'administration.
+
+      La compromission des comptes d'administration du cloud constitue un risque majeur nécessitant l'usage de comptes dédiés et d'une MFA résistante à l'hameçonnage.
+
+      Le risque de dépendance se manifeste par l'usage de formats propriétaires, de services sans équivalent ou de frais de sortie élevés, bien que le Data Act réduise progressivement ces coûts.
+
+      La concentration des services pose un problème de sécurité car la chute d'un grand fournisseur peut entraîner l'interruption de dizaines d'organisations, faisant du cloud une cible critique pour l'ANSSI.
+
+      L'absence de pilotage financier peut entraîner une dérive des coûts, rendant indispensable la mise en œuvre de pratiques de FinOps.
+
+   B. Critères de sélection au-delà de la qualification.
+
+      La finesse des réglages de session, incluant la durée, la réauthentification et la liaison à l'appareil, est cruciale pour éviter que le vol de cookie ne contourne la MFA.
+
+      Il est nécessaire de vérifier que les journaux d'accès et d'administration sont exportables vers le SOC du ministère afin de permettre la détection d'incidents.
+
+      Le niveau de sécurité contractuel et les conditions de réversibilité doivent être garantis pour permettre de sortir du service sans perte ni dépendance.
+
+      L'accès d'administration du fournisseur et de ses sous-traitants doit être surveillé car un compte de prestataire compromis suffit à provoquer une fuite.
+
+      La localisation des traitements doit être contrôlée, y compris pour les outils de développement et de test, car tester du code sensible dans un SaaS public revient à l'exporter.
+
+   C. Notions techniques clés et gestion de la journalisation.
+
+      La journalisation consiste à enregistrer les évènements sur les équipements et applications sous forme de logs, avec une granularité définissant le niveau de détail des traces.
+
+      Pour une détection efficace, chaque évènement de sécurité doit comporter un horodatage précis associant une date et une heure, idéalement selon la référence UTC.
+
+      La gestion des journaux impose de respecter une durée de rétention encadrée par la réglementation et d'appliquer une rotation des journaux pour maîtriser l'espace disque.
+
+      La sécurité des accès peut être renforcée par le standard DBSC qui lie le cookie de session au composant matériel du poste ou par l'usage de passkeys.
+
+      La maîtrise de l'infrastructure repose sur l'IaC pour décrire l'infrastructure sous forme de code et sur le DevSecOps pour intégrer la sécurité dans la chaîne de production.
+
+      L'intégrité des artefacts produits par la chaîne CI/CD doit être maintenue de bout en bout par la signature et la vérification des tags de version.
+
+V. STRATÉGIE DE MISE EN ŒUVRE ET ENJEUX POUR LE MINISTÈRE.
+
+   A. Approche hybride et graduée.
+
+      La stratégie gagnante pour le ministère repose sur un modèle hybride et gradué qui permet d'accélérer les projets tout en limitant la dette technique.
+
+      Le choix de l'hébergement doit être systématiquement adapté au niveau de sensibilité des données traitées par chaque application.
+
+      Les applications sensibles et les données de Diffusion Restreinte doivent être orientées vers le cloud interne de l'État comme NUBO ou π, ou vers des offres SecNumCloud privées.
+
+      Pour les données publiques et non sensibles, le recours à des offres commerciales classiques est autorisé sous réserve de respecter les règles de sécurité usuelles.
+
+      L'utilisation d'un SecNumCloud commercial est préconisée lorsque les services internes ne proposent pas encore de fonctionnalités avancées comme le PaaS ou le SaaS.
+
+   B. Méthodologie de migration et zones d'atterrissage.
+
+      La mise en œuvre commence par un classement rigoureux de chaque application selon la sensibilité de ses données pour en déduire l'hébergement autorisé.
+
+      Le ministère doit construire des zones d'atterrissage standardisées comprenant le réseau, les identités, les journaux et les sauvegardes préconfigurés.
+
+      Il est essentiel de privilégier des technologies portables telles que les conteneurs, Kubernetes, le stockage compatible S3 ou l'infrastructure en code.
+
+      La décision de migrer un SI sensible nécessite l'aval de la plus haute autorité de l'entité après une analyse de risques et une étude d'impact.
+
+      La maîtrise des nouvelles technologies cloud est une condition indispensable pour garantir le respect des coûts et des délais lors de la migration.
+
+   C. Maîtrise des coûts et de la réversibilité.
+
+      Le cloud permet de stopper la reconstitution de la dette à condition de ne pas créer une dépendance plus forte que celle remplacée.
+
+      Une attention particulière doit être portée au pilotage financier via la méthode FinOps pour éviter que la facture ne dérive sans contrôle.
+
+      La réversibilité doit être préparée pour tout type de service et testée réellement sur au moins une application chaque année.
+
+      Le recours aux technologies portables et la prise en compte du Data Act permettent de réduire progressivement les frais de sortie et la dépendance.
+
+      Le ministère doit exiger des conditions de réversibilité et un niveau de sécurité contractuel précis dans ses cahiers des charges.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre le modèle de service et le modèle de déploiement car le premier définit qui gère quoi et le second définit où les ressources sont situées.
+
+      Une confusion courante consiste à croire que la qualification SecNumCloud porte sur l'entreprise entière alors qu'elle ne concerne qu'une offre précise.
+
+      Il est crucial de noter que la responsabilité des données, des identités et de la configuration incombe toujours au ministère, quel que soit le modèle de service choisi.
+
+      La distinction entre cloud interne et cloud privé commercial est importante car le premier est opéré par l'État pour l'État tandis que le second utilise des ressources dédiées chez un prestataire.
+
+      L'immunité aux lois extraterritoriales est une exigence majeure de SecNumCloud pour empêcher qu'un droit étranger comme le CLOUD Act ne contraigne un prestataire à livrer des données.
+
+EXEMPLES CITÉS.
+
+      La DGFiP opère NUBO qui héberge environ cinq cents projets d'une quinzaine de ministères et dont la capacité double chaque année.
+
+      Le bilan de la DINUM de janvier deux mille vingt-cinq estimait à cinq pour cent la part interministérielle de l'utilisation des clouds internes NUBO et π.
+
+      Le gouvernement a confié une mission à l'inspection générale des finances en septembre deux mille vingt-cinq pour étudier l'adéquation de l'offre d'hébergement.
+
+      L'application D2C a été mise en service en un temps record sur NUBO grâce à une méthode de développement agile.

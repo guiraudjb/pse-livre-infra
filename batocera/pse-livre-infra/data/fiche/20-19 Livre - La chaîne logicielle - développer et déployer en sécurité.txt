@@ -1,0 +1,225 @@
+SÉCURISATION DE LA CHAÎNE LOGICIELLE ET ADOPTION DU DEVSECOPS.
+
+LEXIQUE COMPLET.
+
+      Le DevSecOps désigne l'intégration de la sécurité à chaque étape du cycle de développement et d'exploitation pour livrer des applications de façon automatisée.
+
+      La SBOM désigne une nomenclature logicielle qui liste tous les composants d'un logiciel et leurs versions pour identifier rapidement les applications touchées par une faille.
+
+      Le format CycloneDX ou le format SPDX désigne les formats de référence utilisés pour la production d'une nomenclature logicielle.
+
+      Le Typosquatting désigne l'utilisation d'un paquet malveillant dont le nom est presque identique à celui d'un paquet connu.
+
+      Le SILL désigne le Socle interministériel des logiciels libres qui est un référentiel utilisé pour estimer la maturité d'un projet open source.
+
+      Le MCO désigne le maintien en condition opérationnelle qui regroupe l'ensemble des actions garantissant qu'un logiciel reste fonctionnel.
+
+      Le MCS désigne le maintien en condition de sécurité qui garantit qu'un logiciel reste sécurisé.
+
+      L'ANSSI désigne l'autorité qui tire des conséquences de l'utilisation de la chaîne CI/CD comme un outil d'administration.
+
+      Le PASSI désigne les tests d'intrusion réalisés avant la mise en production pour assurer la sécurité des applications.
+
+      Le CRA désigne le règlement qui impose la nomenclature logicielle aux fabricants.
+
+COURS DÉTAILLÉ.
+
+I. LE PARADIGME DEVSECOPS.
+
+   A. Définition et rapprochement développement-exploitation.
+
+      Le DevOps vise à rapprocher les équipes de développement et d'exploitation pour permettre une livraison fréquente et automatisée des applications.
+
+      Le DevSecOps prolonge cette approche en intégrant la sécurité à chaque étape de la chaîne de production plutôt que de l'ajouter uniquement à la fin.
+
+      L'ANSSI considère la chaîne CI/CD comme un véritable outil d'administration, car ce qu'elle déploie en production est par définition administré par cette chaîne.
+
+      Cette vision impose des mesures strictes comme l'utilisation de postes d'administration dédiés, de comptes à privilèges et d'une journalisation rigoureuse.
+
+      La séparation des environnements de développement et de production est également requise, ces derniers ne devant pas être exposés sur Internet.
+
+   B. Les étapes du cycle de vie et leurs contrôles de sécurité.
+
+      La phase de conception repose sur l'analyse de risque, la définition des exigences de sécurité et la modélisation des menaces.
+
+      Lors de l'écriture du code, les contrôles incluent la revue de code, l'analyse statique nommée SAST et la détection des secrets présents dans le code.
+
+      L'étape des dépendances nécessite une analyse des composants appelée SCA, la production d'une nomenclature logicielle SBOM et le suivi des vulnérabilités.
+
+      La construction s'appuie sur une chaîne d'intégration continue durcie, la création d'artefacts signés et des constructions reproductibles.
+
+      Les tests de sécurité comprennent des tests dynamiques nommés DAST ainsi que des tests d'intrusion avant la mise en production réalisés par un PASSI.
+
+      Le déploiement s'assure de l'intégrité via une infrastructure en code relue et des images de conteneurs analysées et signées.
+
+      Enfin, l'exploitation garantit la sécurité par la gestion des journaux, la supervision, l'application de correctifs et la divulgation coordonnée des vulnérabilités.
+
+II. LA GESTION DES COMPOSANTS ET DE LA NOMENCLATURE.
+
+   A. La nomenclature logicielle SBOM et ses formats.
+
+      La SBOM est une nomenclature logicielle qui liste l'intégralité des composants d'un logiciel ainsi que leurs versions respectives.
+
+      Ce document permet de réagir très rapidement lorsqu'une faille majeure est publiée sur une bibliothèque largement utilisée.
+
+      Grâce à cet outil, il est possible d'identifier les applications touchées en quelques minutes au lieu de passer plusieurs semaines à effectuer des recherches.
+
+      Le CRA impose désormais l'utilisation de cette nomenclature aux fabricants de logiciels.
+
+      Un ministère doit donc exiger la production d'une SBOM de la part de ses fournisseurs et la produire lui-même pour ses propres développements.
+
+      Les formats de référence pour l'établissement de ces nomenclatures sont CycloneDX et SPDX.
+
+   B. L'importance de la traçabilité des dépendances.
+
+      La sécurité doit être intégrée à chaque étape de la chaîne de production et non ajoutée uniquement à la fin du processus.
+
+      Le contrôle des dépendances repose sur l'analyse des composants, l'utilisation de la nomenclature logicielle et le suivi rigoureux des vulnérabilités.
+
+      Les dépendances doivent être minimisées, évaluées et corrigées impérativement avant toute étape de déploiement.
+
+      L'absence de suivi d'un composant libre constitue une dette technique qui peut fragiliser l'ensemble du système.
+
+      Il est recommandé de contribuer aux projets dont on dépend afin de mieux maîtriser sa propre chaîne d'approvisionnement.
+
+      La gestion des secrets est également cruciale et impose l'usage d'un gestionnaire de secrets par environnement sans aucun secret en dur dans le code.
+
+III. LES MENACES SUR LA CHAÎNE D'APPROVISIONNEMENT.
+
+   A. Typologie des attaques (composants, typosquatting, outils).
+
+      L'attaque par composant piégé consiste à utiliser une bibliothèque libre populaire qui a été reprise par un attaquant ou à introduire une porte dérobée via un faux contributeur.
+
+      Le typosquatting est une méthode où un attaquant publie un paquet malveillant dont le nom est presque identique à celui d'un paquet connu.
+
+      La compromission de l'outil de construction permet d'attaquer le processus même de fabrication du logiciel.
+
+      Dans ce cas précis, le code source peut rester sain alors que le binaire livré est corrompu.
+
+      Enfin, la compromission d'un éditeur ou d'un prestataire peut entraîner la distribution de code malveillant à tous ses clients via une mise à jour légitime.
+
+   B. Parades et mesures de protection.
+
+      Pour contrer ces menaces, il est recommandé d'utiliser des miroirs internes des dépôts de paquets et de procéder au verrouillage des versions.
+
+      La vérification des signatures et la séparation des droits sur la chaîne de construction constituent également des mesures essentielles.
+
+      Une revue régulière des mises à jour critiques permet de renforcer la sécurité de l'ensemble du processus.
+
+      La production et l'exigence d'une SBOM permettent de lister tous les composants et leurs versions pour identifier rapidement les applications touchées par une faille.
+
+      Les formats de référence pour ces nomenclatures sont CycloneDX et SPDX.
+
+      L'utilisation de contrôles automatiques bloquants sur les failles critiques et les secrets est une mesure de mise en œuvre indispensable.
+
+IV. LE LOGICIEL LIBRE ET SES ENJEUX DE MAÎTRISE.
+
+   A. Principes et bénéfices pour l'État.
+
+      L'État encourage l'usage du logiciel libre conformément à la circulaire du dix-neuf septembre deux mille douze.
+
+      Le Socle interministériel des logiciels libres référence plus de six cents applications en deux mille vingt-six.
+
+      Cette approche apporte de la transparence, de l'indépendance et permet la mutualisation des ressources.
+
+   B. Critères de sélection et évaluation de la maturité.
+
+      La grille de l'ANSSI permet d'évaluer l'historique et l'activité d'un projet via des critères comme la présence de mainteneurs désignés ou la publication de versions annuelles.
+
+      Le maintien en condition de sécurité est vérifié par l'existence d'un contact sécurité et d'une procédure publique de gestion des vulnérabilités.
+
+      L'évaluation porte aussi sur les dépendances en exigeant une SBOM au format SPDX ou CycloneDX.
+
+      La maturité peut être estimée grâce au SILL qui est le Socle interministériel de logiciels libres.
+
+      Les audits tiers comme un visa de sécurité ANSSI et la qualité de la documentation sont des éléments déterminants pour le choix.
+
+   C. Maintenance et contribution aux projets.
+
+      L'utilisation du libre ne dispense pas de la maintenance car un composant non suivi constitue une dette technique.
+
+      Le maintien en condition opérationnelle assure le fonctionnement du logiciel tandis que le maintien en condition de sécurité garantit sa protection.
+
+      Contribuer aux projets dont on dépend est une action nécessaire pour assurer la maîtrise de sa propre chaîne logicielle.
+
+      Il est recommandé d'auditer les contributions pour éviter l'insertion de code illégitime comme l'a montré l'affaire XZ Utils en deux mille vingt-quatre.
+
+      Un appel à l'aide des mainteneurs doit être considéré comme un signal sérieux et une opportunité de contribuer.
+
+V. SÉCURISATION DE LA CHAÎNE CI/CD ET DE L'INFRASTRUCTURE.
+
+   A. La chaîne CI/CD comme outil d'administration.
+
+      La chaîne CI/CD ne doit pas être vue uniquement comme un outil de livraison mais comme un véritable outil d'administration. Ce qu'elle déploie en production est considéré par l'ANSSI comme étant administré par cette même chaîne.
+
+      Cette approche impose l'utilisation d'un poste d'administration dédié pour gérer les processus de déploiement. Les accès doivent être strictement contrôlés via des comptes à privilèges et une journalisation rigoureuse de toutes les actions.
+
+      L'automatisation de la chaîne permet de transformer la capacité de correction d'une application. Une application déployée automatiquement peut être corrigée en quelques heures, tandis qu'une livraison manuelle peut prendre plusieurs semaines.
+
+   B. Gestion des secrets et intégrité des artefacts.
+
+      La gestion des secrets nécessite l'utilisation d'un gestionnaire de secrets spécifique pour chaque environnement. Il est formellement interdit de laisser des secrets en dur dans le code source ou dans l'historique des versions.
+
+      L'intégrité du processus repose sur la signature des commits avec une authentification multifactorielle. Les tags et les artefacts doivent également être signés pour garantir qu'ils n'ont pas été altérés.
+
+      La vérification systématique des signatures est une étape indispensable lors du déploiement des composants. Cette mesure permet de s'assurer que seuls les éléments validés sont introduits dans l'infrastructure de production.
+
+   C. Séparation des environnements et infrastructure en code.
+
+      La sécurité exige une séparation stricte entre la chaîne CI/CD de développement et celle de production. Ces deux environnements ne doivent pas être exposés sur Internet pour limiter les risques d'attaque.
+
+      L'infrastructure doit être gérée sous forme de code afin de permettre une relecture attentive des configurations. Les images de conteneurs utilisées doivent être systématiquement analysées et signées avant leur utilisation.
+
+      Les infrastructures doivent être réinstanciées régulièrement pour maintenir un niveau de sécurité optimal. Cette pratique permet de limiter la persistance d'éventuelles compromissions au sein des systèmes.
+
+VI. MISE EN ŒUVRE OPÉRATIONNELLE ET ENJEUX MINISTÉRIELS.
+
+   A. Capacité de correction et réactivité.
+
+      La rapidité de correction des vulnérabilités repose directement sur la qualité de la chaîne logicielle.
+
+      Une application bénéficiant d'une construction et d'un déploiement automatisés peut être corrigée en quelques heures seulement.
+
+      À l'inverse, une application dont la livraison est effectuée manuellement tous les six mois nécessite plusieurs semaines pour être sécurisée.
+
+      La chaîne logicielle constitue donc un levier de sécurité aussi crucial que la productivité pour le ministère.
+
+   B. Stratégie de plateforme commune et automatisation.
+
+      Le ministère doit mettre en place une plateforme de développement commune incluant une forge, une intégration continue et des dépôts d'artefacts homologués pour l'ensemble des projets.
+
+      Cette stratégie repose sur l'application de contrôles automatiques bloquants dès qu'une faille critique ou la présence de secrets est détectée.
+
+      Une SBOM doit être systématiquement produite à chaque version logicielle et conservée pour assurer la traçabilité.
+
+      Un suivi centralisé des vulnérabilités doit être assuré sur tous les composants actuellement en production.
+
+   C. Exemple de la chaîne de développement de la DGFiP.
+
+      La DGFiP dispose de l'une des chaînes de développement les plus importantes de l'État.
+
+      Elle emploie plus de cinq mille informaticiens et gère des applications dont la construction remonte aux années mille neuf cent soixante-dix.
+
+      Ses capacités incluent la production d'IA en interne avec des outils comme LLaMandement pour les amendements parlementaires.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas considérer la sécurité comme une étape finale mais comme un élément intégré dès la conception dans le cadre du DevSecOps.
+
+      La chaîne CI/CD ne doit pas être vue comme un simple outil de livraison mais comme un véritable outil d'administration nécessitant des comptes à privilèges et une journalisation.
+
+      Il est crucial de ne pas confondre le maintien en condition opérationnelle qui garantit le fonctionnement avec le maintien en condition de sécurité qui assure la protection.
+
+      L'utilisation du logiciel libre n'est pas une solution de facilité car un composant non suivi représente une dette technique identique à un autre système.
+
+      La confidentialité du code doit être préservée car tester un code sensible sur un service SaaS public équivaut à une exportation de données.
+
+EXEMPLES CITÉS.
+
+      L'affaire XZ Utils en deux mille vingt-quatre illustre le risque d'insertion de code illégitime par des contributions malveillantes dans des projets open source.
+
+      Le SILL est un référentiel qui permet d'estimer la maturité d'un projet open source en s'appuyant sur le Socle interministériel des logiciels libres.
+
+      La DGFiP dispose d'une chaîne de développement majeure avec plus de cinq mille informaticiens et développe des outils d'IA comme LLaMandement.
+
+      Le format de référence pour une SBOM est soit CycloneDX soit SPDX pour permettre une identification rapide des composants touchés par une faille.

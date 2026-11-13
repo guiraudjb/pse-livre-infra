@@ -1,0 +1,53 @@
+TITRE : LE PANORAMA DU DROIT
+
+[Intro]
+Écoute le rythme du droit qui s'impose et qui s'installe,
+Entre règlements directs et directives nationales.
+
+[Couplet 1]
+Le règlement s'applique sans attendre, le RGPD est déjà là,
+Depuis mai deux mille dix-huit, il protège chaque pas.
+La directive NIS deux attend sa loi de transposition,
+Le Sénat l'a adoptée le douze mars deux mille vingt-cinq en tension.
+L'ANSSI publie le ReCyF pour guider les entités,
+En attendant que l'Assemblée nationale tranche en novembre deux mille vingt-six, en toute réalité.
+Le DORA pour la finance est actif depuis janvier deux mille vingt-cinq,
+Pendant que la Commission européenne contre la France engage son destin.
+
+[Refrain]
+Gérer le risque, notifier l'incident,
+Protéger les données, agir maintenant.
+Gérer le risque, notifier l'incident,
+Protéger les données, agir maintenant.
+
+[Couplet 2]
+Le CRA vise les fabricants, pas les acheteurs du ministère,
+Pas de vulnérabilité connue, une configuration sécurisée pour être exemplaire.
+Le SBOM est la nomenclature, le marquage CE est le gage,
+Pour des produits sans failles, sur un support de nouveau visage.
+L'AI Act classe les risques, du minimal à l'inacceptable,
+Depuis le deux février deux mille vingt-cinq, l'interdit est irrévocable.
+Le ministère est déployeur, il doit contrôler l'intelligence,
+Garantir la transparence et la qualité avec diligence.
+
+[Refrain]
+Gérer le risque, notifier l'incident,
+Protéger les données, agir maintenant.
+Gérer le risque, notifier l'incident,
+Protéger les données, agir maintenant.
+
+[Pont]
+La CNIL reçoit seize notifications par jour en deux mille vingt-cinq,
+L'administration publique est la première, dix-neuf pour cent du risque.
+Une fuite peut déclencher l'ANSSI et la CNIL en un instant,
+La direction doit superviser, c'est le devoir des dirigeants importants.
+
+[Refrain final]
+Gérer le risque, notifier l'incident,
+Protéger les données, agir maintenant.
+Gérer le risque, notifier l'incident,
+Protéger les données, agir maintenant.
+
+[Outro]
+Le droit européen dessine la sécurité de demain,
+Maîtrise ton cadre, trace ton propre chemin.

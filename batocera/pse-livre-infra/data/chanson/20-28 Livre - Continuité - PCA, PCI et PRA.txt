@@ -1,0 +1,47 @@
+TITRE : LA RÉSILIENCE EN MARCHE
+
+[Intro]
+Écoute le rythme de la survie, le plan qui s'écrit,
+Quand la crise frappe, quand le système s'effrite.
+
+[Couplet 1]
+Le PCA c'est le chef d'orchestre, la direction qui décide,
+Le PCI et le PRA, les volets de la DSI, sans rides.
+Le PCI évite la chute, le PRA relance la machine,
+Après l'arrêt, après le choc, quand la panne dessine.
+Le BIA analyse l'impact, le bilan des missions,
+Pour fixer le DMIA et le PDMA avec précision.
+Le RTO mesure le temps, la durée de l'interruption,
+Le RPO la perte de données, la limite de l'ambition.
+
+[Refrain]
+Anticiper, protéger, reconstruire et durer,
+La continuité n'est pas un rêve, c'est une réalité.
+
+[Couplet 2]
+Attention au rançongiciel, le scénario qui déjoue tout,
+La réplication copie le virus, le chaos est partout.
+Il faut un cœur de confiance, des sauvegardes hors d'atteinte,
+La règle trois-deux-un, pour que la donnée ne soit pas éteinte.
+L'ACMOSS et le RRF, le Réseau Radio du Futur,
+En deux mille vingt-trois, pour un secours qui dure.
+L'OIV est indispensable, la nation sur le fil,
+Avec SYRIUS et le haut débit, un réseau résilient et agile.
+
+[Refrain]
+Anticiper, protéger, reconstruire et durer,
+La continuité n'est pas un rêve, c'est une réalité.
+
+[Pont]
+Un plan non testé est une illusion, un mirage de papier,
+Le ReCyF exige des tests, pour ne jamais s'oublier.
+De la relecture à l'exercice de crise, il faut valider,
+Pour que la résilience nationale puisse enfin s'affirmer.
+
+[Refrain final]
+Anticiper, protéger, reconstruire et durer,
+La continuité n'est pas un rêve, c'est une réalité.
+
+[Outro]
+De l'ISO vingt-deux mille trois cent un à la stratégie,
+La résilience est un combat, une constante nécessité.

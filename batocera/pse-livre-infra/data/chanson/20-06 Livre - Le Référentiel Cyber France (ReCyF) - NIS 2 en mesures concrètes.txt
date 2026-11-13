@@ -1,0 +1,47 @@
+TITRE : Le Référentiel Cyber
+
+[Intro]
+Écoute le rythme du ReCyF, le pont vers la sécurité,
+L'ANSSI trace la voie pour la directive NIS deux.
+
+[Couplet 1]
+Quatre piliers, vingt objectifs pour bâtir la défense,
+La gouvernance inventorie, la direction prend la licence.
+La PSSI doit être validée, le dirigeant est engagé,
+Responsable de sa politique, il ne peut plus se protéger.
+La protection réduit la surface, le cloisonnement est la règle,
+Contre la latéralisation, l'attaquant perd son étincelle.
+Le cœur de confiance, l'Active Directory, est le sanctuaire,
+Une protection maximale pour éviter le pire.
+
+[Refrain]
+Objectifs concrets, pas de produits imposés,
+La sécurité est un devoir, un destin tracé.
+
+[Couplet 2]
+La défense détecte, le SOC analyse et surveille,
+Vingt-quatre heures pour les alertes, l'essentiel est une merveille.
+Trois mois de journaux pour les entités essentielles,
+La résilience encaisse le choc, la reprise est réelle.
+Sauvegardes déconnectées, tests de restauration chaque année,
+Le PCA et le PRA pour les durées d'interruption déterminées.
+EBIOS Risk Manager, tous les trois ans l'analyse de risques,
+Pour les entités essentielles, les exigences sont plus risquées.
+
+[Refrain]
+Objectifs concrets, pas de produits imposés,
+La sécurité est un devoir, un destin tracé.
+
+[Pont]
+L'AH prononce l'homologation, l'AQSSI est responsable,
+Le patient zéro est recherché, l'investigation est implacable.
+La chasse cherche l'attaquant, la levée de doute vérifie,
+L'EDR sur le terminal, la menace est ainsi suivie.
+
+[Refrain final]
+Objectifs concrets, pas de produits imposés,
+La sécurité est un devoir, un destin tracé.
+
+[Outro]
+Trois cents sites, huit cents applications, le défi est immense,
+Le ReCyF est le langage, la clé de la vigilance.

@@ -1,0 +1,47 @@
+TITRE : LES TROIS PILIERS
+
+[Intro]
+Trois référentiels pour un monde numérique,
+Trois piliers pour une conformité méthodique.
+
+[Couplet 1]
+Le RGI deux virgule zéro pour l'échange et le lien,
+Entre administrations, entreprises et usagers de demain.
+Ordonnance de deux mille cinq et décret de deux mille sept,
+Pour que les systèmes parlent sans aucun arrêt.
+Le RGAA quatre virgule un virgule deux pour l'accessibilité,
+Loi de deux mille cinq sur le handicap, pour la dignité.
+Perceptible, utilisable, compréhensible et robuste,
+Pour que l'inclusion soit la norme, jamais la lutte.
+
+[Refrain]
+Interopérable, accessible, sobre,
+Le numérique devient enfin noble.
+
+[Couplet 2]
+Le RGESN pour l'empreinte et la responsabilité,
+Loi du quinze novembre deux mille vingt et un, pour la réalité.
+Le numérique pèse deux virgule cinq pour cent du carbone,
+La fabrication des terminaux est le poids qui résonne.
+Entre soixante-cinq et quatre-vingt-dix pour cent de l'impact,
+Allonger la durée de vie est le seul bon acte.
+Un processeur de dix ans doit pouvoir encore naviguer,
+Une application de sept ans doit rester utilisable et stable.
+
+[Refrain]
+Interopérable, accessible, sobre,
+Le numérique devient enfin noble.
+
+[Pont]
+IPvsix recommandé, IPvquatre en fin de vie,
+TLS un virgule deux pour la sécurité garantie.
+PUE et WUE pour les centres de données,
+L'écoconception pour ne plus gaspiller.
+
+[Refrain final]
+Interopérable, accessible, sobre,
+Le numérique devient enfin noble.
+
+[Outro]
+Concevoir dès le départ pour ne pas tout payer,
+Trois piliers pour l'avenir, pour ne plus s'égarer.

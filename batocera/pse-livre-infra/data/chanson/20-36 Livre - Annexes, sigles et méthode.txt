@@ -1,0 +1,47 @@
+TITRE : L'ÉCHÉANCE NUMÉRIQUE
+
+[Intro]
+Écoute le rythme des dates et des lois,
+Le numérique s'organise sous tes doigts.
+
+[Couplet 1]
+Le deux février deux mille vingt-cinq l'AI Act interdit l'IA à risque,
+Puis le deux août deux mille vingt-cinq les modèles généraux s'imposent dans le disque,
+Le douze septembre deux mille vingt-cinq le Data Act vient s'ajouter,
+DMA et DSA pour les marchés et les services pour tout réguler.
+Le quatorze octobre deux mille vingt-cinq Windows dix perd son support,
+Le CRA impose le signalement dès le onze septembre deux mille vingt-six pour les acteurs,
+Le onze décembre deux mille vingt-sept l'application du CRA sera complète,
+La NIS deux s'intègre à la PSSIE au premier trimestre deux mille vingt-sept.
+
+[Refrain]
+Veille, protège, anticipe le flux,
+Le cyber est un combat continu.
+
+[Couplet 2]
+Fin deux mille vingt-six le MFA pour les administrateurs est la règle,
+L'ARIANE remplace la DINUM le premier janvier deux mille vingt-sept sans modèle,
+Le vingt-huit février deux mille vingt-sept le MFA pour les SI à enjeux est requis,
+Le vingt-huit février deux mille vingt-huit pour tous les SI le déploiement est fini.
+La DGFiP vise soixante-dix-huit pour cent de conformité fin deux mille vingt-sept,
+Identifier les briques post-quantiques pour que la menace soit défaite,
+Fin deux mille trente la Diffusion Restreinte sera protégée du quantique,
+La sécurité nationale est un édifice complexe et systémique.
+
+[Refrain]
+Veille, protège, anticipe le flux,
+Le cyber est un combat continu.
+
+[Pont]
+L'ANSSI, le SGDSN et le COMCYBER en première ligne,
+Contre l'APT28 du GRU et l'APT31 qui nous soigne,
+Le CERT-FR et les CSIRT pour la réponse et l'alerte,
+La résilience est notre armure, notre seule perte.
+
+[Refrain final]
+Veille, protège, anticipe le flux,
+Le cyber est un combat continu.
+
+[Outro]
+Réglementaire, technique et institutionnel,
+Le futur numérique est un défi essentiel.

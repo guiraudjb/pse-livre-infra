@@ -1,0 +1,47 @@
+TITRE : LE CYCLE DE LA CRISE
+
+[Intro]
+Du journal au signal, l'événement se dessine,
+Le SOC observe l'ombre, la menace s'affine.
+
+[Couplet 1]
+Un incident survient, le CSIRT prend les commandes,
+Si l'impact est majeur, le RSSI se demande,
+Si la crise menace les missions et les services,
+La direction s'active pour éviter le précipice.
+L'ANSSI donne les clés, qualifie le périmètre,
+Sensibilité des données, l'attaquant est un maître.
+Risque de propagation, capacité de l'adversaire,
+On analyse le terrain pour ne pas être de proie, de terre.
+
+[Refrain]
+Séquence E trois R, pour ne plus reculer,
+Endiguer, évincer, éradiquer et reconstruire sans faillir.
+
+[Couplet 2]
+Contenir les flux, révoquer les sessions compromises,
+L'investigation cherche la trace, les preuves sont saisies.
+Éradiquer les accès, les portes dérobées, sans délai,
+Car supprimer une seule faille est un échec de trop, un vrai regret.
+La reconstruction du cœur, le Tier zéro de l'Active Directory,
+C'est l'étape décisive pour sortir de l'obscurité.
+Sinon c'est le cycle, des mois de remédiation,
+Un enfer technique, une constante complication.
+
+[Refrain]
+Séquence E trois R, pour ne plus reculer,
+Endiguer, évincer, éradiquer et reconstruire sans faillir.
+
+[Pont]
+Sous NIS deux, vingt-quatre heures pour l'alerte précoce,
+Soixante-douze heures pour la notification, que le temps ne nous érode.
+Le DPO et le juridique préparent les dossiers,
+Devant la CNIL, pour les données personnelles, il faut tout notifier.
+
+[Refrain final]
+Séquence E trois R, pour ne plus reculer,
+Endiguer, évincer, éradiquer et reconstruire sans faillir.
+
+[Outro]
+Le RETEX capitalise, à chaud puis à froid,
+Pour que demain, la défense soit la seule loi.

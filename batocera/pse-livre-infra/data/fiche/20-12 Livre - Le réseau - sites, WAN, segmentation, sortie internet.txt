@@ -1,0 +1,297 @@
+ARCHITECTURE, SEGMENTATION ET PROTOCOLES DES RÉSEAUX INFORMATIQUES MINISTÉRIELS.
+
+LEXIQUE COMPLET.
+
+      Le RIE désigne le réseau interministériel de l'État, un réseau qui mutualise l'accès internet et le réseau étendu des ministères depuis deux mille onze.
+
+      La VRF désigne une technologie de Virtual Routing and Forwarding qui crée plusieurs tables de routage isolées au sein des mêmes routeurs pour segmenter le réseau.
+
+      Le SD-WAN désigne une technologie qui pilote par logiciel plusieurs accès comme le MPLS ou la 4G pour choisir le meilleur chemin pour chaque application.
+
+      Le protocole 802.1X désigne un mécanisme d'authentification utilisé pour contrôler l'accès au réseau en vérifiant l'identité de chaque équipement.
+
+      Le NAT désigne la traduction d'adresses qui permet de réécrire les adresses privées en adresses publiques lors de la sortie vers internet.
+
+      L'IPv6 désigne la version du protocole internet utilisant des adresses sur cent vingt-huit bits qui supprime la pénurie d'adresses et la complexité du NAT interne.
+
+      Le protocole OSPF désigne un protocole de routage dynamique de type état de liens qui calcule le plus court chemin au sein d'un réseau.
+
+      Le protocole BGP désigne un protocole de routage utilisé pour échanger des préfixes entre différents systèmes autonomes sur internet.
+
+      Le MPLS désigne une technologie qui commute les paquets via des étiquettes pour permettre la création de VPN et la gestion de la qualité de service.
+
+      Le VLAN désigne un mécanisme permettant de découper un commutateur en réseaux logiques séparés pour limiter les domaines de diffusion.
+
+      L'ANSSI désigne l'organisme qui recommande des mesures de sécurité comme l'authentification 802.1X avec EAP-TLS ou le filtrage des annonces BGP.
+
+      Le RGI désigne le référentiel qui classe l'IPv4 en fin de vie et recommande l'utilisation de l'IPv6.
+
+COURS DÉTAILLÉ.
+
+I. ÉCHELLES ET TECHNOLOGIES DU RÉSEAU ÉTENDU.
+
+   A. Les trois échelles du réseau : LAN, MAN et WAN.
+
+      Le réseau se décline en trois échelles distinctes selon le périmètre couvert. Le LAN concerne le bâtiment ou le campus et utilise des technologies comme l'Ethernet commuté, les VLAN, le Wi-Fi WPA3 Entreprise ou encore le 802.1X.
+
+      Le MAN s'applique aux sites situés au sein d'une même agglomération. Il repose sur l'usage de la fibre, d'anneaux redondés et du protocole OSPF.
+
+      Le WAN relie les sites distants et les datacenters. Il s'appuie sur des technologies telles que le MPLS, le SD-WAN ou le réseau interministériel de l'État.
+
+   B. Le WAN privé et l'évolution vers le SD-WAN.
+
+      Les sites ne communiquent pas via l'internet public mais utilisent un WAN privé. Historiquement basé sur le MPLS, ce réseau évolue désormais vers le SD-WAN.
+
+      Le SD-WAN pilote par logiciel plusieurs types d'accès comme le MPLS, la fibre internet, la 4G ou la 5G. Il permet de choisir le meilleur chemin pour chaque application.
+
+      Les flux circulant entre les sites sont chiffrés pour garantir la sécurité. Ils sont également priorisés grâce à la qualité de service, ce qui est essentiel pour la téléphonie.
+
+   C. Le Réseau Interministériel de l'État (RIE).
+
+      Le RIE est un réseau décidé en deux mille onze pour l'État. Il permet de mutualiser l'accès internet ainsi que le réseau étendu des différents ministères.
+
+II. SEGMENTATION ET CONTRÔLE D'ACCÈS.
+
+   A. La macro-segmentation par VRF.
+
+      La VRF permet de créer plusieurs tables de routage isolées au sein des mêmes routeurs pour découper le réseau dès le routage.
+
+      Le trafic entre les différentes VRF est interdit par défaut et ne peut passer que par un pare-feu interne qui inspecte les flux.
+
+      Le segment Utilisateurs regroupe les postes de travail des agents qui accèdent aux applications via le pare-feu interne et à internet via les proxys.
+
+      La VRF Invités est strictement limitée à un accès internet sans aucune route vers l'interne, tandis que la VRF Bâtiment et objets connectés isole les caméras, les badges et les imprimantes sur leurs seuls serveurs de gestion.
+
+      Les VRF Administration et Datacenter permettent de séparer les outils des administrateurs via des bastions et de segmenter les serveurs applicatifs selon des zones spécifiques.
+
+   B. Le contrôle d'accès réseau via 802.1X et RADIUS.
+
+      L'ANSSI recommande l'usage du protocole 802.1X avec l'authentification mutuelle par certificats EAP-TLS pour s'assurer qu'un simple branchement de câble ne suffit pas à entrer dans le réseau.
+
+      Le serveur RADIUS est dédié à cette fonction et permet d'authentifier les supplicants, c'est-à-dire les logiciels sur les équipements d'extrémité, pour les placer dans le bon segment.
+
+      L'utilisation de certificats machine garantit que seuls les postes gérés obtiennent un port, bien que cela suppose une IGC tenue.
+
+      Le RADIUS doit être dédié et redondé pour éviter qu'une panne ne paralyse l'accès des postes, ce qui nécessite de prévoir un mode dégradé.
+
+      Pour les équipements non compatibles comme l'IoT, le cloisonnement se fait par un VLAN dédié et filtré, car le contournement par adresse MAC est usurpable.
+
+      Sur le LAN, le contrôle 802.1X permet une affectation automatique, mais le VLAN reste statique par port ou par profil pour que le cloisonnement ne dépende pas d'un attribut négociable.
+
+   C. L'interconnexion de systèmes de niveaux différents.
+
+      Relier un SI de diffusion restreinte à un SI usuel ou un SI ministériel à celui d'un partenaire relève de l'IGI mille trois cents et du guide ANSSI sur les interconnexions multiniveaux.
+
+      Ces recommandations comptent plus de soixante règles dont le principe fondamental est que le flux doit être justifié, filtré de bout en bout et, si possible, unidirectionnel via une diode.
+
+      Pour les opérateurs qui annoncent leurs propres préfixes, l'ANSSI préconise le filtrage des annonces BGP, l'authentification des sessions et la signature des origines par RPKI pour limiter les détournements de trafic.
+
+III. SORTIE INTERNET ET GESTION DE L'ADRESSAGE IP.
+
+   A. Le rôle des proxys et la traduction d'adresses (NAT/PAT).
+
+      Les agents accèdent à internet par des fermes de proxys qui filtrent les adresses, analysent les fichiers et journalisent les activités.
+
+      Les proxys et les passerelles assurent la traduction d'adresses vers des pools d'adresses publiques.
+
+      Le PAT distingue les connexions par le port source de seize bits, ce qui permet à une adresse publique d'offrir environ soixante-quatre mille cinq cents ports utilisables.
+
+      Dans le pire cas, si chaque port ne sert qu'une seule session, un besoin de cent vingt-cinq adresses publiques est nécessaire pour cent mille agents effectuant quatre-vingts connexions simultanées.
+
+      Le risque d'épuisement des ports subsiste principalement vers une même destination très sollicitée comme un service cloud de messagerie.
+
+      La sortie internet doit être répartie car un seul pare-feu de bordure s'effondrerait sous la table d'états de millions de sessions.
+
+   B. L'adressage IPv4 et les principes du CIDR et VLSM.
+
+      Chaque équipement reçoit une adresse IP composée d'une partie réseau et d'une partie machine, la longueur du réseau étant indiquée par une barre oblique.
+
+      Le CIDR permet une notation et un routage sans classes où la taille d'un réseau est libre, supprimant les anciennes classes A, B ou C.
+
+      Le subnetting consiste à partager un bloc en réseaux plus petits pour un site, un étage ou un usage spécifique.
+
+      Le VLSM permet d'utiliser des sous-réseaux de tailles différentes dans un même plan, comme un /30 pour un lien entre deux routeurs ou un /22 pour un grand site.
+
+      Les adresses privées selon la RFC mille neuf cent dix-huit, telles que 10.0.0.0/8, 172.16.0.0/12 et 192.168.0.0/16, sont utilisées en interne et ne sont pas routées sur internet.
+
+      Un plan d'adressage hiérarchique facilite la sécurité et l'exploitation en rendant les règles de pare-feu et les alertes du SOC plus lisibles.
+
+   C. La transition vers l'IPv6 et ses spécificités.
+
+      Le RGI classe l'IPv4 en fin de vie et recommande l'IPv6 pour supprimer la pénurie d'adresses et la complexité du NAT interne.
+
+      Les adresses IPv6 font cent vingt-huit bits et sont notées en hexadécimal, par exemple 2001:db8::/32.
+
+      Chaque interface possède une adresse de lien local fe80::/10 et peut s'auto-configurer via SLAAC ou recevoir une adresse par DHCPv6.
+
+      La diffusion disparaît au profit du multicast et de la découverte de voisins via le protocole NDP qui remplace ARP.
+
+      La transition s'effectue souvent en double pile avec l'IPv4 et l'IPv6 en parallèle, ou via des tunnels et des passerelles de traduction NAT64.
+
+      Une mise en œuvre exige une politique de filtrage rigoureuse car un réseau IPv6 activé par défaut mais non surveillé est une porte dérobée.
+
+IV. SUPPORTS DE TRANSMISSION ET INFRASTRUCTURE PHYSIQUE.
+
+   A. Les supports de transmission : cuivre, fibre et radio.
+
+      La paire torsadée en cuivre des catégories six, 6A ou sept utilise un signal électrique sur quatre paires pour le câblage des bureaux et des points d'accès Wi-Fi. Sa portée est limitée à cent m maximum par lien et elle reste sensible aux perturbations électromagnétiques.
+
+      La fibre multimode transporte la lumière sur un cœur large pour des trajets de quelques centaines de mètres à haut débit, ce qui convient aux rocades d'immeuble ou aux salles informatiques.
+
+      La fibre monomode utilise un cœur très fin pour un seul trajet de lumière, ce qui permet de relier des bâtiments ou des réseaux métropolitains sur de longues distances. Elle offre une absence de limite pratique de débit à l'échelle d'un site malgré des optiques plus coûteuses.
+
+      Les ondes électromagnétiques permettent la mobilité ou le secours via le Wi-Fi, la 4G, la 5G ou les faisceaux hertziens. Ces technologies présentent toutefois une portée variable, une bande partagée et un risque d'écoute possible.
+
+      Le courant porteur en ligne peut servir au dépannage dans des bâtiments non câblés en utilisant le réseau électrique. Son débit est aléatoire et son rayonnement impose de l'éviter pour le transport de données sensibles.
+
+   B. L'organisation du câblage structuré et le multiplexage.
+
+      Le câblage structuré suit la norme ISO/IEC onze mille huit cent un et organise l'immeuble selon une topologie en étoile. Chaque prise rejoint un local technique d'étage, lequel est relié à la salle principale par une rocade en fibre.
+
+      Cette organisation permet de brasser, d'ajouter ou de déplacer un poste de travail sans avoir à réaliser de nouveaux travaux.
+
+      Sur les longues distances, l'opérateur utilise le multiplexage en longueur d'onde appelé WDM pour faire passer plusieurs signaux de couleurs différentes sur une même fibre. Cette technique multiplie la capacité du lien et rend possible la location de fibre noire entre deux datacenters.
+
+   C. Les technologies Wi-Fi et les contraintes de mobilité.
+
+      Le Wi-Fi est devenu l'accès principal dans les bureaux organisés en espaces partagés grâce aux normes IEEE huit cent deux virgule onze, notamment les versions Wi-Fi six et sept.
+
+      Pour garantir la sécurité, le réseau exige une authentification par poste et par utilisateur via les protocoles 802.1X et WPA3-Entreprise.
+
+      Une séparation stricte est nécessaire entre le réseau interne et un réseau invité qui doit sortir directement vers internet.
+
+      Dans le cadre du ministère fictif, le Wi-Fi interne utilise le 802.1X avec un certificat machine tandis que le Wi-Fi invité est totalement isolé du réseau interne.
+
+V. COMMUTATION ET ARCHITECTURE DU RÉSEAU LOCAL.
+
+   A. Fonctionnement d'Ethernet et gestion des domaines de collision et diffusion.
+
+      Le réseau local repose sur la technologie Ethernet et l'utilisation de commutateurs qui acheminent chaque trame vers le port unique du destinataire grâce à la table des adresses MAC.
+
+      Le domaine de collision est désormais limité au port d'un commutateur, ce qui signifie que le problème historique des collisions a disparu avec la commutation et le mode full duplex.
+
+      Le domaine de diffusion regroupe tous les équipements qui reçoivent les diffusions ou broadcast des autres machines.
+
+      Un domaine de diffusion trop important peut saturer le réseau et permettre à un attaquant de voir et d'atteindre toutes les machines du segment.
+
+      Pour remédier à cela, le réseau est découpé en VLAN afin de limiter la portée de ces diffusions.
+
+   B. Mécanismes de VLAN, trunking et redondance (STP, LACP, VRRP).
+
+      Le mécanisme VLAN selon la norme IEEE 802.1Q permet de découper un même commutateur en réseaux logiques séparés pour les postes, la téléphonie ou l'administration.
+
+      Le lien trunk est utilisé pour transporter plusieurs VLAN entre les commutateurs en ajoutant une étiquette de VLAN à chaque trame.
+
+      Pour éviter les boucles lorsque les liens sont doublés, le protocole Spanning Tree comme le STP ou le RSTP est utilisé pour couper les chemins redondants.
+
+      L'agrégation de liens via le protocole LACP permet d'additionner plusieurs liens physiques pour créer un lien logique plus rapide et redondé.
+
+      La redondance de la passerelle est assurée par des protocoles comme le VRRP ou le HSRP qui permettent à deux routeurs de partager une adresse de passerelle virtuelle.
+
+      Le commutateur de niveau trois peut router entre les VLAN à la vitesse du matériel en utilisant des listes de contrôle d'accès.
+
+   C. Évolutions vers le VXLAN et le SDN.
+
+      Dans les datacenters, le VXLAN permet de transporter des VLAN au-dessus d'un réseau IP routé, créant ainsi un réseau overlay.
+
+      Cette technologie permet de dépasser la limite technique des quatre mille quatre-vingt-seize VLAN et d'étendre un réseau entre deux salles différentes.
+
+      Le SDN, ou réseau défini par logiciel, représente une évolution majeure où un contrôleur central programme directement les équipements.
+
+      Cette approche remplace la configuration individuelle de chaque équipement par une gestion centralisée et logicielle de l'infrastructure.
+
+VI. PROTOCOLES DE ROUTAGE ET TECHNOLOGIES DE TRANSPORT.
+
+   A. Protocoles de routage dynamique : OSPF et BGP.
+
+      Les routeurs utilisent des protocoles de routage dynamique pour recalculer les chemins de manière automatique lorsqu'un lien tombe. Ils combinent ces protocoles avec des routes statiques écrites manuellement.
+
+      Le protocole OSPF appartient à la famille de l'état de liens et permet à chaque routeur de connaître la carte complète de sa zone pour calculer le plus court chemin. Il découpe le réseau en aires organisées autour d'une aire fédératrice appelée aire zéro.
+
+      Les routeurs de bordure d'aire, nommés ABR, ont pour rôle de résumer les réseaux d'une aire pour les autres. Une zone terminale, ou stub, est une zone qui ne reçoit qu'une seule route par défaut.
+
+      Le protocole BGP appartient à la famille des vecteurs de chemins et sert à l'échange de préfixes entre des systèmes autonomes ou AS. Il est utilisé pour Internet et pour les liaisons avec les opérateurs et le RIE.
+
+      Contrairement à OSPF, BGP ne cherche pas le plus court chemin mais applique des politiques de routage. Il fait confiance aux annonces de ses voisins, ce qui peut entraîner des détournements de trafic en cas d'annonce erronée.
+
+   B. Le fonctionnement du MPLS et des VPN MPLS.
+
+      Le MPLS permet de commuter les paquets en utilisant des étiquettes posées à l'entrée du réseau de l'opérateur au lieu de relire l'adresse IP à chaque saut. Cette fixation du chemin lors de l'entrée dans le réseau procure un gain de temps important à chaque nœud.
+
+      Cette technologie permet la création de VPN MPLS où chaque client ou zone ministérielle dispose d'une table de routage séparée appelée VRF sur une infrastructure partagée. Cela garantit l'isolation des flux sur le réseau de l'opérateur.
+
+      Le MPLS permet également d'intégrer des classes de service pour assurer la qualité de service des flux sensibles comme la voix ou les applications critiques. C'est la base technologique des WAN ministériels et du RIE.
+
+      Le SD-WAN peut compléter ou remplacer le MPLS en utilisant des tunnels chiffrés sur internet pour piloter plusieurs accès comme la fibre ou la 4G/5G. Il choisit le meilleur chemin pour chaque application de manière logicielle.
+
+   C. Sécurisation du routage externe et BGP.
+
+      Pour les opérateurs qui annoncent leurs propres préfixes, l'ANSSI recommande des mesures strictes pour limiter les détournements de trafic. Ces mesures incluent le filtrage des annonces BGP et l'authentification des sessions.
+
+      La signature des origines via le mécanisme RPKI est une recommandation essentielle pour sécuriser le routage. Elle permet de valider que l'annonce d'une route est légitime.
+
+      Le mécanisme TCP MD5 peut être utilisé pour l'authentification des messages TCP en s'appuyant sur un secret partagé et un code de hachage. Cela protège les sessions de routage contre les manipulations.
+
+      La technique URPF, ou Unicast Reverse Path Forwarding, permet de lutter contre l'usurpation d'adresses IP en vérifiant la cohérence entre l'adresse source d'un paquet et l'interface de réception.
+
+VII. ENJEUX DE DISPONIBILITÉ ET DE SUPERVISION.
+
+   A. La redondance et l'élimination des points de défaillance uniques.
+
+      La conception du réseau doit viser l'élimination des SPOF, ces éléments dont la défaillance unique suffit à interrompre le service.
+
+      Pour garantir la continuité, on double les liens, les opérateurs et les équipements, notamment pour les sites majeurs et les datacenters.
+
+      Au niveau local, des mécanismes comme le Spanning Tree ou le RSTP permettent de couper les boucles et de basculer en cas de panne.
+
+      La redondance des passerelles est assurée par des protocoles comme le VRRP ou le HSRP qui permettent à deux routeurs de partager une adresse virtuelle.
+
+      L'agrégation de liens via le protocole LACP permet d'additionner plusieurs liens physiques pour créer un lien logique plus rapide et redondé.
+
+   B. La qualité de service (QoS) et la gestion des flux.
+
+      La qualité de service est un ensemble de mécanismes de classification et de priorisation qui garantissent le traitement des flux sensibles comme la voix ou la vidéo.
+
+      Le SD-WAN pilote par logiciel plusieurs accès comme le MPLS, la fibre internet ou la 4G/5G pour choisir le meilleur chemin pour chaque application.
+
+      Les flux entre les sites sont chiffrés et priorisés afin d'assurer une qualité de service optimale, notamment pour la téléphonie.
+
+      Le trafic peut être régulé par le traffic shaping qui contrôle le volume entrant dans le réseau et le débit auquel il est transmis.
+
+      Les mesures de qualité de service sont quantifiables au niveau des SAP, qui sont des points d'accès au service.
+
+   C. Supervision, maintien en condition opérationnelle et conformité NIS deux.
+
+      Le maintien en condition opérationnelle, ou MCO, garantit le fonctionnement continu de l'infrastructure tandis que le MCS assure l'application des correctifs de sécurité.
+
+      La supervision s'appuie sur des plateformes comme Zabbix pour la collecte, l'alerte et la visualisation des données du réseau.
+
+      La directive européenne NIS deux impose des exigences strictes de supervision et de résilience aux entités essentielles et importantes.
+
+      Le respect de la conformité peut être guidé par le ReCyF, qui est le Référentiel Cyber France publié par l'ANSSI.
+
+      La gestion des accès aux interfaces doit être sécurisée par une authentification multifacteur, appelée MFA.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre la macro-segmentation par VRF, qui isole les tables de routage, avec le cloisonnement par VLAN qui découpe les domaines de diffusion sur un commutateur.
+
+      Le protocole 802.1X ne doit pas être considéré comme l'unique rempart du cloisonnement car l'affectation à un VLAN doit rester statique pour éviter qu'un attribut négociable ne compromette la sécurité.
+
+      Une erreur courante est de penser que l'IPv6 supprime le besoin de filtrage, alors qu'un réseau activé par défaut sans surveillance constitue une porte dérobée majeure.
+
+      Il est crucial de distinguer le rôle du commutateur qui travaille en couche deux avec les adresses MAC et celui du routeur qui gère les adresses IP et les protocoles comme OSPF ou BGP.
+
+      La redondance ne doit pas se limiter aux équipements mais doit aussi inclure la multiplication des liens et des opérateurs pour éviter tout point de défaillance unique.
+
+EXEMPLES CITÉS.
+
+      Pour dimensionner un pool d'adresses publiques, on peut calculer qu'avec cent mille agents ouvrant quatre-vingts connexions simultanées, il faut au moins cent vingt-cinq adresses publiques pour éviter l'épuisement des ports.
+
+      Le réseau interministériel de l'État, ou RIE, a été décidé en deux mille onze pour mutualiser l'accès internet et le réseau étendu des ministères.
+
+      Dans un déploiement type, les sites sont câblés en catégorie 6A jusqu'aux bureaux et la fibre est utilisée pour les liaisons entre les étages.
+
+      Le protocole BGP peut être sécurisé par la signature des origines via RPKI pour limiter les risques de détournement de trafic.
+
+      Le décret DISIC prévoit que le directeur interministériel doit être informé pour tout projet dépassant cinq millions d'euros et consulté dès neuf millions d'euros.

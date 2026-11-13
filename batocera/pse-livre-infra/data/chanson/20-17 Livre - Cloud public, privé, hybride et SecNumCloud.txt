@@ -1,0 +1,47 @@
+TITRE : LE CLOUD DE L'ÉTAT
+
+[Intro]
+Écoute le rythme, le flux, la donnée qui s'élève,
+Comprendre l'hébergement, c'est lever le voile et le rêve.
+
+[Couplet 1]
+Depuis deux mille vingt et un, le cloud est la norme par défaut,
+IaaS, PaaS ou SaaS, le modèle définit le niveau du créneau.
+L'infrastructure, la plateforme ou le logiciel, le fournisseur gère,
+Mais les données, les accès et la configuration restent notre affaire.
+C'est la responsabilité partagée, le périmètre de l'homologation,
+Que ce soit en cloud interne, privé, communautaire ou en nation.
+NUBO par la DGFiP ou π par l'Intérieur pour le sensible,
+Le choix est gradué, la stratégie doit être agile et prévisible.
+
+[Refrain]
+Données, identités, configuration : c'est notre mission !
+SecNumCloud ou interne, c'est notre seule direction !
+
+[Couplet 2]
+SecNumCloud, c'est l'exigence de l'ANSSI, le rempart de l'État,
+Immunité aux lois extraterritoriales, pour que le CLOUD Act ne soit pas un combat.
+Localisation en Union européenne, cloisonnement et réversibilité,
+Pour protéger la Diffusion Restreinte et la souveraineté.
+Attention aux mauvaises configurations et aux comptes compromis,
+Utilise la MFA et le DevSecOps pour que le code soit bien écrit.
+Avec l'IaC et le SBOM, on maîtrise chaque composant technique,
+Pour éviter la dépendance et la dérive financière trop critique.
+
+[Refrain]
+Données, identités, configuration : c'est notre mission !
+SecNumCloud ou interne, c'est notre seule direction !
+
+[Pont]
+En janvier deux mille vingt-cinq, la DINUM voit cinq pour cent d'usage,
+Les clouds internes sont peu utilisés, c'est un défi, un vrai message.
+En septembre deux mille vingt-cinq, l'IGF et le CGE étudient l'offre,
+Pour un cloud interministériel unique, afin que l'État soit plus fort.
+
+[Refrain final]
+Données, identités, configuration : c'est notre mission !
+SecNumCloud ou interne, c'est notre seule direction !
+
+[Outro]
+Maîtrise tes coûts en FinOps, prépare ta sortie avec soin,
+Le cloud est un outil, mais la sécurité reste notre seul témoin.

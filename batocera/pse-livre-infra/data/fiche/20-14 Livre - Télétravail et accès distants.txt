@@ -1,0 +1,203 @@
+SÉCURISATION DE L'ACCÈS DISTANT ET DU TÉLÉTRAVAIL POUR LES AGENTS NOMADES.
+
+LEXIQUE COMPLET.
+
+      Le ZTNA désigne un modèle d'accès réseau zéro confiance où chaque application est publiée individuellement après vérification de l'identité et de l'état du poste.
+
+      Le SASE désigne un modèle apparu en deux mille dix-neuf qui regroupe dans le cloud la sécurité réseau et l'accès ZTNA.
+
+      Le VPN désigne un tunnel chiffré qui permet de placer un poste dans le réseau interne.
+
+      Le MFA désigne une authentification forte qui doit être déployée pour tous les administrateurs fin deux mille vingt-six, puis pour tous les SI.
+
+      L'IPsec désigne une suite de protocoles permettant de protéger en confidentialité, intégrité et anti-rejeu un flux au niveau de la couche réseau.
+
+      Le TLS désigne un protocole utilisé pour le chiffrement des tunnels de connexion.
+
+      L'ANSSI désigne l'organisme qui recommande l'utilisation du mode tunnel avec ESP pour l'accès nomade.
+
+      Le ReCyF désigne la source d'exigences imposant un canal chiffré et une authentification forte pour toute connexion depuis l'extérieur.
+
+      Le WPA3-Enterprise désigne un protocole de sécurité Wi-Fi privilégié avec l'utilisation de EAP par certificats.
+
+      Le mode Isolement désigne un mécanisme de durcissement du système d'exploitation en environnement iOS recommandé pour les populations à risque.
+
+      L'IKE désigne le protocole d'échange de clés utilisé pour négocier dynamiquement les paramètres d'une Security Association.
+
+      Le PMF désigne la protection des trames de gestion à activer en mode WPA2-Enterprise.
+
+COURS DÉTAILLÉ.
+
+I. ÉVOLUTION DES MODÈLES D'ACCÈS DISTANT.
+
+   A. Comparaison entre VPN classique et ZTNA.
+
+      Le VPN classique fonctionne en créant un tunnel chiffré qui place le poste de travail directement dans le réseau interne. Ce modèle est apprécié car il est simple et compatible avec toutes les applications existantes.
+
+      Cependant, le VPN classique présente une limite majeure en cas de compromission du poste. Un attaquant ayant pris le contrôle de la machine peut alors voir l'ensemble du réseau interne.
+
+      Le modèle ZTNA, ou accès réseau zéro confiance, repose sur le principe que chaque application est publiée individuellement. L'accès n'est accordé qu'après une vérification rigoureuse de l'identité et de l'état du poste.
+
+      L'avantage principal du ZTNA est de garantir un accès minimal et un contexte vérifié à chaque connexion. Cela limite considérablement la surface d'attaque par rapport au modèle traditionnel.
+
+      Une limite du ZTNA réside dans la difficulté technique de publier certaines applications anciennes. Ces systèmes peuvent s'avérer complexes à intégrer dans ce nouveau paradigme de sécurité.
+
+      Une alternative intermédiaire consiste à utiliser un VPN combiné à un filtrage interne. Le tunnel aboutit dans une zone dédiée où un pare-feu limite les flux selon le profil de l'agent, ce qui permet d'appliquer le principe du moindre privilège malgré des règles de maintenance complexes.
+
+   B. Le modèle SASE et les enjeux de souveraineté.
+
+      Le modèle SASE est apparu en deux mille dix-neuf pour répondre aux nouveaux besoins de mobilité. Il permet de regrouper dans le cloud la sécurité réseau et l'accès ZTNA.
+
+      Cette architecture offre une convergence entre les fonctions de protection et les services d'accès distants. Elle est particulièrement adaptée aux organisations disposant de dizaines de milliers d'agents en télétravail ou en déplacement.
+
+      L'adoption du SASE pose toutefois une question cruciale de souveraineté pour un ministère. Comme la plateforme voit passer tous les flux de l'organisation, le contrôle de l'infrastructure est un enjeu stratégique.
+
+      Cette problématique de souveraineté est directement liée au chapitre huit du document. La gestion des données et des flux transitant par des solutions cloud doit être étroitement surveillée.
+
+II. INFRASTRUCTURE ET FONCTIONNEMENT DES CONCENTRATEURS VPN.
+
+   A. Architecture et processus d'authentification.
+
+      Pour gérer des dizaines de milliers de tunnels simultanés, le déploiement repose sur des grappes de concentrateurs VPN dotées d'une accélération matérielle pour le chiffrement IPsec ou TLS.
+
+      Le processus débute lorsque l'agent lance son client VPN et procède à une authentification forte utilisant une carte à puce, un certificat machine et un MFA.
+
+      Le concentrateur effectue ensuite une vérification rigoureuse de l'identité de l'utilisateur ainsi que de la conformité du poste de travail.
+
+      Une fois ces étapes validées, le système attribue au poste une adresse issue d'un pool dédié pour permettre la connexion.
+
+   B. Sécurisation du flux et segmentation réseau.
+
+      Le trafic sortant du concentrateur est dirigé vers une VRF dédiée afin de garantir un cloisonnement efficace des flux.
+
+      Ce trafic traverse ensuite un pare-feu interne dont le rôle est de n'autoriser que les applications correspondant au profil spécifique de l'agent.
+
+      Cette approche permet de passer progressivement d'un modèle de VPN classique, qui place le poste dans le réseau interne, à un accès par application.
+
+      L'objectif est d'appliquer le principe du moindre privilège pour éviter qu'un poste compromis ne puisse voir l'ensemble du réseau.
+
+   C. Vulnérabilité des équipements de bordure.
+
+      Les concentrateurs sont considérés comme des équipements de bordure, ce qui en fait des cibles favorites pour les attaquants.
+
+      Dès qu'une faille de sécurité est publiée, ces équipements deviennent particulièrement exposés aux tentatives d'intrusion.
+
+      La réactivité est donc cruciale puisque la correction de ces vulnérabilités doit se compter en heures.
+
+      Il est impératif de prévoir une procédure de correction d'urgence pour assurer la protection de ces infrastructures critiques.
+
+III. EXIGENCES RÉGLEMENTAIRES ET CONFORMITÉ.
+
+   A. Cadre de référence ReCyF et qualifications ANSSI.
+
+      Le cadre ReCyF impose l'utilisation d'un canal chiffré et une authentification forte pour toute connexion établie depuis l'extérieur.
+
+      Cette réglementation interdit également l'usage d'équipements personnels pour les activités d'une entité essentielle.
+
+      Pour les systèmes d'information sensibles et ceux portant la mention Diffusion Restreinte, l'utilisation de produits qualifiés par l'ANSSI est obligatoire.
+
+   B. Calendrier de déploiement du MFA.
+
+      La feuille de route prévoit l'obligation du MFA pour tous les administrateurs d'ici la fin de l'année deux mille vingt-six.
+
+      Par la suite, l'extension de cette exigence de MFA concernera l'ensemble des SI selon la feuille de route deux mille vingt-six à deux mille vingt-sept.
+
+IV. SÉCURISATION DU POSTE DE TRAVAIL ET DE L'ADMINISTRATION.
+
+   A. Mesures de durcissement du poste nomade.
+
+      Le poste nomade doit présenter un haut niveau de sécurité avec un disque chiffré et un démarrage sécurisé.
+
+      Le VPN doit être toujours actif afin que le poste ne puisse jamais sortir sur internet sans passer par le ministère.
+
+      L'utilisateur ne doit disposer d'aucun droit d'administration sur sa machine.
+
+      Les mises à jour et l'EDR doivent rester actifs même lorsque l'agent est hors du réseau.
+
+   B. Protocoles de connexion et de gestion Wi-Fi.
+
+      Pour l'accès nomade, l'ANSSI préfère l'utilisation du protocole IPsec par rapport au TLS car les opérations cryptographiques s'exécutent dans le noyau.
+
+      L'utilisation du mode tunnel avec ESP est recommandée et les politiques rendant IPsec facultatif sont proscrites pour éviter les attaques par dégradation.
+
+      Côté Wi-Fi, l'infrastructure doit désactiver le WPS et privilégier le standard WPA3-Enterprise avec EAP par certificats.
+
+      Chaque réseau doit posséder son propre VLAN et son propre SSID, tandis que la PMF doit être activée en mode WPA2-Enterprise.
+
+      L'infrastructure peut utiliser une IGC pour permettre l'auto-enrôlement des certificats par les stratégies de groupe Windows.
+
+   C. Sécurisation de l'administration à distance via bastion.
+
+      L'administration ne doit jamais emprunter le même chemin que l'usage courant des agents.
+
+      Un administrateur en astreinte doit utiliser un accès distinct depuis un poste d'administration dédié.
+
+      La connexion doit impérativement passer par un bastion qui assure le traçage et l'enregistrement de toutes les sessions.
+
+V. HYGIÈNE ET PROTECTION DES TERMINAUX MOBILES.
+
+   A. Recommandations de l'ANSSI pour les smartphones.
+
+      Les utilisateurs doivent mettre à jour leurs appareils sans délai et effectuer des redémarrages réguliers pour évincer d'éventuels implants non persistants.
+
+      Le mode Isolement sur iOS est un mécanisme de durcissement recommandé pour les populations à risque afin de réduire la surface d'attaque des navigateurs et des messageries.
+
+      Il est nécessaire de limiter le nombre d'applications installées, les autorisations accordées ainsi que les interfaces sans fil pour réduire les portes d'entrée.
+
+      La séparation stricte entre les usages personnels et professionnels est fondamentale car les compromissions touchent principalement les téléphones personnels.
+
+   B. Gestion des risques liés aux environnements tiers.
+
+      Il ne faut jamais brancher un téléphone sur un chargeur ou un ordinateur inconnu pour bloquer les attaques par câble.
+
+      L'utilisation du Wi-Fi public doit être évitée afin de ne pas s'exposer à des réseaux piégés.
+
+      Pour garantir la confidentialité des échanges, il convient de sortir les appareils de la salle avant de tenir une conversation sensible.
+
+      Le mode avion est insuffisant car il n'empêche pas un logiciel espion d'enregistrer les discussions.
+
+VI. ENJEUX STRATÉGIQUES ET MISE EN ŒUVRE OPÉRATIONNELLE.
+
+   A. Continuité d'activité et dimensionnement des infrastructures.
+
+      L'accès distant constitue désormais une infrastructure critique pour la continuité d'activité du ministère. La crise sanitaire a prouvé que sans ces accès, les agents ne peuvent plus travailler.
+
+      Le dimensionnement des infrastructures doit être capable de supporter un confinement général. Les équipements doivent être dimensionnés pour accueillir cent pour cent des agents éligibles.
+
+      Pour garantir la résilience, la capacité doit être répartie sur les deux datacenters du ministère. Il est impératif de tester régulièrement ces équipements en charge.
+
+      Les concentrateurs VPN sont des équipements de bordure qui constituent des cibles favorites pour les attaquants. Une procédure de correction d'urgence doit être prévue dès qu'une faille est publiée.
+
+   B. Stratégie de transition vers l'accès par application.
+
+      Le ministère doit engager une transition progressive pour passer d'un modèle d'accès réseau global à un modèle d'accès par application. Cette évolution s'inscrit dans la logique du ZTNA.
+
+      Le modèle ZTNA permet de publier chaque application individuellement après avoir vérifié l'identité et l'état du poste. Cela garantit un accès minimal et un contexte vérifié à chaque connexion.
+
+      L'adoption du modèle SASE, apparu en deux mille dix-neuf, permet de regrouper dans le cloud la sécurité réseau et l'accès ZTNA. Cette approche pose toutefois la question de la souveraineté de la plateforme.
+
+      La sécurité de l'accès repose sur la conformité du poste de travail avant chaque connexion. Le poste doit disposer d'un disque chiffré, d'un démarrage sécurisé et d'un VPN toujours actif.
+
+      L'administration à distance doit suivre un chemin distinct de l'usage courant. Un administrateur doit passer par un poste dédié et un bastion qui trace et enregistre les sessions.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre le VPN classique qui place le poste dans le réseau interne avec le ZTNA qui publie chaque application individuellement. Le premier présente un risque majeur si le poste est compromis car l'attaquant peut voir tout le réseau.
+
+      Une nuance importante concerne le choix du protocole pour l'accès nomade où l'ANSSI préfère IPsec à TLS. Cela s'explique par le fait que les opérations cryptographiques s'exécutent dans le noyau, ce qui réduit la surface d'attaque.
+
+      L'accès distant ne doit pas être confondu avec l'administration qui doit emprunter un chemin distinct. Un administrateur doit utiliser un poste dédié et passer par un bastion pour tracer et enregistrer ses sessions.
+
+      Il est crucial de ne pas considérer le mode avion comme une protection absolue contre l'espionnage. Un logiciel espion peut continuer à enregistrer une conversation sensible même si l'appareil est en mode avion.
+
+      La sécurité de l'accès distant dépend directement de l'état du poste de travail. Le VPN doit être toujours actif pour empêcher le poste de sortir directement sur Internet sans passer par le ministère.
+
+EXEMPLES CITÉS.
+
+      Le modèle SASE est apparu en deux mille dix-neuf pour regrouper dans le cloud la sécurité réseau et l'accès ZTNA. Pour un ministère, cela soulève la question de la souveraineté de la plateforme qui voit passer tous les flux.
+
+      Les administrateurs devront utiliser le MFA pour tous d'ici la fin de l'année deux mille vingt-six, puis pour l'ensemble des SI. Cette mesure s'inscrit dans la feuille de route deux mille vingt-six à deux mille vingt-sept.
+
+      Pour garantir la continuité d'activité, les concentrateurs VPN doivent être dimensionnés pour cent pour cent des agents éligibles. Ces équipements doivent être répartis sur deux datacenters et testés en charge.
+
+      Concernant les téléphones mobiles, l'ANSSI recommande d'activer des durcissements comme le mode Isolement sur iOS. Cela permet de réduire la surface d'attaque des navigateurs et des messageries pour les populations à risque.

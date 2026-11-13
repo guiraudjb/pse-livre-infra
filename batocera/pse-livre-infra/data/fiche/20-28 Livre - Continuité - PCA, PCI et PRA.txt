@@ -1,0 +1,207 @@
+GESTION DE LA CONTINUITÉ D'ACTIVITÉ ET DE LA RÉSILIENCE INFORMATIQUE.
+
+LEXIQUE COMPLET.
+
+      Le PCA désigne le plan de continuité d'activité qui définit comment les missions d'une organisation continuent de s'assurer pendant une crise.
+
+      Le PCI désigne le plan de continuité informatique qui permet au système d'information de continuer à rendre les services prioritaires.
+
+      Le PRA désigne le plan de reprise d'activité qui définit comment redémarrer le système d'information après un arrêt.
+
+      Le DMIA ou RTO désigne la durée maximale d'interruption admissible qu'un service peut subir avant que l'impact ne soit critique.
+
+      Le PDMA ou RPO désigne la perte de données maximale admissible qu'une organisation peut accepter de perdre lors d'un incident.
+
+      Le BIA désigne le bilan d'impact sur l'activité qui permet de déterminer les indicateurs de continuité pour chaque mission.
+
+      L'ACMOSS désigne l'Agence des communications mobiles opérationnelles de sécurité et de secours, un établissement public créé en deux mille vingt-trois pour exploiter le Réseau Radio du Futur.
+
+      Le RRF désigne le Réseau Radio du Futur qui remplace les réseaux bas débit comme l'INPT pour offrir un réseau haut débit prioritaire et résilient.
+
+      L'OIV désigne un opérateur d'importance vitale, qui est une entreprise ou une administration dont l'activité est indispensable à la vie de la nation.
+
+      La règle 3-2-1 désigne la méthode de conservation de trois copies distinctes des données sur deux supports différents, dont au moins une copie hors ligne.
+
+      Le mode bouton rouge désigne un dispositif d'urgence permettant d'isoler immédiatement l'infrastructure de sauvegarde du reste du système d'information.
+
+COURS DÉTAILLÉ.
+
+I. LES TROIS PILIERS DE LA CONTINUITÉ.
+
+   A. Définitions et rôles du PCA, PCI et PRA.
+
+      Le PCA, ou plan de continuité d'activité, est le plan d'ensemble piloté par la direction et les métiers pour assurer la poursuite des missions prioritaires. Il prévoit des modes dégradés, des personnels clés, des locaux de repli et des procédures papier.
+
+      Le PCI, ou plan de continuité informatique, est porté par la DSI pour garantir que le SI continue de rendre les services prioritaires. Il repose sur des redondances, la capacité de secours, le télétravail et la bascule automatique entre les datacenters.
+
+      Le PRA, ou plan de reprise d'activité, est géré par la DSI avec les métiers pour permettre le redémarrage après un arrêt. Il définit l'ordre de relance, la restauration des données, la reconstruction et les procédures d'équipe.
+
+   B. Articulation et complémentarité des plans.
+
+      Le PCA constitue le cadre global tandis que le PCI et le PRA en sont les volets informatiques. Le PCI tente d'éviter l'interruption du service alors que le PRA sert à raccourcir la durée de l'arrêt quand celui-ci n'a pas pu être évité.
+
+      Les deux volets informatiques reposent impérativement sur la présence de sauvegardes intactes. Le PCI agit en amont pour maintenir la disponibilité et le PRA intervient en aval pour la reconstruction.
+
+      Le niveau de service est déterminé par deux indicateurs fixés avec les métiers à partir du bilan d'impact sur l'activité. Le DMIA ou RTO mesure la durée maximale d'interruption admissible et le PDMA ou RPO mesure la perte de données maximale admissible.
+
+      Le coût de la technique dépend de ces besoins, car un RPO nul et un RTO de quelques minutes nécessitent un mode actif-actif sur deux datacenters avec réplication synchrone. À l'inverse, un RPO de vingt-quatre heures et un RTO de quelques jours permettent une simple restauration depuis les sauvegardes.
+
+   C. L'impact du scénario rançongiciel.
+
+      Le scénario du rançongiciel bouleverse les plans classiques car, contrairement à une panne physique, les deux datacenters sont touchés simultanément. La réplication risque alors de recopier les données chiffrées par l'attaquant sur les deux sites.
+
+      Face à cette menace, il est nécessaire de disposer de sauvegardes hors d'atteinte de l'attaquant et de constituer un cœur de confiance reconstructible. Ce cœur comprend l'annuaire, le DNS, la PKI et les outils d'administration à partir d'éléments sains.
+
+      L'ANSSI recommande de préparer un plan de reconstruction du SI qui soit distinct du simple PRA de bascule. Ce plan doit inclure un ordre de reconstruction décidé à l'avance, mission par mission.
+
+      La gestion de la crise impose de prévoir des procédures dégradées pouvant durer plusieurs semaines et non seulement quelques heures. La résilience repose alors sur une stratégie de reconstruction complète et organisée.
+
+II. INDICATEURS DE PERFORMANCE ET PILOTAGE MÉTIER.
+
+   A. Les indicateurs DMIA (RTO) et PDMA (RPO).
+
+      Le DMIA ou RTO correspond à la durée maximale d'interruption admissible pour un service. Il répond à la question de savoir combien de temps le service peut être arrêté, comme quatre heures pour le paiement des dépenses ou cinq jours pour une application de statistiques.
+
+      Le PDMA ou RPO désigne la perte de données maximale admissible pour une mission donnée. Par exemple, ce besoin peut être de zéro pour les encaissements ou de vingt-quatre heures pour un outil documentaire.
+
+   B. Le bilan d'impact sur l'activité (BIA).
+
+      Le BIA est l'outil qui permet de fixer les valeurs de DMIA et de PDMA pour chaque mission. Il analyse les conséquences d'une interruption en observant ce qui se passe après une heure, un jour ou une semaine d'arrêt.
+
+      Cette démarche permet de déterminer les besoins de continuité et les ressources critiques. Ces ressources se répartissent en cinq catégories que sont les ressources humaines, les infrastructures, les systèmes d'information, les ressources intellectuelles et les fournisseurs externes.
+
+   C. Corrélation entre besoins métiers, technique et coût.
+
+      Le choix du niveau de continuité est un arbitrage économique car un RTO de quelques minutes coûte très cher par rapport à un RTO de quelques jours. Ces valeurs sont décidées par la direction et les métiers, et non par la DSI par défaut.
+
+      Un besoin de RPO nul avec un RTO de quelques minutes impose une technique d'actif-actif sur deux datacenters avec réplication synchrone. Un RPO de quelques minutes et un RTO de quelques heures nécessitent une réplication asynchrone vers un site de secours.
+
+      Enfin, un RPO de vingt-quatre heures avec un RTO de quelques jours peut être géré par une simple restauration depuis les sauvegardes. La disponibilité de quatre-vingt-dix-huit virgule sept pour cent peut paraître élevée mais représente encore près de cinq jours d'indisponibilité cumulée par an pour une application.
+
+III. MÉTHODOLOGIE DE CONSTRUCTION ET DE TEST.
+
+   A. La démarche de construction selon le SGDSN.
+
+      La construction du PCA selon la méthode du SGDSN repose sur l'engagement de la direction qui doit désigner un chef de projet et approuver le plan.
+
+      Le pilotage ne doit pas être confié uniquement au responsable informatique ou des services généraux car le PCA est une affaire de métiers et de gestion des risques.
+
+      La démarche commence par la définition du contexte et des activités essentielles en identifiant le périmètre et les processus clés via une fiche par processus.
+
+      Chaque fiche de processus doit préciser la criticité, les interdépendances ainsi que les ressources nécessaires au fonctionnement de la mission.
+
+   B. Les quatre étapes de la mise en œuvre.
+
+      La première étape consiste à définir les besoins de continuité en fixant le niveau de service minimum et la DMIA pour chaque mission.
+
+      Il faut ensuite identifier les ressources critiques réparties en cinq catégories, à savoir les ressources humaines, les infrastructures, les systèmes d'information, les ressources intellectuelles et les fournisseurs externes.
+
+      La troisième étape porte sur l'analyse des risques et des scénarios en adoptant une approche tous risques pour regrouper les risques résiduels en scénarios dimensionnants.
+
+      La quatrième étape concerne la définition de la stratégie de continuité et des moyens en choisissant les solutions de repli pour chaque ressource critique.
+
+      Enfin, la mise en œuvre et le maintien en condition opérationnelle nécessitent un plan approuvé, des exercices réguliers et des mises à jour constantes.
+
+   C. Les niveaux de tests et de validation.
+
+      Un plan qui n'est pas testé ne fonctionne pas, c'est pourquoi le ReCyF demande de tester les restaurations au moins une fois par an.
+
+      La progression type débute par une relecture du plan effectuée en équipe pour s'assurer de sa cohérence.
+
+      Le niveau suivant consiste en un test technique de restauration ciblant une application spécifique du système d'information.
+
+      On peut ensuite réaliser une bascule réelle d'un service entre deux datacenters pour valider la capacité de continuité informatique.
+
+      L'étape ultime est l'exercice de crise complet qui mobilise simultanément les métiers et la direction pour tester la résilience globale.
+
+IV. COMMUNICATIONS DE SECOURS ET RÉSEAUX RÉSILIENTS.
+
+   A. Procédures de communication en cas de panne.
+
+      Lors d'une cyberattaque, les outils classiques comme la téléphonie, la messagerie ou les applications peuvent devenir totalement inutilisables.
+
+      L'ANSSI recommande donc de tenir les numéros d'urgence sur papier pour pallier la chute des réseaux.
+
+      La continuité des missions repose sur l'anticipation de ces ruptures de communication.
+
+   B. Le Réseau Radio du Futur (RRF) et l'ACMOSS.
+
+      Le RRF est un réseau haut débit prioritaire et résilient qui remplace les anciens réseaux bas débit comme l'INPT ou les systèmes TETRAPOL.
+
+      L'ACMOSS est l'établissement public créé en deux mille vingt-trois sous la tutelle du ministère de l'Intérieur pour concevoir, déployer et exploiter ce nouveau réseau.
+
+      Ce réseau permet d'utiliser l'application SYRIUS qui offre la voix, la messagerie chiffrée, la vidéo en temps réel et la géolocalisation.
+
+      Le RRF intègre des mécanismes de priorité et de préemption pour réserver la capacité aux flux des secours en cas de congestion.
+
+      La phase de vérification de service régulier, appelée VSR, doit être achevée en novembre deux mille vingt-cinq pour marquer le passage à l'exploitation.
+
+      Les opérateurs d'importance vitale, ou OIV, pourront rejoindre ce réseau pour assurer la continuité de leurs activités.
+
+   C. Les réseaux maillés et messageries de secours.
+
+      Un réseau maillé ou mesh est une structure sans infrastructure où chaque appareil relaie les messages vers ses voisins de proche en proche.
+
+      L'application Bitchat utilise le protocole Nostr comme second transport de données lorsqu'une connexion internet est disponible.
+
+      Le trafic de Bitchat passe par défaut par le réseau d'anonymisation Tor grâce à l'utilisation de la bibliothèque Arti.
+
+      Pour assurer la confidentialité, l'application s'appuie sur le protocole Noise pour établir des sessions privées.
+
+      Le système limite la diffusion d'un message à sept sauts pour contrôler la propagation des données.
+
+V. CADRE DE RÉFÉRENCE ET ENJEUX STRATÉGIQUES.
+
+   A. Normes ISO, NIS deux et obligations réglementaires.
+
+      Le cadre de référence s'appuie sur la norme ISO vingt-deux mille trois cent un qui définit le système de management de la continuité d'activité.
+
+      Les entités essentielles sont soumises aux obligations de continuité, de plans de reprise et de gestion de crise par les directives NIS deux et le ReCyF.
+
+      Pour les administrations, la méthode de construction du PCA est dictée par le Guide PCA du SGDSN.
+
+      Le pilotage de cette démarche doit être porté par la direction et non uniquement par le responsable informatique ou des services généraux.
+
+   B. La stratégie nationale de résilience.
+
+      La stratégie nationale de résilience place la continuité des services publics et la continuité économique parmi ses deux priorités majeures depuis deux mille vingt-cinq.
+
+      Cette stratégie s'inscrit dans un effort global de protection des infrastructures et des missions essentielles de l'État.
+
+      Elle impose une approche de gestion des risques qui doit couvrir l'ensemble des scénarios dimensionnants pour garantir la résilience de la nation.
+
+   C. L'arbitrage économique de la disponibilité.
+
+      La continuité représente un choix économique où le coût technique dépend directement des indicateurs de service fixés par les métiers.
+
+      Un RTO de quelques minutes nécessite une infrastructure en actif-actif sur deux datacenters avec réplication synchrone, ce qui est très onéreux.
+
+      À l'inverse, un RTO de quelques jours peut être assuré par une simple restauration depuis les sauvegardes, ce qui coûte beaucoup moins cher.
+
+      Le cas de la DGFiP illustre l'importance de ces enjeux, car une disponibilité de quatre-vingt-dix-huit virgule sept pour cent laisse encore près de cinq jours d'indisponibilité cumulée par an pour une application.
+
+      Le niveau de service doit être décidé mission par mission par la direction afin d'éviter l'illusion d'un plan écrit mais jamais testé.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre le PCA qui est le plan d'ensemble piloté par la direction avec le PCI et le PRA qui sont les volets informatiques portés par la DSI.
+
+      Le PCI vise à éviter l'interruption de service tandis que le PRA intervient pour raccourcir la durée de l'arrêt quand le PCI a échoué.
+
+      Une confusion fréquente consiste à croire qu'un plan de bascule vers un second datacenter suffit face à un rançongiciel car la réplication peut avoir copié les données chiffrées.
+
+      Le choix des indicateurs DMIA et PDMA ne doit pas être fait par la DSI mais par les métiers après un bilan d'impact sur l'activité.
+
+      Un plan de continuité qui n'est pas testé régulièrement est considéré comme une illusion car il ne garantit aucune efficacité réelle.
+
+EXEMPLES CITÉS.
+
+      Pour le paiement des dépenses le DMIA peut être de quatre heures alors que pour une application de statistiques il peut atteindre cinq jours.
+
+      Un RPO nul et un RTO de quelques minutes nécessitent une technique d'actif-actif sur deux datacenters avec réplication synchrone.
+
+      Le cas de la DGFiP montre qu'une disponibilité de quatre-vingt-dix-huit virgule sept pour cent représente encore près de cinq jours d'indisponibilité cumulée par an.
+
+      Le réseau RRF remplace les réseaux bas débit comme l'ACROPOL ou l'ANTARES pour les forces de sécurité et les secours.
+
+      L'application SYRIUS installée sur les terminaux du RRF permet d'offrir la voix, la messagerie chiffrée, la vidéo en temps réel et la géolocalisation.

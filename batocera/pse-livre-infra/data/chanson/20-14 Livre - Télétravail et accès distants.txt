@@ -1,0 +1,47 @@
+TITRE : ACCÈS NOMADE
+
+[Intro]
+Écoute le flux, le réseau qui se déploie,
+La sécurité s'impose, elle dicte sa loi.
+
+[Couplet 1]
+Le VPN classique crée un tunnel chiffré,
+Mais si le poste est compromis, le réseau est exposé.
+Le ZTNA arrive, application par application,
+Vérification de l'identité, de l'état, sans exception.
+Le SASE en deux mille dix-neuf regroupe tout dans le cloud,
+Mais pour un ministère, la souveraineté est un enjeu de haut.
+Le ReCyF impose le canal chiffré et le MFA,
+Pour chaque connexion externe, la règle ne faiblit pas.
+
+[Refrain]
+Zéro confiance, accès minimal,
+Le moindre privilège, le rempart vital.
+
+[Couplet 2]
+L'ANSSI recommande l'IPsec avec le mode tunnel ESP,
+Car dans le noyau, la cryptographie est mieux protégée.
+Pour le Wi-Fi, WPA3-Enterprise avec certificats EAP,
+Et la PMF activée pour que la trame soit en sécurité.
+D'ici deux mille vingt-six, le MFA pour les administrateurs,
+Puis pour tous les SI, selon la feuille de route en profondeur.
+Le poste nomade doit avoir son disque chiffré, son EDR,
+Et le VPN toujours actif pour ne jamais sortir sans l'ordre.
+
+[Refrain]
+Zéro confiance, accès minimal,
+Le moindre privilège, le rempart vital.
+
+[Pont]
+L'administration ne suit pas le chemin des agents,
+Un bastion, un poste dédié, pour des sessions enregistrées.
+Sur smartphone, le mode Isolement sur iOS pour les risques,
+Évitez les chargeurs inconnus et les réseaux qui s'immiscent.
+
+[Refrain final]
+Zéro confiance, accès minimal,
+Le moindre privilège, le rempart vital.
+
+[Outro]
+Cent pour cent des agents, deux datacenters pour la continuité,
+La sécurité est une hygiène, une constante nécessité.

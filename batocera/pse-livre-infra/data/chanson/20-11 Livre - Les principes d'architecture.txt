@@ -1,0 +1,47 @@
+TITRE : LE NOUVEAU PÉRIMÈTRE
+
+[Intro]
+Écoute le rythme du système qui change de visage,
+L'ancien monde s'effondre, on entre dans l'ère du partage.
+
+[Couplet 1]
+Le modèle du château fort, c'était l'illusion du rempart,
+Un pare-feu pour une enceinte où l'attaquant fait son départ.
+En deux mille dix-sept, WannaCry et NotPetya ont tout brisé,
+Le partage Windows, par les menaces, s'est laissé envahir et glisser.
+Mais le NIST en deux mille vingt, dans le document SP huit cent vingt-sept,
+A dessiné le Zero Trust pour que la menace soit enfin de retrait.
+Forrester l'avait dit en deux mille dix, le concept est déjà là,
+Ne crois plus à l'intérieur, car l'accès ne se donne pas par l'éclat.
+
+[Refrain]
+Zéro confiance, l'identité est le nouveau périmètre,
+Vérifier chaque accès, pour ne plus subir l'hémorragie de l'empire.
+
+[Couplet 2]
+L'ANSSI nous prévient, ce n'est pas un produit, c'est un modèle,
+Une défense en profondeur pour que la sécurité soit réelle.
+L'ABAC calcule l'accès, l'identité devient la cible de l'ennemi,
+L'annuaire est le cœur, le nouveau centre de l'insomnie.
+Micro-segmenter par l'identité, pour ne plus laisser les flux dériver,
+Un poste de comptabilité ne doit pas vers les ressources humaines s'égarer.
+Utilise le ZTNA, le MFA, le contrôle par attributs et le moindre privilège,
+Pour que la micro-segmentation devienne ton plus solide siège.
+
+[Refrain]
+Zéro confiance, l'identité est le nouveau périmètre,
+Vérifier chaque accès, pour ne plus subir l'hémorragie de l'empire.
+
+[Pont]
+L'urbanisation du SI, c'est la ville qui évolue quartier par quartier,
+Le TOGAF guide la marche, sans jamais tout devoir reconstruire ou raser.
+De la SOA aux microservices, des API aux conteneurs agiles,
+La cartographie est la clé pour que nos défenses soient fertiles.
+
+[Refrain final]
+Zéro confiance, l'identité est le nouveau périmètre,
+Vérifier chaque accès, pour ne plus subir l'hémorragie de l'empire.
+
+[Outro]
+Ne te méfie pas de la centralisation, du moteur de décision qui peut faillir,
+Planifie ta trajectoire, pour que ton système puisse enfin s'épanouir.

@@ -1,0 +1,47 @@
+TITRE : LA SENTINELLE DU SI
+
+[Intro]
+Entre l'exploitation et la sécurité, le rythme s'accélère,
+Écoute le flux, le signal, l'alerte qui s'éclaire.
+
+[Couplet 1]
+Le SOC qualifie l'alerte, le SIEM stocke et corréle,
+L'EDR sur le poste, le NDR au réseau qui défile.
+Le CERT-FR partage les marqueurs, le CSIRT coordonne la réponse,
+Pendant que le PDIS détecte et que le PRIS l'incident enfonce.
+Le SNMP surveille l'équipement, l'agent expose sa valeur,
+Mais en version un ou deux c, le mot de communauté est un malheur.
+Passe en version trois, chiffre et authentifie le flux,
+Pour que la supervision d'exploitation ne soit jamais déçue.
+
+[Refrain]
+Corréler les signaux, anticiper la menace,
+Détecter avant l'impact, que rien ne nous dépasse.
+
+[Couplet 2]
+L'ANSSI a vu la DGFiP, en deux mille vingt-six, le constat,
+Onze gigaoctets exfiltrés, quatre jours de silence et de dégâts.
+Sept semaines pour découvrir la fuite, un portail non supervisé,
+Le ReCyF impose trois mois de journaux pour une entité essentielle protégée.
+Vingt-quatre heures pour traiter l'alerte, c'est la règle du cadre,
+Mais six à douze mois de stockage évitent que l'enquête ne s'égare.
+De l'annuaire au VPN, du bastion au cloud, trace l'administration,
+Pour que la chaîne de détection ne subisse aucune interruption.
+
+[Refrain]
+Corréler les signaux, anticiper la menace,
+Détecter avant l'impact, que rien ne nous dépasse.
+
+[Pont]
+La QoS priorise les flux, évite la gigue et la perte,
+L'IA apprend le normal, pour que la panne ne soit pas offerte.
+Signaux faibles, connexions nocturnes, IP étrangères en mouvement,
+L'intelligence artificielle croise les indices avec discernement.
+
+[Refrain final]
+Corréler les signaux, anticiper la menace,
+Détecter avant l'impact, que rien ne nous dépasse.
+
+[Outro]
+De l'alerte à la crise, la détection est le maillon,
+Gardez la maîtrise des journaux, restez sous haute tension.

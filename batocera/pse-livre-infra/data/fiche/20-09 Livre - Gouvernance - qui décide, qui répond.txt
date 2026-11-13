@@ -1,0 +1,227 @@
+GOUVERNANCE, GESTION DE PROJET ET PILOTAGE DES SERVICES DU SYSTÈME D'INFORMATION DE L'ÉTAT.
+
+LEXIQUE COMPLET.
+
+      ARIANE désigne l'Autorité nationale pour l'IA et le numérique de l'État qui remplace la DINUM le premier janvier deux mille vingt-sept.
+
+      EBIOS Risk Manager désigne la méthode de référence de l'ANSSI pour l'analyse de risque qui combine une approche par conformité et une approche par scénarios.
+
+      ITIL désigne un référentiel de bonnes pratiques pour la gestion des services informatiques.
+
+      La MOA désigne la maîtrise d'ouvrage qui est le métier exprimant le besoin, portant le budget et décidant du résultat.
+
+      La MOE désigne la maîtrise d'œuvre qui est la DSI ou le prestataire chargé de concevoir, réaliser et livrer la solution.
+
+      Le SLA désigne l'accord de niveau de service conclu avec les utilisateurs ou les clients.
+
+      Le TCO désigne le coût total de possession qui inclut l'exploitation, la maintenance, la sécurité et la sortie d'un système.
+
+      Le SecNumCloud désigne le label de l'ANSSI qui qualifie les offres d'informatique en nuage de confiance.
+
+      La PSSIE désigne la politique de sécurité des systèmes d'information de l'État fixée par la circulaire n° 5725/SG du dix-sept juillet deux mille quatorze.
+
+      Le RGS désigne le référentiel qui fixe les règles de sécurité pour les échanges électroniques des autorités administratives.
+
+COURS DÉTAILLÉ.
+
+I. LA GOUVERNANCE NUMÉRIQUE DE L'ÉTAT ET LA RÉFORME ARIANE.
+
+   A. Les trois chaînes de responsabilité : numérique, sécurité et métier.
+
+      La gouvernance repose sur trois chaînes distinctes qui doivent impérativement communiquer pour gérer les risques. La chaîne numérique, portée par ARIANE, le secrétaire général et les DSI, est chargée de construire le SI et d'arbitrer les investissements.
+
+      La chaîne de la sécurité des SI est assurée par le SGDSN, l'ANSSI, la HFDS et les RSSI pour fixer les règles et gérer les incidents. Elle a pour mission de contrôler et d'homologuer les systèmes de l'État.
+
+      La chaîne métier regroupe le ministre, les directeurs généraux et les chefs de service qui expriment les besoins. Ces derniers sont responsables de l'acceptation des risques et de la continuité de l'activité.
+
+      La difficulté majeure réside dans le fait que chaque chaîne ne perçoit qu'une partie du risque. L'homologation et la gestion de crise constituent les deux moments clés où ces trois acteurs doivent décider ensemble.
+
+   B. La réforme de deux mille vingt-six et la création d'ARIANE.
+
+      La gouvernance a été bouleversée par des attaques majeures, notamment l'intrusion à l'ANTS en avril deux mille vingt-six touchant onze virgule sept millions de comptes. Le gouvernement constatait alors une moyenne de trois vols de données par jour en France.
+
+      Le trente avril deux mille vingt-six, le Premier ministre annonce la création d'une autorité numérique de l'État avec deux cents millions d'euros de France deux mille trente. Dès deux mille vingt-sept, cinq pour cent des budgets numériques ministériels seront consacrés à la cybersécurité.
+
+      La fusion DINUM-DITP est abandonnée entre mai et juin deux mille vingt-six au profit de deux directions spécialisées. Les nouveaux directeurs entrent en fonction le vingt-quatre juin deux mille vingt-six.
+
+      Le premier janvier deux mille vingt-sept, l'autorité ARIANE remplace la DINUM pour devenir l'Autorité nationale pour l'IA et le numérique de l'État. Elle agit comme le directeur technique de l'État en fixant les standards et les infrastructures communes.
+
+      ARIANE assure la cohérence des investissements, réduit les dépendances et valide les nominations des responsables numériques ministériels. Elle intervient également dans le suivi des grands projets dépassant quinze millions d'euros.
+
+   C. Le rôle de l'ANSSI et la réorganisation du ministère des Armées.
+
+      L'ANSSI reste distincte d'ARIANE en étant rattachée au SGDSN. Elle a pour mission d'auditer les systèmes et de répondre aux incidents sans construire les SI des ministères.
+
+      Le ministère des Armées illustre la complexité de l'empilement des acteurs avec la création de la DIRISI, du COMCYBER, de la DGNUM, de l'AND et de l'AMIAD. Cette accumulation a souvent brouillé les responsabilités et freiné les décisions de souveraineté.
+
+      La réforme ORGANUM a permis de simplifier cette structure en créant le Commissariat au numérique de défense le premier septembre deux mille vingt-cinq. Ce nouveau pôle réunit la DGNUM, la DIRISI et l'AND.
+
+      L'AMIAD est également appelée à rejoindre ce Commissariat au numérique de défense pour renforcer la cohérence de la défense numérique.
+
+II. LES INSTANCES ET RÉFÉRENTIELS DE GOUVERNANCE MINISTÉRIELLE.
+
+   A. Les instances de décision et de contrôle au sein d'un ministère.
+
+      Le comité stratégique du numérique réunit le secrétaire général et les directeurs généraux pour décider du schéma directeur, du portefeuille de projets, du budget et des risques majeurs.
+
+      Le comité de sécurité numérique est composé de la HFDS, de la FSSI, du RSSI et de la DSI pour définir la feuille de route cyber, suivre les écarts ReCyF et gérer les incidents.
+
+      Les commissions d'homologation sont chargées par l'autorité d'homologation par SI de l'acceptation des risques résiduels.
+
+      Le comité d'architecture regroupe les architectes, les urbanistes et le RSSI afin de garantir la conformité des projets au cadre technique.
+
+      Le comité des changements, qui s'appuie sur les principes d'ITIL, assure la planification des mises en production.
+
+   B. Les référentiels de management et de sécurité (COBIT, ITIL, ISO, EBIOS).
+
+      Le référentiel COBIT deux mille dix-neuf de l'ISACA distingue la gouvernance, qui consiste à évaluer, diriger et surveiller, du management, qui sert à aligner, construire, délivrer et surveiller.
+
+      La norme ITIL quatre est dédiée à la gestion des services informatiques et prévoit que le comité des changements devienne consultatif avec une autorisation décentralisée.
+
+      La norme ISO/IEC vingt-sept mille un définit le système de management de la sécurité de l'information et repose sur une démarche d'amélioration continue.
+
+      La méthode EBIOS Risk Manager de l'ANSSI est la méthode de référence pour l'analyse de risque et sert de base à l'homologation.
+
+      La norme ISO vingt-deux mille trois cent un est utilisée pour le management de la continuité d'activité, notamment dans son chapitre vingt-huit.
+
+   C. L'analyse de risque avec la méthode EBIOS Risk Manager.
+
+      La méthode EBIOS Risk Manager de l'ANSSI part des missions pour descendre vers les composants techniques en combinant une approche par conformité et une approche par scénarios.
+
+      Le premier atelier de cadrage et de socle permet d'identifier les missions, les valeurs métier, les biens supports, les événements redoutés et le socle de sécurité existant.
+
+      Les ateliers suivants permettent d'identifier les sources de risque, de construire des scénarios stratégiques incluant l'écosystème, puis des scénarios opérationnels détaillant les modes opératoires techniques.
+
+      Le dernier atelier concerne le traitement du risque pour définir les mesures de sécurité et le niveau de risque résiduel accepté par la direction.
+
+      La démarche est rythmée par un cycle stratégique revu tous les trois ans et un cycle opérationnel revu chaque année selon les incidents et les vulnérabilités.
+
+III. LA CONDUITE ET LE PILOTAGE DES PROJETS INFORMATIQUES.
+
+   A. Rôles et responsabilités : MOA, MOE et instances de pilotage.
+
+      La maîtrise d'ouvrage, ou MOA, représente le métier qui exprime le besoin, porte le budget et décide de la recette finale tout en restant propriétaire du résultat.
+
+      La maîtrise d'œuvre, ou MOE, correspond à la DSI ou au prestataire chargé de concevoir, de réaliser et de livrer la solution informatique.
+
+      Le comité de pilotage, ou COPIL, est l'instance qui arbitre le périmètre, le budget et le calendrier en réunissant les directeurs concernés.
+
+      Le comité de suivi ou de projet assure le suivi quotidien de l'avancement, des risques et des actions à un rythme hebdomadaire ou mensuel.
+
+      Le chef de projet coordonne l'effort au quotidien, tient le planning et assure la remontée des alertes nécessaires au bon déroulement des opérations.
+
+      Une charte ou lettre de mission doit être établie dès le départ pour fixer l'objectif, le périmètre, les rôles et les critères de succès du projet.
+
+   B. Méthodes de gestion de projet : cycle en V versus méthodes agiles.
+
+      Le cycle en V enchaîne les phases d'expression du besoin, de spécification, de conception et de réalisation avant de passer aux tests d'intégration et de recette.
+
+      Cette méthode convient aux besoins stables et contractuels, mais elle présente le risque de l'effet tunnel où le métier ne découvre le résultat qu'après plusieurs mois.
+
+      Les méthodes agiles comme Scrum ou Kanban privilégient des livraisons par itérations courtes de deux à quatre semaines pour fournir un produit utilisable.
+
+      Dans le cadre de Scrum, le product owner est responsable de la priorisation du carnet de produit, appelé backlog, tandis que l'équipe s'engage sur chaque sprint.
+
+      Chaque itération agile se clôture par une revue et une rétrospective afin de permettre au métier de valider ou de réorienter le produit.
+
+      Les référentiels classiques comme le PMBOK ou PRINCE2 restent utiles pour le découpage du travail en lots via le WBS ou le suivi du chemin critique par le diagramme de Gantt.
+
+   C. Contrôle et bonnes pratiques pour les grands projets.
+
+      Les échecs des projets numériques de l'État sont rarement d'ordre technique mais résultent souvent d'un périmètre trop large ou d'un pilotage métier trop faible.
+
+      Pour les projets dépassant quinze millions d'euros depuis mars deux mille vingt-six, l'avis conforme de la DINUM est désormais obligatoire pour garantir la cohérence.
+
+      Le suivi de ces investissements importants s'effectue via le panorama des grands projets pour assurer un contrôle rigoureux de l'utilisation des fonds.
+
+      La recommandation fondamentale consiste à privilégier des lots courts et à livrer un produit minimal le plus tôt possible pour limiter les risques.
+
+      La sécurité doit être intégrée dès la phase de cadrage du projet, notamment par l'anticipation des processus d'homologation.
+
+IV. LA GESTION DES SERVICES ET L'ALIGNEMENT STRATÉGIQUE.
+
+   A. Le référentiel ITIL et les processus de gestion des services.
+
+      Une fois en production, un système devient un service rendu à des utilisateurs et sa gestion s'appuie sur le référentiel ITIL. Ce cadre décrit les bonnes pratiques de gestion des services informatiques, également reprises dans la norme ISO/IEC vingt mille.
+
+      La gestion des incidents vise à rétablir le service au plus vite, tandis que la gestion des problèmes cherche la cause racine des incidents répétés. La base des erreurs connues, ou KEDB, permet de conserver les solutions de contournement pour traiter les causes de compromission.
+
+      La gestion des changements permet d'autoriser, de planifier et de tracer toute modification via un comité consultatif des changements, le CAB. Un changement non tracé peut constituer une dérive ou une compromission, alors que la gestion des mises en production assure une livraison contrôlée intégrant les tests de sécurité.
+
+      La gestion des configurations repose sur la tenue de la base des éléments de configuration, la CMDB, dont l'inventaire est indispensable au MCS et à la gestion de crise. La gestion des niveaux de service permet de négocier et de suivre les engagements de disponibilité et de délais de correction.
+
+      Le centre de services agit comme le point de contact unique des utilisateurs et constitue le premier capteur des hameçonnages signalés. Enfin, la gestion des incidents peut servir de passerelle vers le SOC si un événement est identifié comme une attaque.
+
+   B. Les niveaux d'engagement de service (SLA, OLA, SLO).
+
+      Les engagements de service se déclinent en trois niveaux distincts pour assurer la qualité de la prestation numérique. Ces niveaux permettent de structurer les responsabilités entre les différents acteurs de la chaîne de service.
+
+      L'accord de niveau de service, ou SLA, est conclu avec les utilisateurs ou les clients pour définir les attentes de service. Il constitue le premier niveau d'engagement contractuel ou opérationnel envers les bénéficiaires finaux.
+
+      L'accord de niveau opérationnel, ou OLA, est établi entre les différentes équipes internes pour coordonner les actions nécessaires au service. Il garantit que les sous-ensembles techniques collaborent efficacement pour atteindre les objectifs globaux.
+
+      Les objectifs de niveau de service, nommés SLO, sont des mesures précises basées sur des indicateurs comme la disponibilité ou les délais de résolution. Ils permettent de piloter concrètement la performance technique au quotidien.
+
+      Pour préciser les responsabilités de chaque activité, on utilise une matrice RACI. Cette méthode définit qui réalise, qui approuve, qui est consulté et qui est informé pour chaque tâche de gestion.
+
+   C. La gouvernance stratégique et le pilotage par le coût (TCO, ROI).
+
+      Au-dessus de l'ITSM, la gouvernance des SI assure l'alignement du numérique sur la stratégie globale de l'organisation. La norme ISO/IEC trente-huit mille cinq cents fixe les responsabilités de la direction dans ce processus de pilotage.
+
+      Le référentiel COBIT est utilisé par les auditeurs pour fournir un cadre de contrôle de la gouvernance. Parallèlement, le schéma directeur traduit la stratégie en un programme d'actions pluriannuel pour l'institution.
+
+      Les décisions stratégiques s'appuient sur le calcul du coût total de possession, ou TCO. Ce montant inclut non seulement l'acquisition, mais aussi l'exploitation, la maintenance, la sécurité et la sortie du système.
+
+      Le retour sur investissement, ou ROI, est également un élément clé pour justifier les choix technologiques et financiers. Ces indicateurs permettent de s'assurer que les investissements numériques servent les objectifs de l'État.
+
+      Une bonne gouvernance se manifeste par un budget qui suit le risque, avec notamment cinq pour cent des budgets numériques consacrés à la cybersécurité dès deux mille vingt-sept. Elle garantit aussi que les décisions sont tracées, précisant qui a accepté quel risque et pour quelle durée.
+
+V. INDICATEURS DE PERFORMANCE ET ENJEUX POUR LA DIRECTION.
+
+   A. Les signes d'une gouvernance efficace.
+
+      Une gouvernance numérique de qualité se reconnaît d'abord par le fait que le risque numérique est traité comme un véritable risque métier. Les enjeux sont ainsi présentés au comité de direction à l'aide d'indicateurs qui sont compréhensibles par les décideurs.
+
+      Le second signe d'une gestion efficace est que le budget suit directement la réalité du risque identifié. Cela se traduit par l'allocation de cinq pour cent des budgets numériques ministériels à la cybersécurité dès deux mille vingt-sept.
+
+      Enfin, une bonne gouvernance garantit que toutes les décisions sont tracées de manière rigoureuse. Il est essentiel de savoir précisément qui a accepté quel risque, à quel moment et pour quelle durée.
+
+   B. Les indicateurs clés pour le comité de direction.
+
+      La maîtrise du risque accepté peut être mesurée par la part des SI homologués ainsi que par le suivi des homologations expirées. Cela permet de vérifier la validité des autorisations de fonctionnement.
+
+      La capacité de réaction de l'organisation s'évalue par le délai médian d'application des correctifs critiques sur les équipements exposés. Un délai court est un gage de réactivité face aux vulnérabilités.
+
+      L'avancement des échéances pour la période deux mille vingt-six à deux mille vingt-huit se surveille via la part des administrateurs et des SI utilisant le MFA. La capacité réelle de reprise est quant à elle mesurée par la part des applications ayant testé leur restauration dans l'année.
+
+      Le pilotage doit aussi intégrer la dette technologique et la capacité de détection. On utilise pour cela la part des composants hors support et le taux de couverture du SOC.
+
+   C. Exemple de pilotage par les indicateurs : le cas de la DGFiP.
+
+      Le service du numérique de la DGFiP constitue un exemple concret de pilotage par les indicateurs. Il gère un portefeuille important comprenant environ sept cent quatre-vingt-cinq applications.
+
+      La direction utilise des indicateurs publics pour suivre sa performance. Elle surveille notamment la conformité technologique et la part des applications hébergées en cloud.
+
+      La disponibilité des applications est un indicateur majeur qui atteint quatre-vingt-dix-huit virgule sept pour cent. Ces données servent de cible au contrat d'objectifs de la direction pour assurer la continuité du service.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre la gouvernance numérique portée par ARIANE avec la sécurité des SI gérée par l'ANSSI. ARIANE agit comme le directeur technique de l'État pour les infrastructures et les standards, tandis que l'ANSSI audite et répond aux incidents sans construire les systèmes.
+
+      Une confusion courante réside dans la distinction entre le management et la gouvernance selon le référentiel COBIT deux mille dix-neuf. La gouvernance consiste à évaluer, diriger et surveiller, alors que le management sert à aligner, construire, délivrer et surveiller.
+
+      Il est crucial de ne pas confondre la maîtrise d'ouvrage qui est le métier propriétaire du résultat avec la maîtrise d'œuvre qui est la DSI ou le prestataire chargé de la réalisation. La MOA exprime le besoin et porte le budget, tandis que la MOE conçoit et livre la solution.
+
+      Dans la gestion des services ITIL, il faut distinguer la gestion des incidents qui vise le rétablissement rapide du service de la gestion des problèmes qui cherche la cause racine. Un incident peut être le signe d'une attaque, mais la gestion des problèmes traite la vulnérabilité de fond.
+
+      L'analyse de risque avec EBIOS Risk Manager ne doit pas être réduite à une simple liste d'outils techniques. Elle doit partir des missions et des valeurs métier pour descendre vers les composants techniques via des scénarios stratégiques et opérationnels.
+
+EXEMPLES CITÉS.
+
+      La réforme de deux mille vingt-six est marquée par l'annonce du Premier ministre le trente avril deux mille vingt-six qui prévoit deux cents millions d'euros de France deux mille trente et l'affectation de cinq pour cent des budgets numériques ministériels à la cybersécurité dès deux mille vingt-sept.
+
+      L'intrusion à l'ANTS en avril deux mille vingt-six a touché environ onze virgule sept millions de comptes, illustrant la nécessité de la création d'ARIANE qui remplacera la DINUM le premier janvier deux mille vingt-sept.
+
+      Le ministère des Armées a connu une réorganisation majeure avec la création du Commissariat au numérique de défense le premier septembre deux mille vingt-cinq pour regrouper la DGNUM, la DIRISI et l'AND.
+
+      La DGFiP pilote un portefeuille de sept cent quatre-vingt-cinq applications avec un indicateur de disponibilité de quatre-vingt-dix-huit virgule sept pour cent pour ses services numériques.

@@ -1,0 +1,53 @@
+TITRE : LE RYTHME DU MCS
+
+[Intro]
+Écoute le battement, le flux, la vigilance constante,
+La sécurité n'est pas un projet, c'est une lutte permanente.
+
+[Couplet 1]
+Le MCO gère la panne, la capacité et les versions,
+Mais le MCS maintient la protection contre les intrusions.
+Un système sûr aujourd'hui ne le sera plus dans six mois,
+Les failles naissent chaque jour, elles imposent leur loi.
+Le CERT-FR et l'ANSSI publient les alertes et les avis,
+Pour que l'ombre des vulnérabilités ne devienne pas un défi.
+Le ReCyF exige l'application sans délai sur l'exposé,
+Pour que les équipements internet ne soient jamais terrassés.
+
+[Refrain]
+Maintien en conditions de sécurité,
+Pour que le niveau reste constant et protégé.
+Pas de projet ponctuel, mais un budget récurrent,
+Un travail continu, un combat vigilant.
+
+[Couplet 2]
+Si la faille est exploitée et l'équipement exposé,
+En quelques heures à quarante-huit heures, il faut l'isoler.
+Pour l'annuaire ou la virtualisation, composant sensible,
+Quelques jours suffisent pour rendre la menace invisible.
+Le durcissement suit l'ANSSI ou les guides du CIS,
+Avec Ansible ou OpenSCAP, on évite les crises.
+Les PASSI testent l'architecture et l'intrusion,
+Pour traquer la porte dérobée comme sur XZ Utils, sans confusion.
+
+[Refrain]
+Maintien en conditions de sécurité,
+Pour que le niveau reste constant et protégé.
+Pas de projet ponctuel, mais un budget récurrent,
+Un travail continu, un combat vigilant.
+
+[Pont]
+De l'infrastructure en code à la chaîne CI/CD,
+On corrige les dépendances pour garantir l'intégrité.
+L'accès des prestataires doit être dédié et journalisé,
+Sous l'œil de l'ANSSI et de l'opération REACTIV, bien surveillé.
+
+[Refrain final]
+Maintien en conditions de sécurité,
+Pour que le niveau reste constant et protégé.
+Pas de projet ponctuel, mais un budget récurrent,
+Un travail continu, un combat vigilant.
+
+[Outro]
+Anticiper dès la conception, c'est l'économie du risque,
+Le MCS est le bouclier, le rempart face à l'invisible et au disque.

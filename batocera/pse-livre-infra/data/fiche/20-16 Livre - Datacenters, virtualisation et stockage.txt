@@ -1,0 +1,235 @@
+DATACENTERS, VIRTUALISATION, STOCKAGE ET SYSTÈMES SERVEURS.
+
+LEXIQUE COMPLET.
+
+      Le PUE désigne le rapport entre l'énergie totale consommée par un datacenter et l'énergie utilisée par les équipements informatiques.
+
+      Le RAID désigne un système de répartition des données sur plusieurs disques pour assurer la performance et la tolérance aux pannes.
+
+      Le sigle SAN désigne un réseau de stockage en mode bloc où les serveurs voient des volumes comme des disques locaux.
+
+      Le sigle NAS désigne un système de stockage en réseau qui partage des dossiers sur le réseau IP en mode fichier.
+
+      Le sigle DAS désigne un stockage en attachement direct qui relie des disques internes ou une boîte à un seul serveur.
+
+      L'hyperviseur désigne le logiciel qui permet de faire tourner plusieurs machines virtuelles sur un serveur physique.
+
+      L'ANSSI désigne l'organisme qui émet des recommandations pour le durcissement des systèmes et de la virtualisation.
+
+      Le sigle LVM désigne un système permettant de découper et d'agrandir des volumes logiques.
+
+      Le sigle SMB désigne un protocole utilisé pour le partage de fichiers entre les systèmes.
+
+      Le sigle NFS désigne un protocole de partage de fichiers utilisé principalement par les systèmes Linux.
+
+      Le sigle MFA désigne un mécanisme de sécurité qui doit être utilisé pour l'administration des consoles de virtualisation.
+
+      Le sigle LTO désigne une technologie d'archivage sur bande utilisée pour garder des copies à bas coût.
+
+COURS DÉTAILLÉ.
+
+I. L'INFRASTRUCTURE PHYSIQUE DU DATACENTER.
+
+   A. Niveaux de robustesse Tier et efficacité énergétique PUE.
+
+      La robustesse d'un datacenter est classée selon les niveaux Tier de l'Uptime Institute. Ces niveaux définissent la redondance des équipements et la capacité à effectuer de la maintenance sans arrêt.
+
+      Le Tier I ne propose aucune redondance et ne permet pas la maintenance sans arrêt. Le Tier II dispose d'équipements redondés avec un seul chemin, mais sans possibilité de maintenance sans interruption.
+
+      Le Tier III offre plusieurs chemins avec un seul actif et permet la maintenance sans arrêt. Le Tier IV propose plusieurs chemins actifs avec une tolérance aux pannes, permettant la maintenance même en cas de panne.
+
+      L'efficacité énergétique d'un datacenter se mesure par le PUE, qui est le rapport entre l'énergie totale et l'énergie des équipements informatiques. Un PUE de un virgule trois est considéré comme bon, tandis que les vieilles salles dépassent souvent deux.
+
+   B. Rationalisation et mutualisation des centres informatiques.
+
+      L'État comptait plus de cent trente centres informatiques principaux il y a une dizaine d'années. Une rationalisation est en cours pour privilégier quelques sites mutualisés et le cloud interne.
+
+      Ce passage vers des sites mutualisés constitue un levier majeur pour la sécurité, le coût et la sobriété. Le cloud interne permet d'offrir en libre-service des machines, du stockage et des plateformes.
+
+      La DGFiP opère le cloud interne NUBO qui accueille environ cinq cents projets de quinze ministères. Elle vise trente pour cent de ses applications hébergées en cloud fin deux mille vingt-sept, contre seize pour cent aujourd'hui.
+
+      Ce déploiement vers le cloud est lié à la fin de la reconstitution de la dette technique. Le cloud interne permet de disposer de socles standardisés pour réduire la dette et assurer la souveraineté.
+
+II. STRATÉGIES DE HAUTE DISPONIBILITÉ ET RÉPLICATION.
+
+   A. Modèles actif-actif et actif-passif.
+
+      Le modèle actif-actif permet aux deux datacenters de servir les usagers simultanément. Ce fonctionnement offre une bascule quasi transparente pour les utilisateurs.
+
+      Ce mode impose toutefois une réplication synchrone et nécessite des applications spécifiquement conçues pour cette architecture.
+
+      Le modèle actif-passif repose sur un site principal et un site de secours. Cette configuration est plus simple à mettre en œuvre que le modèle actif-actif.
+
+      La contrainte majeure de ce modèle réside dans une bascule plus longue et la nécessité de tester régulièrement le site de secours.
+
+   B. Réplication synchrone versus asynchrone.
+
+      La réplication synchrone n'acquitte une écriture qu'une fois celle-ci copiée sur les deux sites. Elle garantit ainsi l'absence de perte de données.
+
+      Cette méthode impose une faible latence et limite la distance entre les sites à quelques dizaines de kilomètres au plus.
+
+      La réplication asynchrone permet de tolérer de plus longues distances entre les datacenters. Elle accepte cependant la perte de quelques secondes ou minutes de données en cas de sinistre.
+
+   C. Importance cruciale de la sauvegarde.
+
+      La réplication a pour fonction de recopier les données mais elle recopie aussi les erreurs et le chiffrement par un rançongiciel.
+
+      Il est impératif de comprendre que la réplication ne remplace jamais la sauvegarde.
+
+      Les sauvegardes doivent être indépendantes de la plateforme virtualisée pour survivre à la perte de l'hyperviseur.
+
+III. VIRTUALISATION ET CLOUD INTERNE.
+
+   A. Couches technologiques : hyperviseur, conteneurs et stockage.
+
+      L'hyperviseur constitue la couche fondamentale qui permet de faire tourner plusieurs machines virtuelles sur un seul serveur physique.
+
+      Les conteneurs et l'orchestrateur comme Kubernetes permettent d'empaqueter les applications pour les déployer de manière automatique.
+
+      Le stockage se décline en mode bloc avec le SAN, en mode fichier avec le NAS ou via un stockage objet compatible S3.
+
+      L'infrastructure de virtualisation regroupe l'ensemble des logiciels et des matériels nécessaires, incluant l'hyperviseur lui-même.
+
+   B. Sécurisation des consoles et de l'infrastructure.
+
+      Les consoles de virtualisation sont des cibles privilégiées car un attaquant qui les contrôle peut chiffrer toutes les machines virtuelles simultanément.
+
+      Ces consoles doivent être placées dans la zone d'administration avec une authentification MFA et sans lien avec l'annuaire bureautique.
+
+      Il est recommandé de regrouper les machines virtuelles par niveau de sensibilité sur des grappes distinctes pour éviter les fuites entre elles.
+
+      L'administration de la virtualisation doit rester indépendante de l'AD bureautique afin qu'un domaine compromis ne donne pas accès aux hyperviseurs.
+
+      Les cartes de gestion hors bande comme iLO ou iDRAC doivent être isolées sur un réseau d'administration dédié avec un firmware à jour.
+
+      La micro-segmentation permet de filtrer les flux est-ouest entre les machines virtuelles au sein d'une même grappe.
+
+   C. Enjeux et avantages du cloud interne.
+
+      Le cloud interne offre des machines, du stockage et des plateformes en libre-service, avec une facturation basée sur l'usage.
+
+      Ce modèle permet de disposer de socles standardisés pour réduire la dette technique, de déployer rapidement et de mutualiser l'homologation.
+
+      Le passage au cloud interne est un levier majeur pour la sécurité, la maîtrise des coûts et la sobriété de l'État.
+
+      La DGFiP opère le cloud interne NUBO qui accueille environ cinq cents projets de quinze ministères.
+
+      La DGFiP vise trente pour cent de ses applications hébergées en cloud fin deux mille vingt-sept, contre seize pour cent aujourd'hui.
+
+IV. ARCHITECTURES ET TECHNOLOGIES DE STOCKAGE.
+
+   A. Modes de connexion : DAS, NAS et SAN.
+
+      Le DAS est un mode de stockage en attachement direct qui utilise des disques internes ou une boîte reliée à un seul serveur via des protocoles comme SATA, SAS ou NVMe. Cette architecture est adaptée aux serveurs isolés ou aux environnements d'hyperconvergence.
+
+      Le NAS est un stockage en réseau fonctionnant en mode fichier qui partage des dossiers sur le réseau IP. Il utilise les protocoles SMB ou NFS et sert principalement aux partages bureautiques et aux dépôts de documents.
+
+      Le SAN est un réseau de stockage fonctionnant en mode bloc où les serveurs voient des volumes nommés LUN comme des disques locaux. Il repose sur un réseau dédié utilisant des protocoles comme Fibre Channel, iSCSI ou NVMe over Fabrics.
+
+      Un SAN Fibre Channel s'appuie sur des cartes HBA dans les serveurs et des commutateurs dédiés organisés en deux fabrics indépendantes. Le zonage définit la visibilité des baies, le masquage de LUN détermine les volumes montables et le multi-chemin assure la continuité de l'accès.
+
+      L'iSCSI permet de transporter les mêmes commandes que le Fibre Channel sur un réseau Ethernet, ce qui représente un coût moindre. Cette solution nécessite l'utilisation d'un VLAN isolé pour garantir la sécurité et la performance.
+
+   B. Niveaux de RAID et protection des données.
+
+      Le RAID répartit les données sur plusieurs disques pour améliorer la performance et la tolérance aux pannes. Il est important de noter que le RAID protège contre la panne d'un disque mais ne remplace jamais la sauvegarde car il ne protège pas contre l'effacement ou un rançongiciel.
+
+      Le RAID zéro utilise l'entrelacement sans aucune redondance, ce qui offre de la performance mais ne supporte aucune perte de disque. Il est donc à proscrire pour la conservation de données.
+
+      Le RAID un fonctionne par miroir et permet de supporter la perte d'un disque sur deux, bien que cela divise la capacité par deux. Le RAID cinq utilise l'entrelacement avec une parité pour supporter la perte d'un disque, mais sa reconstruction est longue et risquée sur de gros volumes.
+
+      Le RAID six est un standard pour les grands volumes car il utilise une double parité permettant de supporter la perte de deux disques. Le RAID dix combine des miroirs entrelacés pour offrir performance et sécurité, malgré un coût élevé.
+
+   C. Fonctionnalités avancées des baies de stockage.
+
+      L'allocation dynamique ou thin provisioning permet de ne consommer l'espace qu'au fur et à mesure de l'écriture. Cette fonctionnalité impose une surveillance constante du taux de remplissage réel des volumes.
+
+      La déduplication et la compression sont des techniques utilisées pour réduire les volumes de données. Elles s'avèrent particulièrement efficaces pour la gestion des machines virtuelles et des sauvegardes.
+
+      Les instantanés ou snapshots figent l'état des données en quelques secondes pour permettre un retour rapide en arrière. Ils sont utiles avant une mise à jour et sont plus résistants aux rançongiciels lorsqu'ils sont immuables.
+
+      La réplication synchrone entre deux sites proches garantit un RPO nul sans aucune perte de données. À l'inverse, la réplication asynchrone accepte quelques secondes ou minutes de perte de données pour permettre des distances plus longues.
+
+      L'archivage sur bande via le LTO et les bibliothèques virtuelles VTL permet de conserver des copies à bas coût. Ces solutions permettent de garder des données déconnectées sur le long terme.
+
+V. SYSTÈMES SERVEURS ET AUTOMATISATION.
+
+   A. Comparatif Windows Server et Linux.
+
+      Le datacenter d'un ministère exploite deux grandes familles de systèmes dont les principes sont proches, comme la gestion des processus, de la mémoire et des entrées-sorties.
+
+      Windows Server utilise la base de registre et les stratégies de groupe pour sa configuration, tandis que Linux s'appuie sur des fichiers texte sous le répertoire /etc.
+
+      Pour le partage de fichiers, Windows Server privilégie le protocole SMB alors que Linux utilise Samba ou le protocole NFS.
+
+      La haute disponibilité est assurée par le clustering de basculement sous Windows, alors que Linux utilise des outils comme Pacemaker ou keepalived.
+
+      La virtualisation repose sur Hyper-V pour la famille Windows et sur KVM pour la famille Linux.
+
+   B. Durcissement des systèmes et sécurité.
+
+      Le durcissement des deux familles de systèmes suit les guides de l'ANSSI en supprimant les services inutiles et en séparant les comptes d'administration.
+
+      Les journaux d'événements doivent être systématiquement envoyés vers un SOC pour garantir la surveillance.
+
+      Les mises à jour doivent être automatisées et les protocoles anciens doivent être désactivés pour réduire la surface d'attaque.
+
+      Dans le ministère fictif, les serveurs Linux sont déployés depuis un modèle Debian durci et les serveurs Windows depuis un modèle durci avec des GPO de référence.
+
+   C. Automatisation et infrastructure as code.
+
+      Le mouvement de fond actuel est l'automatisation où un serveur ne se configure plus manuellement mais est décrit dans un fichier versionné.
+
+      Cette approche d'infrastructure as code permet d'appliquer le même modèle à cent serveurs et de corriger rapidement toute dérive manuelle.
+
+      La condition de cette automatisation est l'idempotence, qui est la propriété d'une tâche permettant d'obtenir le même résultat qu'on la joue une ou dix fois.
+
+      Grâce à ces méthodes, une reconstruction après une attaque peut prendre des heures au lieu de semaines.
+
+VI. GLOSSAIRE TECHNIQUE ET NOTIONS CLÉS.
+
+   A. Concepts de virtualisation et de réseau.
+
+      L'hyperviseur constitue la couche logicielle qui permet de faire tourner plusieurs machines virtuelles sur un seul serveur physique. L'infrastructure de virtualisation englobe l'ensemble des matériels et logiciels nécessaires, incluant cet hyperviseur.
+
+      La micro-segmentation réseau permet d'appliquer un filtrage fin des flux est-ouest entre des machines virtuelles appartenant à une même grappe. Les flux nord-sud désignent les communications vers l'extérieur d'une zone, tandis que les flux est-ouest concernent les échanges internes.
+
+      Dans l'univers VMware, le management domain désigne le cluster d'administration et le workload domain correspond au cluster de production. Un adaptateur VMKernel assure la connectivité de l'hyperviseur ESXi avec les autres composants comme le vCenter ou la sauvegarde.
+
+      Les commutateurs virtualisés appelés vSwitch ou dvSwitch sont créés par l'hyperviseur pour gérer le trafic de niveau deux. Le dvSwitch offre des fonctions avancées comme la gestion centralisée et les PVLAN.
+
+      Les conteneurs et l'orchestrateur comme Kubernetes permettent d'empaqueter les applications pour les déployer automatiquement. Les consoles de virtualisation sont des cibles critiques qui doivent être isolées dans une zone d'administration avec MFA.
+
+   B. Concepts de systèmes de fichiers et de stockage.
+
+      Le stockage peut être de type DAS pour un attachement direct, NAS pour un partage de fichiers en mode réseau IP, ou SAN pour un réseau de stockage en mode bloc. Le SAN utilise des protocoles comme Fibre Channel ou iSCSI pour présenter des volumes appelés LUN.
+
+      Le RAID protège contre la panne d'un disque mais ne remplace jamais la sauvegarde car il recopie aussi les erreurs ou les rançongiciels. Le RAID cinq utilise la parité pour supporter la perte d'un disque, tandis que le RAID six supporte la perte de deux disques.
+
+      Les systèmes de fichiers comme NTFS sous Windows utilisent des ACL pour les droits, alors que Linux repose sur le principe que tout est fichier. Sous Linux, LVM permet de découper et d'agrandir des volumes logiques sur des unités d'allocation.
+
+      Les instantanés ou snapshots figent l'état des données en quelques secondes pour permettre un retour rapide en arrière. L'allocation dynamique ou thin provisioning permet de ne consommer l'espace de stockage qu'au fur et à mesure des écritures.
+
+      La réplication synchrone entre deux sites proches garantit un RPO nul sans perte de données, contrairement à la réplication asynchrone. L'archivage sur bande LTO ou les bibliothèques virtuelles VTL permettent de conserver des copies déconnectées à bas coût.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre la réplication, qu'elle soit synchrone ou asynchrone, avec la sauvegarde car la réplication recopie également les erreurs et les rançongiciels.
+
+      Le RAID protège contre la panne d'un disque physique mais ne protège pas contre l'effacement accidentel, les attaques ou la perte totale de la baie de stockage.
+
+      Il existe une nuance importante entre la réplication synchrone qui impose une faible latence et une distance de quelques dizaines de kilomètres, et la réplication asynchrone qui tolère de plus longues distances.
+
+      La virtualisation présente un risque majeur car la compromission d'un hyperviseur permet de chiffrer l'ensemble des machines virtuelles qu'il héberge en une seule fois.
+
+      L'administration de la virtualisation doit être strictement séparée de l'annuaire bureautique pour éviter qu'un domaine compromis ne donne accès aux hyperviseurs.
+
+EXEMPLES CITÉS.
+
+      Un datacenter performant affiche un PUE de un virgule trois alors que les installations anciennes dépassent souvent la valeur de deux.
+
+      La DGFiP exploite le cloud interne NUBO qui accueille environ cinq cents projets provenant de quinze ministères différents.
+
+      L'objectif de la DGFiP est d'atteindre trente pour cent d'applications hébergées en cloud à la fin de l'année deux mille vingt-sept contre seize pour cent actuellement.
+
+      L'État a rationalisé son infrastructure en passant de plus de cent trente centres informatiques principaux il y a une dizaine d'années à quelques sites mutualisés.

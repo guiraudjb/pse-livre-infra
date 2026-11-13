@@ -1,0 +1,183 @@
+SYNTHÈSE DES ENJEUX RÉGLEMENTAIRES, TECHNIQUES ET INSTITUTIONNELS DE LA CYBERSÉCURITÉ ET DU NUMÉRIQUE.
+
+LEXIQUE COMPLET.
+
+      L'ANSSI désigne l'Agence nationale de la sécurité des systèmes d'information.
+
+      Le CRA désigne le Cyber Resilience Act, qui est un règlement sur la cyber-résilience.
+
+      L'ARIANE désigne l'Autorité nationale pour l'intelligence artificielle et le numérique de l'État.
+
+      Le MFA désigne l'authentification multifacteur.
+
+      Le NIS deux désigne la directive (UE) 2022/2555 sur la sécurité des réseaux et des systèmes d'information.
+
+      Le sigle DGFiP désigne la Direction générale des finances publiques.
+
+      Le sigle DINUM désigne la Direction interministérielle du numérique.
+
+      Le sigle RGPD désigne le Règlement général sur la protection des données.
+
+      Le sigle SI désigne le système d'information.
+
+      Le sigle ANSSI désigne l'Agence nationale de la sécurité des systèmes d'information.
+
+COURS DÉTAILLÉ.
+
+I. CALENDRIER DES ÉCHÉANCES RÉGLEMENTAIRES ET TECHNOLOGIQUES.
+
+   A. Évolutions de l'intelligence artificielle et du droit européen.
+
+      Le cadre réglementaire de l'intelligence artificielle débute avec l'interdiction des pratiques d'IA à risque inacceptable prévue le deux février deux mille vingt-cinq par l'AI Act.
+
+      L'AI Act impose ensuite des obligations spécifiques concernant les modèles d'IA à usage général dès le deux août deux mille vingt-cinq.
+
+      Le droit européen s'étend avec l'application du Data Act qui interviendra le douze septembre deux mille vingt-cinq.
+
+      Le cadre législatif européen inclut également le DMA pour les marchés numériques et le DSA pour les services numériques.
+
+   B. Calendrier de la cybersécurité et de la résilience.
+
+      La cybersécurité est marquée par la fin du support de Windows dix fixée au quatorze octobre deux mille vingt-cinq.
+
+      Le CRA impose des obligations de signalement pour les fabricants dès le onze septembre deux mille vingt-six.
+
+      L'application complète du CRA est attendue pour le onze décembre deux mille vingt-sept.
+
+      La directive NIS deux sera intégrée à la PSSIE durant le premier trimestre deux mille vingt-sept.
+
+      La loi Résilience concernant la NIS deux et le REC est actuellement en discussion au Parlement.
+
+      La fin de l'année deux mille vingt-six verra la mise en place du MFA pour tous les administrateurs et l'établissement des feuilles de route cyber ministérielles.
+
+   C. Modernisation des systèmes et transition vers le post-quantique.
+
+      La réforme de deux mille vingt-six prévoit que l'ARIANE remplace la DINUM dès le premier janvier deux mille vingt-sept.
+
+      Le déploiement du MFA pour tous les SI à enjeux doit être effectif le vingt-huit février deux mille vingt-sept.
+
+      L'extension du MFA à l'ensemble des SI est programmée pour le vingt-huit février deux mille vingt-huit.
+
+      La fin de l'année deux mille vingt-sept doit permettre d'identifier les briques à migrer en post-quantique avec une conformité technologique de la DGFiP à soixante-dix-huit pour cent.
+
+      La protection des SI de Diffusion Restreinte contre la menace quantique est visée pour la fin deux mille trente.
+
+II. GLOSSAIRE DES SIGLES ET TERMINOLOGIES TECHNIQUES.
+
+   A. Acronymes de la sécurité et de la défense.
+
+      L'ANSSI est l'Agence nationale de la sécurité des systèmes d'information. Elle est responsable de la sécurité des systèmes d'information et délivre la qualification SecNumCloud pour les offres cloud de confiance.
+
+      Le SGDSN désigne le Secrétariat général de la défense et de la sécurité nationale. Il travaille avec l'ACSSI qui concerne l'article contrôlé de la sécurité des systèmes d'information.
+
+      Le COMCYBER représente le commandement de la cyberdéfense. Il est complété par le COMCYBER-MI qui est le commandement du ministère de l'Intérieur dans le cyberespace.
+
+      La menace peut être représentée par une APT qui est une menace persistante avancée. On cite notamment les modes opératoires APT28 et APT31 attribués au GRU russe et à la Chine.
+
+      La protection est assurée par des organismes comme le CERT-FR qui est le centre gouvernemental de veille, d'alerte et de réponse aux attaques informatiques. Les équipes de réponse aux incidents sont appelées CSIRT.
+
+   B. Terminologies réseaux, systèmes et protocoles.
+
+      Le protocole IP est l'Internet Protocol. Il est utilisé avec l'IPsec qui assure la sécurité des protocoles Internet via des mécanismes comme AH, ESP ou IKE.
+
+      Le système de noms de domaine est le DNS. La résolution d'adresse IP en adresse MAC est assurée par le protocole ARP.
+
+      Le routage entre systèmes autonomes utilise le protocole BGP. Le réseau peut être local ou étendu, ce qui correspond aux sigles LAN et WAN.
+
+      La gestion des accès peut se faire via le protocole RADIUS ou par des listes de contrôle d'accès comme les DACL ou les SACL. Le contrôle d'accès par rôles est désigné par le sigle RBAC.
+
+      Le protocole de transport peut être TCP ou UDP. Pour la sécurité des échanges web, on utilise les protocoles TLS ou SSL.
+
+   C. Concepts de gestion de la conformité et des risques.
+
+      Le RGPD est le Règlement général sur la protection des données. L'analyse d'impact relative à la protection des données est désignée par le sigle AIPD.
+
+      La gestion des risques utilise des méthodes comme l'EBIOS RM pour l'expression des besoins et l'identification des objectifs de sécurité. L'analyse des modes de défaillance est appelée AMDEC.
+
+      La continuité de l'activité est assurée par les PCA, PCI et PRA. On mesure la durée maximale d'interruption admissible avec le sigle DMIA ou RPO.
+
+      La conformité réglementaire inclut le CRA qui est le Cyber Resilience Act. Le NIS deux est la directive européenne sur la sécurité des réseaux et des systèmes d'information.
+
+      La gestion des incidents peut suivre la méthode E3R qui signifie endiguement, éviction, éradication et reconstruction. Le retour d'expérience est désigné par le terme RETEX.
+
+III. ORGANISATION ET DOMAINES DE LA SÉCURITÉ DES SYSTÈMES D'INFORMATION.
+
+   A. Cadre de la sécurité nationale et des institutions.
+
+      La sécurité nationale s'appuie sur des institutions clés telles que l'ANSSI, le SGDSN et la DGSE ou la DGSI. Ces organismes assurent la protection des systèmes et la gestion des menaces comme les APT.
+
+      Le cadre réglementaire évolue avec l'application du CRA prévue pour le onze décembre deux mille vingt-sept. D'autres textes comme le NIS deux et la loi Résilience sont en discussion au Parlement.
+
+      La protection du potentiel scientifique et technique de la Nation est encadrée par la PPST. Les instructions II neuf cent un et IGI mille trois cents définissent les règles de protection des SI sensibles et du secret de la défense nationale.
+
+      L'ARIANE remplacera la DINUM à partir du premier janvier deux mille vingt-sept. Cette réforme s'inscrit dans une volonté de structurer l'autorité nationale pour l'intelligence artificielle et le numérique de l'État.
+
+   B. Gouvernance des systèmes et des ressources humaines.
+
+      La gouvernance repose sur la mise en œuvre de la PSSIE qui intégrera NIS deux dès le premier trimestre deux mille vingt-sept. Les responsables de la sécurité des systèmes d'information, ou RSSI, pilotent ces politiques.
+
+      La gestion des ressources humaines intègre désormais l'IA et la GRH. Des rapports de la Cour des comptes analysent notamment l'impact de ces technologies sur les SI de la DGFiP.
+
+      Le déploiement du MFA est une priorité avec une obligation pour tous les administrateurs fin deux mille vingt-six. Cette mesure s'étendra aux SI à enjeux le vingt-huit février deux mille vingt-sept puis à tous les SI le vingt-huit février deux mille vingt-huit.
+
+      La conformité technologique de la DGFiP doit atteindre soixante-dix-huit pour cent d'ici la fin deux mille vingt-sept. Cette trajectoire inclut l'identification des briques à migrer en post-quantique.
+
+   C. Gestion des infrastructures et des réseaux de l'État.
+
+      Les infrastructures de l'État utilisent des réseaux comme le RIE ou l'INPT pour assurer la connectivité. La sécurité de ces réseaux est renforcée par des protocoles comme l'IPsec ou le TLS.
+
+      Le cloud de l'État est représenté par le NUBO, opéré par la DGFiP. Les offres de cloud de confiance doivent répondre à la qualification SecNumCloud de l'ANSSI.
+
+      La transition vers le futur passe par le RRF et la protection contre la menace quantique pour les SI de Diffusion Restreinte d'ici fin deux mille trente. Les technologies comme la QKD sont au cœur de ces enjeux.
+
+      La gestion des incidents est assurée par des structures comme le CERT-FR ou le C4. Ces centres coordonnent la réponse face aux attaques et assurent la veille sécuritaire.
+
+IV. MÉTHODOLOGIE DE RÉVISION ET CADRE D'APPLICATION.
+
+   A. Référentiels et thématiques de révision.
+
+      La préparation repose sur une organisation structurée en six domaines de compétences majeurs. Ces domaines couvrent la sécurité nationale, le cadre public, les enjeux de Bercy, les systèmes et exploitations, les réseaux et les ressources humaines.
+
+      Le volet sécurité nationale traite des thématiques de l'ANSSI, du SGDSN et de la menace via des fiches comme la 03-10 ou la 03-780. Il intègre également des notions de SecNumCloud et de sauvegarde.
+
+      Le cadre public se concentre sur les réglementations telles que NIS deux, le CRA, le RGPD ou encore le Data Act. Les thèmes incluent aussi l'EUCC, le RGI et la mise en place d'ARIANE.
+
+      Les thématiques liées à Bercy mobilisent des fiches spécifiques sur la DGFiP, le SDNum et la DAE. Elles permettent d'aborder les enjeux du Secrétariat général et de la DGE.
+
+      Le domaine des systèmes et exploitations aborde la gestion de Linux, de Windows Server et de la dette technique. Il inclut l'étude de l'IA, de la supervision et du big data.
+
+      Enfin, les réseaux et les SI de l'État couvrent le routage, l'IPv6, le cloud et les rapports d'incident de la DGFiP. Les ressources humaines sont traitées sous l'angle de l'IA et de la GRH.
+
+   B. Sources, limites et précautions d'usage.
+
+      Ce document est élaboré à partir des fiches de révision listées et de sources publiques consultées en novembre deux mille vingt-six. Les données chiffrées présentées correspondent à l'état de leurs sources respectives.
+
+      Le ministère fil rouge utilisé pour la structure est un élément fictif. Les encadrés portant sur le cas DGFiP ou le cas Bercy s'appuient uniquement sur des données publiques réelles.
+
+      Les produits technologiques mentionnés ne constituent pas des recommandations officielles. Il convient de vérifier leurs visas de sécurité sur les listes de l'ANSSI au moment de l'achat.
+
+      L'échéancier réglementaire présente des dates précises comme le deux février deux mille vingt-cinq pour l'interdiction des pratiques d'IA à risque inacceptable. D'autres échéances importantes sont fixées à la fin de deux mille vingt-six ou au premier janvier deux mille vingt-sept.
+
+      Certaines évolutions sont encore en discussion au Parlement, notamment l'entrée en vigueur de la loi Résilience concernant NIS deux et REC. Les objectifs de conformité technologique pour la DGFiP sont fixés à soixante-dix-huit pour cent pour la fin deux mille vingt-sept.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre la DINUM avec l'ARIANE qui remplacera cette dernière le premier janvier deux mille vingt-sept.
+
+      Une nuance importante existe entre la PSSIE et la NIS deux qui sera intégrée à cette dernière au premier trimestre deux mille vingt-sept.
+
+      Il convient de distinguer les obligations liées au CRA qui s'appliquent progressivement jusqu'au onze décembre deux mille vingt-sept de celles de l'AI Act.
+
+      Attention à ne pas confondre les différents types de plans de continuité comme le PCA, le PCI ou le PRA.
+
+      La distinction entre les modes opératoires d'attaque APT28 et APT31 est essentielle car ils sont attribués respectivement au GRU russe et à la Chine.
+
+EXEMPLES CITÉS.
+
+      Le calendrier prévoit l'interdiction des pratiques d'IA à risque inacceptable dès le deux février deux mille vingt-cinq selon l'AI Act.
+
+      La conformité technologique de la DGFiP doit atteindre soixante-dix-huit pour cent à la fin de l'année deux mille vingt-sept.
+
+      Le MFA doit être déployé pour tous les administrateurs à la fin de l'année deux mille vingt-six et pour tous les SI à enjeux le vingt-huit février deux mille vingt-sept.
+
+      Les SI de Diffusion Restreinte devront être protégés contre la menace quantique d'ici la fin de l'année deux mille trente.

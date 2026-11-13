@@ -1,0 +1,53 @@
+TITRE : LA CRISE DE DEUX MILLE VINGT-SIX
+
+[Intro]
+Entre les fiches et les faits, le rythme s'installe.
+Prépare la qualification, l'analyse est brutale.
+
+[Couplet 1]
+Mai à août deux mille vingt-six, la DGFiP vacille sous l'assaut.
+Zerobytes revendique l'exfiltration, un scénario de chaos.
+Trois cent cinquante-trois mille particuliers, deux cent cinquante-deux mille pros.
+Onze Go de données s'envolent, sans alerte, sans un écho.
+L'absence de MFA, le vol d'identifiants, c'est la faille.
+Pas de Zero Trust, pas de cloisonnement, la sécurité déraille.
+L'IDOR permet de lire le dossier, de changer un simple numéro.
+L'architecture est brisée, l'intrusion est un nouveau drapeau.
+
+[Refrain]
+Résister à la compromission, pas seulement l'éviter.
+Le Zero Trust est l'armure, pour ne plus s'effondrer.
+L'obligation remplace la pratique, la sanction est là.
+Sécuriser l'État, c'est notre ultime combat.
+
+[Couplet 2]
+Le premier septembre deux mille vingt-six, REACTIV est lancée.
+Par le Premier ministre, pour les fuites de données recensées.
+L'ANSSI coordonne, la DINUM fait foi, le SIEM doit tout intégrer.
+NIS deux transforme les conseils en devoirs à ne pas négliger.
+En avril, l'ANTS voit onze virgule sept millions de comptes touchés.
+En mars, l'Éducation nationale voit deux cent quarante-trois mille agents impactés.
+De la CAF à France Travail, les failles IDOR et le manque de MFA.
+Les infostealers frappent, les sous-traitants sont les premiers pas.
+
+[Refrain]
+Résister à la compromission, pas seulement l'éviter.
+Le Zero Trust est l'armure, pour ne plus s'effondrer.
+L'obligation remplace la pratique, la sanction est là.
+Sécuriser l'État, c'est notre ultime combat.
+
+[Pont]
+Cent mille agents, trois cents sites, un ministère en fiction.
+Vingt mille en télétravail, une immense administration.
+L'IA aide la rédaction, mais la relecture est la loi.
+Vérifie les chiffres et les dates, garde la vigilance en soi.
+
+[Refrain final]
+Résister à la compromission, pas seulement l'éviter.
+Le Zero Trust est l'armure, pour ne plus s'effondrer.
+L'obligation remplace la pratique, la sanction est là.
+Sécuriser l'État, c'est notre ultime combat.
+
+[Outro]
+Révision terminée, les notions sont gravées.
+La cyber est une guerre, restez bien préparés.

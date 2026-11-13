@@ -1,0 +1,53 @@
+TITRE : LA RÈGLE D'OR
+
+[Intro]
+Écoute le rythme de la donnée qui s'efface,
+Prépare la défense avant que l'ombre ne passe.
+
+[Couplet 1]
+Trois copies pour la survie, deux supports pour l'abri,
+Une copie hors site pour parer au pire et au débris.
+C'est la règle trois-deux-un, le socle, le destin,
+Étendue avec l'immuable pour briser le venin.
+L'ANSSI commande le cloisonnement, l'isolement,
+Pour que l'attaquant ne détruise pas tout le bâtiment.
+Le disque est rapide, l'objet est verrouillé,
+Mais la bande LTO reste l'arme pour ne pas succomber.
+
+[Refrain]
+Sauvegarder pour ne pas tout perdre,
+Restaurer pour ne pas s'effondrer,
+Zéro erreur pour ne pas s'enfermer,
+La résilience est notre seule manière de lutter.
+
+[Couplet 2]
+Ne confonds pas réplication et sauvegarde réelle,
+Le rançongiciel recopie le chiffrement criminel.
+L'archivage conserve avec une valeur probante,
+Mais la sauvegarde cherche la restauration instantanée.
+Le RSSI et le DPO rapportent à la direction,
+Pendant que le SOC surveille chaque intrusion.
+Le RTO est le temps de l'indisponibilité tolérée,
+La remédiation est le projet pour la vie retrouvée.
+
+[Refrain]
+Sauvegarder pour ne pas tout perdre,
+Restaurer pour ne pas s'effondrer,
+Zéro erreur pour ne pas s'enfermer,
+La résilience est notre seule manière de lutter.
+
+[Pont]
+Pas d'Active Directory pour les serveurs de secours,
+Le MFA et les comptes dédiés font le tour.
+Chiffre tes flux, protège tes clés hors du système,
+Pour que la souveraineté reste le seul emblème.
+
+[Refrain final]
+Sauvegarder pour ne pas tout perdre,
+Restaurer pour ne pas s'effondrer,
+Zéro erreur pour ne pas s'enfermer,
+La résilience est notre seule manière de lutter.
+
+[Outro]
+Une sauvegarde non testée n'est qu'une simple hypothèse,
+Prouve ta capacité de reprise, sinon c'est la détresse.

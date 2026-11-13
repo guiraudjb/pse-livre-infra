@@ -1,0 +1,47 @@
+TITRE : LE SOCLE DE LA SÉCURITÉ
+
+[Intro]
+Écoute le rythme de l'État, le socle de nos données,
+Entre règles et contrôles, la sécurité est gravée.
+
+[Couplet 1]
+L'ANSSI pilote, rattachée au SGDSN,
+La PSSIE de deux mille quatorze trace le chemin.
+La DINUM définit la stratégie et le cloud,
+La chaîne fonctionnelle SSI s'élève, debout.
+Du cabinet du ministre jusqu'au service local,
+L'AQSSI porte la responsabilité juridique, c'est vital.
+Le RSSI apporte l'expertise et le dossier,
+Pour que chaque système soit enfin homologué.
+
+[Refrain]
+Homologuer, c'est accepter le risque métier,
+Protéger l'État, pour ne jamais s'effondrer.
+
+[Couplet 2]
+Le RGS deux virgule zéro pour les échanges électroniques,
+Cinq fonctions, trois étoiles, une analyse méthodique.
+L'II neuf cent un pour les systèmes sensibles,
+L'IGI mille trois cents pour le secret très difficile.
+La Diffusion Restreinte n'est pas une classification,
+Mais une architecture dédiée, une isolation.
+Douze secteurs, trois cents OIV, mille cinq cents points,
+Le dispositif SAIV surveille chaque bastion.
+
+[Refrain]
+Homologuer, c'est accepter le risque métier,
+Protéger l'État, pour ne jamais s'effondrer.
+
+[Pont]
+Le CSPN pour le pare-feu, le SecNumCloud pour les données,
+Le PASSI pour l'audit, les prestataires sont qualifiés.
+Trois vues de cartographie, métier, applicative et infrastructure,
+Pour que la conformité devienne une constante de l'État.
+
+[Refrain final]
+Homologuer, c'est accepter le risque métier,
+Protéger l'État, pour ne jamais s'effondrer.
+
+[Outro]
+Un système sans homologation doit être arrêté,
+Le socle national est notre seule vérité.

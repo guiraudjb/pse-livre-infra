@@ -1,0 +1,235 @@
+GESTION ET SÉCURISATION DES SYSTÈMES PARTICULIERS, INDUSTRIELS ET DES ENJEUX CRYPTOGRAPHIQUES FUTURS.
+
+LEXIQUE COMPLET.
+
+      Le CRQC désigne un ordinateur quantique assez puissant pour exécuter l'algorithme de Shor sur des instances pertinentes et menacer la cryptographie à clé publique.
+
+      L'ANSSI recommande l'hybridation entre un algorithme classique éprouvé et un algorithme post-quantique normalisé par le NIST en deux mille vingt-quatre.
+
+      L'II neuf cent dix désigne le mode de gestion des articles contrôlés, comme les clés de chiffrement, pour les systèmes classifiés.
+
+      Le mode island désigne la capacité d'un système industriel à couper toute communication à sa frontière et à fonctionner en mode local selon l'IEC soixante-deux mille quatre cent quarante-trois.
+
+      La station blanche désigne un poste de décontamination par lequel passent les médias amovibles avant leur introduction dans un système.
+
+      Le maintien en condition de sécurité désigne l'ensemble des actions qui conservent le niveau de sécurité d'un produit pendant sa durée de vie.
+
+      Le modèle de Purdue désigne une grille de lecture représentant l'usine comme un empilement de zones allant des capteurs jusqu'à l'ERP.
+
+      Le partage de secret à seuil désigne un mécanisme où la clé privée d'une élection est fractionnée entre plusieurs détenteurs pour garantir l'étanchéité.
+
+      L'agilité cryptographique désigne la capacité d'un produit à mettre à jour ses algorithmes cryptographiques sans être rappelé ni remplacé.
+
+      Le MOS désigne une échelle de mesure de la qualité d'un flux allant de deux à cinq pour évaluer la qualité de la voix.
+
+COURS DÉTAILLÉ.
+
+I. LES SYSTÈMES CRITIQUES ET HÉRITÉS.
+
+   A. Le mainframe : enjeux, forces et stratégies de migration.
+
+      Les grands ministères utilisent encore des ordinateurs centraux, appelés mainframes, pour faire tourner des applications vitales. Ces machines sont conçues pour traiter des volumes massifs avec une fiabilité très élevée.
+
+      Le mainframe présente des forces notables comme sa robustesse, son débit de traitement par lots et ses décennies de règles métier éprouvées. Cependant, il souffre de faiblesses liées aux compétences rares en COBOL ou PL/1 et à son coût élevé.
+
+      L'intégration de ces systèmes avec les architectures modernes est difficile. Les stratégies de sortie incluent l'encapsulation par des API, une migration progressive application par application ou une réécriture complète.
+
+      Le choix de la stratégie doit se décider sur le risque métier et non uniquement sur l'aspect technique. À titre d'exemple, la DGFiP sort progressivement du mainframe GCOS, notamment pour les applications MEDOC et REC.
+
+   B. La téléphonie sur IP : qualité de service et continuité de crise.
+
+      La téléphonie est devenue une application du réseau appelée ToIP. Elle nécessite des exigences spécifiques comme une qualité de service prioritaire et une alimentation des postes par le réseau.
+
+      La mise en œuvre de la ToIP exige l'utilisation d'un segment dédié ainsi que le chiffrement de la signalisation et de la voix. Le protocole SDP est utilisé pour la négociation des types de média via les messages SIP.
+
+      La téléphonie reste un moyen de communication essentiel en période de crise. Il est donc impératif de prévoir des lignes de secours qui soient totalement indépendantes du SI principal.
+
+II. SYSTÈMES INDUSTRIELS, BÂTIMENTS ET OBJETS CONNECTÉS.
+
+   A. Sécurisation des infrastructures de bâtiment et de l'IIoT.
+
+      Les systèmes de gestion technique des bâtiments, tels que la climatisation des datacenters, le contrôle d'accès ou les onduleurs, sont souvent connectés mais rarement traités comme des systèmes d'information.
+
+      Ces équipements utilisent fréquemment des protocoles comme Modbus ou BACnet qui sont souvent dépourvus de sécurité native et ne disposent pas d'authentification.
+
+      La sécurisation repose sur la mise en place d'un segment réseau dédié, comme une VRF Bâtiment, et l'interdiction de tout accès direct depuis internet.
+
+      Il est recommandé d'utiliser une surveillance passive par des sondes IDS plutôt que des outils actifs qui pourraient perturber le fonctionnement de ces systèmes.
+
+      L'IIoT, ou Internet industriel des objets, est une infrastructure interconnectée qui traite les informations du monde physique et virtuel selon la norme ISO 24591-1 de deux mille vingt-quatre.
+
+      Le modèle de Purdue, ou ISA95, permet de visualiser l'usine comme un empilement de zones allant des capteurs jusqu'à l'ERP.
+
+   B. Classification des systèmes industriels selon l'impact.
+
+      La méthode de l'ANSSI distingue quatre classes de systèmes industriels en fonction de l'impact généré par une attaque.
+
+      La classe un correspond à un impact faible et nécessite l'application de bonnes pratiques de sécurité.
+
+      La classe deux présente un impact modéré sans contrôle étatique, mais la preuve des mesures de sécurité peut être exigée après un incident.
+
+      La classe trois concerne un impact fort avec des mesures renforcées et une vérification par un organisme qualifié qui est recommandée.
+
+      La classe quatre représente un impact catastrophique et impose les mesures les plus fortes ainsi qu'une vérification par un organisme qualifié recommandée.
+
+   C. Sécurité des objets connectés et maintien en condition de sécurité.
+
+      Le guide de l'ANSSI propose soixante-trois recommandations pour la sécurité des objets connectés basées sur une analyse de risque préalable.
+
+      Les constituants d'un système connecté doivent pouvoir s'authentifier entre eux et les secrets doivent être gérés sur tout leur cycle de vie.
+
+      Le maintien en condition de sécurité, ou MCS, regroupe l'ensemble des actions qui conservent le niveau de sécurité d'un produit pendant sa durée de vie.
+
+      Le MCS doit être prévu dès la conception car ces équipements autonomes sont rarement administrés après leur déploiement.
+
+      La sécurité des dispositifs connectés inclut également la gestion du secret maître, dont la compromission menace tous les dispositifs qui en dépendent.
+
+III. GESTION DES SYSTÈMES CLASSIFIÉS ET DE L'INFORMATION SENSIBLE.
+
+   A. Niveaux de classification : Diffusion Restreinte, Secret et OTAN/UE.
+
+      Le niveau de Diffusion Restreinte impose un SI isolé d'internet ou utilisant des passerelles maîtrisées avec des chiffreurs qualifiés pour les liaisons et un hébergement SecNumCloud interne ou privé.
+
+      Le niveau Secret exige un SI dédié, des locaux protégés, une homologation spécifique et des audits TEMPEST pour garantir la protection des informations.
+
+      Les informations OTAN et UE sont régies par des règles propres définies par les instructions IGI deux mille cent et deux mille cent deux.
+
+      Ces systèmes sensibles disposent de leurs propres réseaux, de leurs propres postes de travail et sont gérés par des administrateurs habilités.
+
+   B. L'isolement physique et les limites de l'air-gap.
+
+      L'isolement physique ou air-gap empêche l'accès par le réseau mais ne rend pas l'information totalement hermétique face aux canaux cachés.
+
+      Depuis deux mille quatorze, les travaux de l'université Ben-Gourion ont démontré des dizaines de canaux auxiliaires comme le rayonnement électromagnétique, le bruit des ventilateurs, les voyants lumineux ou la chaleur.
+
+      Toute exfiltration suppose une infection préalable, souvent réalisée par des supports amovibles ou via la chaîne d'approvisionnement comme l'ont montré des cas réels tels que Stuxnet ou Agent.btz.
+
+      Les débits de ces canaux sont faibles, allant de quelques bits à quelques milliers de bits par seconde, ce qui suffit pour une clé ou un mot de passe.
+
+      La défense repose sur le zonage physique, l'interdiction des téléphones dans les salles concernées et l'utilisation d'une station blanche comme première parade.
+
+   C. Gestion des articles contrôlés et des autorités de sécurité.
+
+      La gestion des articles contrôlés de la sécurité des systèmes d'information, ou ACSSI, comme les clés de chiffrement, suit les règles de l'II neuf cent dix.
+
+      L'ACSSI est un dispositif ou un logiciel de sécurité dont la compromission affaiblirait la protection des informations et fait l'objet d'un marquage pour assurer sa traçabilité.
+
+      L'autorité qualifiée en sécurité des systèmes d'information, ou AQSSI, est responsable de la SSI de son périmètre et prononce les homologations.
+
+      L'autorité de sécurité désignée, ou ASD, exerce des responsabilités déléguées par l'autorité nationale de sécurité dans un domaine ou un ministère spécifique.
+
+      Le bureau d'ordre est l'organe chargé d'enregistrer, conserver et suivre les documents classifiés OTAN ou de l'Union pour en assurer la traçabilité.
+
+IV. LA MENACE QUANTIQUE ET L'AGILITÉ CRYPTOGRAPHIQUE.
+
+   A. Risques liés à l'ordinateur quantique et attaque rétroactive.
+
+      Un ordinateur quantique suffisamment puissant pourrait casser les algorithmes à clé publique actuels comme le RSA ou les courbes elliptiques. Cette rupture affecterait directement la protection des échanges TLS, des VPN et des signatures numériques.
+
+      Bien que la date d'arrivée de cette menace soit incertaine, le risque est déjà présent pour les organisations. Un attaquant peut choisir de voler aujourd'hui des données chiffrées pour les déchiffrer demain.
+
+      Ce phénomène est appelé l'attaque rétroactive, où le stockage de données sensibles est effectué dans l'attente de l'évolution technologique. C'est une menace de court terme que le G7 cyber appelle à traiter prioritairement.
+
+   B. Feuille de route et stratégie d'hybridation de l'ANSSI.
+
+      L'ANSSI propose une feuille de route pour la période deux mille vingt-six à deux mille vingt-sept avec des étapes précises. La fin de l'année deux mille vingt-six doit permettre d'inventorier les données durablement sensibles.
+
+      À la fin de l'année deux mille vingt-sept, les organisations devront identifier les briques techniques nécessitant une migration. L'objectif final est de protéger tous les SI Diffusion Restreinte contre la menace quantique d'ici deux mille trente.
+
+      Pour assurer la transition, l'ANSSI recommande l'hybridation des mécanismes de sécurité. Cette stratégie consiste à combiner un algorithme classique éprouvé avec un algorithme post-quantique.
+
+      Les algorithmes post-quantiques de référence sont ceux normalisés par le NIST en deux mille vingt-quatre. Il s'agit du ML-KEM pour l'échange de clés et du ML-DSA pour la signature.
+
+   C. Dimensionnement des clés et principes de l'agilité cryptographique.
+
+      L'agilité cryptographique est la capacité d'un produit à mettre à jour ses algorithmes sans être remplacé ou rappelé. Pour tout ministère, la première étape consiste à réaliser un inventaire de ses usages cryptographiques.
+
+      Le référentiel ANSSI-PG-083, version trois virgule zéro zéro du vingt mars deux mille vingt-six, intègre désormais ces enjeux. Il recommande de viser une sécurité post-quantique pour tout usage prévu au-delà du premier janvier deux mille trente.
+
+      Concernant le dimensionnement, les clés symétriques doivent faire au moins cent vingt-huit bits. Pour viser la sécurité post-quantique, l'utilisation de clés de cent quatre-vingt-douze bits est recommandée.
+
+      Les blocs de chiffrement doivent également respecter une taille minimale de cent vingt-huit bits. Cette approche permet de contrer les capacités de calcul des futurs ordinateurs quantiques.
+
+V. LE VOTE PAR INTERNET ET LES ENJEUX DÉMOCRATIQUES.
+
+   A. Cadre réglementaire et niveaux de risque du scrutin.
+
+      Le cadre régissant le vote par internet a été renouvelé en deux mille vingt-six. La délibération de la CNIL n° 2026-045 du dix-neuf mars deux mille vingt-six fixe les objectifs de sécurité pour ces scrutins.
+
+      Le guide de l'ANSSI ANSSI-PA-118 du vingt-quatre avril deux mille vingt-six décline ces objectifs à travers soixante-quatorze recommandations spécifiques pour les élections non politiques.
+
+      L'organisateur doit classer son scrutin selon trois niveaux de risque dont les exigences sont cumulatives. Le niveau un concerne les risques faibles comme les élections de parents d'élèves.
+
+      Le niveau deux correspond aux risques modérés pour les élections du personnel des organismes de petite ou moyenne taille. Il impose notamment la transmission de deux secrets par deux canaux.
+
+      Le niveau trois traite des risques significatifs pour les grandes administrations ou les ordres professionnels. Il nécessite une analyse de risque par la méthode EBIOS RM.
+
+   B. Mécanismes cryptographiques et garanties de sincérité.
+
+      Le système doit garantir simultanément le secret du vote et la sincérité du résultat sans possibilité de recomptage papier. Le bulletin est chiffré directement dans le navigateur de l'électeur et jamais par le serveur.
+
+      L'étanchéité entre l'identité de l'électeur et son vote repose sur un mélange cryptographique ou une accumulation homomorphe. La clé privée de l'élection est fractionnée entre plusieurs détenteurs via un partage de secret à seuil.
+
+      Pour le niveau deux, le protocole doit être publié et inclure une preuve de vote permettant à l'électeur de vérifier son bulletin dans l'urne. Le niveau trois exige un dépouillement vérifiable par un outil tiers.
+
+      Le système doit assurer qu'aucun bulletin ne soit perdu durant le processus. Le code source du client de vote doit être publié pour les scrutins de niveau trois.
+
+   C. Limites et préparation du projet pour un ministère.
+
+      Le guide reconnaît des risques qui ne sont pas couverts par les mesures techniques. Il s'agit notamment de la contrainte exercée sur un électeur à son domicile ou de la compromission de son propre appareil.
+
+      Pour un ministère, la mise en œuvre du vote par internet doit être préparée comme un projet homologué. Le choix du niveau de risque est une étape fondamentale de cette préparation.
+
+      La réussite du projet repose sur le recours à une expertise indépendante du prestataire choisi. La surveillance par le SOC doit être active pendant toute la durée du scrutin.
+
+      Enfin, la continuité du service doit être assurée par un plan de continuité dédié. L'ensemble de ces mesures garantit la fiabilité du système particulier qu'est le vote électronique.
+
+VI. SYNTHÈSE DES CONCEPTS TECHNIQUES ET TERMINOLOGIES.
+
+   A. Lexique des protocoles et mécanismes industriels.
+
+      Les protocoles Modbus et BACnet sont couramment utilisés dans la gestion technique du bâtiment mais ils sont souvent dépourvus de sécurité native.
+
+      Le modèle de Purdue, aussi appelé ISA95, sert de grille de lecture pour représenter l'usine comme un empilement de zones allant des capteurs jusqu'à l'ERP.
+
+      L'IIoT ou Internet industriel des objets est une infrastructure interconnectée qui traite les informations du monde physique et virtuel selon la norme ISO 24591-1 de deux mille vingt-quatre.
+
+      La boucle d'asservissement constitue le cycle de mesure, de calcul et de commande qui permet de piloter un procédé industriel.
+
+      Le mode island prévu par l'IEC soixante-deux mille quatre cent quarante-trois permet à un système industriel de fonctionner en mode local en coupant toute communication à sa frontière.
+
+   B. Définitions des notions de sécurité et de classification.
+
+      Le cloisonnement consiste à séparer physiquement ou logiquement des réseaux ou des données pour limiter la propagation d'une compromission.
+
+      La classe de cybersécurité définit quatre niveaux de un à quatre attribués à un système industriel selon l'impact d'une attaque.
+
+      Les informations classifiées de l'Union européenne, appelées ICUE, sont des données dont la divulgation pourrait porter atteinte aux intérêts de l'Union ou de ses États membres.
+
+      Un article contrôlé de la sécurité des systèmes d'information, ou ACSSI, est un dispositif de sécurité comme un logiciel de chiffrement dont la compromission affaiblirait la protection.
+
+      La cryptoagilité est la capacité d'un produit à mettre à jour ses algorithmes cryptographiques sans nécessiter de remplacement ou de rappel.
+
+      Le CRQC désigne un ordinateur quantique assez puissant pour exécuter l'algorithme de Shor et menacer la cryptographie à clé publique actuelle.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre l'isolement physique par air-gap avec une étanchéité absolue car des canaux auxiliaires comme la chaleur ou les vibrations peuvent exfiltrer des données.
+
+      La sécurité des systèmes industriels ne doit pas être confondue avec la sûreté de fonctionnement, bien que les deux notions se rejoignent pour protéger les installations.
+
+      L'agilité cryptographique consiste à pouvoir mettre à jour les algorithmes sans remplacer le matériel, ce qui est crucial face à la menace quantique.
+
+      Pour le vote par internet, il est important de noter que le chiffrement du bulletin doit être réalisé dans le navigateur de l'électeur et non par le serveur.
+
+      La menace quantique impose de distinguer le risque de déchiffrement rétroactif, où des données volées aujourd'hui sont cassées demain, de la menace immédiate sur les signatures.
+
+EXEMPLES CITÉS.
+
+      La DGFiP illustre la transition des systèmes critiques en sortant progressivement du mainframe GCOS pour les applications MEDOC et REC.
+
+      L'ANSSI propose une feuille de route pour la menace quantique avec un objectif de protection de tous les SI Diffusion Restreinte d'ici deux mille trente.
+
+      Le cadre du vote électronique pour les élections non politiques est défini par la délibération de la CNIL du dix-neuf mars deux mille vingt-six et le guide ANSSI-PA-118 du vingt-quatre avril deux mille vingt-six.
+
+      Les protocoles Modbus et BACnet sont cités comme des exemples de communications couramment utilisées en gestion technique de bâtiment et souvent dépourvues de sécurité native.

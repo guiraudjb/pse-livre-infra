@@ -1,0 +1,47 @@
+TITRE : POSTE MAÎTRISÉ
+
+[Intro]
+Écoute le rythme du système qui se durcit,
+Pour que l'intégrité de tes données ne soit jamais trahie.
+
+[Couplet 1]
+Un poste maîtrisé c'est l'image, le déploiement, l'homogénéité,
+Mises à jour mensuelles pour fermer les failles avec célérité.
+Pas de droits d'administration, l'utilisateur reste à sa place,
+Le chiffrement BitLocker et le TPM verrouillent chaque espace.
+L'EDR détecte le comportement, l'isolement est à distance,
+Le VPN en tunnel chiffré assure la protection et la vigilance.
+L'ANSSI guide, l'II neuf cent un définit les mesures minimales,
+Pour protéger la Diffusion Restreinte et les données sensibles.
+
+[Refrain]
+Durcir, surveiller, ne jamais rien laisser passer,
+Le poste est verrouillé, le système est sécurisé.
+
+[Couplet 2]
+Le mobile est géré par le MDM ou le MAM pour les applications,
+Mais le BYOD est à proscrire pour les informations de haute précision.
+Le modèle COBO est le plus sûr, le COPE tolère l'usage personnel,
+Le Zero Trust vérifie la conformité, l'accès n'est pas éternel.
+Attention aux clés USB, vecteurs d'attaques comme BadUSB,
+Passe par la station blanche, ce sas de décontamination devenu.
+Elle analyse les fichiers, bloque les macros et les archives,
+Pour que les réseaux isolés de l'air-gap gardent leur survie.
+
+[Refrain]
+Durcir, surveiller, ne jamais rien laisser passer,
+Le poste est verrouillé, le système est sécurisé.
+
+[Pont]
+Le support de Windows dix s'est arrêté le quatorze octobre deux mille vingt-cinq,
+Migre vers Windows onze ou Linux pour éviter le risque.
+La séparation rouge-noir protège les flux et les secrets,
+Contre l'exfiltration, la diode est le rempart de sûreté.
+
+[Refrain final]
+Durcir, surveiller, ne jamais rien laisser passer,
+Le poste est verrouillé, le système est sécurisé.
+
+[Outro]
+La sécurité est une discipline, une constante vigilance,
+Pour protéger l'État et maintenir la confiance.

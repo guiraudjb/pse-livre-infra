@@ -1,0 +1,47 @@
+TITRE : L'EMPIRE DES DONNÉES
+
+[Intro]
+Écoute le flux, le volume, la vélocité qui gronde,
+La donnée est l'actif, le moteur de notre monde.
+
+[Couplet 1]
+Cinq V pour le Big Data, volume et variété,
+Véracité et valeur, la vélocité pour décider.
+L'entrepôt est structuré, le lac de données est brut,
+Le lakehouse fait la synthèse, sans aucune lutte.
+L'administrateur ministériel porte la politique,
+Etalab et la DINUM guident la pratique.
+Le directeur est l'administrateur général,
+Depuis deux mille quatorze, un rôle crucial.
+
+[Refrain]
+Gouverner, protéger, ouvrir et tracer,
+La donnée est un actif qu'il faut maîtriser.
+
+[Couplet 2]
+L'open data est un droit, une loi, un devoir,
+Depuis deux mille seize, on ne peut plus s'en défaire de l'histoire.
+La loi Valter de deux mille quinze impose la gratuité,
+La République numérique veut la transparence et la liberté.
+Mais attention au secret, au fiscal, à la défense,
+L'anonymisation est la seule défense en la danse.
+L'ANSSI classe l'impact, du niveau un au critique,
+L'agrégation fait monter le risque, c'est mathématique.
+
+[Refrain]
+Gouverner, protéger, ouvrir et tracer,
+La donnée est un actif qu'il faut maîtriser.
+
+[Pont]
+Le SAE prouve l'intégrité, norme ISO quatorze mille six cent quarante et un,
+Vitam archive le passé, pour un futur serein.
+Pas de fuite, pas d'exfiltration, le DLP est en garde,
+Contre les cent quatre-vingt-seize exfiltrations de deux mille vingt-cinq, la parade.
+
+[Refrain final]
+Gouverner, protéger, ouvrir et tracer,
+La donnée est un actif qu'il faut maîtriser.
+
+[Outro]
+Deux à trois milliards de factures, le défi est immense,
+La donnée est notre force, notre seule intelligence.

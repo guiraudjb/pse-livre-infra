@@ -1,0 +1,47 @@
+TITRE : Sécuriser le futur
+
+[Intro]
+Du mainframe à l'atome, du capteur au réseau,
+Écoute le rythme du code, le flux et le niveau.
+
+[Couplet 1]
+Mainframes robustes, COBOL et règles métier,
+La DGFiP quitte GCOS pour ne plus s'essouffler,
+MEDOC et REC migrent, l'API est le pont,
+Pendant que la ToIP gère la voix et le son.
+Dans l'usine de Purdue, l'ISA quatre-vingt-quinze,
+L'IIoT selon l'ISO vingt-quatre mille cinq cent quatre-vingt-onze,
+Modbus et BACnet sans sécurité native,
+Surveillance passive pour que l'IDS soit active.
+
+[Refrain]
+Anticiper la menace, sécuriser le système,
+De l'industrie au quantique, tenir le théorème.
+
+[Couplet 2]
+L'ANSSI classe l'impact de un à quatre,
+Le mode island coupe tout pour rester en sécurité.
+L'air-gap n'est pas l'étanchéité, attention au canal,
+Chaleur ou vibrations, l'exfiltration est fatale.
+Le CRQC arrive, l'algorithme de Shor menace,
+L'attaque rétroactive vole les données et les traces.
+Hybridation nécessaire, NIST deux mille vingt-quatre,
+ML-KEM et ML-DSA pour ne pas s'égarer.
+
+[Refrain]
+Anticiper la menace, sécuriser le système,
+De l'industrie au quantique, tenir le théorème.
+
+[Pont]
+Agilité cryptographique, mise à jour sans rappel,
+Pour le vote par internet, niveau trois est le réel.
+EBIOS RM et secret du vote dans le navigateur,
+La CNIL et l'ANSSI fixent les nouveaux acteurs.
+
+[Refrain final]
+Anticiper la menace, sécuriser le système,
+De l'industrie au quantique, tenir le théorème.
+
+[Outro]
+D'ici deux mille trente, protéger la diffusion restreinte,
+Le maintien en condition de sécurité est notre empreinte.

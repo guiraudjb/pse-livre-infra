@@ -1,0 +1,269 @@
+GOUVERNANCE, ARCHITECTURES ET ENJEUX DE LA DONNÉE DANS L'ADMINISTRATION.
+
+LEXIQUE COMPLET.
+
+      Le big data désigne des ensembles de données trop gros ou trop variés pour les outils classiques, caractérisés par le volume, la variété, la vélocité, la véracité et la valeur.
+
+      Le lac de données désigne une architecture qui stocke des données brutes de toutes sources telles quelles pour l'exploration et l'apprentissage automatique.
+
+      L'open data désigne la publication de données publiques dans des formats ouverts et gratuitement réutilisables par tous, conformément à la loi pour une République numérique de deux mille seize.
+
+      Le SGBD désigne un système de gestion de base de données qui gère une base de données relationnelle et doit être maintenu à jour via les dépôts officiels.
+
+      Le SAE désigne un système d'archivage électronique qui conserve et prouve l'intégrité des documents grâce à des empreintes et un horodatage selon les normes NF Z42-013 ou ISO quatorze mille six cent quarante et un.
+
+      La DGFiP désigne la direction générale des Finances publiques, administration qui assure la collecte de l'impôt et la tenue des comptes publics.
+
+      Le RGPD désigne un règlement qui impose une analyse d'impact pour les traitements de données à risque.
+
+      Le Data Act désigne un texte qui ouvre l'accès aux données des objets connectés et facilite le changement de fournisseur cloud.
+
+      L'ANSSI désigne l'organisme qui propose une échelle d'impact pour classer les données de niveau un non sensible jusqu'au niveau très sensible à impact critique.
+
+      Le logiciel DLP désigne un outil de Data Loss Protection spécialisé pour détecter et prévenir la fuite ou l'exfiltration non autorisée de données.
+
+      Le métier de l'administrateur ministériel des données consiste à porter la politique de la donnée au sein d'un ministère.
+
+      L'API désigne une interface permettant la circulation des données entre administrations ou avec des partenaires, comme l'API FICOBA qui sert cent six partenaires.
+
+COURS DÉTAILLÉ.
+
+I. FONDAMENTAUX DU BIG DATA ET ARCHITECTURES DE STOCKAGE.
+
+   A. Les caractéristiques du big data (les cinq V).
+
+      Le big data désigne des ensembles de données trop gros ou trop variés pour être traités par les outils classiques.
+
+      On décrit ce phénomène par plusieurs caractéristiques appelées les cinq V.
+
+      Le volume correspond à une quantité très importante de données, comme des milliards de factures électroniques par an.
+
+      La variété concerne la diversité des formats tels que les déclarations structurées, les courriers, les images ou les journaux.
+
+      La vélocité désigne la rapidité de production, comme les paiements ou les connexions aux services en ligne qui nécessitent un traitement en temps réel.
+
+      La véracité renvoie à la fiabilité variable des données, notamment les déclarations incomplètes ou erronées.
+
+      La valeur représente ce que l'on peut tirer de ces données, par exemple pour le ciblage des contrôles ou le pilotage.
+
+   B. Les modèles d'architecture : entrepôt, lac et lakehouse.
+
+      L'entrepôt de données utilise des données structurées, nettoyées et modélisées pour réaliser des analyses précises.
+
+      Ce modèle est principalement utilisé pour produire des statistiques régulières et des tableaux de bord.
+
+      Le lac de données stocke des données brutes provenant de toutes les sources sans modification préalable.
+
+      Ce type d'architecture est privilégié pour l'exploration de données et l'apprentissage automatique.
+
+      Le lakehouse constitue une synthèse des deux modèles précédents en apportant la rigueur d'un entrepôt à un lac de données.
+
+   C. Traitement distribué et flux en temps réel.
+
+      Le traitement distribué consiste à répartir le calcul sur de nombreux serveurs en utilisant des technologies comme Hadoop ou Spark.
+
+      Cette méthode est indispensable pour gérer des volumes massifs de données.
+
+      Le traitement par flux permet un traitement au fil de l'eau des informations.
+
+      Des outils comme Kafka sont utilisés pour ce mode de fonctionnement.
+
+      Cette architecture est particulièrement adaptée pour la détection de fraude en temps réel.
+
+II. GOUVERNANCE ET SÉCURISATION DES ACTIFS DE DONNÉES.
+
+   A. Organisation de la gouvernance et rôles clés.
+
+      La gouvernance de la donnée repose sur une structure organisée où un administrateur ministériel des données porte la politique globale de la donnée.
+
+      Chaque jeu de données est rattaché à un propriétaire métier qui est responsable de sa qualité.
+
+      Un catalogue est utilisé pour décrire les données, leur origine, leur sensibilité ainsi que leurs usages autorisés.
+
+      Des référentiels uniques sont mis en place pour éviter les doublons concernant les personnes, les entreprises ou les locaux.
+
+      La coordination de la politique de la donnée est assurée au niveau interministériel par Etalab, un département de la DINUM, qui opère le site data.gouv.fr.
+
+      Le directeur de la DINUM occupe également la fonction d'administrateur général des données, des algorithmes et des codes sources créée en deux mille quatorze.
+
+   B. Classification et gestion de la qualité.
+
+      Une donnée utile doit être documentée, fiable, protégée et responsable.
+
+      Des indicateurs de qualité sont suivis avec la même rigueur que les indicateurs de service.
+
+      L'ANSSI propose une échelle d'impact pour classer les données de niveau un non sensible jusqu'au niveau très sensible à impact critique.
+
+      L'agrégation de données peut faire remonter le niveau de sensibilité, par exemple lorsqu'un entrepôt cumule des millions de données de niveau deux.
+
+      La classification permet de distinguer les données publiques, internes, sensibles ou de diffusion restreinte.
+
+      L'inventaire des données durablement sensibles doit être réalisé avant la fin de l'année deux mille vingt-six pour contrer les risques liés à l'informatique quantique.
+
+   C. Mesures de protection et contrôle d'accès.
+
+      Le lac de données exige un contrôle d'accès fin qui est défini par jeu de données et par finalité.
+
+      La pseudonymisation ou l'anonymisation doit être appliquée dès que l'usage des données le permet.
+
+      La journalisation de toutes les consultations est obligatoire pour assurer la traçabilité.
+
+      Des plafonds de consultation par compte sont instaurés pour limiter les risques d'exfiltration massive.
+
+      Une analyse d'impact RGPD est nécessaire pour tous les traitements de données présentant un risque.
+
+      La protection des bases relationnelles impose l'utilisation de requêtes préparées contre l'injection et l'interdiction d'utiliser des données de production en développement.
+
+III. OUVERTURE, CIRCULATION ET OBLIGATIONS LÉGALES.
+
+   A. L'open data et le cadre législatif.
+
+      L'open data consiste à publier des données publiques dans des formats ouverts et gratuitement réutilisables par tous. Pour un ministère, cette démarche constitue une obligation légale, un service rendu et une charge d'infrastructure.
+
+      La loi Valter du vingt-huit décembre deux mille quinze impose la gratuité de la réutilisation des informations publiques, sauf exceptions. La loi pour une République numérique du sept octobre deux mille seize instaure l'ouverture par défaut des données pour les administrations de plus de cinquante agents et les collectivités de plus de trois mille cinq cents habitants.
+
+      La directive européenne 2019/1024 et le règlement d'exécution 2023/138 imposent l'ouverture gratuite et par API des jeux de données de forte valeur comme la géographie ou les statistiques. La circulaire du vingt-sept avril deux mille vingt et un précise la politique publique de la donnée avec la création d'un administrateur ministériel des données.
+
+      La gouvernance est coordonnée de manière interministérielle par Etalab, département de la DINUM, qui opère le site data.gouv.fr depuis décembre deux mille onze. La licence de référence utilisée est la Licence ouverte Etalab deux virgule zéro, qui permet une réutilisation libre et commerciale sous réserve de citer la source.
+
+   B. L'interopérabilité et le principe du dites-le-nous une fois.
+
+      Le principe du dites-le-nous une fois signifie qu'un usager ne doit pas fournir une information que l'administration détient déjà. La mise en œuvre de ce principe repose sur l'utilisation d'API entre les différentes administrations.
+
+      Le Data Act facilite l'accès aux données issues des objets connectés et permet de changer plus aisément de fournisseur cloud. Cette circulation des données est essentielle pour simplifier les démarches administratives.
+
+      La circulation des données peut aussi s'opérer entre administrations via des API pour les informations qui ne sont pas publiables en open data. Cela permet de partager des données avec des administrations habilitées tout en respectant les règles de sécurité.
+
+      À titre d'exemple, la DGFiP utilise l'API FICOBA qui dessert cent six partenaires. Cette capacité d'échange est un pilier de la modernisation de l'action publique.
+
+   C. Les limites de la publication et le secret légal.
+
+      Ouvrir les données ne signifie pas tout publier, car certaines restrictions s'appliquent rigoureusement. Les données personnelles restent fermées, sauf en cas d'anonymisation solide ou de texte prévoyant explicitement leur publication.
+
+      Les informations couvertes par un secret légal ne peuvent pas être divulguées. Cela concerne notamment le secret fiscal, le secret statistique, la défense ainsi que la sécurité des systèmes d'information.
+
+      Le croisement de plusieurs jeux de données peut permettre de réidentifier des personnes, ce qui constitue un risque majeur. Une analyse d'impact doit impérativement vérifier ce point avant toute publication.
+
+      La DGFiP illustre ces limites en publiant des données comme les demandes de valeurs foncières tout en respectant strictement le secret fiscal. Le contrôle de la réidentification est une étape cruciale de la chaîne de publication.
+
+IV. GESTION DOCUMENTAIRE ET ARCHIVAGE ÉLECTRONIQUE.
+
+   A. Bases de données relationnelles et NoSQL.
+
+      Les bases de données relationnelles utilisent un SGBD pour ranger les données en tables liées et interrogées en SQL. Elles garantissent les propriétés ACID, ce qui signifie que chaque transaction est atomique, cohérente, isolée et durable.
+
+      Ce modèle est la condition indispensable pour assurer l'exactitude d'une comptabilité ou d'un fichier fiscal. Les bases de données doivent être maintenues à jour via les dépôts officiels et protégées par des comptes applicatifs aux droits minimaux.
+
+      Les bases NoSQL, comme les systèmes de documents, de clés-valeurs, de colonnes ou de graphes, relâchent certaines garanties ACID. Elles permettent d'absorber des volumes très importants ou des structures de données variables.
+
+      Les plateformes de big data utilisent le traitement distribué pour répartir le stockage et le calcul sur des grappes de serveurs. On utilise pour cela des technologies comme HDFS, MapReduce ou Spark.
+
+      La sécurité repose sur l'utilisation de requêtes préparées contre l'injection SQL et le chiffrement des sauvegardes. Il est également interdit d'utiliser des données de production dans un environnement de développement.
+
+   B. Gestion électronique de documents (GED).
+
+      La gestion électronique de documents est un système qui permet de capturer, d'indexer et de classer les documents. Elle assure également leur versionnage et leur diffusion au sein de l'organisation.
+
+      Elle se distingue d'un simple espace de partage de fichiers par l'utilisation de métadonnées précises. Elle intègre un plan de classement structuré et un historique complet des actions effectuées.
+
+      La GED permet de mettre en place des droits d'accès spécifiques par dossier. Elle facilite également la gestion des circuits de validation grâce à l'utilisation de workflows.
+
+   C. Systèmes d'archivage électronique (SAE) et valeur probante.
+
+      L'archivage électronique ne doit pas être confondu avec la sauvegarde, car il vise à conserver un document figé et intelligible. Il assure la conservation pendant toute la durée d'utilité administrative avant la destruction ou le versement aux archives définitives.
+
+      Le système d'archivage électronique, ou SAE, est chargé de prouver l'intégrité des documents. Il utilise des empreintes et l'horodatage pour tracer chaque opération selon les normes NF Z42-013 ou ISO quatorze mille six cent quarante et un.
+
+      Pour garantir la pérennité des données sur plusieurs décennies, l'archivage utilise des formats pérennes. Les documents utilisent le PDF/A, tandis que les données privilégient le XML et le CSV.
+
+      La valeur probante d'un document est établie par la signature ou le cachet électronique. L'horodatage qualifié, régi par la norme eIDAS, permet d'opposer le document à un tiers.
+
+      Le logiciel libre Vitam est l'outil d'archivage développé par l'État et utilisé par plusieurs ministères.
+
+V. PRÉVENTION DES FUITES ET VULNÉRABILITÉS TECHNIQUES.
+
+   A. Scénarios de compromission et parades.
+
+      Le CERT-FR a recensé cent quatre-vingt-seize exfiltrations de données en deux mille vingt-cinq contre cent trente en deux mille vingt-quatre.
+
+      Un seul compte compromis peut donner accès à une API qui renvoie toute la base, ce qui nécessite un contrôle d'autorisation côté serveur et une limitation de volume.
+
+      Les identifiants volés par un infostealer sur le poste d'un usager ou d'un agent peuvent être contrés par une MFA résistante à l'hameçonnage.
+
+      Pour contrer le vol de cookie de session qui contourne la MFA, il faut utiliser des sessions courtes et une réauthentification pour les opérations sensibles.
+
+      L'accès d'administration dédié et contrôlé est la parade nécessaire face au risque de compromission du compte d'un prestataire.
+
+   B. Sécurisation des bases de données et des accès.
+
+      La sécurité d'un SGBD relationnel repose sur des comptes applicatifs aux droits minimaux et l'absence d'exposition directe sur internet.
+
+      Il est impératif d'utiliser des requêtes préparées contre l'injection SQL et de garantir le chiffrement des sauvegardes.
+
+      L'utilisation du compte administrateur natif doit rester un dernier recours et l'usage de la MFA est obligatoire pour les administrateurs.
+
+      La journalisation des accès d'administration et des accès massifs est une règle fondamentale de protection.
+
+      Il ne faut jamais utiliser de données de production dans un environnement de développement.
+
+   C. L'impact de l'agrégation sur la sensibilité des données.
+
+      L'échelle d'impact de l'ANSSI distingue les données non sensibles, sensibles et très sensibles.
+
+      L'agrégation peut faire remonter le niveau de sensibilité d'un jeu de données.
+
+      Un entrepôt qui cumule des millions de données de niveau deux peut ainsi relever d'un niveau supérieur.
+
+      Ce phénomène concerne directement les lacs de données qui concentrent des informations auparavant dispersées.
+
+VI. ENJEUX STRATÉGIQUES ET CAS PRATIQUES MINISTÉRIELS.
+
+   A. La donnée comme moteur de l'IA et du pilotage.
+
+      La donnée constitue l'actif principal d'un ministère et représente la matière première indispensable au développement de l'IA.
+
+      Une donnée bien gouvernée permet de piloter la performance et de simplifier les démarches pour l'usager.
+
+      Toutefois, une donnée mal gouvernée entraîne des coûts importants tels que des erreurs de décision, des erreurs d'imposition ou des fuites.
+
+      La valeur de l'IA dépend directement de la qualité des données car un algorithme entraîné sur des informations fausses reproduit et amplifie les erreurs.
+
+   B. L'exemple de la DGFiP et de la facturation électronique.
+
+      La DGFiP a fait de l'exploitation des données un axe majeur de son plan stratégique à travers la création d'un lac de données sécurisé et l'usage de datascientists.
+
+      L'administration utilise la data-visualisation et des API avec ses partenaires, à l'image de l'API FICOBA qui dessert cent six partenaires.
+
+      Grâce à l'IA, le ciblage des contrôles fiscaux représente désormais environ la moitié des contrôles effectués.
+
+      Le passage à la facturation électronique va générer un défi de big data majeur avec deux à trois milliards de factures qui transiteront chaque année.
+
+   C. Les risques liés à la qualité des données déclaratives.
+
+      Le projet GMBI illustre les conséquences d'une donnée déclarative de qualité insuffisante sur la taxation.
+
+      En juin deux mille vingt-cinq, bien que quatre-vingt-dix pour cent du parc ait fait l'objet d'une déclaration, seuls soixante pour cent de la population y étaient déclarés.
+
+      Cette situation a provoqué une multiplication des erreurs de taxation et des dégrèvements.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre l'entrepôt de données qui utilise des données structurées et nettoyées avec le lac de données qui stocke des données brutes de toutes sources.
+
+      L'archivage électronique ne doit pas être confondu avec la simple sauvegarde car il vise à conserver un document figé et intelligible sur toute sa durée d'utilité administrative.
+
+      La distinction entre l'open data et la circulation des données est cruciale car ce qui n'est pas publiable peut souvent être partagé par API avec une administration habilitée.
+
+      L'agrégation de données peut faire remonter le niveau de sensibilité d'un ensemble, par exemple un entrepôt cumulant des données de niveau deux peut devenir un système de niveau supérieur.
+
+      L'ouverture des données ne signifie pas la publication de toutes les informations car les données personnelles et les secrets légaux comme le secret fiscal restent fermés.
+
+EXEMPLES CITÉS.
+
+      La DGFiP publie des jeux de données très consultés comme les demandes de valeurs foncières qui ont été consultées environ un virgule cinq million de fois depuis janvier deux mille vingt-deux.
+
+      Le projet GMBI illustre le coût d'une mauvaise qualité de donnée car en juin deux mille vingt-cinq, seuls soixante pour cent de la population étaient déclarés malgré quatre-vingt-dix pour cent de déclarations sur le parc.
+
+      Le CERT-FR a recensé cent quatre-vingt-seize exfiltrations de données en deux mille vingt-cinq contre cent trente en deux mille vingt-quatre, montrant une augmentation des fuites malgré l'absence de vulnérabilités techniques dans de nombreux cas.
+
+      Avec la facturation électronique, le ministère devra gérer un volume de deux à trois milliards de factures par an, ce qui constitue un véritable sujet de big data.

@@ -1,0 +1,265 @@
+STRATÉGIES DE FORMATION ET D'ACCOMPAGNEMENT DES AGENTS À L'INTELLIGENCE ARTIFICIELLE.
+
+LEXIQUE COMPLET.
+
+      L'AI Act désigne le règlement européen qui impose aux déployeurs d'assurer un niveau de maîtrise suffisant de l'IA à leurs personnels.
+
+      Le DPD désigne le délégué à la protection des données qui est la personne à consulter pour vérifier la conformité d'un traitement par l'IA au RGPD.
+
+      L'IGI mille trois cents désigne l'instruction générale interministérielle qui régit la protection du secret de la défense nationale et des données classifiées.
+
+      L'intelligence artificielle générative désigne les outils capables de produire du contenu original comme du texte, de l'image ou du code à partir d'une instruction.
+
+      Le prompt désigne la commande ou l'instruction donnée à une intelligence artificielle générative pour obtenir un résultat précis.
+
+      L'hallucination désigne un contenu produit par l'IA qui paraît vrai mais qui est factuellement faux, comme une référence bibliographique inventée.
+
+      La DITP désigne l'organisme qui a réalisé l'évaluation de l'Assistant IA entre décembre deux mille vingt-cinq et juin deux mille vingt-six sur un échantillon de dix mille licences.
+
+      Les MEF désignent les ministères économiques et financiers qui sont partenaires de l'évaluation avec le ministère de la Justice.
+
+      Les soft skills désignent les compétences douces et comportementales indispensables pour s'adapter aux mutations du travail.
+
+      La dette désigne un coût différé, cumulé ou invisible de l'adoption de l'IA qui apparaît après le gain initial de productivité.
+
+      La DINUM désigne l'organisme proposant des formations pour accompagner les agents dans l'usage de l'IA.
+
+      La DGAFP désigne l'organisme qui propose des ressources sur l'IA et la gestion des ressources humaines.
+
+COURS DÉTAILLÉ.
+
+I. ENJEUX ET OBLIGATIONS DE LA FORMATION.
+
+   A. Bénéfices et maîtrise de l'outil.
+
+      L'IA ne produira ses bénéfices que si les agents savent s'en servir, en connaître les limites et rester responsables de ce qu'ils produisent.
+
+      L'usage encadré permet une montée en compétence directe, comme l'illustre l'évaluation de l'Assistant IA par la DITP qui montre que soixante virgule cinq pour cent des testeurs ont progressé pendant l'expérimentation.
+
+      La maîtrise de l'outil repose sur des compétences de base telles que la capacité à donner du contexte, un rôle et un format attendu lors d'une requête.
+
+      Les agents doivent également être capables de vérifier systématiquement les résultats en contrôlant les chiffres, les références juridiques et en citant les sources pour éviter les erreurs.
+
+      L'intégration de l'outil dans le travail quotidien, par exemple pour résumer un dossier ou reformuler en langage clair, favorise un usage productif et soutenu.
+
+      Bien que soixante-six pour cent des utilisateurs déclarent un gain de temps, la formation doit viser à augmenter ce bénéfice qui reste inférieur à une heure par semaine pour la moitié d'entre eux.
+
+   B. Obligations liées à l'AI Act.
+
+      L'AI Act transforme la formation en une véritable obligation légale pour les organisations.
+
+      Les déployeurs ont l'obligation d'assurer un niveau suffisant de maîtrise de l'IA à leurs personnels.
+
+      Cette maîtrise inclut la compréhension des risques et la capacité des agents à assumer leur responsabilité en tant qu'auteurs des contenus produits.
+
+      Le respect de cette réglementation nécessite également une connaissance des règles de protection des données et des cadres éthiques.
+
+   C. Risques de la non-formation.
+
+      L'absence de formation produit deux effets opposés qui nuisent à l'efficacité de l'outil.
+
+      Le premier risque est la sous-utilisation de l'IA, ce qui empêche de réaliser le retour sur investissement attendu par le ministère.
+
+      Le second risque est l'usage naïf, qui peut conduire à la propagation d'erreurs ou d'hallucinations factuelles.
+
+      Un manque de formation peut aussi limiter la capacité des agents à comparer et à contrôler les résultats, notamment chez les débutants qui restent souvent sur un seul usage.
+
+      Enfin, l'IA sans accompagnement peut générer des craintes liées à la perte de sens, à la surveillance ou à la déqualification du travail.
+
+II. TYPOLOGIE DES PUBLICS ET BESOINS ASSOCIÉS.
+
+   A. Les agents et le discernement.
+
+      Tous les agents doivent apprendre à utiliser l'outil officiel avec discernement.
+
+      La formation doit porter sur la compréhension de ce qu'est un modèle de langage et sur la formulation de bonnes requêtes.
+
+      Les agents doivent savoir vérifier les résultats, identifier les données autorisées et reconnaître les erreurs plausibles.
+
+      Il est crucial de comprendre qu'un modèle prédit le texte le plus probable et peut se tromper avec assurance.
+
+      L'agent doit rester l'auteur et le responsable de ce qu'il signe tout en sachant quelles données confier à quel outil.
+
+   B. Les encadrants et le pilotage du changement.
+
+      Les encadrants ont pour mission de piloter le changement au sein de leur équipe.
+
+      Ils doivent être capables d'identifier les usages utiles et de réorganiser le travail en conséquence.
+
+      Leur rôle consiste également à évaluer la qualité des productions et à traiter les craintes de leurs collaborateurs.
+
+      Ils doivent rester attentifs aux risques de perte de sens, de surveillance ou de déqualification.
+
+      L'objectif est que l'IA libère du temps pour les tâches à valeur ajoutée plutôt que de dégrader le travail.
+
+   C. Les spécialistes et l'expertise technique.
+
+      Les spécialistes sont chargés de concevoir, d'intégrer, d'évaluer et de sécuriser les systèmes.
+
+      Leurs compétences couvrent la science des données, le MLOps et l'évaluation des modèles.
+
+      Ils doivent également maîtriser la sécurité de l'IA et assurer la conformité avec l'AI Act.
+
+III. COMPÉTENCES FONDAMENTALES ET BONNES PRATIQUES.
+
+   A. Compréhension et demande de contenu.
+
+      L'agent doit d'abord comprendre qu'un modèle de langage fonctionne en prédisant le texte le plus probable.
+
+      Cette mécanique implique que l'outil peut se tromper avec assurance en produisant des erreurs plausibles.
+
+      Pour obtenir un résultat précis, il est nécessaire de maîtriser l'art du prompt en donnant un contexte et un rôle.
+
+      La qualité de la réponse dépend aussi de la précision du format attendu et de l'ajout d'exemples dans la commande.
+
+   B. Vérification et protection des données.
+
+      La vérification systématique est indispensable pour contrôler les chiffres et les références juridiques produits par l'IA.
+
+      L'agent doit impérativement relire les contenus et citer ses sources pour éviter les hallucinations.
+
+      Une hallucination désigne un contenu qui paraît vrai mais qui est factuellement faux, comme une loi inexistante.
+
+      La protection des données impose de savoir quelles informations peuvent être confiées à quel outil spécifique.
+
+      Il est nécessaire de consulter le DPD pour vérifier la conformité d'un traitement de données au RGPD.
+
+   C. Responsabilité et signature de l'agent.
+
+      L'agent reste l'unique auteur et le responsable de tout document qu'il signe.
+
+      L'usage de l'IA ne décharge pas l'agent de sa responsabilité professionnelle sur la production finale.
+
+      La maîtrise de l'outil est une obligation de l'AI Act pour assurer un niveau de compétence suffisant au personnel.
+
+      Cette responsabilité est la condition pour éviter l'usage naïf qui pourrait propager des erreurs au sein du ministère.
+
+IV. LEVIERS D'ACCOMPAGNEMENT AU QUOTIDIEN.
+
+   A. Réseaux de référents et bibliothèques d'usages.
+
+      L'intégration de l'IA dans le travail quotidien nécessite la présence de référents IA au sein des services pour partager les bonnes pratiques.
+
+      Le développement de bibliothèques de cas d'usage métier testés permet de guider les agents dans leurs tâches.
+
+      Ces exemples concrets incluent la rédaction de réponses types, le résumé de dossiers ou encore la reformulation en langage clair.
+
+   B. Cadre réglementaire et dialogue social.
+
+      L'usage de l'outil doit être encadré par une charte d'usage claire et connue de l'ensemble des agents.
+
+      Le dialogue social est essentiel pour consulter les instances représentatives sur les transformations du travail induites par l'IA.
+
+   C. Gestion des craintes et de la valeur ajoutée.
+
+      L'accompagnement doit porter une attention particulière aux craintes liées à la perte de sens, à la surveillance ou à la déqualification.
+
+      L'objectif de l'IA est de libérer du temps pour les tâches à valeur ajoutée plutôt que de dégrader la qualité du travail.
+
+V. DISPOSITIFS ET RESSOURCES DISPONIBLES.
+
+   A. Formations publiques et ministérielles.
+
+      L'offre de formation s'appuie sur les dispositifs de la DINUM et du Campus du numérique public.
+
+      Les écoles ministérielles proposent également des parcours, à l'image de l'IGPDE pour Bercy.
+
+      Les Journées numériques deux mille vingt-cinq consacrées à l'IA ont d'ailleurs réuni mille quatre cents participants.
+
+   B. Ressources RH et méthodes d'ambassadeurs.
+
+      La DGAFP met à disposition des ressources spécifiques sur l'IA et la gestion des ressources humaines.
+
+      Le plan Osez l'IA destiné aux entreprises peut inspirer les administrations grâce à ses méthodes d'ambassadeurs.
+
+      L'usage de référents IA dans les services permet de partager les bonnes pratiques au quotidien.
+
+VI. ENSEIGNEMENTS DE L'EXPÉRIMENTATION DE LA DITP.
+
+   A. Analyse des montées en compétences.
+
+      L'évaluation de l'Assistant IA réalisée par la DITP entre décembre deux mille vingt-cinq et juin deux mille vingt-six révèle que l'usage encadré constitue un vecteur d'apprentissage efficace.
+
+      En effet, soixante virgule cinq pour cent des testeurs ont estimé avoir monté en compétence durant cette période d'expérimentation.
+
+   B. Typologie et limites des usages constatés.
+
+      Les activités réalisées avec l'outil sont majoritairement orientées vers la production de contenus, qui représentent soixante-dix virgule neuf pour cent des usages.
+
+      Ces tâches de production incluent notamment la rédaction, la reformulation, la synthèse, la traduction ou encore le codage informatique.
+
+      L'usage de l'IA sert également à s'informer dans vingt-huit virgule quatre pour cent des cas recensés.
+
+      Bien que quatre-vingts pour cent des utilisateurs aient testé au moins deux cas d'usage, quarante-trois pour cent des débutants se limitent à un seul usage.
+
+      Cette restriction d'usage est problématique car elle limite la capacité des agents à comparer et à contrôler la qualité des résultats produits.
+
+      Sur le plan de la productivité, soixante-six pour cent des testeurs déclarent un gain de temps, même si pour la moitié d'entre eux, ce gain reste inférieur à une heure par semaine.
+
+   C. Biais de l'échantillon et besoins des débutants.
+
+      Les résultats de l'évaluation doivent être interprétés avec prudence en raison d'un échantillon fortement biaisé.
+
+      L'étude porte en effet sur quatre-vingt-six pour cent de catégories A et A+, alors que les débutants ne représentent que vingt pour cent de l'échantillon.
+
+      Par conséquent, les besoins réels des autres catégories d'agents sont probablement sous-estimés par ces chiffres.
+
+      La stratégie de formation doit donc cibler prioritairement les débutants pour combler ce décalage.
+
+      L'accompagnement doit mettre l'accent sur la pratique de plusieurs cas d'usage et sur la nécessité d'une vérification systématique des réponses.
+
+VII. GLOSSAIRE TECHNIQUE ET NOTIONS CLÉS.
+
+   A. Concepts de l'IA générative et du prompt.
+
+      L'intelligence artificielle générative ou IAG désigne les outils capables de produire du contenu original comme du texte, de l'image, du son ou du code informatique à partir d'une instruction en langage naturel.
+
+      Le prompt représente la commande ou l'instruction spécifique donnée à une intelligence artificielle générative pour obtenir un résultat précis.
+
+      Un modèle de langage fonctionne en prédisant le texte le plus probable, ce qui peut engendrer des erreurs de manière très assurée.
+
+      L'hallucination est un phénomène où l'IA produit un contenu qui paraît vrai mais qui est factuellement faux, tel qu'une référence bibliographique inventée ou un texte de loi inexistant.
+
+   B. Cadre éthique, juridique et sécurité.
+
+      Le référentiel éthique est un document qui cadre les règles morales et déontologiques de l'usage de l'IA en s'inspirant du RGPD et du contrôle déontologique.
+
+      Le DPD, ou délégué à la protection des données, est la personne à consulter pour vérifier qu'un traitement de données par l'IA est conforme au RGPD et inscrit au registre des traitements.
+
+      L'IGI mille trois cents est l'instruction générale interministérielle qui régit la protection du secret de la défense nationale ainsi que les données classifiées ou portant une mention de protection.
+
+      L'AI Act impose aux déployeurs d'assurer un niveau de maîtrise suffisant de l'IA auprès de leur personnel.
+
+   C. Méthodologies d'évaluation et de recherche.
+
+      L'entretien semi-dirigé est une méthode qualitative menée à partir d'une grille de thèmes qui laisse la parole libre à la personne interrogée.
+
+      Le focus group est un entretien de groupe qui combine une séquence expérimentale et une séquence d'échanges.
+
+      La dette d'adoption de l'IA est un coût différé, cumulé ou invisible qui apparaît après le gain initial de productivité constaté lors d'une évaluation.
+
+      Les MEF sont les ministères économiques et financiers qui ont participé à l'évaluation aux côtés du ministère de la Justice.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre l'usage de l'IA avec une délégation de responsabilité car l'agent reste l'auteur et le responsable de ce qu'il signe.
+
+      Une confusion courante réside dans la perception de la vérité des réponses puisque le modèle prédit le texte le plus probable et peut produire des hallucinations avec assurance.
+
+      La formation ne doit pas être perçue comme une simple transmission de savoir mais comme un accompagnement incluant des référents IA et un dialogue social sur les transformations du travail.
+
+      Il est crucial de nuancer le gain de productivité car l'adoption de l'IA peut générer une dette qui représente un coût différé après le gain initial.
+
+      L'usage de l'IA doit être distingué selon trois publics car les besoins des agents, des encadrants et des spécialistes sont radicalement différents.
+
+EXEMPLES CITÉS.
+
+      L'évaluation de l'Assistant IA par la DITP entre décembre deux mille vingt-cinq et juin deux mille vingt-six montre que soixante virgule cinq pour cent des testeurs ont monté en compétence grâce à l'usage encadré.
+
+      Les chiffres indiquent que soixante-dix virgule neuf pour cent des usages servent à produire du contenu tandis que vingt-huit virgule quatre pour cent servent à s'informer.
+
+      Bien que soixante-six pour cent des utilisateurs déclarent un gain de temps, la moitié d'entre eux ne gagne que moins d'une heure par semaine.
+
+      L'échantillon de l'étude est marqué par un biais important avec quatre-vingt-six pour cent de catégories A et A+ et seulement vingt pour cent de débutants.
+
+      Les Journées numériques deux mille vingt-cinq de l'IGPDE ont permis de réunir mille quatre cents participants autour de la thématique de l'IA.

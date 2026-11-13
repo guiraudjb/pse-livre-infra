@@ -1,0 +1,241 @@
+INTÉGRATION PROGRESSIVE ET SÉCURISÉE DE L'INTELLIGENCE ARTIFICIELLE DANS LES OUTILS DES AGENTS PUBLICS.
+
+LEXIQUE COMPLET.
+
+      L'IA désigne l'intelligence artificielle qui permet d'intégrer des capacités de rédaction, de résumé et de recherche dans le travail des agents.
+
+      La DINUM désigne la direction interministérielle du numérique qui propose l'assistant IA interministériel via le site assistant.numerique.gouv.fr.
+
+      Le RAG désigne une méthode d'assistant métier alimenté par les documents permettant de faire des recherches dans la doctrine ou la jurisprudence.
+
+      La DGFiP désigne la direction générale des finances publiques qui a déployé son propre assistant auprès de trois mille agents en octobre deux mille vingt-cinq.
+
+      Le GPU désigne l'unité de calcul nécessaire pour faire tourner les modèles d'IA tout en surveillant les coûts et la consommation électrique.
+
+      L'ANSSI désigne l'agence qui a publié le vingt-neuf avril deux mille vingt-quatre un guide de recommandations de sécurité pour les systèmes d'IA générative.
+
+      L'AI Act désigne le règlement européen qui impose de classer les usages, de documenter les systèmes à haut risque et de garantir un contrôle humain.
+
+      Le RGPD désigne le règlement qui impose de définir une base légale, de pratiquer la minimisation et de réaliser une analyse d'impact pour les données personnelles.
+
+      Le LLM désigne un grand modèle de langage spécialisé dans l'analyse et la génération de contenus textuels ou de code informatique.
+
+      L'inférence désigne l'action d'interroger le modèle par l'utilisateur via une requête.
+
+      Le prompt désigne l'instruction textuelle envoyée par l'utilisateur au système d'IA pour obtenir un résultat.
+
+      Le jailbreak-as-a-service désigne un service cybercriminel qui vend des prompts permettant de contourner les garde-fous des IA génératives.
+
+COURS DÉTAILLÉ.
+
+I. LES NIVEAUX D'INTÉGRATION DE L'IA AU TRAVAIL.
+
+   A. L'assistant généraliste pour les tâches rédactionnelles.
+
+      L'assistant généraliste se présente comme un assistant conversationnel destiné à la rédaction, au résumé ou à la reformulation de contenus.
+
+      Pour fonctionner, l'infrastructure doit proposer des modèles hébergés en confiance, assurer l'authentification des agents et permettre la journalisation.
+
+      L'État propose l'assistant IA interministériel de la DINUM via le site assistant.numerique.gouv.fr pour répondre à ces besoins.
+
+      Ce service est expérimenté sur dix mille licences entre décembre deux mille vingt-cinq et juin deux mille vingt-six avec des modèles en partenariat avec Mistral AI.
+
+      L'utilisation de ces modèles garantit qu'il n'y a aucune réutilisation des données pour l'entraînement.
+
+      Les résultats de l'évaluation de la DITP en juin deux mille vingt-six montrent que soixante-quinze pour cent des testeurs jugent cet outil utile pour leur métier.
+
+   B. L'assistant métier par la recherche documentaire (RAG).
+
+      L'assistant métier alimenté par les documents utilise la technique du RAG pour effectuer des recherches dans la doctrine fiscale, les notes de service ou la jurisprudence.
+
+      L'infrastructure doit fournir un index des documents internes, respecter les droits d'accès et assurer la citation des sources.
+
+      La DGFiP a développé des outils spécialisés comme LexIA pour la documentation juridique afin de répondre à ces enjeux.
+
+      Ce type d'intégration permet de retrouver précisément les passages pertinents des documents internes tout en respectant les droits de chaque agent.
+
+   C. L'IA intégrée aux applications métier spécialisées.
+
+      L'IA intégrée aux applications métier sert à des fonctions avancées comme le ciblage des contrôles, le tri des courriers ou la détection d'anomalies.
+
+      Le déploiement de ces outils nécessite des données de qualité, des modèles évalués, un contrôle humain et la conformité à l'AI Act.
+
+      La DGFiP utilise l'IA depuis plusieurs années pour cibler environ la moitié de ses contrôles fiscaux.
+
+      L'intégration de ces systèmes doit respecter le chapitre quatre de l'AI Act en documentant les systèmes à haut risque et en garantissant un contrôle humain.
+
+      Le déploiement de ces technologies doit être accompagné d'une formation des agents pour assurer une utilisation correcte.
+
+II. L'OFFRE ET LES RETOURS D'EXPÉRIENCE DE L'ÉTAT.
+
+   A. L'assistant interministériel de la DINUM.
+
+      La DINUM propose un assistant IA interministériel accessible via l'adresse assistant.numerique.gouv.fr.
+
+      Cet outil est conçu pour permettre la rédaction, le résumé et la reformulation de contenus.
+
+      Une phase d'expérimentation est prévue sur dix mille licences entre décembre deux mille vingt-cinq et juin deux mille vingt-six.
+
+      Le service s'appuie sur des modèles développés en partenariat avec Mistral AI.
+
+      La sécurité est assurée par le fait qu'aucune donnée n'est réutilisée pour l'entraînement des modèles.
+
+   B. Les résultats de l'évaluation de la DITP.
+
+      L'évaluation menée par la DITP en juin deux mille vingt-six présente des indicateurs d'utilité et d'usage significatifs.
+
+      Les résultats montrent que soixante-quinze pour cent des testeurs jugent l'outil utile pour l'exercice de leur métier.
+
+      Concernant l'adoption, cinquante pour cent des répondants issus des ministères économiques déclarent l'utiliser au moins une fois par semaine.
+
+      L'impact sur la souveraineté est notable puisque cinquante-six pour cent des utilisateurs utilisent moins souvent des IA non souveraines grâce à cet outil.
+
+   C. L'exemple des assistants ministériels comme la DGFiP.
+
+      Certains ministères déploient leurs propres solutions comme la DGFiP qui a lancé son assistant en octobre deux mille vingt-cinq.
+
+      Ce déploiement a concerné un effectif de trois mille agents.
+
+      L'objectif est une intégration complète de cet outil dans l'environnement de travail au cours de l'année deux mille vingt-six.
+
+      La DGFiP utilise l'IA depuis plusieurs années pour cibler environ la moitié de ses contrôles fiscaux.
+
+      Elle a également développé des outils spécialisés tels que LexIA pour la documentation juridique et LLaMandement pour l'analyse des amendements parlementaires.
+
+III. L'INFRASTRUCTURE TECHNIQUE D'UNE IA SOUVERAINE.
+
+   A. Les briques de calcul et de modèles.
+
+      Le calcul repose sur l'utilisation de processeurs GPU pour faire tourner les modèles. Les points d'attention concernent le coût, la consommation électrique et la nécessité d'un hébergement de confiance.
+
+      Les modèles peuvent être des modèles ouverts ou sous contrat. Ils doivent être hébergés en interne ou dans un environnement SecNumCloud.
+
+      Le choix des modèles nécessite une attention particulière sur la licence, la gestion des mises à jour et l'évaluation des biais.
+
+   B. La passerelle d'IA et l'index documentaire.
+
+      La passerelle d'IA sert de point d'entrée unique pour assurer l'authentification, la gestion des quotas, le filtrage et la tenue des journaux.
+
+      Cette infrastructure permet de changer de modèle sans avoir à modifier l'ensemble des applications métier.
+
+      L'index documentaire est utilisé pour le RAG afin de retrouver les passages pertinents des documents internes.
+
+      Le système doit impérativement respecter les droits d'accès de chaque agent lors de la recherche documentaire.
+
+   C. L'importance de l'évaluation de la qualité.
+
+      L'évaluation consiste à mesurer la qualité des réponses fournies par l'IA sur des cas réels.
+
+      Ce processus s'appuie sur des jeux de tests métier et nécessite un suivi régulier dans le temps.
+
+IV. SÉCURITÉ ET CONFORMITÉ DES SYSTÈMES D'IA.
+
+   A. Recommandations de l'ANSSI et gestion des risques.
+
+      Le guide de l'ANSSI du vingt-neuf avril deux mille vingt-quatre préconise d'appliquer à l'IA la même démarche qu'à tout système d'information, incluant l'analyse de risque, l'homologation et le cloisonnement.
+
+      Il est nécessaire de se méfier de l'injection d'instructions, car un document ou une page web peut contenir des consignes cachées que le modèle suivra.
+
+      Le système ne doit pas laisser un modèle déclencher seul des actions sensibles, car un humain doit impérativement valider l'action.
+
+      La maîtrise de la chaîne d'approvisionnement des modèles et des données d'entraînement est indispensable pour garantir la sécurité.
+
+      Il faut journaliser les requêtes et les réponses afin de pouvoir mener des enquêtes en cas de besoin.
+
+      Les agents d'IA qui enchaînent des actions dans les applications augmentent les risques et doivent avoir des droits limités comme ceux d'un compte de service.
+
+   B. Les enjeux de l'AI Act et du RGPD.
+
+      L'AI Act impose de classer chaque usage, de documenter les systèmes à haut risque, de garantir un contrôle humain et de former les agents selon le chapitre quatre.
+
+      Concernant le RGPD, les administrations doivent s'assurer de la base légale, de la minimisation des données et réaliser une analyse d'impact pour les traitements de données personnelles.
+
+   C. La transparence envers les usagers.
+
+      La transparence exige d'informer l'usager lorsqu'une décision le concernant s'appuie sur un algorithme.
+
+V. MÉTHODOLOGIE DE DÉPLOIEMENT ET ENJEUX MÉTIERS.
+
+   A. Les étapes d'un déploiement progressif.
+
+      Le déploiement commence par une phase d'expérimentation sur un périmètre volontaire afin d'évaluer les usages et les gains obtenus.
+
+      Il est ensuite nécessaire d'encadrer la pratique par une charte d'usage, une liste de données autorisées et des outils approuvés.
+
+      La formation des agents doit intervenir avant toute généralisation du système pour garantir une utilisation maîtrisée.
+
+      L'outil doit être intégré directement dans l'environnement de travail pour qu'il soit plus simple à utiliser que les services grand public.
+
+      Enfin, un suivi continu doit être mis en place pour mesurer l'usage, la qualité, les incidents et les coûts.
+
+   B. Les bénéfices et les risques pour les agents.
+
+      L'IA peut libérer du temps sur les tâches répétitives et améliorer la qualité du service rendu aux usagers.
+
+      L'assistant interministériel de la DINUM permet notamment la rédaction, le résumé et la reformulation de contenus.
+
+      Les résultats de l'évaluation de la DITP de juin deux mille vingt-six montrent que soixante-quinze pour cent des testeurs jugent cet outil utile pour leur métier.
+
+      L'usage de ces outils souverains permet de réduire l'utilisation des IA non souveraines, avec cinquante-six pour cent de répondants qui l'utilisent moins souvent.
+
+      Toutefois, l'IA peut produire des erreurs plausibles ou dégrader la qualité du travail si elle est mal utilisée.
+
+      Il existe également un risque de fuite de données si les outils ne sont pas déployés de façon sûre et souveraine.
+
+   C. Le maintien de la responsabilité humaine.
+
+      Le bon déploiement de l'IA est celui qui permet de garder l'agent responsable de ce qu'il produit.
+
+      Pour les applications métier, le contrôle humain est une exigence de conformité liée à l'AI Act.
+
+      L'ANSSI recommande de ne jamais laisser un modèle déclencher seul des actions sensibles et impose qu'un humain valide chaque étape.
+
+      La transparence est obligatoire pour informer l'usager lorsqu'une décision le concernant s'appuie sur un algorithme.
+
+      Dans le cadre de l'AI Act, il est nécessaire de documenter les systèmes à haut risque et de garantir un contrôle humain constant.
+
+VI. GLOSSAIRE TECHNIQUE ET NOTIONS CLÉS.
+
+   A. Définitions liées aux grands modèles de langage.
+
+      Un grand modèle de langage, ou GML, aussi appelé LLM, est un modèle d'IA spécialisé dans l'analyse et la génération de contenus textuels comme le langage naturel ou le code informatique.
+
+      L'inférence correspond au moment où l'utilisateur interroge le modèle pour obtenir une réponse.
+
+      La requête, ou prompt, désigne l'instruction textuelle envoyée par l'utilisateur au système d'IA.
+
+   B. Concepts de cybersécurité et d'usage dual.
+
+      Le jailbreak-as-a-service est un service cybercriminel qui vend des prompts permettant de contourner les garde-fous des IA génératives.
+
+      L'usage dual signifie qu'un outil assez puissant pour construire un système complexe peut aussi être détourné pour le détruire.
+
+      L'injection d'instructions est un risque où un document ou une page web contient des consignes cachées que le modèle suivra.
+
+   C. Références aux plans et portails nationaux.
+
+      France deux mille trente est le plan d'investissement lancé en deux mille vingt et un qui soutient l'innovation et l'industrialisation de projets technologiques dans de nombreuses filières.
+
+      Le Portail RSE est le service public numérique lancé en deux mille vingt-trois qui aide les entreprises à se conformer à leurs obligations de responsabilité sociale et environnementale.
+
+POINTS D'ATTENTION.
+
+      Il ne faut pas confondre l'assistant généraliste qui aide à la rédaction avec l'assistant métier alimenté par le RAG qui recherche dans la doctrine ou la jurisprudence.
+
+      L'intégration de l'IA ne doit pas remplacer la responsabilité de l'agent car un modèle peut produire des erreurs plausibles ou faire fuiter des données.
+
+      L'usage des agents d'IA capables d'enchaîner des actions nécessite une vigilance particulière car leurs droits doivent être limités comme ceux d'un compte de service.
+
+      La sécurité doit traiter l'IA avec la même rigueur qu'un système d'information classique via l'analyse de risque et l'homologation.
+
+      Il est crucial de se méfier de l'injection d'instructions où un document peut contenir des consignes cachées que le modèle suivra.
+
+EXEMPLES CITÉS.
+
+      L'assistant IA interministériel de la DINUM sera expérimenté sur dix mille licences entre décembre deux mille vingt-cinq et juin deux mille vingt-six.
+
+      L'évaluation de la DITP en juin deux mille vingt-six montre que soixante-quinze pour cent des testeurs jugent l'outil utile et que cinquante-six pour cent utilisent moins souvent des IA non souveraines.
+
+      La DGFiP a déployé son propre assistant auprès de trois mille agents en octobre deux mille vingt-cinq avant une intégration complète en deux mille vingt-six.
+
+      La DGFiP utilise l'IA depuis plusieurs années pour cibler environ la moitié de ses contrôles fiscaux avec des outils comme LexIA ou LLaMandement.
