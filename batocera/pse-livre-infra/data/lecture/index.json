@@ -4,119 +4,161 @@
    "id": "standard",
    "titre": "Version standard",
    "fichier": "lecture/standard.json"
+  },
+  {
+   "id": "bis",
+   "titre": "Version rédigée (style administratif)",
+   "fichier": "lecture/bis.json"
   }
  ],
  "modules": {
   "20-00 Livre - Préface et introduction": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-01 Livre - Le contexte international et la cyber-guerre": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-02 Livre - Les plans nationaux - investir, se doter de capacités, tenir dans la durée": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-03 Livre - La menace - qui attaque, pourquoi, par où": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-04 Livre - Le droit européen - NIS 2, CRA, RGPD, AI Act et les autres": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-05 Livre - Le socle national - ANSSI, PSSIE, RGS, homologation, OIV": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-06 Livre - Le Référentiel Cyber France (ReCyF) - NIS 2 en mesures concrètes": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-07 Livre - Interopérer, inclure, sobriété - RGI, RGAA, RGESN": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-08 Livre - Souveraineté et lois extraterritoriales": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-09 Livre - Gouvernance - qui décide, qui répond": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-10 Livre - La dette technologique": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-11 Livre - Les principes d'architecture": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-12 Livre - Le réseau - sites, WAN, segmentation, sortie internet": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-13 Livre - Interconnexion et exposition des services": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-14 Livre - Télétravail et accès distants": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-15 Livre - Identités, annuaires et accès privilégiés": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-16 Livre - Datacenters, virtualisation et stockage": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-17 Livre - Cloud public, privé, hybride et SecNumCloud": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-18 Livre - Le poste de travail et les mobiles": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-19 Livre - La chaîne logicielle - développer et déployer en sécurité": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-20 Livre - La donnée - gouvernance, big data, lac de données": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-21 Livre - Les systèmes particuliers - mainframe, bâtiments, téléphonie, classifié, post-quantique": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-22 Livre - Acheter - marchés publics et offre souveraine": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-23 Livre - Intégrer progressivement l'IA dans les outils des agents": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-24 Livre - Shadow IT et shadow IA": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-25 Livre - L'IA pour la sécurité et comme vecteur d'attaque": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-26 Livre - Journalisation, supervision et SOC": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-27 Livre - Incident, crise cyber et notification": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-28 Livre - Continuité - PCA, PCI et PRA": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-29 Livre - La sauvegarde - politiques et technologies": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-30 Livre - Maintenir en conditions de sécurité (MCS)": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-31 Livre - Sensibiliser tous les agents": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-32 Livre - Former et accompagner les agents à l'IA": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-33 Livre - Les filières et les compétences": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-34 Livre - Trois parcours de bout en bout": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-35 Livre - Feuille de route type 2026-2030": [
-   "standard"
+   "standard",
+   "bis"
   ],
   "20-36 Livre - Annexes, sigles et méthode": [
-   "standard"
+   "standard",
+   "bis"
   ]
  }
 }
